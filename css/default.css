@@ -119,4 +119,37 @@
 	color: #363636;
 }
 
+.span4 {
+	padding-top: 30px;
+}
 
+h2 {
+	position: absolute;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 500;
+	margin-top: 143px;
+	margin-left: 10px;
+}
+
+.description {
+		margin-top: 160px;
+}
+
+.location {
+	position: absolute;
+	font-size: 14px;
+	color: #e1e1e1;
+	font-style: italic;
+	margin-top: 193px;
+	margin-left: 10px;
+}
+
+.price {
+	position: absolute;
+	font-size: 17px;
+	color: #ffffff;
+	font-weight: bold;
+	margin-top: 218px;
+	margin-left: 10px;
+}
