@@ -119,24 +119,41 @@
 	color: #363636;
 }
 
-.span4 {
+.service {
 	padding-top: 30px;
 }
 
-h2 {
+.service .image {
+	position:absolute;
+}
+
+.service .text-box {
+	position:relative; 
+	top:250px;
+}
+
+.service h2 {
 	position: absolute;
 	font-size: 14px;
 	color: #ffffff;
 	font-weight: 500;
 	margin-top: 143px;
 	margin-left: 10px;
+	width: 283px;
 }
 
-.description {
-		margin-top: 160px;
+.service h2 img {
+	float: right;
+	margin-top: 10px;
+	margin-right: 4px;
 }
 
-.location {
+.service .description {
+	margin-top: 175px;
+	line-height: 14px;
+}
+
+.service .location {
 	position: absolute;
 	font-size: 14px;
 	color: #e1e1e1;
@@ -145,11 +162,25 @@ h2 {
 	margin-left: 10px;
 }
 
-.price {
+.service .price {
 	position: absolute;
 	font-size: 17px;
 	color: #ffffff;
 	font-weight: bold;
 	margin-top: 218px;
 	margin-left: 10px;
+	width: 283px;
+}
+
+.service .price a {
+	position: absolute;
+	right: 3px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: normal;
+	background-color: #d02553;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	padding: 1px 5px;
 }
