@@ -111,24 +111,33 @@
 }
 
 .search {
-	margin-top: 100px;
+	margin-top: 91px;
 }
 
-.input-small {
-	width: 140px;
+.search form {
+	background-color: #d0d0d0;
+	padding: 6px 6px;
+	border-bottom: 1px solid #c5c5c5;
+	border-left: 1px solid #c5c5c5;
+	border-right: 1px solid #c5c5c5;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
 }
 
-.form-search input {
+.search form input {
 	font-size: 16px;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
-
+	width: 140px;
+	margin-bottom: 0px;
 }
 
-.form-search a.btn {
-	width: 95px;
-	background: url(../img/loup.png) no-repeat;
+
+
+.search form a.btn {
+	width: 75px;
+	height: 22px;
 	background-color: #99cc00;
 	background-image: -webkit-linear-gradient(top, #99cc00, #7fa900);
   background-image: -o-linear-gradient(top, #99cc00, #7fa900);
@@ -138,15 +147,26 @@
 	border-radius: 6px;	
 }
 
-.btn {
+.search form a.btn i {
+	background: url(../img/loup.png) no-repeat;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-top: 0px;
+	line-height: 20px;
+	vertical-align: text-top;
+}
+
+.search form .btn {
 	border: none;
 	color: #fff;
 	font-size: 16px;
 	text-shadow: none;
 }
 
-.btn:hover {
+.search form .btn:hover {
 	color: #fff;
+	background-position: 0px;
 }
 
 .main-content {
@@ -158,8 +178,6 @@
 	color: #363636;
 	margin-bottom: 0px;
 }
-
-
 
 .service {
 	height: 350px;
@@ -175,7 +193,7 @@
 	position: absolute;
 	font-size: 14px;
 	color: #ffffff;
-	font-weight: 500;
+	font-weight: normal;
 	margin-top: -210px;
 	margin-left: 10px;
 	width: 283px;
@@ -223,3 +241,28 @@
 	border-radius: 8px;
 	padding: 1px 5px;
 }
+
+.footer {
+	margin-top: 500px;
+	border-top: 1px solid #e1e1e1;
+	
+}
+
+.footer .nav > li > a {
+	text-shadow: none;
+	color: #898989;
+	font-size: 14px;
+}
+
+.footer .nav > li {
+	padding: 10px 8px 10px 0px;
+}
+
+.footer .nav > li.space {
+	padding-top: 22px;
+	margin-right: 0px;
+	font-size: 20px;
+	font-weight: 100;
+	color: #c4c4c4;
+}
+
