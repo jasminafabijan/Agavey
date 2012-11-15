@@ -310,6 +310,8 @@
 	margin-top: -15px;
 }
 
+/* Sign up page */
+
 .sign-up-box {
 	background-color: #fff;
 	margin-top: 100px;
@@ -451,17 +453,16 @@
 
 .sign-up-box form button:hover {
 	background-color: #de6786;
-
 }
 
 
-select {
+.sign-up-box form select {
 	width: 270px;
 	height: 35px;
 	border: 1px solid #e1e1e1;
 }
 
-select, option {
+.sign-up-box form select, option {
 	font-size: 19px;
 	font-family: Gill Sans;
 	font-weight: 100;
