@@ -310,3 +310,162 @@
 	margin-top: -15px;
 }
 
+.sign-up-box {
+	background-color: #fff;
+	margin-top: 100px;
+	
+	-moz-box-shadow:  2px 2px 3px #a1a1a1;
+	-webkit-box-shadow:  2px 2px 3px #a1a1a1;
+	box-shadow: 2px 2px 3px #a1a1a1;
+	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border: 1px solid #e1e1e1;
+}
+
+.sign-up-box h1 {
+	margin-top: 30px;
+	margin-left: 30px;
+	font-size: 33px;
+	color: #99cc00;
+	font-weight: 400;
+}
+
+.create-or-facebook {
+	margin-left: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.create {
+	padding: 0px 0px 0px 10px;
+	font-size: 28px;
+	font-family: Gill Sans;
+	font-weight: 200;
+}
+
+.or {
+	padding: 33px 0px 25px 35px;
+	font-size: 28px;
+	font-family: Gill Sans;
+	font-weight: 100;
+	color: #acacac;
+}
+
+.or a {
+	margin-left: 55px;
+}
+
+.sign-up-box form {
+	margin-left: 10px;
+}
+
+.sign-up-box form .controls {
+	margin-top: 20px;
+}
+
+.sign-up-box form input[type="text"],
+.sign-up-box form input[type="password"] {
+	width: 256px;
+	height: 25px;
+	margin-left: 21px;
+	font-family: Gill Sans;
+	font-size: 19px;
+	font-weight: 100;
+	color: #363636;
+	border: 1px solid #e1e1e1;
+	-moz-box-shadow: -2px -2px #e1e1e1;
+	-webkit-box-shadow: -2px -2px #e1e1e1;
+	box-shadow: -2px -2px #e1e1e1;
+	margin-top: 8px;
+}
+
+.state-gender {
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.gender {
+	margin-top: 5px;
+	margin-left: 4px;
+	width: 295px;
+	font-size: 19px;
+	font-family: Gill Sans;
+	font-weight: 300;
+}
+
+.gender label {
+	margin-top: -8px;
+	margin-left: 20px;
+	font-size: 19px;
+	font-family: Gill Sans;
+	font-weight: 300;
+
+}
+
+.gender label.male {
+	padding-left: 20px;
+}
+
+.own-home {
+	margin-top: 30px;
+	font-size: 19px;
+	font-family: Gill Sans;
+	font-weight: 300;
+	text-align: center;
+}
+
+.own-home label {
+	font-size: 19px;
+	font-family: Gill Sans;
+	font-weight: 300;
+}
+
+.sign-up-box form button {
+	margin-top: 30px;
+	margin-left: 220px;
+	font-size: 25px;
+	padding: 10px 0;
+	width: 170px;
+	-moz-box-shadow:  2px 2px 3px #a1a1a1;
+	-webkit-box-shadow:  2px 2px 3px #a1a1a1;
+	box-shadow: 2px 2px 3px #a1a1a1;
+	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	color: #fff;
+	background-color: #de6786;
+	background-image: -webkit-linear-gradient(top, #de6786, #d02552);
+  background-image: -o-linear-gradient(top, #de6786, #d02552);
+  background-image: linear-gradient(to bottom, #de6786, #d02552);	
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.sign-up-box form button:hover {
+	color: #fff;
+	background-position: 0px;
+}
+
+.sign-up-box form button:hover {
+	background-color: #de6786;
+
+}
+
+
+select {
+	width: 270px;
+	height: 35px;
+	border: 1px solid #e1e1e1;
+}
+
+select, option {
+	font-size: 19px;
+	font-family: Gill Sans;
+	font-weight: 100;
+	color: #363636;
+}
+
+
