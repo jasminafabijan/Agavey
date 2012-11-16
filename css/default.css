@@ -273,7 +273,7 @@
 }
 
 .information {
-	padding-top: 47px;
+	padding-top: 42px;
 	margin-left: 20px;
 }
 
@@ -310,16 +310,124 @@
 	margin-top: -15px;
 }
 
+.information .lic {
+	background: url(../img/icon-licensed.png) no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	margin-top: 45px;
+	margin-left: -30px;
+}
+
+.information li {
+	font-size: 19px;
+	font-family: Gill Sans;
+	font-weight: 300;
+}
+
+.information .bonded {
+	background: url(../img/icon-bonded.png) no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 22px;
+	margin-top: 12px;
+	margin-left: -30px;
+}
+
+.information .insured {
+	background: url(../img/icon-insured.png) no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 23px;
+	margin-top: 12px;
+	margin-left: -30px;
+}
+
+.information .rating {
+	background: url(../img/icon-rating.png) no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	margin-top: 45px;
+	margin-left: -260px;
+}
+
+.information .years {
+	background: url(../img/icon-rating.png) no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	margin-top: 14px;
+	margin-left: -260px;
+}
+
+.information .exp {
+	background: url(../img/icon-rating.png) no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	margin-top: 14px;
+	margin-left: -260px;
+}
+
+.provider-box {
+	background-color: #fff;
+	margin-top: 30px;
+	margin-left: -1px;
+	width: 370px;
+	-moz-box-shadow:  2px 2px 3px #ebebeb;
+	-webkit-box-shadow:  2px 2px 3px #ebebeb;
+	box-shadow: 2px 2px 3px #ebebeb;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border: 1px solid #e1e1e1;
+}
+
+.provider-box h3 {
+	font-size: 25px;
+	font-family: Gill Sans;
+	color: #363636;
+	margin-left: 15px;
+}
+
+.provider-box p {
+	font-size: 15px;
+	font-family: Gill Sans;
+	color: #555;
+	margin-left: 15px;
+}
+
+.provider-box li {
+	font-size: 15px;
+	font-family: Gill Sans;
+	color: #555;
+	margin-left: 15px;
+}
+
+.provider-box strong {
+	font-size: 17px;
+	font-family: Gill Sans;
+	color: #363636;
+}
+
+.provider-box address {
+	font-size: 15px;
+	font-family: Gill Sans;
+	color: #555;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+
 /* Sign up page */
 
 .sign-up-box {
 	background-color: #fff;
 	margin-top: 100px;
-	
 	-moz-box-shadow:  2px 2px 3px #a1a1a1;
 	-webkit-box-shadow:  2px 2px 3px #a1a1a1;
 	box-shadow: 2px 2px 3px #a1a1a1;
-	
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
 	border-radius: 8px;
