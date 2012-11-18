@@ -1,3 +1,7 @@
+body {
+ background-image: url(../img/background-pattern.png);
+}
+
 .navbar-fixed-top .navbar-inner {
 	height: 50px;
 	background: #363636;		
