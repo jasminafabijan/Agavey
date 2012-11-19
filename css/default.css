@@ -49,12 +49,12 @@ body {
 .navbar .nav a.home {
 	text-indent: -10000px;
 	background: url(../img/home-icon.png) no-repeat;
-	margin-top: 14px;
+	margin-top: 15px;
 }
 
 .navbar .nav a.home:hover {
 	background: url(../img/home-icon-hover.png) no-repeat;
-	margin-top: 14px;
+	margin-top: 15px;
 }
 
 .navbar .nav a.join {
@@ -581,7 +581,7 @@ body {
 
 /* Sign up page */
 
-.sign-up-box {
+.white-box {
 	background-color: #fff;
 	margin-top: 100px;
 	-moz-box-shadow:  2px 2px 3px #a1a1a1;
@@ -593,7 +593,7 @@ body {
 	border: 1px solid #e1e1e1;
 }
 
-.sign-up-box h1 {
+.white-box h1 {
 	margin-top: 30px;
 	margin-left: 30px;
 	font-size: 33px;
@@ -626,16 +626,16 @@ body {
 	margin-left: 55px;
 }
 
-.sign-up-box form {
+.white-box form {
 	margin-left: 10px;
 }
 
-.sign-up-box form .controls {
+.white-box form .controls {
 	margin-top: 20px;
 }
 
-.sign-up-box form input[type="text"],
-.sign-up-box form input[type="password"] {
+.white-box form input[type="text"],
+.white-box form input[type="password"] {
 	width: 256px;
 	height: 25px;
 	margin-left: 21px;
@@ -691,7 +691,7 @@ body {
 	font-weight: 300;
 }
 
-.sign-up-box form button {
+.white-box form button {
 	margin-top: 30px;
 	margin-left: 220px;
 	font-size: 25px;
@@ -712,23 +712,22 @@ body {
   font-weight: bold;
 }
 
-.sign-up-box form button:hover {
+.white-box form button:hover {
 	color: #fff;
 	background-position: 0px;
 }
 
-.sign-up-box form button:hover {
+.white-box form button:hover {
 	background-color: #de6786;
 }
 
-
-.sign-up-box form select {
+.white-box form select {
 	width: 270px;
 	height: 35px;
 	border: 1px solid #e1e1e1;
 }
 
-.sign-up-box form select, option {
+.white-box form select, option {
 	font-size: 19px;
 	font-family: Gill Sans;
 	font-weight: 100;
@@ -792,5 +791,18 @@ body {
 .search-home form .btn:hover {
 	color: #fff;
 	background-position: 0px;
+}
+
+/* invite */
+
+.navbar .nav a.cart {
+	text-indent: -10000px;
+	background: url(../img/cart-icon.png) no-repeat;
+	margin-top: 10px;
+	width: 6px;
+}
+
+.navbar .nav a.cart:hover {
+	margin-top: 14px;
 }
 
