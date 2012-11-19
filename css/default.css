@@ -514,6 +514,8 @@ body {
 	font-family: Gill Sans;
 	font-size: 19px;
 	color: #959595;
+	display: block;
+	line-height: 4px;
 }
  
 .service-box {
@@ -802,7 +804,37 @@ body {
 	width: 6px;
 }
 
-.navbar .nav a.cart:hover {
-	margin-top: 14px;
+.white-box .call {
+	margin-top: 30px;
+	margin-left: 30px;
 }
 
+.white-box span {
+	font-family: Gill Sans;
+	font-size: 19px;
+	color: #111;
+	font-weight: 300;
+}
+
+.white-box .instructions {
+	margin: 30px 30px 0px;
+}
+
+.white-box .instructions p.special {
+	font-family: Gill Sans;
+	font-size: 22px;
+	color: #d02552;
+	font-weight: normal;
+	margin-bottom: -5px;
+}
+
+.white-box .instructions p {
+	font-family: Gill Sans;
+	font-size: 19px;
+	color: #111;
+	font-weight: 300;
+}
+
+.white-box  > p:first-child {
+	margin-top: 45px;
+}
