@@ -804,6 +804,11 @@ body {
 	width: 6px;
 }
 
+.navbar .nav a.cart:hover,
+.navbar .nav a.cart:active {
+	background-position: 0px 0px;
+}
+
 .white-box .call {
 	margin-top: 30px;
 	margin-left: 30px;
