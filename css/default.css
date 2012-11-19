@@ -423,7 +423,7 @@ body {
 	margin-top: 20px;
 }
 
-.provider-box a{
+.provider-box a {
 	font-size: 17px;
 	font-family: Gill Sans;
 	color: #363636;
@@ -444,6 +444,7 @@ body {
 .review-box {
 	background-color: #fff;
 	margin-top: 30px;
+	width: 370px;
 	-moz-box-shadow:  2px 2px 3px #ebebeb;
 	-webkit-box-shadow:  2px 2px 3px #ebebeb;
 	box-shadow: 2px 2px 3px #ebebeb;
@@ -460,27 +461,61 @@ body {
 	margin-left: 15px;
 }
 
-.review-box blockquote {
+.review-box blockquote.clearfix {
 	border-left: none;
-	background-color: #ebebeb;
+	background-color: #f3f3f3;
 }
 
-.review-box blockquote p {
+.review-box blockquote.clearfix p {
 	font-family: Gill Sans;
 	font-size: 17px;
 	color: #555;
 	font-weight: normal;
+	padding-top: 5px;
 } 
 
-.review-box blockquote cite {
+.review-box blockquote.clearfix cite {
 	font-family: Gill Sans;
 	font-size: 17px;
 	font-style: italic;
 	color: #555;
 	float: right;
 	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+.review-box blockquote.white {
+	border-left: none;
+	margin-bottom: 25px;
+}
+
+.review-box blockquote.white p {
+	font-family: Gill Sans;
+	font-size: 17px;
+	color: #555;
+	font-weight: normal;
+	margin-top: -15px;
 } 
 
+.review-box blockquote.white cite {
+	font-family: Gill Sans;
+	font-size: 17px;
+	font-style: italic;
+	color: #555;
+	float: right;
+	margin-right: 10px;
+}
+
+.rated {
+	margin-top: 35px;
+}
+
+.rated a {
+	font-family: Gill Sans;
+	font-size: 19px;
+	color: #959595;
+}
+ 
 .service-box {
 	background-color: #fff;
 	margin-top: 30px;
