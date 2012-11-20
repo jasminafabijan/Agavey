@@ -620,7 +620,7 @@ body {
 	font-weight: 200;
 }
 
-.or {
+.create-or-facebook .or {
 	padding: 33px 0px 25px 35px;
 	font-size: 28px;
 	font-family: Gill Sans;
@@ -752,8 +752,19 @@ body {
 	padding-top: 17px;
 }
 
+.main-image .container input {
+	border: none;
+}
+
 .main-image .container .nav li {
 	float: left;
+}
+
+.main-image .container .nav .login {
+	font-size: 17px;
+	color: #fff;
+	margin-right: 15px;
+	margin-top: 5px;
 }
 
 .main-image .container .nav .join {
@@ -781,9 +792,8 @@ body {
 
 .main-image .video {
 	background: #777;
-	width: 250px;
-	height: 250px;
-	margin-left: 200px;
+	width: 270px;
+	height: 220px;
 	margin-top: 200px;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -849,7 +859,7 @@ body {
 	text-indent: -10000px;
 	background: url(../img/cart-icon.png) no-repeat;
 	margin-top: 10px;
-	width: 6px;
+	width: 7px;
 }
 
 .navbar .nav a.cart:hover,
@@ -862,7 +872,7 @@ body {
 	margin-left: 30px;
 }
 
-.white-box span {
+.white-box .call span {
 	font-family: Gill Sans;
 	font-size: 19px;
 	color: #111;
@@ -888,6 +898,92 @@ body {
 	font-weight: 300;
 }
 
-.white-box  > p:first-child {
-	margin-top: 45px;
+.white-box form .social input[type="text"] {
+	width: 415px;
+	height: 20px;
+	margin-left: 20px;
+	margin-top: -5px;
+	font-family: Gill Sans;
+	font-size: 19px;
+	font-weight: 100;
+	color: #363636;
+	border: 1px solid #e1e1e1;
+	-moz-box-shadow: -2px -2px #e1e1e1;
+	-webkit-box-shadow: -2px -2px #e1e1e1;
+	box-shadow: -2px -2px #e1e1e1;
+}
+
+.white-box .social .icons {
+	margin-right: 30px;
+	margin-top: -5px;
+}
+
+.white-box .social .icons a {
+	margin-left: 13px;
+}
+
+.white-box .fb-invite {
+	margin-left: 20px;
+	padding-top: 45px;
+}
+
+.white-box .fb-invite .or {
+	font-size: 28px;
+	font-family: Gill Sans;
+	font-weight: 100;
+	color: #acacac;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.white-box form .email-invite input {
+	width: 550px;
+	height: 20px;
+	margin-left: 20px;
+	margin-top: 25px;
+	font-family: Gill Sans;
+	font-size: 19px;
+	font-weight: 100;
+	color: #363636;
+	border: 1px solid #e1e1e1;
+	-moz-box-shadow: -2px -2px #e1e1e1;
+	-webkit-box-shadow: -2px -2px #e1e1e1;
+	box-shadow: -2px -2px #e1e1e1;
+}
+
+.white-box form .email-invite button {
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-left: 0px;
+	font-size: 19px;
+	font-weight: normal;
+	padding: 6px 0;
+	width: 170px;
+	-moz-box-shadow:  2px 2px 3px #a1a1a1;
+	-webkit-box-shadow:  2px 2px 3px #a1a1a1;
+	box-shadow: 2px 2px 3px #a1a1a1;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	color: #fff;
+	background-color: #de6786;
+	background-image: -webkit-linear-gradient(top, #de6786, #d02552);
+  background-image: -o-linear-gradient(top, #de6786, #d02552);
+  background-image: linear-gradient(to bottom, #de6786, #d02552);	
+  margin-bottom: 30px;
+  border: none;
+}
+
+/* how_it_works */
+
+.white-box .steps {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.white-box .steps span {
+	font-family: Gill Sans;
+	font-size: 19px;
+	color: #111;
+	padding-bottom: 30px;
 }
