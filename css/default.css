@@ -185,6 +185,10 @@ body {
 	margin-top: 40px;
 }
 
+.service .like-button {
+	margin-top: 10px;
+}
+
 .service .text-box {
 	position:relative; 
 	top:-103px;
@@ -738,8 +742,52 @@ body {
 
 /* homepage */
 
-.search-home {
-	margin-top: 595px;
+.main-image {
+	background: url(../img/image1.png) no-repeat;
+	height: 595px;
+	background-color: #000;
+}
+
+.main-image .container {
+	padding-top: 17px;
+}
+
+.main-image .container .nav li {
+	float: left;
+}
+
+.main-image .container .nav .join {
+	padding: 5px;
+	background-color: #99cc00;
+	background-image: -webkit-linear-gradient(top, #99cc00, #7fa900);
+  background-image: -o-linear-gradient(top, #99cc00, #7fa900);
+  background-image: linear-gradient(to bottom, #99cc00, #7fa900);	
+  -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.main-image .nav > li > a.join:focus, 
+.main-image .nav > li > a.join:hover {
+  color: #fff;
+	text-decoration: none;
+	background-position: 0px;
+}
+
+.main-image .brand {
+	display: block;
+	float: left;
+}
+
+.main-image .video {
+	background: #777;
+	width: 250px;
+	height: 250px;
+	margin-left: 200px;
+	margin-top: 200px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
 }
 
 .search-home form {
