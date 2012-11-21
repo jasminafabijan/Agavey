@@ -988,3 +988,93 @@ body {
 .how_it_works .white-box .steps p:last-child {
 	margin-bottom: 35px;
 }
+
+/* Payment-page */
+
+.payment-page .white-box table {
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-bottom: 0px;
+	width: 586px;
+}
+
+.payment-page .white-box table th {
+	font-size: 19px;
+	color: #363636;
+	font-weight: 400;
+}
+
+.payment-page .white-box table td {
+	font-family: Gill Sans;
+	font-size: 17px;
+	color: #111;
+	font-weight: 200;
+	padding: 15px 8px;
+}
+
+.payment-page .white-box input[type="text"] {
+	width: 256px;
+	font-size: 19px;
+	font-weight: 200;
+	font-family: Gill Sans;
+	color: #111;
+	border: 1px solid #e1e1e1;
+	-moz-box-shadow: -2px -2px #e1e1e1;
+	-webkit-box-shadow: -2px -2px #e1e1e1;
+	box-shadow: -2px -2px #e1e1e1;
+}
+
+.payment-page .white-box .code {
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	border-top: 1px solid #dddddd; 
+}
+
+.payment-page .white-box .code a {
+	padding: 5px 8px;
+	font-size: 17px;
+	font-weight: bold;
+	background-color: #99cc00;
+	background-image: -webkit-linear-gradient(top, #99cc00, #7fa900);
+  background-image: -o-linear-gradient(top, #99cc00, #7fa900);
+  background-image: linear-gradient(to bottom, #99cc00, #7fa900);	
+  -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	margin-top: -10px;
+	margin-left: 20px;
+}
+
+.payment-page .white-box .code a:hover {
+	color: #ffffff;
+	border-color: #99cc00;
+	background-position: 0px;
+}
+
+.payment-page .white-box .code a:active {
+	background-color: #5BB75B;
+}
+
+.payment-page .white-box .total {
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-top: 15px;
+	border-top: 1px solid #dddddd; 
+}
+
+.payment-page .white-box .total .payment {
+	font-family: Gill Sans;
+	font-size: 19px;
+	color: #363636;
+	padding-left: 285px;
+}
+
+.payment-page .white-box .total .summ {
+	font-family: Gill Sans;
+	font-size: 22px;
+	color: #363636;
+	padding-left: 80px;
+}
+
