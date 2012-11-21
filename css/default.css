@@ -853,7 +853,7 @@ body {
 	background-position: 0px;
 }
 
-/* invite */
+/* Shared CSS */
 
 .navbar .nav a.cart {
 	text-indent: -10000px;
@@ -867,23 +867,25 @@ body {
 	background-position: 0px 0px;
 }
 
-.white-box .call {
+/* Invite page */
+
+.invite-page .white-box .call {
 	margin-top: 30px;
 	margin-left: 30px;
 }
 
-.white-box .call span {
+.invite-page .white-box .call span {
 	font-family: Gill Sans;
 	font-size: 19px;
 	color: #111;
 	font-weight: 300;
 }
 
-.white-box .instructions {
+.invite-page .white-box .instructions {
 	margin: 30px 30px 0px;
 }
 
-.white-box .instructions p.special {
+.invite-page .white-box .instructions p.special {
 	font-family: Gill Sans;
 	font-size: 22px;
 	color: #d02552;
@@ -891,14 +893,14 @@ body {
 	margin-bottom: -5px;
 }
 
-.white-box .instructions p {
+.invite-page .white-box .instructions p {
 	font-family: Gill Sans;
 	font-size: 19px;
 	color: #111;
 	font-weight: 300;
 }
 
-.white-box form .social input[type="text"] {
+.invite-page .white-box form .social input[type="text"] {
 	width: 415px;
 	height: 20px;
 	margin-left: 20px;
@@ -913,34 +915,38 @@ body {
 	box-shadow: -2px -2px #e1e1e1;
 }
 
-.white-box .social .icons {
+.invite-page .white-box .social .icons {
 	margin-right: 30px;
 	margin-top: -5px;
 }
 
-.white-box .social .icons a {
+.invite-page .white-box .social .icons a {
 	margin-left: 13px;
 }
 
-.white-box .fb-invite {
+.invite-page .white-box .fb-invite {
 	margin-left: 20px;
 	padding-top: 45px;
 }
 
-.white-box .fb-invite .or {
+.invite-page .white-box .fb-invite img {
+	margin-bottom: 12px;
+}
+
+.invite-page .white-box .fb-invite p.or {
 	font-size: 28px;
 	font-family: Gill Sans;
 	font-weight: 100;
 	color: #acacac;
+	display: inline;
 	margin-left: 30px;
-	margin-top: 10px;
 }
 
-.white-box form .email-invite input {
+.invite-page .white-box form .email-invite input {
 	width: 550px;
 	height: 20px;
 	margin-left: 20px;
-	margin-top: 25px;
+	margin-top: 10px;
 	font-family: Gill Sans;
 	font-size: 19px;
 	font-weight: 100;
@@ -951,39 +957,34 @@ body {
 	box-shadow: -2px -2px #e1e1e1;
 }
 
-.white-box form .email-invite button {
-	margin-top: 30px;
-	margin-right: 30px;
-	margin-left: 0px;
+.invite-page .white-box form .email-invite button {
 	font-size: 19px;
 	font-weight: normal;
-	padding: 6px 0;
-	width: 170px;
-	-moz-box-shadow:  2px 2px 3px #a1a1a1;
-	-webkit-box-shadow:  2px 2px 3px #a1a1a1;
-	box-shadow: 2px 2px 3px #a1a1a1;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
-	color: #fff;
-	background-color: #de6786;
-	background-image: -webkit-linear-gradient(top, #de6786, #d02552);
-  background-image: -o-linear-gradient(top, #de6786, #d02552);
-  background-image: linear-gradient(to bottom, #de6786, #d02552);	
-  margin-bottom: 30px;
-  border: none;
+	margin-right: 30px;
+	margin-bottom: 40px;
+	padding: 6px 0px;
+	width: 155px;
 }
 
-/* how_it_works */
+/* How it Works */
 
-.white-box .steps {
-	margin-top: 30px;
-	margin-left: 30px;
+.how_it_works .white-box .steps {
+	margin: 30px 30px 0px 30px;
 }
 
-.white-box .steps span {
+.how_it_works .white-box .steps span {
 	font-family: Gill Sans;
 	font-size: 19px;
-	color: #111;
-	padding-bottom: 30px;
+	color: #d02552;
+}
+
+.how_it_works .white-box .steps p {
+	font-family: Gill Sans;
+	font-size: 19px;
+	color: #363636;
+	margin-bottom: 25px;
+}
+
+.how_it_works .white-box .steps p:last-child {
+	margin-bottom: 35px;
 }
