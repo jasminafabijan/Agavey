@@ -64,33 +64,46 @@
 				
 				<div class="total">
 					<span class="payment"> Total Payment</span>
-					<span class="summ">$120.00</span>
+					<div class="summ pull-right">$120.00</div><br/>
+					<a href="#contact" class="btn btn-success check pull-right">Checkout</a>
 				</div>
 
-        <div class="create-or-facebook">
-          <span class="create">Create email account</span> <span class="or">OR<a href=
-          "#fwd"><img src="img/fb-sign-up.png" /></a></span>
+        <div class="credit-card">
+        	<div class="borders">
+          	<h4>Please provide your Credit Card Information<h4>
+          	<a href="#fwd"><img src="img/verified-image.png" class="pull-right" /></a></span>
+        		<input type="text" class="input-small" placeholder="Credit Card Number" /><br/>
+        		<div class="data">
+        			<span>Expiration Date</span>
+        			<input type="text" class="input-mini mm" style="width: 30px; height: 15px" />
+        			<span>MM</span>
+        			<input type="text" class="input-mini yy" style="width: 30px; height: 15px" />
+        			<span>YY</span>
+        			<span class="security">Security Code</span>
+        			<input type="text" class="input-mini yy" style="width: 50px; height: 15px" />
+        		</div>
+        	</div>
         </div>
+        
+				<div class="billing-address">
+					<div class="borders">
+					<h4>Please provide your billing address</h4>
+        	<form class="form-inline">
+          	<div class="controls">
+            	<input type="text" class="input-small" placeholder="First Name" />
+            	<input type="text" class="input-small" placeholder="Last Name" />
+          	</div>
 
-        <form class="form-inline">
-          <div class="controls">
-            <input type="text" class="input-small" placeholder="Full Name" />
-            <input type="text" class="input-small" placeholder="Email" />
-          </div>
-
-          <div class="controls">
-            <input type="password" class="input-small" placeholder="Password" />
-            <input type="password" class="input-small" placeholder="Confirm Password" />
-          </div>
-
-          <div class="controls">
-            <input type="text" class="input-small" placeholder="Address Line 1" />
-            <input type="text" class="input-small" placeholder="Address Line 2" />
-          </div>
+          	<div class="controls">
+            	<input type="text" class="input-small" placeholder="Address Line 1" />
+            	<input type="text" class="input-small" placeholder="Address Line 2" />
+          	</div>
+          	
 
           <div class="controls">
             <input type="text" class="input-small" placeholder="City" /> 
-            <input type="text" class="input-small" placeholder="Zip Code" />
+            <span>State</span>
+            <input type="text" class="input-mini pull-right" style="width: 115px" placeholder="Zip Code" />
           </div>
 
           <div class="bs-docs-state state-gender">
@@ -114,9 +127,12 @@
             "radio inline"><input type="radio" name="home" value="option1" checked=
             "checked" /> Yes</label> <label class="radio inline male"><input type="radio"
             name="home" value="option2" /> No</label>
-          </div><button class="btn">Submit</button>
+          </div>
+          <button class="btn">Submit</button>
         </form>
+        </div>
       </div>
+    </div>
     </div>
     
     <footer class="navbar footer">

@@ -1032,8 +1032,8 @@ body {
 	border-top: 1px solid #dddddd; 
 }
 
-.payment-page .white-box .code a {
-	padding: 5px 8px;
+.payment-page .white-box a.btn {
+	padding: 4px 7px 5px;
 	font-size: 17px;
 	font-weight: bold;
 	background-color: #99cc00;
@@ -1043,17 +1043,21 @@ body {
   -webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
-	margin-top: -10px;
-	margin-left: 20px;
 }
 
-.payment-page .white-box .code a:hover {
+.payment-page .white-box .code a {
+	margin-top: -12px;
+	margin-left: 9px;
+
+}
+
+.payment-page .white-box a:hover {
 	color: #ffffff;
 	border-color: #99cc00;
 	background-position: 0px;
 }
 
-.payment-page .white-box .code a:active {
+.payment-page .white-box a:active {
 	background-color: #5BB75B;
 }
 
@@ -1062,9 +1066,10 @@ body {
 	margin-right: 30px;
 	padding-top: 15px;
 	border-top: 1px solid #dddddd; 
+	height: 100px;
 }
 
-.payment-page .white-box .total .payment {
+.payment-page .white-box .total span {
 	font-family: Gill Sans;
 	font-size: 19px;
 	color: #363636;
@@ -1075,6 +1080,56 @@ body {
 	font-family: Gill Sans;
 	font-size: 22px;
 	color: #363636;
-	padding-left: 80px;
+}
+
+.payment-page .white-box .total a {
+	margin-top: 20px;
+}
+
+.payment-page .white-box .credit-card h4 {
+	font-size: 19px;
+	font-weight: normal;
+	margin: 32px 0px 0px 15px;
+}
+
+.payment-page .white-box .credit-card .borders {
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	margin: -7px 15px 0px;
+}	
+
+.payment-page .white-box .credit-card img {
+	margin: -59px 10px 0px 0px;
+}
+
+.payment-page .white-box .credit-card span {
+	font-family: Gill Sans;
+	font-size: 19px;
+	font-weight: 300;
+	color: #111;
+}
+
+.payment-page .white-box .credit-card .mm {
+	margin-top: 5px;
+	margin-left: 35px;
+}
+
+.payment-page .white-box .credit-card .yy {
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+.payment-page .white-box .credit-card .security {
+	margin-left: 38px;
+}
+
+.data {
+	margin-bottom: 20px;
+}
+
+.payment-page .white-box .billing-address h4 {
+	font-size: 19px;
+	font-weight: normal;
+	margin: 30px 30px 20px;
 }
 
