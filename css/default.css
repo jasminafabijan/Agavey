@@ -790,15 +790,34 @@ body {
 	float: left;
 }
 
+.main-image .title {
+	background-color: rgba(70, 70, 70, 0.6);
+	margin-top: 175px;
+	padding: 45px 20px 90px 75px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	width: 490px;
+}
+
+.main-image .title span {
+	display: block;
+	font-size: 42px;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
 .main-image .video {
 	background: #777;
 	width: 270px;
 	height: 220px;
 	margin-left: 80px;
-	margin-top: 205px;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
+	margin-top: -252px;
 }
 
 .main-image .video span {
@@ -817,19 +836,6 @@ body {
 	font-weight: 300;
 	color: #fff;
 	margin-left: 85px;
-}
-
-.main-image .title {
-	margin-top: -150px;	
-	padding-left: 35px;
-}
-
-.main-image .title span {
-	display: block;
-	font-size: 42px;
-	font-weight: bold;
-	color: #fff;
-	margin-top: 20px;
 }
 
 .search-home form {
@@ -883,6 +889,46 @@ body {
 .search-home form .btn:hover {
 	color: #fff;
 	background-position: 0px;
+}
+
+.homepage h1 {
+	font-size: 25px;
+}
+
+.homepage .featured {
+	margin-left: 50px;
+	margin-top: -227px;
+}
+
+.homepage .featured .service {
+	width: 270px;
+	height: 335px;
+}
+
+.homepage .arrow-left {
+	margin-top: 157px;
+	margin-left: 15px;
+}
+
+.homepage .featured .text-box {
+	margin-top: 25px;
+}
+
+.homepage .featured h2 {
+	font-size: 22px;
+	font-weight: bold;
+	padding-top: 35px;
+}
+
+.homepage .featured h2.description {
+	font-size: 17px;
+	font-weight: 300;
+	padding-top: 45px;
+	width: 250px;
+}
+
+.homepage .featured h2 img {
+	margin-top: -7px;
 }
 
 /* Shared CSS */
