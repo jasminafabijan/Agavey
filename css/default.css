@@ -275,8 +275,28 @@ body {
 	color: #c4c4c4;
 }
 
+/* Detail page */
+
 .detail {
 	padding-top: 47px;
+}
+
+.detail-page .share-buttons {
+	background-color: yellow;
+	position: absolute;
+	margin-top: 340px;
+	margin-left: 16px;
+	width: 350px;
+}
+
+.detail-page .share-buttons .agavey-fb-like {
+	width: 120px;
+	float: left;
+}
+
+.detail-page .share-buttons .agavey-pin-button {
+	width: 120px;
+	float: left;
 }
 
 .information {
@@ -836,6 +856,13 @@ body {
 	font-weight: 300;
 	color: #fff;
 	margin-left: 85px;
+}
+
+.main-image a.big-join {
+	margin-left: 400px;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 10px;
 }
 
 .search-home form {

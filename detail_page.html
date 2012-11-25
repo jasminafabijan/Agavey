@@ -11,7 +11,22 @@
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/default.css" rel="stylesheet" />
   </head>
-  <body>
+  
+  
+  <body class="detail-page">
+  
+  	<!-- Facebook like code -->
+  	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  	<!-- Facebook like code -->
+  
+  
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -62,11 +77,27 @@
         </form>
       </div>
     </div>
+    
     <div class="container main-content">
       <div class="row">
+      
         <div class="span5 detail">
+        
+        	<div class="share-buttons">
+        	
+        		<div class="agavey-fb-like">
+		        	<div class="fb-like" data-href="http://jasminafabijan.com" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+		        </div>
+		        
+		        <div class="agavey-pin-button">
+			        <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fjasminafabijan.com&media=http%3A%2F%2Fjasminafabijan.com" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
+		        </div>
+		        
+	        </div>
+	        
           <img src="img/carpet-bigger.png" class="img-rounded image" width="370" height="365" alt="Service image" />
-        </div>
+        </div> <!-- detail -->
+        
         <div class="span7 information">
           <h2>Professional Wet Carpet Cleaning</h2>
           <p class="price">$19.99 / Area<a href="#book-now">Book Now</a></p>
@@ -169,5 +200,9 @@
         </ul>
       </footer>
     </div> <!-- /container -->
+    
+    <!-- pinterest button -->
+    <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+    <!-- pinterest button -->
   </body>
 </html>
