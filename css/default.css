@@ -1069,6 +1069,10 @@ body {
 
 /* Payment-page */
 
+.payment-page .white-box form {
+	margin-left: 0px;
+}
+
 .payment-page .white-box table {
 	margin-top: 30px;
 	margin-left: 15px;
@@ -1115,6 +1119,20 @@ body {
 	box-shadow: -2px -2px #e1e1e1;
 }
 
+.payment-page .white-box input.promo-code,
+.payment-page .white-box input.cc-number {
+	margin-left: 5px;
+}
+
+.payment-page .white-box input.promo-code {
+	margin-top: -6px;
+	margin-bottom: 4px;
+}
+
+.payment-page .white-box input.cc-number {
+	margin-bottom: 10px
+}
+
 .payment-page .white-box .code {
 	margin-left: 30px;
 	margin-right: 30px;
@@ -1157,7 +1175,7 @@ body {
 	margin-right: 30px;
 	padding-top: 15px;
 	border-top: 1px solid #dddddd; 
-	height: 100px;
+	height: 50px;
 }
 
 .payment-page .white-box .total span {
@@ -1180,13 +1198,14 @@ body {
 .payment-page .white-box .credit-card h4 {
 	font-size: 19px;
 	font-weight: normal;
-	margin: 32px 0px 0px 15px;
+	margin: 32px 0px 32px 0px;
 }
 
 .payment-page .white-box .credit-card .borders {
 	border-top: 1px solid #dddddd;
 	border-bottom: 1px solid #dddddd;
 	margin: -7px 15px 0px;
+	padding-left: 10px;
 }	
 
 .payment-page .white-box .credit-card img {
@@ -1203,11 +1222,22 @@ body {
 .payment-page .white-box .credit-card .mm {
 	margin-top: 5px;
 	margin-left: 35px;
+	width: 30px; 
+	height: 15px
 }
 
 .payment-page .white-box .credit-card .yy {
 	margin-top: 5px;
 	margin-left: 15px;
+	width: 30px; 
+	height: 15px
+}
+
+.payment-page .white-box .credit-card .security-code {
+	margin-top: 5px;
+	margin-left: 15px;
+	width: 50px; 
+	height: 15px
 }
 
 .payment-page .white-box .credit-card .security {
@@ -1221,7 +1251,11 @@ body {
 .payment-page .white-box .billing-address h4 {
 	font-size: 19px;
 	font-weight: normal;
-	margin: 26px 30px 25px;
+	margin: 26px 15px 25px;
+}
+
+.payment-page .white-box .billing-address .borders {
+	margin-left: 8px;
 }
 
 .payment-page .white-box .controls span {

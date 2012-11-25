@@ -38,95 +38,94 @@
       <div class="span8 offset2 white-box">
         <h1>Your Purchase</h1>
         
-        <table class="table table-hover">
-        	<thead>
-          	<tr>
-            	<th class="desc">Description</th>
-              <th class="quantity">Quantity</th>
-              <th class="price">Price</th>
-              <th>Amount</th>
-            </tr>
-          </thead>
-          <tbody>
-          	<tr>
-            	<td>Leaf Removal - Germantown and Collierville, TN</td>
-            	<td><input type="text" style="width: 30px; height: 15px; font-size: 17px"></td>
-            	<td>$40.00</td>
-            	<td class="amount">$120.00</td>
-            </tr>
-          </tbody>
-        </table>
-        
-        <div class="code">    
-        	<input type="text" class="input-small" placeholder="Promotion Code">
-          <a href="#contact" class="btn btn-success apply">Apply</a>
-				</div>
-				
-				<div class="total">
-					<span class="payment"> Total Payment</span>
-					<div class="summ pull-right">$120.00</div><br/>
-					<a href="#contact" class="btn btn-success check pull-right">Checkout</a>
-				</div>
-
-        <div class="credit-card">
-        	<div class="borders">
-          	<h4>Please provide your Credit Card Information<h4>
-          	<a href="#fwd"><img src="img/verified-image.png" class="pull-right" /></a></span>
-        		<input type="text" class="input-small" placeholder="Credit Card Number" /><br/>
-        		<div class="data">
-        			<span>Expiration Date</span>
-        			<input type="text" class="input-mini mm" style="width: 30px; height: 15px" />
-        			<span>MM</span>
-        			<input type="text" class="input-mini yy" style="width: 30px; height: 15px" />
-        			<span>YY</span>
-        			<span class="security">Security Code</span>
-        			<input type="text" class="input-mini yy" style="width: 50px; height: 15px" />
-        		</div>
-        	</div>
-        </div>
-        
-				<div class="billing-address">
-					<div class="borders">
-					<h4>Please provide your billing address</h4>
-        	<form class="form-inline">
-          	<div class="controls">
-            	<input type="text" class="input-small" placeholder="First Name" />
-            	<input type="text" class="input-small" placeholder="Last Name" />
-          	</div>
-
-          	<div class="controls">
-            	<input type="text" class="input-small" placeholder="Address Line 1" />
-            	<input type="text" class="input-small" placeholder="Address Line 2" />
-          	</div>
-
-          	<div class="controls">
-            	<input type="text" class="input-small" placeholder="City" /> 
-            	<span>State<span>
-            	<select>
-              	<option>CA</option>
-              	<option>2</option>
-              	<option>3</option>
-              	<option>4</option>
-            	</select>
-            	<input type="text" class="input-mini" style="width: 115px" placeholder="Zip Code" />
-          	</div>
-
-          	<div class="controls">
-          		<input type="text" class="input-small" placeholder="Phone Number" />
-            	<div class="gender pull-right">
-              	Gender : <label class="radio inline"><input type="radio" name="gender"
-              	value="option1" checked="checked" /> Female</label> <label class=
-              	"radio inline male"><input type="radio" name="gender" value="option2" />
-              	Male</label>
-            	</div>
-            	<label class="checkbox">
-  							<input type="checkbox" value="">Service Address is different than the Billing Address
-  						</label>
-  						<p>By clicking on this button you agree to the service details and to Agavey <a href="#">Terms and Conditions.</a></p>
-          	</div>
-          	<button class="btn purchase">Complete Purchase</button>
-        	</form>
-        </div>
+        <form class="form-inline">
+	        <table class="table table-hover">
+	        	<thead>
+	          	<tr>
+	            	<th class="desc">Description</th>
+	              <th class="quantity">Quantity</th>
+	              <th class="price">Price</th>
+	              <th>Amount</th>
+	            </tr>
+	          </thead>
+	          <tbody>
+	          	<tr>
+	            	<td>Leaf Removal - Germantown and Collierville, TN</td>
+	            	<td><input type="text" style="width: 30px; height: 15px; font-size: 17px"></td>
+	            	<td>$40.00</td>
+	            	<td class="amount">$120.00</td>
+	            </tr>
+	          </tbody>
+	        </table>
+	        
+	        <div class="code">    
+	        	<input type="text" class="input-small promo-code" placeholder="Promotion Code">
+	          <a href="#contact" class="btn btn-success apply">Apply</a>
+					</div>
+					
+					<div class="total">
+						<span class="payment"> Total Payment</span>
+						<div class="summ pull-right">$120.00</div><br/>
+					</div>
+	
+	        <div class="credit-card">
+	        	<div class="borders">
+	          	<h4>Please provide your Credit Card Information</h4>
+	          	<a href="#fwd"><img src="img/verified-image.png" class="pull-right" /></a></span>
+	        		<input type="text" class="input-small cc-number" placeholder="Credit Card Number" /><br/>
+	        		<div class="data">
+	        			<span>Expiration Date</span>
+	        			<input type="text" class="input-mini mm" />
+	        			<span>MM</span>
+	        			<input type="text" class="input-mini yy" />
+	        			<span>YY</span>
+	        			<span class="security">Security Code</span>
+	        			<input type="text" class="input-mini security-code" />
+	        		</div>
+	        	</div>
+	        </div>
+	        
+					<div class="billing-address">
+						<div class="borders">
+						<h4>Please provide your billing address</h4>
+	          	<div class="controls">
+	            	<input type="text" class="input-small" placeholder="First Name" />
+	            	<input type="text" class="input-small" placeholder="Last Name" />
+	          	</div>
+	
+	          	<div class="controls">
+	            	<input type="text" class="input-small" placeholder="Address Line 1" />
+	            	<input type="text" class="input-small" placeholder="Address Line 2" />
+	          	</div>
+	
+	          	<div class="controls">
+	            	<input type="text" class="input-small" placeholder="City" /> 
+	            	<span>State<span>
+	            	<select>
+	              	<option>CA</option>
+	              	<option>2</option>
+	              	<option>3</option>
+	              	<option>4</option>
+	            	</select>
+	            	<input type="text" class="input-mini" style="width: 115px" placeholder="Zip Code" />
+	          	</div>
+	
+	          	<div class="controls">
+	          		<input type="text" class="input-small" placeholder="Phone Number" />
+	            	<div class="gender pull-right">
+	              	Gender : <label class="radio inline"><input type="radio" name="gender"
+	              	value="option1" checked="checked" /> Female</label> <label class=
+	              	"radio inline male"><input type="radio" name="gender" value="option2" />
+	              	Male</label>
+	            	</div>
+	            	<label class="checkbox">
+	  							<input type="checkbox" value="">Service Address is different than the Billing Address
+	  						</label>
+	  						<p>By clicking on this button you agree to the service details and to Agavey <a href="#">Terms and Conditions.</a></p>
+	          	</div>
+	          	<button class="btn purchase">Complete Purchase</button>        	
+	        </div> <!-- billing-address -->
+        </form>
         
         <div class="faq">
         	<div class="border"></div>
