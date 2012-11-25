@@ -1069,6 +1069,10 @@ body {
 
 /* Payment-page */
 
+.payment-page h1 {
+	margin-left: 25px;
+}
+
 .payment-page .white-box form {
 	margin-left: 0px;
 }
