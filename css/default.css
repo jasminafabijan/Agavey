@@ -1142,13 +1142,13 @@ body {
 
 }
 
-.payment-page .white-box a:hover {
+.payment-page .white-box a.btn:hover {
 	color: #ffffff;
 	border-color: #99cc00;
 	background-position: 0px;
 }
 
-.payment-page .white-box a:active {
+.payment-page .white-box a.btn:active {
 	background-color: #5BB75B;
 }
 
