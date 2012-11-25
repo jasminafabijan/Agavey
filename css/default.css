@@ -78,6 +78,26 @@ body {
 	background-color: #5BB75B;
 }
 
+/* Listing page */
+
+.listing-page .service .share-buttons {
+	position: absolute;
+	margin-top: 218px;
+	margin-left: 8px;
+	width: 280px;
+}
+
+.listing-page .share-buttons .agavey-fb-like {
+	width: 100px;
+	float: left;
+}
+
+.listing-page .share-buttons .agavey-pin-button {
+	width: 120px;
+	float: left;
+}
+
+
 .categories {
 	margin-top: 50px;
 }
