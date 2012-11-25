@@ -78,6 +78,14 @@ body {
 	background-color: #5BB75B;
 }
 
+/* Login modal popup */
+
+.modal {
+	width: 364px;
+	left: 50%;
+	margin: -250px 0 0 -180px;
+}
+
 /* Listing page */
 
 .listing-page .service .share-buttons {
