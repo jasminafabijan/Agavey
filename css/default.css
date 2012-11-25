@@ -1082,12 +1082,25 @@ body {
 	font-weight: 400;
 }
 
+.payment-page .white-box table th.desc {
+	width: 285px;
+}
+
+.payment-page .white-box table th.quantity,
+.payment-page .white-box table th.price {
+	width: 85px;
+}
+
 .payment-page .white-box table td {
 	font-family: Gill Sans;
 	font-size: 17px;
 	color: #111;
 	font-weight: 200;
 	padding: 15px 8px;
+}
+
+.payment-page .white-box table td.amount {
+	text-align: right;
 }
 
 .payment-page .white-box input[type="text"] {
