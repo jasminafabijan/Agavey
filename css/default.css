@@ -411,7 +411,6 @@ body {
 }
 
 .detail-page .share-buttons {
-	background-color: yellow;
 	position: absolute;
 	margin-top: 340px;
 	margin-left: 16px;
@@ -421,11 +420,21 @@ body {
 .detail-page .share-buttons .agavey-fb-like {
 	width: 120px;
 	float: left;
+	margin-top: 2px;
 }
 
 .detail-page .share-buttons .agavey-pin-button {
 	width: 120px;
 	float: left;
+}
+
+.detail-page .share-buttons .agavey-mail-icon {
+	width: 76px;
+	float: left;
+}
+
+.detail-page .share-buttons .agavey-wishlist-icon {
+
 }
 
 .information {
