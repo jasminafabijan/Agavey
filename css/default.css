@@ -1629,6 +1629,10 @@ body {
 	margin-bottom: 25px;
 }
 
+.about_us .white-box .content ul {
+	margin-top: -10px;
+}
+
 .about_us .white-box .content span {
 	font-family: Gill Sans;
 	font-size: 17px;
@@ -1641,6 +1645,7 @@ body {
 
 .about_us .white-box .content p:last-child {
 	margin-bottom: 40px;
+	margin-top: 20px;
 }
 
 
