@@ -433,10 +433,6 @@ body {
 	float: left;
 }
 
-.detail-page .share-buttons .agavey-wishlist-icon {
-
-}
-
 .information {
 	padding-top: 42px;
 	margin-left: 20px;
@@ -742,7 +738,6 @@ body {
 }
 
 
-
 /* Sign up page */
 
 .white-box {
@@ -954,12 +949,15 @@ body {
 
 .main-image .title {
 	background-color: rgba(70, 70, 70, 0.6);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#55464646, endColorstr=#55464646);
 	margin-top: 175px;
 	padding: 45px 20px 90px 75px;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
 	width: 490px;
+	z-index: 1000;
+	position: absolute;
 }
 
 .main-image .title span {
@@ -980,6 +978,9 @@ body {
 	-moz-border-radius: 6px;
 	border-radius: 6px;
 	margin-top: -252px;
+	z-index: 1500;
+	position: relative;
+	top: 460px;
 }
 
 .main-image .video span {
@@ -1004,7 +1005,9 @@ body {
 	margin-left: 410px;
 	font-size: 25px;
 	font-weight: bold;
-	margin-top: 8px;
+	margin-top: 465px;
+	z-index: 6000;
+	position: absolute;
 }
 
 .main-image a.big-join {
@@ -1612,3 +1615,32 @@ body {
 .payment-page .white-box .faq p:last-child {
 	margin-bottom: 40px;
 }
+
+/* About Us */
+
+.about_us .white-box .content {
+	margin: 30px 30px 0px 30px;
+}
+
+.about_us .white-box .content p {
+	font-family: Gill Sans;
+	font-size: 17px;
+	color: #363636;
+	margin-bottom: 25px;
+}
+
+.about_us .white-box .content span {
+	font-family: Gill Sans;
+	font-size: 17px;
+	color: #363636;
+}
+
+.about_us .white-box .content li {
+	color: #d02552;
+}
+
+.about_us .white-box .content p:last-child {
+	margin-bottom: 40px;
+}
+
+
