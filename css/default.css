@@ -1669,4 +1669,53 @@ body {
 
 .privacy_policies .white-box .content p:last-child {
 	margin-bottom: 40px;
+}
 
+/* Survey page */
+
+.survey-page .white-box .steps {
+	margin: 30px 30px 0px 30px;
+}
+
+.survey-page .white-box .steps .form {
+	margin-top: 30px;
+}
+
+.survey-page .white-box .steps span {
+	font-size: 19px;
+	color: #99cc00;
+}
+
+.survey-page .white-box .steps p {
+	font-size: 19px;
+	color: #363636;
+}	
+
+.survey-page .white-box .steps input {
+	width: 256px;
+	font-size: 19px;
+	font-weight: 200;
+	font-family: Gill Sans;
+	color: #111;
+	border: 1px solid #e1e1e1;
+	-moz-box-shadow: -2px -2px #e1e1e1;
+	-webkit-box-shadow: -2px -2px #e1e1e1;
+	box-shadow: -2px -2px #e1e1e1;
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+
+.survey-page .white-box .steps small {
+	font-family: Gill Sans;
+	font-size: 14px;
+	color: #acacac;
+	font-weight: 300;
+}
+
+.steps .own-home {
+	margin-top: 20px;
+	text-align: left;
+}
+
+.steps .own-home label {
+}
