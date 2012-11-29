@@ -13,7 +13,7 @@
 
 <body class="survey-page">
   <div class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
+    <div class="navbar-inner main-nav">
       <div class="container">
         <a class="brand" href="#"><img src="img/logo.png" alt="logo" /></a>
         
@@ -38,29 +38,57 @@
       <div class="span8 offset2 white-box">
         <h1>Tell us what you need</h1>
         
-        <div class="steps">
-        	<div class="form">
-						<p><span>STEP 1 :</span> Enter your Emial address</p>
-						<input type="text" class="input-small" />
-						<p><small>* We will keep your email safe with us</small></p>
-					</div>
-					<div class="form">
-						<p><span>STEP 2 :</span> Enter your Zip</p>
-						<input type="text" class="input-small" />
-					</div>
-					<div class="form">
-						<p><span>STEP 3 :</span> Tell us about your home improvement & maintenance 
-needs. Let Agavey help you find a qualified service provider at a 
-reasonable price for you and your neighbors </p>
-					</div>
-					<div class="own-home">
-            <p>1. Do you own a home now or will own one soon?</p><label class=
-            "radio inline"><input type="radio" name="home" value="option1" checked=
-            "checked" /> Yes</label> <label class="radio inline"><input type="radio"
-            name="home" value="option2" /> No</label>
-          </div>
-        </div>	
-          	<button class="btn pull-right">Send Invitation</button>
+        <form class="form-inline">
+		      <div class="steps">
+		      	<div class="form">
+							<p><span>STEP 1 :</span> Enter your Emial address</p>
+							<input type="text" class="input-small" />
+							<p><small>* We will keep your email safe with us</small></p>
+						</div>
+						<div class="form">
+							<p><span>STEP 2 :</span> Enter your Zip</p>
+							<input type="text" class="input-small" />
+						</div>
+						<div class="form">
+							<p><span>STEP 3 :</span> Tell us about your home improvement & maintenance 
+		needs. Let Agavey help you find a qualified service provider at a 
+		reasonable price for you and your neighbors </p>
+						</div>
+						<div class="own-home">
+		          <p>1. Do you own a home now or will own one soon?</p><label class=
+		          "radio inline"><input type="radio" name="home" value="option1" checked=
+		          "checked" /> Yes</label> <label class="radio inline"><input type="radio"
+		          name="home" value="option2" /> No</label>
+		        </div>
+		        
+		        <div class="services-spend">
+		        	<p>2. Which of the following services do you plan to spend on in the next 6 months?</p>
+		        	<label class="checkbox inline column1">
+								<input type="checkbox" id="inlineCheckbox1" value="option1"> Air Conditioning
+							</label>
+							<label class="checkbox inline column2">
+								<input type="checkbox" id="inlineCheckbox2" value="option2"> Appliances
+							</label>
+							<label class="checkbox inline column3">
+								<input type="checkbox" id="inlineCheckbox3" value="option3"> Appraiser
+							</label>
+							<label class="checkbox inline column1">
+								<input type="checkbox" id="inlineCheckbox4" value="option1"> Carpet & Upholstery Cleaning
+							</label>
+							<label class="checkbox inline column2">
+								<input type="checkbox" id="inlineCheckbox5" value="option2"> Outdoor Playgrounds
+							</label>
+							<label class="checkbox inline column3">
+								<input type="checkbox" id="inlineCheckbox6" value="option3"> Home Security Services
+							</label>
+							<p class="others">Others (Please Specify):</p>
+							<input type="text"/>
+							<p>3. Pls. provide detailed requirements for the services selected above. That way we will be able to bring the most relevant deals to you:</p>
+							<textarea rows="3"></textarea>
+						</div>
+		      </div>	
+		      <button class="btn pull-right">Submit</button>
+        </form>
       </div>
     </div>
   </div><!-- /container -->

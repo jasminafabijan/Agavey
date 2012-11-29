@@ -11,6 +11,10 @@ body {
 	font-size: 16px;
 }
 
+.navbar .main-nav {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff363636', endColorstr='#ff363636', GradientType=0)
+}
+
 .navbar .nav > li > a {
 	text-shadow: none;
 	color: #fff;	
@@ -1446,7 +1450,6 @@ body {
 .payment-page .white-box .code a {
 	margin-top: -12px;
 	margin-left: 9px;
-
 }
 
 .payment-page .white-box a.btn:hover {
@@ -1678,6 +1681,7 @@ body {
 
 .survey-page .white-box .steps .form {
 	margin-top: 30px;
+	margin-left: -10px;
 }
 
 .survey-page .white-box .steps span {
@@ -1687,14 +1691,14 @@ body {
 
 .survey-page .white-box .steps p {
 	font-size: 19px;
-	color: #363636;
+	color: #111;
 }	
 
-.survey-page .white-box .steps input {
+.survey-page .white-box .steps input[type="text"] {
 	width: 256px;
 	font-size: 19px;
 	font-weight: 200;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	color: #111;
 	border: 1px solid #e1e1e1;
 	-moz-box-shadow: -2px -2px #e1e1e1;
@@ -1702,19 +1706,82 @@ body {
 	box-shadow: -2px -2px #e1e1e1;
 	margin-top: 10px;
 	margin-bottom: 2px;
+	margin-left: 0px;
 }
 
 .survey-page .white-box .steps small {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 14px;
 	color: #acacac;
 	font-weight: 300;
 }
 
-.steps .own-home {
+.survey-page .white-box .steps .own-home {
 	margin-top: 20px;
+	margin-left: -10px;
 	text-align: left;
 }
 
-.steps .own-home label {
+.survey-page .white-box .steps .own-home p {
+	font-size: 17px;
+}
+
+.survey-page .steps .own-home label {
+	margin-left: 120px;
+	font-size: 17px;
+	margin-top: -10px;
+}
+
+.survey-page .white-box .steps .services-spend {
+	margin-top: 20px;
+	margin-left: -10px;
+}
+
+.survey-page .white-box .steps .services-spend p {
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-size: 17px;
+	color: #111;
+	font-weight: 300;
+}
+
+.survey-page .white-box .steps .services-spend .column1 {
+	width: 212px;
+}
+
+.survey-page .white-box .steps .services-spend .column2 {
+	width: 162px;
+}
+
+.survey-page .white-box .steps .services-spend .column3 {
+}
+
+.survey-page .white-box .steps .services-spend .checkbox {
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	color: #111;
+	margin-left: 0px;
+}
+
+.survey-page .white-box .steps .services-spend .others {
+	margin-top: 20px;
+	font-size: 15px;
+}
+
+.survey-page .white-box .services-spend input[type="text"] {
+	width: 550px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+.survey-page .white-box .services-spend textarea {
+	width: 550px;
+}
+
+.white-box form button {
+	margin-right: 30px;
+}
+
+.survey-page .white-box {
+	margin-bottom: 76px;
 }
