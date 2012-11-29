@@ -984,7 +984,7 @@ body {
 }
 
 .main-image .video span {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 33px;
 	color: #fff;
 	display: block;
@@ -994,7 +994,7 @@ body {
 }
 
 .main-image .video a {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 17px;
 	font-weight: 300;
 	color: #fff;
@@ -1186,7 +1186,7 @@ body {
 }
 
 .homepage .testimonials cite {
-	font-family: Gill Sans;
+	font-family:  "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 14px;
 	font-style: italic;
 	color: #363636;
@@ -1198,7 +1198,7 @@ body {
 }
 
 .homepage .testimonials p {
-	font-family: Gill Sans;
+	font-family:  "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 14px;
 	color: #363636;
 	font-weight: normal;
