@@ -1191,6 +1191,10 @@ body {
 	font-style: italic;
 	color: #363636;
 	float: right;
+	background-color: yellow;
+	background: url(../img/quote-down.png) no-repeat right top;
+	padding-right: 25px;
+	margin-top: 5px;
 }
 
 .homepage .testimonials p {
@@ -1204,11 +1208,6 @@ body {
 .homepage .testimonials img.quote-up {
 	margin-left: -30px;
 	margin-bottom: -10px;
-}
-
-.homepage .testimonials img.quote-down {
-	margin-left: 4px;
-	margin-bottom: 2px;
 }
 
 .homepage .testimonials a {
