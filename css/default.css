@@ -108,7 +108,7 @@ body {
 	height: 25px;
 	margin-left: 15px;
 	margin-top: 10px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 19px;
 	font-weight: 100;
 	color: #363636;
@@ -119,7 +119,7 @@ body {
 }
 
 .modal-body a {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 14px;
 	color: #7d7d7d;
 	text-decoration: underline;
@@ -164,7 +164,7 @@ body {
 }
 
 .modal-footer p {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 15px;
 	color: #acacac;
 	float: left;
@@ -173,7 +173,7 @@ body {
 }
 
 .modal-footer a {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 15px;
 	color: #636363;
 	text-decoration: underline;
@@ -470,7 +470,7 @@ body {
 }
 
 .information .detail {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 19px;
 	color: #464646;	
 	margin-top: -15px;
@@ -487,7 +487,7 @@ body {
 
 .information li {
 	font-size: 19px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-weight: 300;
 }
 
@@ -551,14 +551,14 @@ body {
 
 .provider-box h3 {
 	font-size: 25px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	color: #363636;
 	margin-left: 15px;
 }
 
 .provider-box p {
 	font-size: 15px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	color: #555;
 	margin-left: 15px;
 	margin-right: 10px;
@@ -566,20 +566,20 @@ body {
 
 .provider-box li {
 	font-size: 15px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	color: #555;
 	margin-left: 15px;
 }
 
 .provider-box strong {
 	font-size: 17px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	color: #363636;
 }
 
 .provider-box address {
 	font-size: 15px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	color: #555;
 	margin-left: 15px;
 	margin-top: 20px;
@@ -587,7 +587,7 @@ body {
 
 .provider-box a {
 	font-size: 17px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	color: #363636;
 	background-color: #d7d7d7;
 	-webkit-border-radius: 12px;
@@ -618,7 +618,7 @@ body {
 
 .review-box h3 {
 	font-size: 25px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	color: #363636;
 	margin-left: 15px;
 }
@@ -629,7 +629,7 @@ body {
 }
 
 .review-box blockquote.clearfix p {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 17px;
 	color: #555;
 	font-weight: normal;
@@ -637,7 +637,7 @@ body {
 } 
 
 .review-box blockquote.clearfix cite {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 17px;
 	font-style: italic;
 	color: #555;
@@ -652,7 +652,7 @@ body {
 }
 
 .review-box blockquote.white p {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 17px;
 	color: #555;
 	font-weight: normal;
@@ -660,7 +660,7 @@ body {
 } 
 
 .review-box blockquote.white cite {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 17px;
 	font-style: italic;
 	color: #555;
@@ -673,7 +673,7 @@ body {
 }
 
 .rated a {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 19px;
 	color: #959595;
 	display: block;
@@ -694,14 +694,14 @@ body {
 
 .service-box h3 {
 	font-size: 25px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	color: #363636;
 	margin-left: 15px;
 }
 
 .service-box h3.faq {
 	font-size: 25px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	color: #363636;
 	margin-left: 15px;
 	margin-top: 30px;
@@ -709,7 +709,7 @@ body {
 
 .service-box p {
 	font-size: 15px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	color: #555;
 	margin-left: 15px;
 	margin-right: 10px;
@@ -717,14 +717,14 @@ body {
 
 .service-box li {
 	font-size: 15px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	color: #555;
 	margin-left: 15px;
 }
 
 .service-box h4 {
 	font-size: 17px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	color: #363636;
 	margin-left: 15px;
 	margin-top: 15px;
@@ -732,7 +732,7 @@ body {
 
 .service-box strong {
 	font-size: 15px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	color: #363636;
 	margin-left: 15px;
 }
@@ -773,14 +773,14 @@ body {
 .create {
 	padding: 0px 0px 0px 10px;
 	font-size: 28px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-weight: 200;
 }
 
 .create-or-facebook .or {
 	padding: 33px 0px 25px 35px;
 	font-size: 28px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-weight: 100;
 	color: #acacac;
 }
@@ -802,7 +802,7 @@ body {
 	width: 256px;
 	height: 25px;
 	margin-left: 21px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 19px;
 	font-weight: 100;
 	color: #363636;
@@ -822,7 +822,7 @@ body {
 	margin-left: 4px;
 	width: 295px;
 	font-size: 19px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-weight: 300;
 	color: #111;
 }
@@ -831,7 +831,7 @@ body {
 	margin-top: -8px;
 	margin-left: 20px;
 	font-size: 19px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-weight: 300;
 	color: #111;
 }
@@ -843,14 +843,14 @@ body {
 .own-home {
 	margin-top: 30px;
 	font-size: 19px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-weight: 300;
 	text-align: center;
 }
 
 .own-home label {
 	font-size: 19px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-weight: 300;
 }
 
@@ -892,7 +892,7 @@ body {
 
 .white-box form select, option {
 	font-size: 19px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-weight: 100;
 	color: #363636;
 }
@@ -1195,7 +1195,6 @@ body {
 	font-style: italic;
 	color: #363636;
 	float: right;
-	background-color: yellow;
 	background: url(../img/quote-down.png) no-repeat right top;
 	padding-right: 25px;
 	margin-top: 5px;
@@ -1242,7 +1241,7 @@ body {
 }
 
 .invite-page .white-box .call span {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 19px;
 	color: #111;
 	font-weight: 300;
@@ -1253,7 +1252,7 @@ body {
 }
 
 .invite-page .white-box .instructions p.special {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 22px;
 	color: #d02552;
 	font-weight: normal;
@@ -1261,7 +1260,7 @@ body {
 }
 
 .invite-page .white-box .instructions p {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 19px;
 	color: #111;
 	font-weight: 300;
@@ -1272,7 +1271,7 @@ body {
 	height: 20px;
 	margin-left: 20px;
 	margin-top: -5px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 19px;
 	font-weight: 100;
 	color: #363636;
@@ -1302,7 +1301,7 @@ body {
 
 .invite-page .white-box .fb-invite p.or {
 	font-size: 28px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-weight: 100;
 	color: #acacac;
 	display: inline;
@@ -1314,7 +1313,7 @@ body {
 	height: 20px;
 	margin-left: 20px;
 	margin-top: 10px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 19px;
 	font-weight: 100;
 	color: #363636;
@@ -1340,13 +1339,13 @@ body {
 }
 
 .how_it_works .white-box .steps span {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 19px;
 	color: #d02552;
 }
 
 .how_it_works .white-box .steps p {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 19px;
 	color: #363636;
 	margin-bottom: 25px;
@@ -1389,7 +1388,7 @@ body {
 }
 
 .payment-page .white-box table td {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 17px;
 	color: #111;
 	font-weight: 200;
@@ -1404,7 +1403,7 @@ body {
 	width: 256px;
 	font-size: 19px;
 	font-weight: 200;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	color: #111;
 	border: 1px solid #e1e1e1;
 	-moz-box-shadow: -2px -2px #e1e1e1;
@@ -1471,14 +1470,14 @@ body {
 }
 
 .payment-page .white-box .total span {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 19px;
 	color: #363636;
 	padding-left: 285px;
 }
 
 .payment-page .white-box .total .summ {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 22px;
 	color: #363636;
 }
@@ -1505,7 +1504,7 @@ body {
 }
 
 .payment-page .white-box .credit-card span {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 19px;
 	font-weight: 300;
 	color: #111;
@@ -1551,7 +1550,7 @@ body {
 }
 
 .payment-page .white-box .controls span {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 19px;
 	font-weight: 300;
 	color: #111;
@@ -1569,7 +1568,7 @@ body {
 .payment-page .white-box .controls .checkbox {
 	margin-left: 20px;
 	margin-top: 30px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 19px;
 	font-weight: 300;
 	color: #111;
@@ -1578,7 +1577,7 @@ body {
 .payment-page .white-box .controls p {
 	margin-left: 20px;
 	margin-top: 30px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 15px;
 	font-weight: 300;
 	color: #111;
@@ -1602,14 +1601,14 @@ body {
 
 .payment-page .white-box .faq h5 {
 	margin: 17px 30px 0px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 17px;
 	color: #555;
 }
 
 .payment-page .white-box .faq p {
 	margin: 10px 30px 0px;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 17px;
 	color: #555;
 }
@@ -1625,7 +1624,7 @@ body {
 }
 
 .about_us .white-box .content p {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 17px;
 	color: #363636;
 	margin-bottom: 25px;
@@ -1636,7 +1635,7 @@ body {
 }
 
 .about_us .white-box .content span {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 17px;
 	color: #363636;
 }
@@ -1657,7 +1656,7 @@ body {
 }
 
 .privacy_policies .white-box .content p {
-	font-family: Gill Sans;
+	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
 	font-size: 17px;
 	color: #363636;
 	margin-bottom: 15px;
