@@ -1803,3 +1803,27 @@ body {
 	color: #d02552;
 	font-size: 20px;
 }
+
+/* Custom Service Payment */
+
+.custom_service .custom {
+	margin-top: 50px;
+}
+
+.custom_service .custom input.desc {
+	width: 550px;
+}
+
+.custom_service .custom input.input-small {
+	width: 110px;
+	margin-top: 30px;
+}
+
+.custom_service .custom select {
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.custom_service .btn {
+	margin-top: 50px;
+}

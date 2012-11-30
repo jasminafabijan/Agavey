@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Agavey - My_Account</title>
+  <title>Agavey - custom_service_payment</title>
   <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -11,7 +11,7 @@
   <link href="css/default.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body class="my_account">
+<body class="custom_service">
   <div class="navbar navbar-fixed-top">
     <div class="navbar-inner main-nav">
       <div class="container">
@@ -36,14 +36,24 @@
   <div class="container">
     <div class="row">
       <div class="span8 offset2 white-box">
-        <h1>My Account</h1>
+        <h1>Create Custom Service Payment</h1>
         
-        <div class="links">
-					<p><a href="custom"> Create Custom Service Payment &rarr;</a></p>
-					<p><a href="custom"> Change Password &rarr;</a></p>
-					<p><a href="custom"> Invite Your Friends &rarr;</a></p>
-				</div>
-      </div>
+        <form class="form-inline">
+        	<div class="custom">
+        		<input type="text" class="desc" placeholder="Service Description" />
+        		<input type="text" class="input-small" placeholder="Unit Price" />
+            <input type="text" class="input-small" placeholder="No. of Unit" />
+						<select>
+              <option>--Service Provider--</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+	        </div>
+	        <button class="btn">Buy Now</button>
+        </form>
+        
+       </div>
   	</div>
   
     <footer class="navbar footer">
