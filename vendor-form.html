@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Agavey - BizInformation</title>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Le styles -->
+    <script src="./js/jquery.js" type="text/javascript"></script>
+    <script src="./js/bootstrap-modal.js" type="text/javascript"></script>
+    
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+    
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    
+  </head>
+  <body class="bizinformation1">
+  
+    <!-- Facebook like code -->
+  	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  	<!-- Facebook like code -->
+  	
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner main-nav">
+        <div class="container">
+          <a class="brand" href="#"><img src="img/logo.png" alt="logo" /></a>
+          <form class="navbar-form span2">
+            <input type="text" placeholder="Location" />
+          </form>
+          <ul class="nav pull-right">
+            <li><a class="home" href="#">Home</a></li>
+            <li><a href="#about">How it works</a></li>
+            <li><a href="#myModal" role="button" data-toggle="modal">Login</a></li>
+            <li><a href="#contact" class="btn btn-success join">Join Now</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container main-content">
+    	<div class="span12 white-box">
+<form method="post" action="BizInformation.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="ctl00" style="margin: 30px;">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTMzMzQ0NzYwNGRkApQemaus/he1BsdFlEDKZ4VRaVo=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['ctl00'];
+if (!theForm) {
+    theForm = document.ctl00;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/jonathon/WebResource.axd?d=xaosNEVXej6jg4jk9ufvR3MKJx6NepwKBQFqyHNiEbPikvA0Lq4XVLKyDcTHjh-S1V7kM4IiRMenz0EPXvtx0A1PAZQ1&amp;t=634633061044048085" type="text/javascript"></script>
+
+
+<script src="/jonathon/WebResource.axd?d=TDKLisNsxkaFV-8xfTg-sHyNhLArBVUMnAAC_WOxNAS6Y_mmy-SUGyBVu2X-ans1xz31lgy_Boxkej3naStWK0W63oM3kh0ePE50LrfqZj-vWRkT0&amp;t=634633061044048085" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0">
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0">
+</div>
+            
+    <img alt="" class="progressbar" src="img/progress1.png">
+    <h1>Business Information</h1>
+    <table>
+        <tbody><tr>
+            <td><span id="MainContent_Label1">Business Name*: </span></td><td><input name="ctl00$MainContent$BizName" type="text" id="MainContent_BizName"></td> 
+        </tr>
+        <tr>
+            <td><span id="MainContent_Label2">Business Description*: </span></td><td><input name="ctl00$MainContent$BizDescr" type="text" id="MainContent_BizDescr"></td>
+        </tr>
+        <tr>
+            <td><span id="MainContent_Label3">Locations Served*: </span></td><td><input name="ctl00$MainContent$LocsServed" type="text" id="MainContent_LocsServed"></td>
+        </tr>
+        <tr>
+            <td><span id="MainContent_Label4">Type of Business*: </span></td><td>
+            <input name="ctl00$MainContent$BizType" type="text" maxlength="15" id="MainContent_BizType"></td>
+        </tr>
+        <tr>
+            <td><span id="MainContent_Label20">Password*: </span></td><td>
+            <input name="ctl00$MainContent$Password1" type="password" id="MainContent_Password1"></td>
+        </tr>
+        <tr>
+            <td><span id="MainContent_Label21">Password Confirmation*: </span></td><td>
+            <input name="ctl00$MainContent$Password2" type="password" id="MainContent_Password2"></td>
+        </tr>
+        <tr>
+            <td><span id="MainContent_Label5">Website URL: </span></td><td><input name="ctl00$MainContent$URL" type="text" id="MainContent_URL"><br>
+            <span id="MainContent_RegularExpressionValidator5" style="color:Red;display:none;">Invalid URL Format (must be www.xyz.com format or http://www.xyz.com)</span></td>
+        </tr>
+        <tr>
+            <td><span id="MainContent_Label6">No. of years in business*: </span></td><td><input name="ctl00$MainContent$BizYears" type="text" id="MainContent_BizYears"><br><span id="MainContent_CompareValidator1" style="color:Red;display:none;">Value must be a whole number</span></td>
+        </tr>
+        <tr>
+            <td><span id="MainContent_Label7">No. of employees: </span></td><td><input name="ctl00$MainContent$NoEmps" type="text" id="MainContent_NoEmps"><br><span id="MainContent_CompareValidator2" style="color:Red;display:none;">Value must be a whole number</span></td>
+        </tr>
+        <tr>
+        <td><span id="MainContent_Label8">Address*: </span></td><td><input name="ctl00$MainContent$BizAddress" type="text" id="MainContent_BizAddress"></td>
+    </tr>
+    <tr>
+        <td><span id="MainContent_Label9">City*: </span></td><td><input name="ctl00$MainContent$BizCity" type="text" id="MainContent_BizCity"></td>
+    </tr>
+    <tr>
+        <td><span id="MainContent_Label10">State*: </span></td>
+            <td><select name="ctl00$MainContent$BizState" id="MainContent_BizState">
+	<option value="AL">Alabama</option>
+	<option value="AK">Alaska</option>
+	<option value="AZ">Arizona</option>
+	<option value="AR">Arkansas</option>
+	<option value="CA">California</option>
+	<option value="CO">Colorado</option>
+	<option value="CT">Connecticut</option>
+	<option value="DC">District of Columbia</option>
+	<option value="DE">Delaware</option>
+	<option value="FL">Florida</option>
+	<option value="GA">Georgia</option>
+	<option value="HI">Hawaii</option>
+	<option value="ID">Idaho</option>
+	<option value="IL">Illinois</option>
+	<option value="IN">Indiana</option>
+	<option value="IA">Iowa</option>
+	<option value="KS">Kansas</option>
+	<option value="KY">Kentucky</option>
+	<option value="LA">Louisiana</option>
+	<option value="ME">Maine</option>
+	<option value="MD">Maryland</option>
+	<option value="MA">Massachusetts</option>
+	<option value="MI">Michigan</option>
+	<option value="MN">Minnesota</option>
+	<option value="MS">Mississippi</option>
+	<option value="MO">Missouri</option>
+	<option value="MT">Montana</option>
+	<option value="NE">Neaska</option>
+	<option value="NV">Nevada</option>
+	<option value="NH">New Hampshire</option>
+	<option value="NJ">New Jersey</option>
+	<option value="NM">New Mexico</option>
+	<option value="NY">New York</option>
+	<option value="NC">North Carolina</option>
+	<option value="ND">North Dakota</option>
+	<option value="OH">Ohio</option>
+	<option value="OK">Oklahoma</option>
+	<option value="OR">Oregon</option>
+	<option value="PA">Pennsylvania</option>
+	<option value="RI">Rhode Island</option>
+	<option value="SC">South Carolina</option>
+	<option value="SD">South Dakota</option>
+	<option value="TN">Tennessee</option>
+	<option value="TX">Texas</option>
+	<option value="UT">Utah</option>
+	<option value="VT">Vermont</option>
+	<option value="VA">Virginia</option>
+	<option value="WA">Washington</option>
+	<option value="WV">West Virginia</option>
+	<option value="WI">Wisconsin</option>
+	<option value="WY">Wyoming</option>
+
+</select></td>
+        </tr>
+        <tr>
+            <td><span id="MainContent_Label11">Zip*: </span></td><td><input name="ctl00$MainContent$BizZip" type="text" id="MainContent_BizZip"><br><span id="MainContent_RegularExpressionValidator1" style="color:Red;display:none;">Input valid U.S. Zip Code!</span>  </td>
+        </tr>
+        <tr>
+            <td><span id="MainContent_Label12">Primary Business Phone: </span></td><td><input name="ctl00$MainContent$BizPhoneNum" type="text" id="MainContent_BizPhoneNum"><br><span id="MainContent_RegularExpressionValidator2" style="color:Red;display:none;">Invalid Phone Format</span></td>
+        </tr>
+        <tr>
+            <td><span id="MainContent_Label13">Extension: </span></td><td><input name="ctl00$MainContent$BizExt" type="text" id="MainContent_BizExt"></td>
+        </tr>
+        <tr>
+            <td><span id="MainContent_Label14">Cell Phone Number*: </span></td><td><input name="ctl00$MainContent$BizCellNum" type="text" id="MainContent_BizCellNum"><br><span id="MainContent_RegularExpressionValidator3" style="color:Red;display:none;">Invalid Phone Format</span></td>
+        </tr>
+        <tr>
+            <td><span id="MainContent_Label15">Business Fax*: </span></td><td><input name="ctl00$MainContent$BizFax" type="text" id="MainContent_BizFax"><br><span id="MainContent_RegularExpressionValidator4" style="color:Red;display:none;">Invalid Phone Format</span></td>
+        </tr>
+        <tr>
+            <td><span id="MainContent_Label16">Business Email*: </span></td><td><input name="ctl00$MainContent$BizEmail" type="text" id="MainContent_BizEmail"><br><span id="MainContent_validateEmail" style="color:Red;display:none;">Invalid email.</span></td>
+        </tr>
+        <tr>
+            <td><span id="MainContent_Label17">Business Owner Name*: </span></td><td><input name="ctl00$MainContent$BizOwnerName" type="text" id="MainContent_BizOwnerName"></td>
+        </tr>
+        <tr>
+            <td><span id="MainContent_Label18">Within how many hours will you return a call from an Agavey Customer (default 48)*: </span></td><td><input name="ctl00$MainContent$HoursToContact" type="text" id="MainContent_HoursToContact"><br><span id="MainContent_CompareValidator3" style="color:Red;display:none;">Value must be a whole number</span></td>
+        </tr>
+    </tbody></table>
+    <p align="right">
+        <input type="submit" name="ctl00$MainContent$Button1" value="Continue" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$Button1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_Button1" class="btn btn-success join" style="color:White;background-color:#8DBC00;">
+        
+    </p>
+
+        
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("MainContent_RegularExpressionValidator5"), document.getElementById("MainContent_CompareValidator1"), document.getElementById("MainContent_CompareValidator2"), document.getElementById("MainContent_RegularExpressionValidator1"), document.getElementById("MainContent_RegularExpressionValidator2"), document.getElementById("MainContent_RegularExpressionValidator3"), document.getElementById("MainContent_RegularExpressionValidator4"), document.getElementById("MainContent_validateEmail"), document.getElementById("MainContent_CompareValidator3"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var MainContent_RegularExpressionValidator5 = document.all ? document.all["MainContent_RegularExpressionValidator5"] : document.getElementById("MainContent_RegularExpressionValidator5");
+MainContent_RegularExpressionValidator5.controltovalidate = "MainContent_URL";
+MainContent_RegularExpressionValidator5.errormessage = "Invalid URL Format (must be www.xyz.com format or http://www.xyz.com)";
+MainContent_RegularExpressionValidator5.display = "Dynamic";
+MainContent_RegularExpressionValidator5.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+MainContent_RegularExpressionValidator5.validationexpression = "(http://|https://)?([\\w-]+\\.)+[\\w-]+(/[\\w- ./?%&=]*)?";
+var MainContent_CompareValidator1 = document.all ? document.all["MainContent_CompareValidator1"] : document.getElementById("MainContent_CompareValidator1");
+MainContent_CompareValidator1.controltovalidate = "MainContent_BizYears";
+MainContent_CompareValidator1.errormessage = "Value must be a whole number";
+MainContent_CompareValidator1.display = "Dynamic";
+MainContent_CompareValidator1.type = "Integer";
+MainContent_CompareValidator1.evaluationfunction = "CompareValidatorEvaluateIsValid";
+MainContent_CompareValidator1.operator = "DataTypeCheck";
+var MainContent_CompareValidator2 = document.all ? document.all["MainContent_CompareValidator2"] : document.getElementById("MainContent_CompareValidator2");
+MainContent_CompareValidator2.controltovalidate = "MainContent_NoEmps";
+MainContent_CompareValidator2.errormessage = "Value must be a whole number";
+MainContent_CompareValidator2.display = "Dynamic";
+MainContent_CompareValidator2.type = "Integer";
+MainContent_CompareValidator2.evaluationfunction = "CompareValidatorEvaluateIsValid";
+MainContent_CompareValidator2.operator = "DataTypeCheck";
+var MainContent_RegularExpressionValidator1 = document.all ? document.all["MainContent_RegularExpressionValidator1"] : document.getElementById("MainContent_RegularExpressionValidator1");
+MainContent_RegularExpressionValidator1.controltovalidate = "MainContent_BizZip";
+MainContent_RegularExpressionValidator1.errormessage = "Input valid U.S. Zip Code!";
+MainContent_RegularExpressionValidator1.display = "Dynamic";
+MainContent_RegularExpressionValidator1.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+MainContent_RegularExpressionValidator1.validationexpression = "\\d{5}(-\\d{4})?";
+var MainContent_RegularExpressionValidator2 = document.all ? document.all["MainContent_RegularExpressionValidator2"] : document.getElementById("MainContent_RegularExpressionValidator2");
+MainContent_RegularExpressionValidator2.controltovalidate = "MainContent_BizPhoneNum";
+MainContent_RegularExpressionValidator2.errormessage = "Invalid Phone Format";
+MainContent_RegularExpressionValidator2.display = "Dynamic";
+MainContent_RegularExpressionValidator2.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+MainContent_RegularExpressionValidator2.validationexpression = "^\\(?(\\d{3})\\)?[/ - .]?(\\d{3})[- .]?(\\d{4})$";
+var MainContent_RegularExpressionValidator3 = document.all ? document.all["MainContent_RegularExpressionValidator3"] : document.getElementById("MainContent_RegularExpressionValidator3");
+MainContent_RegularExpressionValidator3.controltovalidate = "MainContent_BizCellNum";
+MainContent_RegularExpressionValidator3.errormessage = "Invalid Phone Format";
+MainContent_RegularExpressionValidator3.display = "Dynamic";
+MainContent_RegularExpressionValidator3.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+MainContent_RegularExpressionValidator3.validationexpression = "^\\(?(\\d{3})\\)?[/ - .]?(\\d{3})[- .]?(\\d{4})$";
+var MainContent_RegularExpressionValidator4 = document.all ? document.all["MainContent_RegularExpressionValidator4"] : document.getElementById("MainContent_RegularExpressionValidator4");
+MainContent_RegularExpressionValidator4.controltovalidate = "MainContent_BizFax";
+MainContent_RegularExpressionValidator4.errormessage = "Invalid Phone Format";
+MainContent_RegularExpressionValidator4.display = "Dynamic";
+MainContent_RegularExpressionValidator4.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+MainContent_RegularExpressionValidator4.validationexpression = "^\\(?(\\d{3})\\)?[/ - .]?(\\d{3})[- .]?(\\d{4})$";
+var MainContent_validateEmail = document.all ? document.all["MainContent_validateEmail"] : document.getElementById("MainContent_validateEmail");
+MainContent_validateEmail.controltovalidate = "MainContent_BizEmail";
+MainContent_validateEmail.errormessage = "Invalid email.";
+MainContent_validateEmail.display = "Dynamic";
+MainContent_validateEmail.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+MainContent_validateEmail.validationexpression = "^([\\w\\.\\-]+)@([\\w\\-]+)((\\.(\\w){2,3})+)$";
+var MainContent_CompareValidator3 = document.all ? document.all["MainContent_CompareValidator3"] : document.getElementById("MainContent_CompareValidator3");
+MainContent_CompareValidator3.controltovalidate = "MainContent_HoursToContact";
+MainContent_CompareValidator3.errormessage = "Value must be a whole number";
+MainContent_CompareValidator3.display = "Dynamic";
+MainContent_CompareValidator3.type = "Integer";
+MainContent_CompareValidator3.evaluationfunction = "CompareValidatorEvaluateIsValid";
+MainContent_CompareValidator3.operator = "DataTypeCheck";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+</form>
+			</div> <!-- /white-box -->
+    </div> <!-- /container -->
+    
+    <!-- modal popup -->
+		<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-header">
+		    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		    <h3 id="myModalLabel">Welcome Back!</h3>
+		  </div>
+		  <div class="modal-body">
+		    <input type="text" class="input-small" placeholder="Email" />
+		    <input type="password" class="input-small" placeholder="Password" />
+		    <p><a href="#">Forgot Password?</a></p>
+		  </div>
+		  <div class="modal-footer">
+		    <button class="btn">Login</button>
+		    <a href="#"><img src="img/fb-login-button.png" alt="facebook" /></a>
+		    <p>Not a member yet?<a href="#">Sign Up Now!</a></p>
+		  </div>
+		</div>
+		<!-- modal popup -->
+    
+    
+    <!-- pinterest button -->
+    <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+    <!-- pinterest button -->
+  </body>
+</html>

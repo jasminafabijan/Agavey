@@ -108,7 +108,7 @@ body {
 	height: 25px;
 	margin-left: 15px;
 	margin-top: 10px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Average Sans', sans-serif;
 	font-size: 19px;
 	font-weight: 100;
 	color: #363636;
@@ -118,8 +118,12 @@ body {
 	box-shadow: -2px -2px #e1e1e1;
 }
 
+.modal-body input:-moz-placeholder {
+	color: #acacac;
+}
+
 .modal-body a {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
 	color: #7d7d7d;
 	text-decoration: underline;
@@ -164,7 +168,7 @@ body {
 }
 
 .modal-footer p {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;	
 	font-size: 15px;
 	color: #acacac;
 	float: left;
@@ -173,7 +177,7 @@ body {
 }
 
 .modal-footer a {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
 	color: #636363;
 	text-decoration: underline;
@@ -221,8 +225,7 @@ body {
 	background-image: -webkit-linear-gradient(top, #e6e6e6, #d3d3d3);
   background-image: -o-linear-gradient(top, #e6e6e6, #d3d3d3);
   background-image: linear-gradient(to bottom, #e6e6e6, #d3d3d3);
-  font-family: Verdana;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .categories .nav > li > a {
@@ -231,7 +234,7 @@ body {
 }
 
 .categories .nav > li {
-	padding: 10px 8px 10px 0px;
+	padding: 10px 10px 12px 0px;
 }
 
 .categories .nav > li:last-child {
@@ -241,9 +244,10 @@ body {
 .categories .nav > li.space {
 	padding-top: 8px;
 	margin-right: 0px;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 100;
 	color: #ebebeb;
+	font-weight: bold;
 }
 
 .search {
@@ -470,9 +474,9 @@ body {
 }
 
 .information .detail {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
-	color: #464646;	
+	color: #363636;	
 	margin-top: -15px;
 }
 
@@ -487,8 +491,8 @@ body {
 
 .information li {
 	font-size: 19px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
-	font-weight: 300;
+	font-family: 'Source Sans Pro', sans-serif;	
+	font-weight: 400;
 }
 
 .information .bonded {
@@ -550,15 +554,16 @@ body {
 }
 
 .provider-box h3 {
-	font-size: 25px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-size: 26px;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #363636;
 	margin-left: 15px;
+	font-weight: 900;
 }
 
 .provider-box p {
 	font-size: 15px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #555;
 	margin-left: 15px;
 	margin-right: 10px;
@@ -566,20 +571,20 @@ body {
 
 .provider-box li {
 	font-size: 15px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #555;
 	margin-left: 15px;
 }
 
 .provider-box strong {
 	font-size: 17px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #363636;
 }
 
 .provider-box address {
 	font-size: 15px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #555;
 	margin-left: 15px;
 	margin-top: 20px;
@@ -587,7 +592,7 @@ body {
 
 .provider-box a {
 	font-size: 17px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #363636;
 	background-color: #d7d7d7;
 	-webkit-border-radius: 12px;
@@ -617,10 +622,11 @@ body {
 }
 
 .review-box h3 {
-	font-size: 25px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-size: 26px;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #363636;
 	margin-left: 15px;
+	font-weight: 900;
 }
 
 .review-box blockquote.clearfix {
@@ -629,16 +635,16 @@ body {
 }
 
 .review-box blockquote.clearfix p {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
-	font-size: 17px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
 	color: #555;
 	font-weight: normal;
 	padding-top: 5px;
 } 
 
 .review-box blockquote.clearfix cite {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
-	font-size: 17px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
 	font-style: italic;
 	color: #555;
 	float: right;
@@ -652,16 +658,16 @@ body {
 }
 
 .review-box blockquote.white p {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
-	font-size: 17px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
 	color: #555;
 	font-weight: normal;
 	margin-top: -15px;
 } 
 
 .review-box blockquote.white cite {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
-	font-size: 17px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
 	font-style: italic;
 	color: #555;
 	float: right;
@@ -673,7 +679,7 @@ body {
 }
 
 .rated a {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
 	color: #959595;
 	display: block;
@@ -693,23 +699,25 @@ body {
 }
 
 .service-box h3 {
-	font-size: 25px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-size: 26px;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #363636;
 	margin-left: 15px;
+	font-weight: 900;
 }
 
 .service-box h3.faq {
-	font-size: 25px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-size: 26px;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #363636;
 	margin-left: 15px;
 	margin-top: 30px;
+	font-weight: 900;
 }
 
 .service-box p {
 	font-size: 15px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #555;
 	margin-left: 15px;
 	margin-right: 10px;
@@ -717,14 +725,14 @@ body {
 
 .service-box li {
 	font-size: 15px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #555;
 	margin-left: 15px;
 }
 
 .service-box h4 {
 	font-size: 17px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #363636;
 	margin-left: 15px;
 	margin-top: 15px;
@@ -732,9 +740,10 @@ body {
 
 .service-box strong {
 	font-size: 15px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #363636;
 	margin-left: 15px;
+	font-weight: 700;
 }
 
 .service-box  > p:last-child {
@@ -773,20 +782,22 @@ body {
 .create {
 	padding: 0px 0px 0px 10px;
 	font-size: 28px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
-	font-weight: 200;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
 }
 
 .create-or-facebook .or {
 	padding: 33px 0px 25px 35px;
 	font-size: 28px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
-	font-weight: 100;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
 	color: #acacac;
 }
 
 .or a {
-	margin-left: 55px;
+	margin-right: 24px;
+	float: right;
+	margin-top: -8px;
 }
 
 .white-box form {
@@ -802,9 +813,9 @@ body {
 	width: 256px;
 	height: 25px;
 	margin-left: 21px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
-	font-weight: 100;
+	font-weight: 300;
 	color: #363636;
 	border: 1px solid #e1e1e1;
 	-moz-box-shadow: -2px -2px #e1e1e1;
@@ -822,18 +833,18 @@ body {
 	margin-left: 4px;
 	width: 295px;
 	font-size: 19px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
-	color: #111;
+	color: #000;
 }
 
 .gender label {
 	margin-top: -8px;
 	margin-left: 20px;
 	font-size: 19px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
-	color: #111;
+	color: #000;
 }
 
 .gender label.male {
@@ -843,14 +854,15 @@ body {
 .own-home {
 	margin-top: 30px;
 	font-size: 19px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
+	color: #000;
 	text-align: center;
 }
 
 .own-home label {
 	font-size: 19px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 }
 
@@ -892,7 +904,7 @@ body {
 
 .white-box form select, option {
 	font-size: 19px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 100;
 	color: #363636;
 }
@@ -900,7 +912,7 @@ body {
 /* homepage */
 
 .main-image {
-	background: url(../img/image1.png) no-repeat;
+	background: url(../img/image1.png) no-repeat center;
 	height: 595px;
 	background-color: #000;
 }
@@ -988,7 +1000,7 @@ body {
 }
 
 .main-image .video span {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 33px;
 	color: #fff;
 	display: block;
@@ -998,7 +1010,7 @@ body {
 }
 
 .main-image .video a {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 17px;
 	font-weight: 300;
 	color: #fff;
@@ -1069,8 +1081,8 @@ body {
 .search-home form a.btn i {
 	background: url(../img/loup.png) no-repeat;
 	display: inline-block;
-	width: 20px;
-	height: 20px;
+	width: 18px;
+	height: 18px;
 	margin-top: 0px;
 	line-height: 20px;
 	vertical-align: text-top;
@@ -1190,7 +1202,7 @@ body {
 }
 
 .homepage .testimonials cite {
-	font-family:  "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
 	font-style: italic;
 	color: #363636;
@@ -1201,7 +1213,7 @@ body {
 }
 
 .homepage .testimonials p {
-	font-family:  "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
 	color: #363636;
 	font-weight: normal;
@@ -1241,9 +1253,9 @@ body {
 }
 
 .invite-page .white-box .call span {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
-	color: #111;
+	color: #000;
 	font-weight: 300;
 }
 
@@ -1252,7 +1264,7 @@ body {
 }
 
 .invite-page .white-box .instructions p.special {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 22px;
 	color: #d02552;
 	font-weight: normal;
@@ -1260,9 +1272,9 @@ body {
 }
 
 .invite-page .white-box .instructions p {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
-	color: #111;
+	color: #000;
 	font-weight: 300;
 }
 
@@ -1271,10 +1283,10 @@ body {
 	height: 20px;
 	margin-left: 20px;
 	margin-top: -5px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
-	font-size: 19px;
-	font-weight: 100;
-	color: #363636;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	color: #000;
 	border: 1px solid #e1e1e1;
 	-moz-box-shadow: -2px -2px #e1e1e1;
 	-webkit-box-shadow: -2px -2px #e1e1e1;
@@ -1301,8 +1313,8 @@ body {
 
 .invite-page .white-box .fb-invite p.or {
 	font-size: 28px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
-	font-weight: 100;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
 	color: #acacac;
 	display: inline;
 	margin-left: 30px;
@@ -1313,14 +1325,18 @@ body {
 	height: 20px;
 	margin-left: 20px;
 	margin-top: 10px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
-	font-weight: 100;
-	color: #363636;
+	font-weight: 300;
+	color: #000;
 	border: 1px solid #e1e1e1;
 	-moz-box-shadow: -2px -2px #e1e1e1;
 	-webkit-box-shadow: -2px -2px #e1e1e1;
 	box-shadow: -2px -2px #e1e1e1;
+}
+
+.invite-page .white-box form .email-invite input:-moz-placeholder {
+	color: #acacac;
 }
 
 .invite-page .white-box form .email-invite button {
@@ -1339,15 +1355,15 @@ body {
 }
 
 .how_it_works .white-box .steps span {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
 	color: #d02552;
 }
 
 .how_it_works .white-box .steps p {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
-	color: #363636;
+	color: #111;
 	margin-bottom: 25px;
 }
 
@@ -1388,10 +1404,10 @@ body {
 }
 
 .payment-page .white-box table td {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 17px;
-	color: #111;
-	font-weight: 200;
+	color: #000;
+	font-weight: 300;
 	padding: 15px 8px;
 }
 
@@ -1402,35 +1418,40 @@ body {
 .payment-page .white-box input[type="text"] {
 	width: 256px;
 	font-size: 19px;
-	font-weight: 200;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
-	color: #111;
+	font-weight: 300;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #000;
 	border: 1px solid #e1e1e1;
 	-moz-box-shadow: -2px -2px #e1e1e1;
 	-webkit-box-shadow: -2px -2px #e1e1e1;
 	box-shadow: -2px -2px #e1e1e1;
 }
 
-.payment-page .white-box input.promo-code,
-.payment-page .white-box input.cc-number {
-	margin-left: 5px;
+.payment-page .white-box input:-moz-placeholder {
+	color: #acacac;
 }
 
 .payment-page .white-box input.promo-code {
-	margin-top: -6px;
-	margin-bottom: 4px;
+	margin-left: 0px;
+}
+
+.payment-page .white-box input.promo-code {
+	margin-top: -4px;
+	margin-bottom: 6px;
 }
 
 .payment-page .white-box input.cc-number {
-	margin-bottom: 10px
+	margin-bottom: 14px;
+	margin-left: 0px;
 }
 
 .payment-page .white-box .code {
-	margin-left: 30px;
+	margin-left: 24px;
 	margin-right: 30px;
 	padding-top: 15px;
 	padding-bottom: 5px;
 	border-top: 1px solid #dddddd; 
+	width: 570px;
 }
 
 .payment-page .white-box a.btn {
@@ -1462,24 +1483,25 @@ body {
 }
 
 .payment-page .white-box .total {
-	margin-left: 30px;
+	margin-left: 26px;
 	margin-right: 30px;
 	padding-top: 15px;
 	border-top: 1px solid #dddddd; 
 	height: 50px;
+	width: 570px;
 }
 
 .payment-page .white-box .total span {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
-	color: #363636;
+	color: #111;
 	padding-left: 285px;
 }
 
 .payment-page .white-box .total .summ {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 22px;
-	color: #363636;
+	color: #111;
 }
 
 .payment-page .white-box .total a {
@@ -1489,7 +1511,7 @@ body {
 .payment-page .white-box .credit-card h4 {
 	font-size: 19px;
 	font-weight: normal;
-	margin: 32px 0px 32px 0px;
+	margin: 32px 0px 28px 0px;
 }
 
 .payment-page .white-box .credit-card .borders {
@@ -1504,28 +1526,28 @@ body {
 }
 
 .payment-page .white-box .credit-card span {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
 	font-weight: 300;
-	color: #111;
+	color: #000;
 }
 
 .payment-page .white-box .credit-card .mm {
-	margin-top: 5px;
+	margin-top: -5px;
 	margin-left: 35px;
 	width: 30px; 
 	height: 15px
 }
 
 .payment-page .white-box .credit-card .yy {
-	margin-top: 5px;
+	margin-top: -5px;
 	margin-left: 15px;
 	width: 30px; 
 	height: 15px
 }
 
 .payment-page .white-box .credit-card .security-code {
-	margin-top: 5px;
+	margin-top: -5px;
 	margin-left: 15px;
 	width: 50px; 
 	height: 15px
@@ -1550,37 +1572,37 @@ body {
 }
 
 .payment-page .white-box .controls span {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
 	font-weight: 300;
-	color: #111;
+	color: #000;
 	margin-left: 20px;
 }
 
 .payment-page .white-box .controls select {
 	width: 60px;
-	height: 25px;
+	height: 30px;
 	font-size: 15px;
-	margin-left: -12px;
+	margin-left: 8px;
 	margin-right: 5px;
 }
 
 .payment-page .white-box .controls .checkbox {
 	margin-left: 20px;
 	margin-top: 30px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
 	font-weight: 300;
-	color: #111;
+	color: #000;
 }
 
 .payment-page .white-box .controls p {
 	margin-left: 20px;
 	margin-top: 30px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
 	font-weight: 300;
-	color: #111;
+	color: #000;
 }
 
 .payment-page .white-box .controls p a {
@@ -1601,14 +1623,15 @@ body {
 
 .payment-page .white-box .faq h5 {
 	margin: 17px 30px 0px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
-	font-size: 17px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
 	color: #555;
+	font-weight: 700;
 }
 
 .payment-page .white-box .faq p {
 	margin: 10px 30px 0px;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 17px;
 	color: #555;
 }
@@ -1624,7 +1647,7 @@ body {
 }
 
 .about_us .white-box .content p {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 17px;
 	color: #363636;
 	margin-bottom: 25px;
@@ -1635,9 +1658,9 @@ body {
 }
 
 .about_us .white-box .content span {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 17px;
-	color: #363636;
+	color: #111;
 }
 
 .about_us .white-box .content li {
@@ -1656,7 +1679,7 @@ body {
 }
 
 .privacy_policies .white-box .content p {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 17px;
 	color: #363636;
 	margin-bottom: 15px;
@@ -1666,6 +1689,7 @@ body {
 	font-size: 19px;
 	display: block;
 	margin-top: 22px;
+	font-weight: 700;
 }
 
 .privacy_policies .white-box .content p:last-child {
@@ -1690,15 +1714,15 @@ body {
 
 .survey-page .white-box .steps p {
 	font-size: 19px;
-	color: #111;
+	color: #252525;
 }	
 
 .survey-page .white-box .steps input[type="text"] {
 	width: 256px;
 	font-size: 19px;
-	font-weight: 200;
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
-	color: #111;
+	font-weight: 300;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #000;
 	border: 1px solid #e1e1e1;
 	-moz-box-shadow: -2px -2px #e1e1e1;
 	-webkit-box-shadow: -2px -2px #e1e1e1;
@@ -1708,11 +1732,15 @@ body {
 	margin-left: 0px;
 }
 
-.survey-page .white-box .steps small {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
-	font-size: 14px;
+.survey-page .white-box .steps input:-moz-placeholder {
 	color: #acacac;
-	font-weight: 300;
+}
+
+.survey-page .white-box .steps small {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	color: #363636;
+	font-weight: 200;
 }
 
 .survey-page .white-box .steps .own-home {
@@ -1737,9 +1765,9 @@ body {
 }
 
 .survey-page .white-box .steps .services-spend p {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 17px;
-	color: #111;
+	color: #000;
 	font-weight: 300;
 }
 
@@ -1755,10 +1783,10 @@ body {
 }
 
 .survey-page .white-box .steps .services-spend .checkbox {
-	font-family: "Gill Sans", GillSans, "Gill Sans MT", Calibri, "Trebuchet MS", "Nimbus Sans L", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
 	font-weight: 300;
-	color: #111;
+	color: #000;
 	margin-left: 0px;
 }
 
@@ -1819,6 +1847,10 @@ body {
 	margin-top: 30px;
 }
 
+.custom_service .custom input:-moz-placeholder {
+	color: #acacac;
+}
+
 .custom_service .custom select {
 	margin-top: 30px;
 	margin-left: 20px;
@@ -1843,10 +1875,19 @@ body {
 	margin-top: 20px;
 }
 
+.change_password .white-box .controls input:-moz-placeholder {
+	color: #acacac;
+}
+
 .change_password .white-box .btn {
 	margin-top: 50px;
 	width: auto;
 	padding: 10px 20px;
 	margin-left: 192px;
 	font-size: 20px;
+}
+
+.bizinformation1 .white-box {
+	margin-top: -35px;
+	margin-left: 0px;
 }
