@@ -47,12 +47,12 @@
       </div>
     </div>
     <div class="container main-content">
-    	<div class="span12 white-box">
-<form method="post" action="BizInformation.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="ctl00" style="margin: 30px;">
+    	<div class="span12 main-box">
+<form method="post" action="BizInformation.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="ctl00" style="margin: 10px;">
 <div class="aspNetHidden">
 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTMzMzQ0NzYwNGRkApQemaus/he1BsdFlEDKZ4VRaVo=">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTM1MTI3NzYxMQ9kFgJmD2QWAgIDD2QWAgIBD2QWAgIVDxAPFgIeC18hRGF0YUJvdW5kZ2QQFQgPV2luZG93IENsZWFuaW5nEEFpciBDb25kaXRpb25pbmcHRnVybmFjZQZHdXR0ZXIERG9vchBMYXduJkdhcmRlbiBDYXJlDlZlbmRvci1DcmVhdGVkBkNvZGluZxUIATEBMgEzATQBNQE2ATcBOBQrAwhnZ2dnZ2dnZ2RkZPmdRFVRQ8dHPE3uxmpaFfiNeDYG">
 </div>
 
 <script type="text/javascript">
@@ -91,21 +91,39 @@ return true;
 	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0">
 </div>
             
-    <img alt="" class="progressbar" src="img/progress1.png">
+    <!--  <img alt="" class="progressbar" src="img/progress1.png"> -->
     <h1>Business Information</h1>
     <table>
-        <tbody><tr>
-            <td><span id="MainContent_Label1">Business Name*: </span></td><td><input name="ctl00$MainContent$BizName" type="text" id="MainContent_BizName"></td> 
+        <tbody><tr class="span6">
+            <td><span id="MainContent_Label1">Business Name*: </span></td><td><input name="ctl00$MainContent$BizName" type="text" id="MainContent_BizName"><span id="MainContent_RequiredFieldValidator2" style="color:Red;display:none;">This field is required</span></td> 
         </tr>
         <tr>
-            <td><span id="MainContent_Label2">Business Description*: </span></td><td><input name="ctl00$MainContent$BizDescr" type="text" id="MainContent_BizDescr"></td>
+            <td><span id="MainContent_Label2">Business Description*: </span></td><td><input name="ctl00$MainContent$BizDescr" type="text" id="MainContent_BizDescr"><span id="MainContent_RequiredFieldValidator1" style="color:Red;display:none;">This field is required</span></td>
         </tr>
         <tr>
-            <td><span id="MainContent_Label3">Locations Served*: </span></td><td><input name="ctl00$MainContent$LocsServed" type="text" id="MainContent_LocsServed"></td>
+            <td><span id="MainContent_Label3">Locations Served*: </span> 
+                <br>
+                <span class="style1"><em>5 digit zip code</em></span></td><td><input name="ctl00$MainContent$LocsServed" type="text" id="MainContent_LocsServed" onblur="getZips()">
+                        
+                    <div id="citystate">
+                    &nbsp;
+                    </div>
+                <span id="MainContent_myRegExpValidator" style="color:Red;display:none;">Must enter 5 digit zipcode.</span> <span id="MainContent_RequiredFieldValidator3" style="color:Red;display:none;">This field is required</span></td>
         </tr>
         <tr>
             <td><span id="MainContent_Label4">Type of Business*: </span></td><td>
-            <input name="ctl00$MainContent$BizType" type="text" maxlength="15" id="MainContent_BizType"></td>
+            <select name="ctl00$MainContent$ServiceCategory1" id="MainContent_ServiceCategory1">
+	<option value="1">Window Cleaning</option>
+	<option value="2">Air Conditioning</option>
+	<option value="3">Furnace</option>
+	<option value="4">Gutter</option>
+	<option value="5">Door</option>
+	<option value="6">Lawn&amp;Garden Care</option>
+	<option value="7">Vendor-Created</option>
+	<option value="8">Coding</option>
+
+</select>
+            <!-- <input name="ctl00$MainContent$BizType" type="text" maxlength="15" id="MainContent_BizType" /><span id="MainContent_RequiredFieldValidator4" style="color:Red;display:none;">This field is required</span> --></td>
         </tr>
         <tr>
             <td><span id="MainContent_Label20">Password*: </span></td><td>
@@ -120,16 +138,16 @@ return true;
             <span id="MainContent_RegularExpressionValidator5" style="color:Red;display:none;">Invalid URL Format (must be www.xyz.com format or http://www.xyz.com)</span></td>
         </tr>
         <tr>
-            <td><span id="MainContent_Label6">No. of years in business*: </span></td><td><input name="ctl00$MainContent$BizYears" type="text" id="MainContent_BizYears"><br><span id="MainContent_CompareValidator1" style="color:Red;display:none;">Value must be a whole number</span></td>
+            <td><span id="MainContent_Label6">No. of years in business*: </span></td><td><input name="ctl00$MainContent$BizYears" type="text" id="MainContent_BizYears"><span id="MainContent_CompareValidator1" style="color:Red;display:none;">Value must be a whole number</span><span id="MainContent_RequiredFieldValidator14" style="color:Red;display:none;">This field is required</span></td>
         </tr>
         <tr>
             <td><span id="MainContent_Label7">No. of employees: </span></td><td><input name="ctl00$MainContent$NoEmps" type="text" id="MainContent_NoEmps"><br><span id="MainContent_CompareValidator2" style="color:Red;display:none;">Value must be a whole number</span></td>
         </tr>
         <tr>
-        <td><span id="MainContent_Label8">Address*: </span></td><td><input name="ctl00$MainContent$BizAddress" type="text" id="MainContent_BizAddress"></td>
+        <td><span id="MainContent_Label8">Address*: </span></td><td><input name="ctl00$MainContent$BizAddress" type="text" id="MainContent_BizAddress"><span id="MainContent_RequiredFieldValidator5" style="color:Red;display:none;">This field is required</span></td>
     </tr>
     <tr>
-        <td><span id="MainContent_Label9">City*: </span></td><td><input name="ctl00$MainContent$BizCity" type="text" id="MainContent_BizCity"></td>
+        <td><span id="MainContent_Label9">City*: </span></td><td><input name="ctl00$MainContent$BizCity" type="text" id="MainContent_BizCity"><span id="MainContent_RequiredFieldValidator6" style="color:Red;display:none;">This field is required</span></td>
     </tr>
     <tr>
         <td><span id="MainContent_Label10">State*: </span></td>
@@ -189,44 +207,83 @@ return true;
 </select></td>
         </tr>
         <tr>
-            <td><span id="MainContent_Label11">Zip*: </span></td><td><input name="ctl00$MainContent$BizZip" type="text" id="MainContent_BizZip"><br><span id="MainContent_RegularExpressionValidator1" style="color:Red;display:none;">Input valid U.S. Zip Code!</span>  </td>
+            <td><span id="MainContent_Label11">Zip*: </span></td><td><input name="ctl00$MainContent$BizZip" type="text" id="MainContent_BizZip"><span id="MainContent_RegularExpressionValidator1" style="color:Red;display:none;">Input valid U.S. Zip Code!</span>
+            <span id="MainContent_RequiredFieldValidator13" style="color:Red;display:none;">This field is required</span></td>
         </tr>
         <tr>
-            <td><span id="MainContent_Label12">Primary Business Phone: </span></td><td><input name="ctl00$MainContent$BizPhoneNum" type="text" id="MainContent_BizPhoneNum"><br><span id="MainContent_RegularExpressionValidator2" style="color:Red;display:none;">Invalid Phone Format</span></td>
+            <td><span id="MainContent_Label12">Primary Business Phone: </span></td><td><input name="ctl00$MainContent$BizPhoneNum" type="text" id="MainContent_BizPhoneNum"><span id="MainContent_RegularExpressionValidator2" style="color:Red;display:none;">Invalid Phone Format</span>
+            <span id="MainContent_RequiredFieldValidator7" style="color:Red;display:none;">This field is required</span></td>
         </tr>
         <tr>
-            <td><span id="MainContent_Label13">Extension: </span></td><td><input name="ctl00$MainContent$BizExt" type="text" id="MainContent_BizExt"></td>
+            <td><span id="MainContent_Label13">Extension: </span></td><td><input name="ctl00$MainContent$BizExt" type="text" id="MainContent_BizExt"><span id="MainContent_CompareValidator225" style="color:Red;display:none;">Value must be numeric</span></td>
         </tr>
         <tr>
-            <td><span id="MainContent_Label14">Cell Phone Number*: </span></td><td><input name="ctl00$MainContent$BizCellNum" type="text" id="MainContent_BizCellNum"><br><span id="MainContent_RegularExpressionValidator3" style="color:Red;display:none;">Invalid Phone Format</span></td>
+            <td valign="top"><span id="MainContent_Label14">Cell Phone Number*: </span></td><td><input name="ctl00$MainContent$BizCellNum" type="text" id="MainContent_BizCellNum"><span id="MainContent_RegularExpressionValidator3" style="color:Red;display:none;">Invalid Phone Format</span>
+            <span id="MainContent_RequiredFieldValidator8" style="color:Red;display:none;">This field is required</span>
+            <br>
+            Can We Text?<table id="MainContent_RadioButtonList1" style="width:154px;">
+	<tbody><tr>
+		<td><input id="MainContent_RadioButtonList1_0" type="radio" name="ctl00$MainContent$RadioButtonList1" value="1" checked="checked"><label for="MainContent_RadioButtonList1_0">Yes</label></td><td><input id="MainContent_RadioButtonList1_1" type="radio" name="ctl00$MainContent$RadioButtonList1" value="0"><label for="MainContent_RadioButtonList1_1">No</label></td>
+	</tr>
+</tbody></table>
+            </td>
         </tr>
         <tr>
-            <td><span id="MainContent_Label15">Business Fax*: </span></td><td><input name="ctl00$MainContent$BizFax" type="text" id="MainContent_BizFax"><br><span id="MainContent_RegularExpressionValidator4" style="color:Red;display:none;">Invalid Phone Format</span></td>
+            <td><span id="MainContent_Label15">Business Fax*: </span></td><td><input name="ctl00$MainContent$BizFax" type="text" id="MainContent_BizFax"><span id="MainContent_RegularExpressionValidator4" style="color:Red;display:none;">Invalid Phone Format</span>
+            <span id="MainContent_RequiredFieldValidator9" style="color:Red;display:none;">This field is required</span>
+            </td>
         </tr>
         <tr>
-            <td><span id="MainContent_Label16">Business Email*: </span></td><td><input name="ctl00$MainContent$BizEmail" type="text" id="MainContent_BizEmail"><br><span id="MainContent_validateEmail" style="color:Red;display:none;">Invalid email.</span></td>
+            <td><span id="MainContent_Label16">Business Email*: </span></td><td><input name="ctl00$MainContent$BizEmail" type="text" id="MainContent_BizEmail"><span id="MainContent_validateEmail" style="color:Red;display:none;">Invalid email.</span>
+            <span id="MainContent_RequiredFieldValidator10" style="color:Red;display:none;">This field is required</span></td>
         </tr>
         <tr>
-            <td><span id="MainContent_Label17">Business Owner Name*: </span></td><td><input name="ctl00$MainContent$BizOwnerName" type="text" id="MainContent_BizOwnerName"></td>
+            <td><span id="MainContent_Label17">Business Owner Name*: </span></td><td><input name="ctl00$MainContent$BizOwnerName" type="text" id="MainContent_BizOwnerName"><span id="MainContent_RequiredFieldValidator11" style="color:Red;display:none;">This field is required</span></td>
         </tr>
         <tr>
-            <td><span id="MainContent_Label18">Within how many hours will you return a call from an Agavey Customer (default 48)*: </span></td><td><input name="ctl00$MainContent$HoursToContact" type="text" id="MainContent_HoursToContact"><br><span id="MainContent_CompareValidator3" style="color:Red;display:none;">Value must be a whole number</span></td>
+            <td><span id="MainContent_Label18">Within how many hours will you return a call from an Agavey Customer (default 48)*: </span></td><td><input name="ctl00$MainContent$HoursToContact" type="text" id="MainContent_HoursToContact"><span id="MainContent_CompareValidator3" style="color:Red;display:none;">Value must be a whole number</span><span id="MainContent_RequiredFieldValidator12" style="color:Red;display:none;">This field is required</span></td>
         </tr>
     </tbody></table>
     <p align="right">
         <input type="submit" name="ctl00$MainContent$Button1" value="Continue" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$Button1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_Button1" class="btn btn-success join" style="color:White;background-color:#8DBC00;">
         
     </p>
+    
 
         
 <script type="text/javascript">
 //<![CDATA[
-var Page_Validators =  new Array(document.getElementById("MainContent_RegularExpressionValidator5"), document.getElementById("MainContent_CompareValidator1"), document.getElementById("MainContent_CompareValidator2"), document.getElementById("MainContent_RegularExpressionValidator1"), document.getElementById("MainContent_RegularExpressionValidator2"), document.getElementById("MainContent_RegularExpressionValidator3"), document.getElementById("MainContent_RegularExpressionValidator4"), document.getElementById("MainContent_validateEmail"), document.getElementById("MainContent_CompareValidator3"));
+var Page_Validators =  new Array(document.getElementById("MainContent_RequiredFieldValidator2"), document.getElementById("MainContent_RequiredFieldValidator1"), document.getElementById("MainContent_myRegExpValidator"), document.getElementById("MainContent_RequiredFieldValidator3"), document.getElementById("MainContent_RequiredFieldValidator4"), document.getElementById("MainContent_RegularExpressionValidator5"), document.getElementById("MainContent_CompareValidator1"), document.getElementById("MainContent_RequiredFieldValidator14"), document.getElementById("MainContent_CompareValidator2"), document.getElementById("MainContent_RequiredFieldValidator5"), document.getElementById("MainContent_RequiredFieldValidator6"), document.getElementById("MainContent_RegularExpressionValidator1"), document.getElementById("MainContent_RequiredFieldValidator13"), document.getElementById("MainContent_RegularExpressionValidator2"), document.getElementById("MainContent_RequiredFieldValidator7"), document.getElementById("MainContent_CompareValidator225"), document.getElementById("MainContent_RegularExpressionValidator3"), document.getElementById("MainContent_RequiredFieldValidator8"), document.getElementById("MainContent_RegularExpressionValidator4"), document.getElementById("MainContent_RequiredFieldValidator9"), document.getElementById("MainContent_validateEmail"), document.getElementById("MainContent_RequiredFieldValidator10"), document.getElementById("MainContent_RequiredFieldValidator11"), document.getElementById("MainContent_CompareValidator3"), document.getElementById("MainContent_RequiredFieldValidator12"));
 //]]>
 </script>
 
 <script type="text/javascript">
 //<![CDATA[
+var MainContent_RequiredFieldValidator2 = document.all ? document.all["MainContent_RequiredFieldValidator2"] : document.getElementById("MainContent_RequiredFieldValidator2");
+MainContent_RequiredFieldValidator2.controltovalidate = "MainContent_BizName";
+MainContent_RequiredFieldValidator2.display = "Dynamic";
+MainContent_RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator2.initialvalue = "";
+var MainContent_RequiredFieldValidator1 = document.all ? document.all["MainContent_RequiredFieldValidator1"] : document.getElementById("MainContent_RequiredFieldValidator1");
+MainContent_RequiredFieldValidator1.controltovalidate = "MainContent_BizDescr";
+MainContent_RequiredFieldValidator1.display = "Dynamic";
+MainContent_RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator1.initialvalue = "";
+var MainContent_myRegExpValidator = document.all ? document.all["MainContent_myRegExpValidator"] : document.getElementById("MainContent_myRegExpValidator");
+MainContent_myRegExpValidator.controltovalidate = "MainContent_LocsServed";
+MainContent_myRegExpValidator.display = "Dynamic";
+MainContent_myRegExpValidator.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+MainContent_myRegExpValidator.validationexpression = "^\\d{5}$";
+var MainContent_RequiredFieldValidator3 = document.all ? document.all["MainContent_RequiredFieldValidator3"] : document.getElementById("MainContent_RequiredFieldValidator3");
+MainContent_RequiredFieldValidator3.controltovalidate = "MainContent_LocsServed";
+MainContent_RequiredFieldValidator3.display = "Dynamic";
+MainContent_RequiredFieldValidator3.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator3.initialvalue = "";
+var MainContent_RequiredFieldValidator4 = document.all ? document.all["MainContent_RequiredFieldValidator4"] : document.getElementById("MainContent_RequiredFieldValidator4");
+MainContent_RequiredFieldValidator4.controltovalidate = "MainContent_BizType";
+MainContent_RequiredFieldValidator4.display = "Dynamic";
+MainContent_RequiredFieldValidator4.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator4.initialvalue = "";
 var MainContent_RegularExpressionValidator5 = document.all ? document.all["MainContent_RegularExpressionValidator5"] : document.getElementById("MainContent_RegularExpressionValidator5");
 MainContent_RegularExpressionValidator5.controltovalidate = "MainContent_URL";
 MainContent_RegularExpressionValidator5.errormessage = "Invalid URL Format (must be www.xyz.com format or http://www.xyz.com)";
@@ -240,6 +297,11 @@ MainContent_CompareValidator1.display = "Dynamic";
 MainContent_CompareValidator1.type = "Integer";
 MainContent_CompareValidator1.evaluationfunction = "CompareValidatorEvaluateIsValid";
 MainContent_CompareValidator1.operator = "DataTypeCheck";
+var MainContent_RequiredFieldValidator14 = document.all ? document.all["MainContent_RequiredFieldValidator14"] : document.getElementById("MainContent_RequiredFieldValidator14");
+MainContent_RequiredFieldValidator14.controltovalidate = "MainContent_BizYears";
+MainContent_RequiredFieldValidator14.display = "Dynamic";
+MainContent_RequiredFieldValidator14.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator14.initialvalue = "";
 var MainContent_CompareValidator2 = document.all ? document.all["MainContent_CompareValidator2"] : document.getElementById("MainContent_CompareValidator2");
 MainContent_CompareValidator2.controltovalidate = "MainContent_NoEmps";
 MainContent_CompareValidator2.errormessage = "Value must be a whole number";
@@ -247,36 +309,83 @@ MainContent_CompareValidator2.display = "Dynamic";
 MainContent_CompareValidator2.type = "Integer";
 MainContent_CompareValidator2.evaluationfunction = "CompareValidatorEvaluateIsValid";
 MainContent_CompareValidator2.operator = "DataTypeCheck";
+var MainContent_RequiredFieldValidator5 = document.all ? document.all["MainContent_RequiredFieldValidator5"] : document.getElementById("MainContent_RequiredFieldValidator5");
+MainContent_RequiredFieldValidator5.controltovalidate = "MainContent_BizAddress";
+MainContent_RequiredFieldValidator5.display = "Dynamic";
+MainContent_RequiredFieldValidator5.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator5.initialvalue = "";
+var MainContent_RequiredFieldValidator6 = document.all ? document.all["MainContent_RequiredFieldValidator6"] : document.getElementById("MainContent_RequiredFieldValidator6");
+MainContent_RequiredFieldValidator6.controltovalidate = "MainContent_BizCity";
+MainContent_RequiredFieldValidator6.display = "Dynamic";
+MainContent_RequiredFieldValidator6.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator6.initialvalue = "";
 var MainContent_RegularExpressionValidator1 = document.all ? document.all["MainContent_RegularExpressionValidator1"] : document.getElementById("MainContent_RegularExpressionValidator1");
 MainContent_RegularExpressionValidator1.controltovalidate = "MainContent_BizZip";
 MainContent_RegularExpressionValidator1.errormessage = "Input valid U.S. Zip Code!";
 MainContent_RegularExpressionValidator1.display = "Dynamic";
 MainContent_RegularExpressionValidator1.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
 MainContent_RegularExpressionValidator1.validationexpression = "\\d{5}(-\\d{4})?";
+var MainContent_RequiredFieldValidator13 = document.all ? document.all["MainContent_RequiredFieldValidator13"] : document.getElementById("MainContent_RequiredFieldValidator13");
+MainContent_RequiredFieldValidator13.controltovalidate = "MainContent_BizZip";
+MainContent_RequiredFieldValidator13.display = "Dynamic";
+MainContent_RequiredFieldValidator13.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator13.initialvalue = "";
 var MainContent_RegularExpressionValidator2 = document.all ? document.all["MainContent_RegularExpressionValidator2"] : document.getElementById("MainContent_RegularExpressionValidator2");
 MainContent_RegularExpressionValidator2.controltovalidate = "MainContent_BizPhoneNum";
 MainContent_RegularExpressionValidator2.errormessage = "Invalid Phone Format";
 MainContent_RegularExpressionValidator2.display = "Dynamic";
 MainContent_RegularExpressionValidator2.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
 MainContent_RegularExpressionValidator2.validationexpression = "^\\(?(\\d{3})\\)?[/ - .]?(\\d{3})[- .]?(\\d{4})$";
+var MainContent_RequiredFieldValidator7 = document.all ? document.all["MainContent_RequiredFieldValidator7"] : document.getElementById("MainContent_RequiredFieldValidator7");
+MainContent_RequiredFieldValidator7.controltovalidate = "MainContent_BizPhoneNum";
+MainContent_RequiredFieldValidator7.display = "Dynamic";
+MainContent_RequiredFieldValidator7.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator7.initialvalue = "";
+var MainContent_CompareValidator225 = document.all ? document.all["MainContent_CompareValidator225"] : document.getElementById("MainContent_CompareValidator225");
+MainContent_CompareValidator225.controltovalidate = "MainContent_BizExt";
+MainContent_CompareValidator225.errormessage = "Value must be numeric";
+MainContent_CompareValidator225.display = "Dynamic";
+MainContent_CompareValidator225.type = "Integer";
+MainContent_CompareValidator225.evaluationfunction = "CompareValidatorEvaluateIsValid";
+MainContent_CompareValidator225.operator = "DataTypeCheck";
 var MainContent_RegularExpressionValidator3 = document.all ? document.all["MainContent_RegularExpressionValidator3"] : document.getElementById("MainContent_RegularExpressionValidator3");
 MainContent_RegularExpressionValidator3.controltovalidate = "MainContent_BizCellNum";
 MainContent_RegularExpressionValidator3.errormessage = "Invalid Phone Format";
 MainContent_RegularExpressionValidator3.display = "Dynamic";
 MainContent_RegularExpressionValidator3.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
 MainContent_RegularExpressionValidator3.validationexpression = "^\\(?(\\d{3})\\)?[/ - .]?(\\d{3})[- .]?(\\d{4})$";
+var MainContent_RequiredFieldValidator8 = document.all ? document.all["MainContent_RequiredFieldValidator8"] : document.getElementById("MainContent_RequiredFieldValidator8");
+MainContent_RequiredFieldValidator8.controltovalidate = "MainContent_BizCellNum";
+MainContent_RequiredFieldValidator8.display = "Dynamic";
+MainContent_RequiredFieldValidator8.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator8.initialvalue = "";
 var MainContent_RegularExpressionValidator4 = document.all ? document.all["MainContent_RegularExpressionValidator4"] : document.getElementById("MainContent_RegularExpressionValidator4");
 MainContent_RegularExpressionValidator4.controltovalidate = "MainContent_BizFax";
 MainContent_RegularExpressionValidator4.errormessage = "Invalid Phone Format";
 MainContent_RegularExpressionValidator4.display = "Dynamic";
 MainContent_RegularExpressionValidator4.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
 MainContent_RegularExpressionValidator4.validationexpression = "^\\(?(\\d{3})\\)?[/ - .]?(\\d{3})[- .]?(\\d{4})$";
+var MainContent_RequiredFieldValidator9 = document.all ? document.all["MainContent_RequiredFieldValidator9"] : document.getElementById("MainContent_RequiredFieldValidator9");
+MainContent_RequiredFieldValidator9.controltovalidate = "MainContent_BizFax";
+MainContent_RequiredFieldValidator9.display = "Dynamic";
+MainContent_RequiredFieldValidator9.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator9.initialvalue = "";
 var MainContent_validateEmail = document.all ? document.all["MainContent_validateEmail"] : document.getElementById("MainContent_validateEmail");
 MainContent_validateEmail.controltovalidate = "MainContent_BizEmail";
 MainContent_validateEmail.errormessage = "Invalid email.";
 MainContent_validateEmail.display = "Dynamic";
 MainContent_validateEmail.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
 MainContent_validateEmail.validationexpression = "^([\\w\\.\\-]+)@([\\w\\-]+)((\\.(\\w){2,3})+)$";
+var MainContent_RequiredFieldValidator10 = document.all ? document.all["MainContent_RequiredFieldValidator10"] : document.getElementById("MainContent_RequiredFieldValidator10");
+MainContent_RequiredFieldValidator10.controltovalidate = "MainContent_BizEmail";
+MainContent_RequiredFieldValidator10.display = "Dynamic";
+MainContent_RequiredFieldValidator10.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator10.initialvalue = "";
+var MainContent_RequiredFieldValidator11 = document.all ? document.all["MainContent_RequiredFieldValidator11"] : document.getElementById("MainContent_RequiredFieldValidator11");
+MainContent_RequiredFieldValidator11.controltovalidate = "MainContent_BizOwnerName";
+MainContent_RequiredFieldValidator11.display = "Dynamic";
+MainContent_RequiredFieldValidator11.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator11.initialvalue = "";
 var MainContent_CompareValidator3 = document.all ? document.all["MainContent_CompareValidator3"] : document.getElementById("MainContent_CompareValidator3");
 MainContent_CompareValidator3.controltovalidate = "MainContent_HoursToContact";
 MainContent_CompareValidator3.errormessage = "Value must be a whole number";
@@ -284,6 +393,11 @@ MainContent_CompareValidator3.display = "Dynamic";
 MainContent_CompareValidator3.type = "Integer";
 MainContent_CompareValidator3.evaluationfunction = "CompareValidatorEvaluateIsValid";
 MainContent_CompareValidator3.operator = "DataTypeCheck";
+var MainContent_RequiredFieldValidator12 = document.all ? document.all["MainContent_RequiredFieldValidator12"] : document.getElementById("MainContent_RequiredFieldValidator12");
+MainContent_RequiredFieldValidator12.controltovalidate = "MainContent_HoursToContact";
+MainContent_RequiredFieldValidator12.display = "Dynamic";
+MainContent_RequiredFieldValidator12.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator12.initialvalue = "";
 //]]>
 </script>
 
@@ -312,7 +426,7 @@ theForm.oldOnSubmit = theForm.onsubmit;
 theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
 //]]>
 </script>
-</form>
+</form>			
 			</div> <!-- /white-box -->
     </div> <!-- /container -->
     
