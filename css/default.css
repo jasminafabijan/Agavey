@@ -1920,6 +1920,30 @@ body {
 
 /* Welcome page */
 
+.progress_bar ul {
+	list-style-type: none;
+	background: url(../img/bar.png) no-repeat;
+	height: 44px;
+	margin: -44px 0 40px -20px;
+	padding-top: 12px;
+}
+
+.progress_bar li:first-child {
+	margin-left: 10px;
+}
+
+.progress_bar li {
+	display: inline;
+	font-size: 14px;
+	color: #fff;
+	margin-left: 18px;
+}
+
+.progress_bar strong {
+	font-size: 18px;
+	margin-right: 3px;
+}
+
 .welcome .main-box h1 {
 	font-size: 49px;
 	color: #99cc00;
@@ -1945,16 +1969,15 @@ body {
 
 .welcome .need p {
 	position: absolute;
-	margin-top: -330px;
-	margin-left: 70px;
+	margin-top: -320px;
+	margin-left: 90px;
 	font-size: 26px;
 	color: #252525;
 }
 
 .welcome .options {
 	position: absolute;
-	margin-top: -276px;
-	margin-left: 70px;
+	margin: -266px 0 0 90px;
 }
 
 .welcome .options label {
@@ -1965,4 +1988,51 @@ body {
 
 .welcome .options .checkbox {
 	min-height: 26px;
+}
+
+.welcome .line {
+	border-left: 1px solid #e1e1e1;
+	height: 370px;
+	margin: 44px -50px 0 70px;
+}
+
+.welcome .description {
+	margin-top: 82px;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #363636;
+}
+
+.welcome .description br {
+	line-height: 38px;
+}
+
+.welcome button {
+	float: right;
+	margin: 30px 90px 0 0;
+	font-size: 25px;
+	padding: 10px 0;
+	width: 170px;
+	-moz-box-shadow:  2px 2px 3px #a1a1a1;
+	-webkit-box-shadow:  2px 2px 3px #a1a1a1;
+	box-shadow: 2px 2px 3px #a1a1a1;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	color: #fff;
+	background-color: #de6786;
+	background-image: -webkit-linear-gradient(top, #de6786, #d02552);
+  background-image: -o-linear-gradient(top, #de6786, #d02552);
+  background-image: linear-gradient(to bottom, #de6786, #d02552);	
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.welcome button:hover {
+	color: #fff;
+	background-position: 0px;
+}
+
+.welcome button:hover {
+	background-color: #de6786;
 }
