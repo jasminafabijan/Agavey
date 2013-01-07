@@ -42,7 +42,7 @@ body {
 	-moz-border-radius: 6px;
 	border-radius: 6px;
 	padding-left: 30px;
-	margin-left: 40px;	
+	margin-left: 30px;	
 }
 
 .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
@@ -963,12 +963,17 @@ body {
 .main-image .brand {
 	display: block;
 	float: left;
+	margin: -28px 0 0 -20px;
+}
+
+.main-image input {
+	margin-top: 0px;
 }
 
 .main-image .title {
 	background-color: rgba(70, 70, 70, 0.6);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#55464646, endColorstr=#55464646);
-	margin-top: 175px;
+	margin-top: 165px;
 	padding: 45px 20px 90px 75px;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -995,7 +1000,7 @@ body {
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
-	margin-top: -252px;
+	margin-top: -262px;
 	z-index: 1500;
 	position: relative;
 	top: 460px;
