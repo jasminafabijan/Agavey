@@ -1948,8 +1948,13 @@ body {
 }
 
 .progress_bar strong {
-	font-size: 18px;
+	font-size: 16px;
+	font-weight: lighter;
 	margin-right: 3px;
+}
+
+.progress_bar strong.done {
+	margin-right: 0px;
 }
 
 .welcome .main-box h1 {
