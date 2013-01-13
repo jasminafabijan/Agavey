@@ -1925,6 +1925,18 @@ body {
 	margin-top: 15px;
 }
 
+/* User account dropdown */
+
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active { background-color: #363636; color: #99cc00; }
+
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret, 
+.navbar .nav li.dropdown.active > .dropdown-toggle .caret, 
+.navbar .nav li.dropdown.open.active > .dropdown-toggle .caret,
+.navbar .nav li.dropdown > .dropdown-toggle .caret {
+	border-top-color: #99cc00;
+	border-bottom-color: #99cc00;
+}
 
 /* Welcome page */
 
@@ -2166,5 +2178,4 @@ body {
 .bizcredentials fieldset a.more:active {
 	background-color: #5BB75B;
 }
-
 
