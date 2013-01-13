@@ -1914,6 +1914,17 @@ body {
 	background-color: #de6786;
 }
 
+.navbar .nav a.user {
+	text-indent: -10000px;
+	background: url(../img/user-icon.png) no-repeat;
+	margin-top: 15px;
+}
+
+.navbar .nav a.user:hover {
+	background: url(../img/user-icon.png) no-repeat;
+	margin-top: 15px;
+}
+
 
 /* Welcome page */
 
@@ -1946,7 +1957,7 @@ body {
 	color: #99cc00;
 	font-weight: bold;
 	text-align: center;
-	margin-top: 30px;
+	margin: 30px 0 0 0;
 }
 
 .welcome .main-box h2 {
@@ -2019,21 +2030,28 @@ body {
 	margin-right: 86px;
 }
 
-/* BizInformation */
 
-.bizinformation .main-box h1 {
+/* Form-common */
+
+.main-box h1 {
 	margin: 20px 0 0 30px;
 	font-size: 33px;
 	color: #99cc00;
 	font-weight: 400;
 }
 
-.bizinformation fieldset {
+.main-box fieldset {
 	padding-top: 30px;
 	margin: 0 0 50px 10px;
 }
 
-.bizinformation fieldset p {
+.main-box fieldset .main_reference {
+	font-size: 14px;
+	font-style: italic;
+	margin: 0 0 20px 20px;
+}
+
+.main-box fieldset p {
 	font-size: 18px;
 	font-family: 'Source Sans Pro', sans-serif;
 	margin: 0 30px 10px 20px;
@@ -2044,47 +2062,43 @@ body {
 	border-radius: 4px;
 }
 
-.bizinformation fieldset p.address {
-	margin-top: 280px;
+.main-box fieldset label {
+	margin-top: 10px;
 }
 
-.bizinformation fieldset p.company {
-	margin-top: 190px;
-}
-
-.bizinformation fieldset .main_reference {
-	font-size: 14px;
-	font-style: italic;
-	margin: 0 0 20px 20px;
-}
-
-.bizinformation fieldset .reference {
+.main-box fieldset .reference {
 	font-size: 12px;
 	font-style: italic;
 	color: #7d7d7d;
 	margin-top: -6px;
 }
 
-.bizinformation fieldset label {
-	margin-top: 10px;
-}
-
-.bizinformation fieldset input[type="text"],
-.bizinformation fieldset input[type="password"] {
+.main-box fieldset input[type="text"],
+.main-box fieldset input[type="password"] {
 	width: 326px;
 	border: 1px solid #e1e1e1;
 	-moz-box-shadow: -1px -1px #e1e1e1;
 	-webkit-box-shadow: -1px -1px #e1e1e1;
 	box-shadow: -1px -1px #e1e1e1;
-
 }
 
-.bizinformation fieldset .span3 input[type="text"] {
+.main-box fieldset .span3 input[type="text"] {
 	width: 196px;
 }
 
-.bizinformation fieldset .span3 {
+.main-box fieldset .span3 {
 	margin-right: 26px;
+}
+
+
+/* BizInformation */
+
+.bizinformation fieldset p.address {
+	margin-top: 280px;
+}
+
+.bizinformation fieldset p.company {
+	margin-top: 190px;
 }
 
 .bizinformation fieldset select {
@@ -2128,4 +2142,28 @@ body {
 .bizinformation fieldset img {
 	margin-bottom: 5px;
 }
+
+/* BizCredentials */
+
+.bizcredentials fieldset a.more {
+	padding: 5px;
+	margin-top: 10px;
+	background-color: #99cc00;
+	background-image: -webkit-linear-gradient(top, #99cc00, #7fa900);
+  background-image: -o-linear-gradient(top, #99cc00, #7fa900);
+  background-image: linear-gradient(to bottom, #99cc00, #7fa900);	
+  -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.bizcredentials fieldset a.more:hover {
+	color: #ffffff;
+	border-color: #99cc00;
+}
+
+.bizcredentials fieldset a.more:active {
+	background-color: #5BB75B;
+}
+
 
