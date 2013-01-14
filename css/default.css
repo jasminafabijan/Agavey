@@ -1944,6 +1944,14 @@ body {
 	padding-left: 0px;
 }
 
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+  background-color: #ffffff;
+ 	background-image: none;
+ 	color: #99cc00;
+}
+
 .dropdown-menu li.border {
 	border-bottom: 1px solid #e1e1e1;
 	margin: 0 20px 0 20px;	
@@ -2064,17 +2072,40 @@ body {
 
 /* Vendor - Sign-up page */
 
+.vendor-sign-up .main-box {
+	margin-left: 160px;
+}
+
+.vendor-sign-up .main-box fieldset {
+	padding-top: 0px;
+}
+
 .vendor-sign-up .create {
 	padding-left: 0px;
 }
 
 .vendor-sign-up .or {
-	padding-left: 56px;
+	padding-left: 40px;
 }
 
-.vendor-sign-up button {
-	float: right;
-	margin-right: 170px;
+.vendor-sign-up .or a {
+	float: none;
+	margin-right: 0px;
+	margin-left: 40px;
+}
+
+.vendor-sign-up .main-box fieldset .span3 input[type="text"],
+.vendor-sign-up .main-box fieldset .span3 input[type="password"] {
+	width: 250px;
+}
+
+.vendor-sign-up .main-box fieldset .offset1 input[type="text"],
+.vendor-sign-up .main-box fieldset .offset1 input[type="password"] {
+	margin-left: -50px;
+}
+
+.vendor-sign-up .main-box fieldset .offset1 label {
+	margin-left: -50px;
 }
 
 /* Form-common */
@@ -2128,7 +2159,8 @@ body {
 	box-shadow: -1px -1px #e1e1e1;
 }
 
-.main-box fieldset .span3 input[type="text"] {
+.main-box fieldset .span3 input[type="text"],
+.main-box fieldset .span3 input[type="password"] {
 	width: 196px;
 }
 
