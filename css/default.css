@@ -2047,6 +2047,20 @@ body {
 	margin-right: 86px;
 }
 
+/* Vendor - Sign-up page */
+
+.vendor-sign-up .create {
+	padding-left: 0px;
+}
+
+.vendor-sign-up .or {
+	padding-left: 56px;
+}
+
+.vendor-sign-up button {
+	float: right;
+	margin-right: 170px;
+}
 
 /* Form-common */
 
