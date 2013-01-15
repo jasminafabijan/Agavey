@@ -2221,7 +2221,6 @@ body {
 
 .bizcredentials fieldset a.more {
 	padding: 5px;
-	margin-top: 10px;
 	background-color: #99cc00;
 	background-image: -webkit-linear-gradient(top, #99cc00, #7fa900);
   background-image: -o-linear-gradient(top, #99cc00, #7fa900);
@@ -2229,14 +2228,49 @@ body {
   -webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
+	float: left;
+	margin-top: 30px;
 }
 
 .bizcredentials fieldset a.more:hover {
 	color: #ffffff;
 	border-color: #99cc00;
+	background-position: 0px;
 }
 
 .bizcredentials fieldset a.more:active {
 	background-color: #5BB75B;
+}
+
+.bizcredentials fieldset .more_info {
+	width: 880px;
+	height: 28px;
+	background: #ebebeb;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin: 30px 0 10px 20px;
+}
+
+.bizcredentials fieldset .more_info p {
+	margin-left: 0px;
+}
+
+.bizcredentials fieldset .more_info a {
+	float: right;
+	font-size: 12px;
+	color: #363636;
+	margin-top: 4px;
+}
+
+.bizcredentials fieldset .span9 a {
+	margin: 42px 20px 0 0;
+	font-size: 22px;
+	font-weight: bold;
+	color: #707070;
+}
+
+.bizcredentials fieldset button {
+	margin: 30px 30px 0 0;
 }
 
