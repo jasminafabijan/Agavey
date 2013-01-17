@@ -2162,7 +2162,9 @@ background-image: -webkit-gradient(
 .vendor-sign-up2 .form-horizontal input {
 	width: 286px;
 	height: 24px;
-	box-shadow: inset 0 5px 5px -5px #363636;
+	/*box-shadow: inset 0 5px 5px -5px #363636;*/
+	border: 1px solid #fff;
+	border-top: 2px solid #d7d7d7;
 }
 
 .vendor-sign-up2 .form-horizontal img {
@@ -2196,6 +2198,75 @@ background-image: -webkit-gradient(
 	background-color: #5BB75B;
 }
 
+/* Vendor - Sign-up page - test3 */
+
+.vendor-sign-up3 .main-box {
+	margin-left: 160px;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+}
+
+.vendor-sign-up3 .form-horizontal {
+	margin: 20px 0 0 40px;
+}
+
+.vendor-sign-up3 .main-box .header span {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #464646;
+	margin: 10px 0 0 40px;
+}
+
+.vendor-sign-up3 .main-box img {
+	margin: 30px 0 20px 120px;
+}
+
+.vendor-sign-up3 .main-box p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	color: #acacac;
+	margin-left: 330px;
+}
+
+.vendor-sign-up3 .form-horizontal label {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	color: #464646;
+}
+
+.vendor-sign-up3 .form-horizontal input {
+	width: 266px;
+	height: 24px;
+	box-shadow : inset 0 0 5px 0 #acacac;
+}
+
+.vendor-sign-up3 .form-horizontal .btn {
+	padding: 7px 10px;
+	background-color: #99cc00;
+	background-image: -webkit-linear-gradient(top, #99cc00, #7fa900);
+  background-image: -o-linear-gradient(top, #99cc00, #7fa900);
+  background-image: linear-gradient(to bottom, #99cc00, #7fa900);	
+  -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	font-size: 17px;
+	text-shadow: none;
+	color: #fff;
+	width: 120px;
+	margin: 20px 0 50px 260px;
+}
+
+.vendor-sign-up3 .form-horizontal .btn:hover {
+	color: #ffffff;
+	border-color: #99cc00;
+	background-position: 0px;
+}
+
+.vendor-sign-up3 .form-horizontal .btn:active {
+	background-color: #5BB75B;
+}
 
 
 /* Form-common */
