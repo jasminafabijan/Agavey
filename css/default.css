@@ -2110,8 +2110,11 @@ body {
 
 /* Vendor - Sign-up page - test2 */
 
+.vendor-sign-up2 .main-content {
+	margin-left: 240px;
+}
+
 .vendor-sign-up2 .form-horizontal {
-	margin-top: 50px;
 	margin-bottom: 50px;
 	background-color: #ebebeb;
 	-webkit-border-radius: 10px;
@@ -2120,33 +2123,50 @@ body {
 }
 
 .vendor-sign-up2 .form-horizontal h1 {
-	
 	margin: 0 0 0 0;
-	padding: 10px 0 10px 30px;
+	padding: 10px 0 10px 40px;
 	color: #fff;
 	font-weight: bold;
 	font-size: 30px;
 	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.vendor-sign-up2 .form-horizontal .header p {
+	margin: 0 0 0 0;
+	padding: 0 40px 10px 40px;
+	color: #fff;
+	font-size: 19px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+	
+.vendor-sign-up2 .form-horizontal .header {
 	-webkit-border-top-left-radius: 10px;
 	-webkit-border-top-right-radius: 10px;
-		background-image: linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 71%, rgb(208,37,82) 86%);
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-image: linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 71%, rgb(208,37,82) 86%);
 background-image: -o-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 71%, rgb(208,37,82) 86%);
 background-image: -moz-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 71%, rgb(208,37,82) 86%);
 background-image: -webkit-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 71%, rgb(208,37,82) 86%);
 background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 71%, rgb(208,37,82) 86%);
 
-background-image: -webkit-gradient(
+	background-image: -webkit-gradient(
 	linear,
 	left top,
 	left bottom,
 	color-stop(0.03, rgb(230,141,165)),
 	color-stop(0.71, rgb(212,68,107)),
-	color-stop(0.86, rgb(208,37,82))
-);
+	color-stop(0.86, rgb(208,37,82)));
 }
 
 .vendor-sign-up2 .form-horizontal .fields {
-	margin: 50px 0 30px 0;
+	margin: 25px 0 30px 0;
+}
+
+.vendor-sign-up2 .form-horizontal .controls {
+	margin-left: 10px;
 }
 
 .vendor-sign-up2 .form-horizontal .control-group {
@@ -2160,7 +2180,7 @@ background-image: -webkit-gradient(
 }
 
 .vendor-sign-up2 .form-horizontal input {
-	width: 286px;
+	width: 366px;
 	height: 24px;
 	/*box-shadow: inset 0 5px 5px -5px #363636;*/
 	border: 1px solid #fff;
@@ -2168,7 +2188,14 @@ background-image: -webkit-gradient(
 }
 
 .vendor-sign-up2 .form-horizontal img {
-	margin: 20px 0 0 30px;
+	margin: 25px 0 0 132px;
+}
+
+.vendor-sign-up2 .main-content p.or {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	color: #acacac;
+	margin: 20px 0 0 200px;
 }
 
 .vendor-sign-up2 .form-horizontal .btn {
@@ -2185,7 +2212,7 @@ background-image: -webkit-gradient(
 	color: #fff;
 	width: 120px;
 	float: right;
-	margin: 20px 30px 50px 20px;
+	margin: 0 40px 40px 0;
 }
 
 .vendor-sign-up2 .form-horizontal .btn:hover {
@@ -2197,6 +2224,15 @@ background-image: -webkit-gradient(
 .vendor-sign-up2 .form-horizontal .btn:active {
 	background-color: #5BB75B;
 }
+
+.vendor-sign-up2 .form-horizontal p {
+	margin: 20px 0 0 40px;
+	padding: 20 40px 10px 40px;
+	color: #464646;
+	font-size: 17px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
 
 /* Vendor - Sign-up page - test3 */
 
@@ -2358,7 +2394,7 @@ background-image: -webkit-gradient(
 	margin: 0 0 50px 10px;
 }
 
-.main-box fieldset .main_reference {
+.main-box .main_reference {
 	font-size: 14px;
 	font-style: italic;
 	margin: 0 0 20px 20px;
@@ -2396,7 +2432,8 @@ background-image: -webkit-gradient(
 }
 
 .main-box fieldset .span3 input[type="text"],
-.main-box fieldset .span3 input[type="password"] {
+.main-box fieldset .span3 input[type="password"], 
+.main-box fieldset .span3 input[type="file"] {
 	width: 196px;
 }
 
@@ -2455,58 +2492,83 @@ background-image: -webkit-gradient(
 
 /* BizCredentials */
 
-.bizcredentials fieldset a.more {
-	padding: 5px;
-	background-color: #99cc00;
-	background-image: -webkit-linear-gradient(top, #99cc00, #7fa900);
-  background-image: -o-linear-gradient(top, #99cc00, #7fa900);
-  background-image: linear-gradient(to bottom, #99cc00, #7fa900);	
-  -webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	float: left;
-	margin-top: 30px;
+.bizcredentials fieldset i {
+	margin: -32px 0 0 60px;
 }
 
-.bizcredentials fieldset a.more:hover {
-	color: #ffffff;
-	border-color: #99cc00;
-	background-position: 0px;
+.bizcredentials fieldset img {
+	padding-bottom: 6px;
 }
 
-.bizcredentials fieldset a.more:active {
-	background-color: #5BB75B;
+.bizcredentials .main-box .main_reference {
+	margin: 20px 0 0 30px;
 }
 
-.bizcredentials fieldset .more_info {
-	width: 880px;
-	height: 28px;
+.bizcredentials .main-box p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	margin: 20px 0 10px 30px;
+} 
+
+.bizcredentials .main-box .more_info p {
+	margin-left: 10px;
+}
+
+.bizcredentials .main-box fieldset {
 	background: #ebebeb;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	margin: 30px 0 10px 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 10px 30px 0 30px;
 }
 
-.bizcredentials fieldset .more_info p {
-	margin-left: 0px;
+.bizcredentials .main-box fieldset input {
+	border: 1px solid #fff;
+	border-top: 2px solid #d7d7d7;
 }
 
-.bizcredentials fieldset .more_info a {
+.bizcredentials .main-box fieldset .span5 input {
+	margin: 0 0 20px 20px;
+	width: 336px;
+}
+
+.bizcredentials .main-box fieldset img.delete {
+	margin: -30px 0 0 40px;
+}
+
+.bizcredentials .main-box fieldset .span3 input {
+	margin: 10px 0 20px 20px;
+}
+
+.bizcredentials .main-box fieldset .reference {
+	margin: -12px 0 25px 20px;
+}
+
+.bizcredentials .main-box img.add {
+	margin: 20px 10px 0 30px;
+	padding-bottom: 24px;
+}
+
+.bizcredentials .main-box a {
+	padding-top: 20px;
+	font-size: 16px;
+	color: #555555;
+}
+
+.bizcredentials .main-box img.back {
+	margin-bottom: 4px;
+}
+
+.bizcredentials .main-box a.back {
 	float: right;
-	font-size: 12px;
-	color: #363636;
-	margin-top: 4px;
-}
-
-.bizcredentials fieldset .span9 a {
-	margin: 42px 20px 0 0;
+	margin: 4px 20px 0 0;
 	font-size: 22px;
 	font-weight: bold;
 	color: #707070;
 }
 
-.bizcredentials fieldset button {
-	margin: 30px 30px 0 0;
+.bizcredentials .main-box button {
+	margin: 10px 30px 50px 0;
 }
+
 
