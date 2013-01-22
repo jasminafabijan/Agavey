@@ -83,25 +83,23 @@
       <div class="span12 main-box">
         <form>             
           <h1>Business Information</h1>
+          <div class="main_reference"><strong>*</strong> Fields are required</div>
+          <p class="company">Company Information</p>
+          
           <fieldset>
-            <div class="main_reference"><strong>*</strong> Fields are required</div>
-            
-            <p class="company">Company Information</p>
             <div class="span5">     
-              <label id="MainContent_Label2">Business Description*: </label>
-              <input name="ctl00$MainContent$BizDescr" type="text" id="MainContent_BizDescr"><span id="MainContent_RequiredFieldValidator1" style="color:Red;display:none;">This field is required</span>
+              <input name="ctl00$MainContent$BizDescr" type="text" placeholder="Business Description*" id="MainContent_BizDescr"><span id="MainContent_RequiredFieldValidator1" style="color:Red;display:none;">This field is required</span>
             </div>
           
             <div class="span5">  
-              <label id="MainContent_Label3">Locations Served*:</label> 
-              <input name="ctl00$MainContent$LocsServed" type="text" id="MainContent_LocsServed" onblur="getZips()">
+              <input name="ctl00$MainContent$LocsServed" type="text" placeholder="Locations Served*" id="MainContent_LocsServed" onblur="getZips()">
               <div class="reference">5 digit zip code(s), comma separated no spaces</div>
               <span id="MainContent_myRegExpValidator" style="color:Red;display:none;">Must enter 5 digit zipcode.</span> <span id="MainContent_RequiredFieldValidator3" style="color:Red;display:none;">This field is required</span>
-            </div>  
+            </div>
       
             <div class="span5">
-              <label id="MainContent_Label4">Type of Business*: </label>
               <select name="ctl00$MainContent$ServiceCategory1" id="MainContent_ServiceCategory1">
+              	<option value="0">Type of Business</option>
                 <option value="1">Window Cleaning</option>
                 <option value="2">Air Conditioning</option>
                 <option value="3">Furnace</option>
@@ -114,41 +112,36 @@
             </div>
                           
             <div class="span5">
-              <label id="MainContent_Label5">Website URL: </label>
-              <input name="ctl00$MainContent$URL" type="text" id="MainContent_URL"><br>
+              <input name="ctl00$MainContent$URL" type="text" placeholder="Website URL" id="MainContent_URL"><br>
               <span id="MainContent_RegularExpressionValidator5" style="color:Red;display:none;">Invalid URL Format (must be www.xyz.com format or http://www.xyz.com)</span>
             </div>        
               
             <div class="span3">
-              <label id="MainContent_Label6">No. of years in business*: </label>
-              <input name="ctl00$MainContent$BizYears" type="text" id="MainContent_BizYears"><span id="MainContent_CompareValidator1" style="color:Red;display:none;">Value must be a whole number</span><span id="MainContent_RequiredFieldValidator14" style="color:Red;display:none;">This field is required</span>
+              <input name="ctl00$MainContent$BizYears" type="text" placeholder="No. of years in business*" id="MainContent_BizYears"><span id="MainContent_CompareValidator1" style="color:Red;display:none;">Value must be a whole number</span><span id="MainContent_RequiredFieldValidator14" style="color:Red;display:none;">This field is required</span>
             </div>
               
             <div class="span3">
-              <label id="MainContent_Label7">No. of employees: </label>
-              <input name="ctl00$MainContent$NoEmps" type="text" id="MainContent_NoEmps"><br><span id="MainContent_CompareValidator2" style="color:Red;display:none;">Value must be a whole number</span>
+              <input name="ctl00$MainContent$NoEmps" type="text" placeholder="No. of employees" id="MainContent_NoEmps"><br><span id="MainContent_CompareValidator2" style="color:Red;display:none;">Value must be a whole number</span>
             </div>
             
             <div class="span3">
-              <label id="MainContent_Label17">Business Owner Name*: </label>
-              <input name="ctl00$MainContent$BizOwnerName" type="text" id="MainContent_BizOwnerName"><span id="MainContent_RequiredFieldValidator11" style="color:Red;display:none;">This field is required</span>
+              <input name="ctl00$MainContent$BizOwnerName" type="text" placeholder="Business Owner Name*" id="MainContent_BizOwnerName"><span id="MainContent_RequiredFieldValidator11" style="color:Red;display:none;">This field is required</span>
             </div>
+          </fieldset>
             
-            <p class="address">Address & Contact Information</p>
-              
+          <p class="address">Address & Contact Information</p>
+          <fieldset>    
             <div class="span5">
-              <label id="MainContent_Label8">Address*: </label>
-              <input name="ctl00$MainContent$BizAddress" type="text" id="MainContent_BizAddress"><span id="MainContent_RequiredFieldValidator5" style="color:Red;display:none;">This field is required</span>
+              <input name="ctl00$MainContent$BizAddress" type="text" placeholder="Address*" id="MainContent_BizAddress"><span id="MainContent_RequiredFieldValidator5" style="color:Red;display:none;">This field is required</span>
             </div>
           
             <div class="span5">
-              <label id="MainContent_Label9">City*: </label>
-              <input name="ctl00$MainContent$BizCity" type="text" id="MainContent_BizCity"><span id="MainContent_RequiredFieldValidator6" style="color:Red;display:none;">This field is required</span>
+              <input name="ctl00$MainContent$BizCity" type="text" placeholder="City*" id="MainContent_BizCity"><span id="MainContent_RequiredFieldValidator6" style="color:Red;display:none;">This field is required</span>
             </div>
           
             <div class="span5">
-              <label id="MainContent_Label10">State*: </label>
               <select name="ctl00$MainContent$BizState" id="MainContent_BizState">
+              	<option value="state">State*</option>
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
                 <option value="AZ">Arizona</option>
@@ -204,26 +197,22 @@
             </div>
       
             <div class="span5">
-              <label id="MainContent_Label11">Zip*: </label>
-              <input name="ctl00$MainContent$BizZip" type="text" id="MainContent_BizZip"><span id="MainContent_RegularExpressionValidator1" style="color:Red;display:none;">Input valid U.S. Zip Code!</span>
+              <input name="ctl00$MainContent$BizZip" type="text" placeholder="Zip*" id="MainContent_BizZip"><span id="MainContent_RegularExpressionValidator1" style="color:Red;display:none;">Input valid U.S. Zip Code!</span>
               <span id="MainContent_RequiredFieldValidator13" style="color:Red;display:none;">This field is required</span>
             </div>
             
             <div class="span3">
-              <label id="MainContent_Label12">Primary Business Phone: </label>
-              <input name="ctl00$MainContent$BizPhoneNum" type="text" id="MainContent_BizPhoneNum"><span id="MainContent_RegularExpressionValidator2" style="color:Red;display:none;">Invalid Phone Format</span>
+              <input name="ctl00$MainContent$BizPhoneNum" type="text" placeholder="Primary Business Phone" id="MainContent_BizPhoneNum"><span id="MainContent_RegularExpressionValidator2" style="color:Red;display:none;">Invalid Phone Format</span>
               <div class="reference">###-###-####</div>
               <span id="MainContent_RequiredFieldValidator7" style="color:Red;display:none;">This field is required</span>
             </div>
                 
-              <div class="span3">
-                <label id="MainContent_Label13">Extension: </label>
-                <input name="ctl00$MainContent$BizExt" type="text" id="MainContent_BizExt"><span id="MainContent_CompareValidator225" style="color:Red;display:none;">Value must be numeric</span>
+              <div class="span3 ext">
+                <input name="ctl00$MainContent$BizExt" type="text" placeholder="Extension" id="MainContent_BizExt"><span id="MainContent_CompareValidator225" style="color:Red;display:none;">Value must be numeric</span>
               </div>
                 
               <div class="span3" style="margin-right:0px;">
-                <label id="MainContent_Label14">Cell Phone Number*: </label>
-                <input name="ctl00$MainContent$BizCellNum" type="text" id="MainContent_BizCellNum"><span id="MainContent_RegularExpressionValidator3" style="color:Red;display:none;">Invalid Phone Format</span>
+                <input name="ctl00$MainContent$BizCellNum" type="text" placeholder="Cell Phone Number*" id="MainContent_BizCellNum"><span id="MainContent_RegularExpressionValidator3" style="color:Red;display:none;">Invalid Phone Format</span>
                 <div class="reference">###-###-####</div>
                 <span id="MainContent_RequiredFieldValidator8" style="color:Red;display:none;">This field is required</span>
               </div>
@@ -239,16 +228,15 @@
               </div>
         
               <div class="span5">
-                <label id="MainContent_Label15">Business Fax*: </label>
-                <input name="ctl00$MainContent$BizFax" type="text" id="MainContent_BizFax"><span id="MainContent_RegularExpressionValidator4" style="color:Red;display:none;">Invalid Phone Format</span>
+                <input name="ctl00$MainContent$BizFax" type="text" placeholder="Business Fax*" id="MainContent_BizFax"><span id="MainContent_RegularExpressionValidator4" style="color:Red;display:none;">Invalid Phone Format</span>
                 <span id="MainContent_RequiredFieldValidator9" style="color:Red;display:none;">This field is required</span>
               </div>
                 
               <div class="span5">
-                <label id="MainContent_Label16">Business Email*: </label>
-                <input name="ctl00$MainContent$BizEmail" type="text" id="MainContent_BizEmail"><span id="MainContent_validateEmail" style="color:Red;display:none;">Invalid email.</span>
+                <input name="ctl00$MainContent$BizEmail" type="text" placeholder="Business Email*" id="MainContent_BizEmail"><span id="MainContent_validateEmail" style="color:Red;display:none;">Invalid email.</span>
                 <span id="MainContent_RequiredFieldValidator10" style="color:Red;display:none;">This field is required</span>
               </div>
+            </fieldset>
             
             <div class="span8">
               <label id="MainContent_Label18">Within how many hours will you return a call from an Agavey Customer (default 48)*: </label>
@@ -262,14 +250,14 @@
             </div>
             
             <div class="span9">
-              <a href="back"><img src="img/arrow-back.png" alt="back"> Back</a>
+              <a href="back" class="back pull-right"><img class="back" src="img/arrow-back.png" alt="back"> Back</a>
             </div>
             <button class="btn">Continue</button>
             
 <!--  <p align="right">
         <input type="submit" name="ctl00$MainContent$Button1" value="Continue" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$Button1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_Button1" class="btn btn-success join" style="color:White;background-color:#8DBC00;">
       </p>   -->
-    </fieldset>
+    
 
         
 <script type="text/javascript">

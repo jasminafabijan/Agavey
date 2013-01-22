@@ -1965,10 +1965,13 @@ body {
 
 .progress_bar ul {
 	list-style-type: none;
-	background: url(../img/bar.png) no-repeat;
 	height: 44px;
 	margin: -44px 0 40px -20px;
-	padding-top: 10px;
+	padding-top: 14px;
+}
+
+.welcome .progress_bar ul {
+	background: url(../img/ProgressBar-start.png) no-repeat;
 }
 
 .progress_bar li:first-child {
@@ -2055,10 +2058,15 @@ body {
 }
 
 .welcome .main-box .description {
-	margin-top: 62px;
+	margin-top: 42px;
+}
+
+.welcome .main-box .description p {
+	margin: 20px 0 0 0;
 	font-size: 18px;
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #363636;
+	/*margin: 20px 0 10px 30px;*/
 }
 
 .welcome .main-box .description p {
@@ -2390,26 +2398,29 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 }
 
 .main-box fieldset {
-	padding-top: 30px;
-	margin: 0 0 50px 10px;
+	background: #ebebeb;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 10px 30px 0 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
 .main-box .main_reference {
 	font-size: 14px;
 	font-style: italic;
-	margin: 0 0 20px 20px;
 }
 
-.main-box fieldset p {
-	font-size: 18px;
-	font-family: 'Source Sans Pro', sans-serif;
-	margin: 0 30px 10px 20px;
-	padding: 4px 0 4px 10px;
-	background: #ebebeb;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
+.main-box .main_reference {
+	margin: 20px 0 0 30px;
 }
+
+.main-box p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	margin: 20px 0 10px 30px;
+} 
 
 .main-box fieldset label {
 	margin-top: 10px;
@@ -2419,41 +2430,70 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 	font-size: 12px;
 	font-style: italic;
 	color: #7d7d7d;
-	margin-top: -6px;
+	margin: -14px 0 10px 20px;
 }
 
 .main-box fieldset input[type="text"],
 .main-box fieldset input[type="password"] {
 	width: 326px;
-	border: 1px solid #e1e1e1;
-	-moz-box-shadow: -1px -1px #e1e1e1;
-	-webkit-box-shadow: -1px -1px #e1e1e1;
-	box-shadow: -1px -1px #e1e1e1;
+	border: 1px solid #fff;
+	border-top: 2px solid #d7d7d7;
+}
+
+.main-box fieldset .span5 input {
+	margin: 10px 0 20px 20px;
+	width: 336px;
 }
 
 .main-box fieldset .span3 input[type="text"],
 .main-box fieldset .span3 input[type="password"], 
 .main-box fieldset .span3 input[type="file"] {
-	width: 196px;
+	width: 204px;
+	margin: 10px 0 20px 20px;
 }
 
 .main-box fieldset .span3 {
 	margin-right: 26px;
 }
 
+.main-box .span9 a.back {
+	float: right;
+	font-size: 22px;
+	font-weight: bold;
+	color: #707070;
+}
 
 /* BizInformation */
 
-.bizinformation fieldset p.address {
-	margin-top: 280px;
+.bizinformation .progress_bar ul {
+	background: url(../img/ProgressBar-step1.png) no-repeat;
+}
+
+.bizinformation .main-box fieldset {
+	padding-left: 25px;
+}
+
+.bizinformation p.address {
+	margin-top: 45px;
 }
 
 .bizinformation fieldset select {
-	width: 340px;
+	width: 350px;
+	margin: 10px 0 0 20px;
+}
+
+.bizinformation .main-box fieldset .ext input {
+	width: 70px;
+	margin-top: 10px;
+}
+
+.bizinformation .main-box fieldset .ext {
+	margin-right: -104px;
+	margin-left: 20px;
 }
 
 .bizinformation fieldset .span2 {
-	margin: 10px 0 0 0;	
+	margin: 6px 44px 0 0;	
 	float: right;
 }
 
@@ -2463,85 +2503,49 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 	font-size: 14px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	padding: 0 0 0 0;
+	color: #555555;
 }
 
 .bizinformation fieldset .span2 label {
 	margin-top: 0px;
+	color: #555555;
 }
 
-.bizinformation fieldset .span8 {
-	margin-top: 30px;
+.bizinformation .main-box .span8 {
+	margin: 30px 0 0 30px;
+	color: #555555;
 }
 
-.bizinformation fieldset button {
+.bizinformation .main-box select {
+	width: 350px;
+}
+
+.bizinformation .main-box button {
 	float: right;
-	margin: 20px 30px 0 0;
+	margin: 20px 30px 50px 0;
 }
 
-.bizinformation fieldset a {
-	float: right;
+.bizinformation .main-box .span9 a.back {
 	margin: 34px 20px 0 0;
-	font-size: 22px;
-	font-weight: bold;
-	color: #707070;
 }
 
-.bizinformation fieldset img {
-	margin-bottom: 5px;
-}
 
 /* BizCredentials */
+
+.bizcredentials .progress_bar ul {
+	background: url(../img/ProgressBar-step2.png) no-repeat;
+}
 
 .bizcredentials fieldset i {
 	margin: -32px 0 0 60px;
 }
 
-.bizcredentials fieldset img {
-	padding-bottom: 6px;
-}
-
-.bizcredentials .main-box .main_reference {
-	margin: 20px 0 0 30px;
-}
-
-.bizcredentials .main-box p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 22px;
-	margin: 20px 0 10px 30px;
-} 
-
 .bizcredentials .main-box .more_info p {
 	margin-left: 10px;
 }
 
-.bizcredentials .main-box fieldset {
-	background: #ebebeb;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	margin: 10px 30px 0 30px;
-}
-
-.bizcredentials .main-box fieldset input {
-	border: 1px solid #fff;
-	border-top: 2px solid #d7d7d7;
-}
-
-.bizcredentials .main-box fieldset .span5 input {
-	margin: 0 0 20px 20px;
-	width: 336px;
-}
-
 .bizcredentials .main-box fieldset img.delete {
-	margin: -30px 0 0 40px;
-}
-
-.bizcredentials .main-box fieldset .span3 input {
-	margin: 10px 0 20px 20px;
-}
-
-.bizcredentials .main-box fieldset .reference {
-	margin: -12px 0 25px 20px;
+	margin: -16px 0 0 40px;
 }
 
 .bizcredentials .main-box img.add {
@@ -2559,16 +2563,12 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 	margin-bottom: 4px;
 }
 
-.bizcredentials .main-box a.back {
-	float: right;
-	margin: 4px 20px 0 0;
-	font-size: 22px;
-	font-weight: bold;
-	color: #707070;
-}
-
 .bizcredentials .main-box button {
 	margin: 10px 30px 50px 0;
+}
+
+.bizcredentials .main-box .span9 a.back {
+	margin: 4px 20px 0 0;
 }
 
 
