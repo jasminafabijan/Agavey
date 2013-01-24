@@ -3,7 +3,7 @@ body {
 }
 
 .navbar-fixed-top .navbar-inner {
-	height: 50px;
+	height: 52px;
 	background: #363636;		
 }
 
@@ -1992,7 +1992,7 @@ body {
 .welcome .main-box .benefits p.first {
 	position: absolute;
 	margin: -330px 0 0 90px;
-	font-size: 26px;
+	font-size: 25px;
 	color: #464646;
 }
 
@@ -2004,7 +2004,7 @@ body {
 .welcome .main-box .benefits p.second {
 	position: absolute;
 	margin: -170px 0 0 90px;
-	font-size: 26px;
+	font-size: 25px;
 	color: #464646;
 }
 
@@ -2014,9 +2014,8 @@ body {
 }
 
 .welcome .main-box .benefits span {
-	font-size: 18px;
+	font-size: 16px;
 	color: #363636;
-	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .welcome .main-box .benefits li {
@@ -2035,10 +2034,8 @@ body {
 
 .welcome .main-box .description p {
 	margin: 20px 0 0 0;
-	font-size: 18px;
-	font-family: 'Source Sans Pro', sans-serif;
-	color: #363636;
-	/*margin: 20px 0 10px 30px;*/
+	font-size: 16px;
+	color: #555555;
 }
 
 .welcome .main-box .description p {
@@ -2050,51 +2047,14 @@ body {
 	margin-right: 86px;
 }
 
-/* Vendor - Sign-up page - test1 */
 
-.vendor-sign-up .main-box {
-	margin-left: 160px;
-}
+/* Vendor - Sign-up page */
 
-.vendor-sign-up .main-box fieldset {
-	padding-top: 0px;
-}
-
-.vendor-sign-up .create {
-	padding-left: 0px;
-}
-
-.vendor-sign-up .or {
-	padding-left: 40px;
-}
-
-.vendor-sign-up .or a {
-	float: none;
-	margin-right: 0px;
-	margin-left: 40px;
-}
-
-.vendor-sign-up .main-box fieldset .span3 input[type="text"],
-.vendor-sign-up .main-box fieldset .span3 input[type="password"] {
-	width: 250px;
-}
-
-.vendor-sign-up .main-box fieldset .offset1 input[type="text"],
-.vendor-sign-up .main-box fieldset .offset1 input[type="password"] {
-	margin-left: -50px;
-}
-
-.vendor-sign-up .main-box fieldset .offset1 label {
-	margin-left: -50px;
-}
-
-/* Vendor - Sign-up page - test2 */
-
-.vendor-sign-up2 .main-content {
+.vendor-sign-up .main-content {
 	margin-left: 240px;
 }
 
-.vendor-sign-up2 .form-horizontal {
+.vendor-sign-up .form-horizontal {
 	margin-bottom: 50px;
 	background-color: #ebebeb;
 	-webkit-border-radius: 10px;
@@ -2102,7 +2062,7 @@ body {
 	border-radius: 10px;
 }
 
-.vendor-sign-up2 .form-horizontal h1 {
+.vendor-sign-up .form-horizontal h1 {
 	margin: 0 0 0 0;
 	padding: 10px 0 10px 40px;
 	color: #fff;
@@ -2111,7 +2071,7 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-.vendor-sign-up2 .form-horizontal .header p {
+.vendor-sign-up .form-horizontal .header p {
 	margin: 0 0 0 0;
 	padding: 0 40px 10px 40px;
 	color: #fff;
@@ -2119,7 +2079,7 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 	
-.vendor-sign-up2 .form-horizontal .header {
+.vendor-sign-up .form-horizontal .header {
 	-webkit-border-top-left-radius: 10px;
 	-webkit-border-top-right-radius: 10px;
 	-moz-border-radius-topleft: 10px;
@@ -2141,44 +2101,43 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 	color-stop(0.86, rgb(208,37,82)));
 }
 
-.vendor-sign-up2 .form-horizontal .fields {
+.vendor-sign-up .form-horizontal .fields {
 	margin: 25px 0 30px 0;
 }
 
-.vendor-sign-up2 .form-horizontal .controls {
+.vendor-sign-up .form-horizontal .controls {
 	margin-left: 10px;
 }
 
-.vendor-sign-up2 .form-horizontal .control-group {
+.vendor-sign-up .form-horizontal .control-group {
 	margin-left: 30px;
 }
 
-.vendor-sign-up2 .form-horizontal .control-label {
+.vendor-sign-up .form-horizontal .control-label {
 	text-align: left;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
 }
 
-.vendor-sign-up2 .form-horizontal input {
+.vendor-sign-up .form-horizontal input {
 	width: 366px;
 	height: 24px;
-	/*box-shadow: inset 0 5px 5px -5px #363636;*/
 	border: 1px solid #fff;
 	border-top: 2px solid #d7d7d7;
 }
 
-.vendor-sign-up2 .form-horizontal img {
+.vendor-sign-up .form-horizontal img {
 	margin: 25px 0 0 132px;
 }
 
-.vendor-sign-up2 .main-content p.or {
+.vendor-sign-up .main-content p.or {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 20px;
 	color: #acacac;
 	margin: 20px 0 0 200px;
 }
 
-.vendor-sign-up2 .form-horizontal .btn {
+.vendor-sign-up .form-horizontal .btn {
 	padding: 7px 10px;
 	background-color: #99cc00;
 	background-image: -webkit-linear-gradient(top, #99cc00, #7fa900);
@@ -2195,168 +2154,22 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 	margin: 0 40px 40px 0;
 }
 
-.vendor-sign-up2 .form-horizontal .btn:hover {
+.vendor-sign-up .form-horizontal .btn:hover {
 	color: #ffffff;
 	border-color: #99cc00;
 	background-position: 0px;
 }
 
-.vendor-sign-up2 .form-horizontal .btn:active {
+.vendor-sign-up .form-horizontal .btn:active {
 	background-color: #5BB75B;
 }
 
-.vendor-sign-up2 .form-horizontal p {
+.vendor-sign-up .form-horizontal p {
 	margin: 20px 0 0 40px;
 	padding: 20 40px 10px 40px;
 	color: #464646;
 	font-size: 17px;
 	font-family: 'Source Sans Pro', sans-serif;
-}
-
-
-/* Vendor - Sign-up page - test3 */
-
-.vendor-sign-up3 .main-box {
-	margin-left: 240px;
-	-webkit-border-radius: 24px;
-	-moz-border-radius: 24px;
-	border-radius: 24px;
-}
-
-.vendor-sign-up3 .form-horizontal {
-	margin: 30px 0 0 40px;
-}
-
-.vendor-sign-up3 .main-box .header {
-	margin-top: 30px;
-}
-
-.vendor-sign-up3 .main-box .header span {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 30px;
-	font-weight: bold;
-	color: #464646;
-	margin: 60px 0 0 40px;
-	padding-top: 10px;
-}
-
-.vendor-sign-up3 .main-box img {
-	margin: 10px 0 20px 80px;
-}
-
-.vendor-sign-up3 .main-box p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 20px;
-	color: #acacac;
-	text-align: center;
-}
-
-.vendor-sign-up3 .form-horizontal .controls {
-	margin-left: 0px;
-}
-
-.vendor-sign-up3 .form-horizontal input {
-	width: 366px;
-	height: 24px;
-	box-shadow : inset 0 0 5px 0 #acacac;
-}
-
-.vendor-sign-up3 .form-horizontal .btn {
-	padding: 7px 10px;
-	background-color: #99cc00;
-	background-image: -webkit-linear-gradient(top, #99cc00, #7fa900);
-  background-image: -o-linear-gradient(top, #99cc00, #7fa900);
-  background-image: linear-gradient(to bottom, #99cc00, #7fa900);	
-  -webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	font-size: 17px;
-	text-shadow: none;
-	color: #fff;
-	width: 120px;
-	margin: 20px 0 50px 260px;
-}
-
-.vendor-sign-up3 .form-horizontal .btn:hover {
-	color: #ffffff;
-	border-color: #99cc00;
-	background-position: 0px;
-}
-
-.vendor-sign-up3 .form-horizontal .btn:active {
-	background-color: #5BB75B;
-}
-
-/* Vendor - Sign-up page - test4 */
-
-.vendor-sign-up4 .main-box {
-	margin-left: 160px;
-}
-
-.vendor-sign-up4 .main-box .header span {
-	width: 300px;
-	font-size: 33px;
-	font-weight: 400;
-	color: #99cc00;
-}
-
-.vendor-sign-up4 .main-box .header img {
-	float: right;
-}
-
-.vendor-sign-up4 .main-box .header p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 20px;
-	color: #000;
-	font-weight: 300;
-	margin-top: 30px;
-}
-
-.vendor-sign-up4 .main-box .header {
-	border-bottom: 1px solid #e1e1e1;
-	margin: 30px 30px;
-}
-
-.vendor-sign-up4 .main-box .fields {
-	margin: 40px 0 0 30px;
-}
-
-.vendor-sign-up4 .form-horizontal label {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 16px;
-	color: #464646;
-}
-
-.vendor-sign-up4 .form-horizontal input {
-	width: 286px;
-	height: 24px;
-	box-shadow: inset 0 5px 5px -5px #707070;
-}
-
-.vendor-sign-up4 .form-horizontal .btn {
-	padding: 7px 10px;
-	background-color: #99cc00;
-	background-image: -webkit-linear-gradient(top, #99cc00, #7fa900);
-  background-image: -o-linear-gradient(top, #99cc00, #7fa900);
-  background-image: linear-gradient(to bottom, #99cc00, #7fa900);	
-  -webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	font-size: 17px;
-	text-shadow: none;
-	color: #fff;
-	width: 120px;
-	margin: 20px 0 50px 210px;
-}
-
-.vendor-sign-up4 .form-horizontal .btn:hover {
-	color: #ffffff;
-	border-color: #99cc00;
-	background-position: 0px;
-}
-
-.vendor-sign-up4 .form-horizontal .btn:active {
-	background-color: #5BB75B;
 }
 
 
@@ -2386,16 +2199,6 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 
 .main-box .main_reference {
 	margin: 20px 0 0 30px;
-}
-
-.main-box p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 22px;
-	margin: 20px 0 10px 30px;
-} 
-
-.main-box fieldset label {
-	margin-top: 10px;
 }
 
 .main-box fieldset .reference {
@@ -2437,13 +2240,15 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 
 /* BizInformation */
 
-.bizinformation .progress_bar ul {
-	background: url(../img/ProgressBar-step1.png) no-repeat;
-}
-
 .bizinformation .main-box fieldset {
 	padding-left: 25px;
 }
+
+.bizinformation .main-box p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	margin: 20px 0 10px 30px;
+} 
 
 .bizinformation p.address {
 	margin-top: 45px;
@@ -2504,17 +2309,29 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 
 /* BizCredentials */
 
-.bizcredentials .progress_bar ul {
-	background: url(../img/ProgressBar-step2.png) no-repeat;
-}
 
 .bizcredentials fieldset i {
 	margin: -32px 0 0 60px;
 }
 
+.bizcredentials .main-box p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	margin: 20px 0 10px 30px;
+} 
+
 .bizcredentials .main-box .more_info p {
 	margin-left: 10px;
 }
+
+.bizcredentials .main-box label {
+	margin: -4px 0 0 0;
+	color: #555555;
+}
+
+.bizcredentials .main-box fieldset .span3 input[type="file"] {
+	margin: 0 0 0 0;
+} 
 
 .bizcredentials .main-box fieldset img.delete {
 	margin: -16px 0 0 40px;
