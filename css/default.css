@@ -2231,6 +2231,21 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 	margin-right: 26px;
 }
 
+.main-box fieldset img.delete {
+	margin: -16px 0 0 40px;
+}
+
+.main-box img.add {
+	margin: 20px 10px 0 30px;
+	padding-bottom: 24px;
+}
+
+.main-box a {
+	padding-top: 20px;
+	font-size: 16px;
+	color: #555555;
+}
+
 .main-box .span9 a.back {
 	float: right;
 	font-size: 22px;
@@ -2331,22 +2346,8 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 
 .bizcredentials .main-box fieldset .span3 input[type="file"] {
 	margin: 0 0 0 0;
+	height: 34px;
 } 
-
-.bizcredentials .main-box fieldset img.delete {
-	margin: -16px 0 0 40px;
-}
-
-.bizcredentials .main-box img.add {
-	margin: 20px 10px 0 30px;
-	padding-bottom: 24px;
-}
-
-.bizcredentials .main-box a {
-	padding-top: 20px;
-	font-size: 16px;
-	color: #555555;
-}
 
 .bizcredentials .main-box img.back {
 	margin-bottom: 4px;
@@ -2358,6 +2359,40 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 
 .bizcredentials .main-box .span9 a.back {
 	margin: 4px 20px 0 0;
+}
+
+/* Service Information */
+
+.serviceinformation .main-box p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	margin: 20px 0 10px 30px;
+} 
+
+.serviceinformation .main-box p.bonded {
+	font-size: 16px;
+	margin-top: 0px;
+}
+
+.serviceinformation .main-box select.bonded {
+	width: 70px;
+	height: 26px;
+	margin: 0 0 4px 4px;
+}
+
+.serviceinformation .main-box img.back {
+	margin-bottom: 4px;
+}
+
+.serviceinformation .main-box button {
+	margin: -35px 30px 50px 0;
+}
+
+.serviceinformation .main-box .span10 a.back {
+	margin: 5px 100px 0 0;
+	font-size: 22px;
+	font-weight: bold;
+	color: #707070;
 }
 
 
