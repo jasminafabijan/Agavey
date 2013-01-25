@@ -1992,7 +1992,7 @@ body {
 .welcome .main-box .benefits p.first {
 	position: absolute;
 	margin: -330px 0 0 90px;
-	font-size: 25px;
+	font-size: 22px;
 	color: #464646;
 }
 
@@ -2004,7 +2004,7 @@ body {
 .welcome .main-box .benefits p.second {
 	position: absolute;
 	margin: -170px 0 0 90px;
-	font-size: 25px;
+	font-size: 22px;
 	color: #464646;
 }
 
@@ -2014,7 +2014,7 @@ body {
 }
 
 .welcome .main-box .benefits span {
-	font-size: 16px;
+	font-size: 14px;
 	color: #363636;
 }
 
@@ -2034,8 +2034,9 @@ body {
 
 .welcome .main-box .description p {
 	margin: 20px 0 0 0;
-	font-size: 16px;
+	font-size: 14px;
 	color: #555555;
+	font-weight: 400;
 }
 
 .welcome .main-box .description p {
@@ -2317,8 +2318,12 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 	margin: 20px 30px 50px 0;
 }
 
+.bizinformation .main-box img.back {
+	margin-bottom: 5px;
+}
+
 .bizinformation .main-box .span9 a.back {
-	margin: 34px 20px 0 0;
+	margin: 15px 20px 0 0;
 }
 
 
@@ -2395,4 +2400,81 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 	color: #707070;
 }
 
+/* Payment Information */
 
+.PayInfo .main-box p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	margin: 20px 0 10px 30px;
+} 
+
+.PayInfo .main-box p.let {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	margin-top: 5px;
+} 
+
+.PayInfo .main-box ul {
+	margin-top: 30px;
+	margin-bottom: 17px;
+}
+
+.PayInfo .main-box li {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.PayInfo .main-box select {
+	height: 26px;
+	margin: 0px 0 2px 4px;
+}
+
+.PayInfo .main-box a.review {
+	padding: 5px 10px;
+	margin: 30px 0 30px 30px;
+	color: #ffffff;
+	background-color: #99cc00;
+	background-image: -webkit-linear-gradient(top, #99cc00, #7fa900);
+  background-image: -o-linear-gradient(top, #99cc00, #7fa900);
+  background-image: linear-gradient(to bottom, #99cc00, #7fa900);	
+  -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.PayInfo .main-box a.review:hover {
+	color: #ffffff;
+	border-color: #99cc00;
+	background-position: 0px;
+}
+
+.PayInfo .main-box a.review:active {
+	background-color: #5BB75B;
+}
+
+.PayInfo .main-box span.terms {
+	font-size: 17px;
+	margin-left: 30px;
+}
+
+.PayInfo .main-box p.terms {
+	font-size: 14px;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+
+.PayInfo .main-box .checkbox {
+	margin: 20px 0 0 30px;
+}
+
+.PayInfo .main-box button {
+	margin: 26px 30px 50px 0;
+}
+
+.PayInfo .main-box a.back {
+	margin: 20px 20px 0 0;
+}
+
+.PayInfo .main-box img.back {
+	margin-bottom: 4px;
+}
