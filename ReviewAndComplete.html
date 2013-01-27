@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Agavey - ReviewAndComplete</title>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <script src="./js/jquery.js" type="text/javascript"></script>
+    <script src="./js/jquery.placeholder.js" type="text/javascript"></script>
+    <script src="./js/bootstrap.dropdown.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+      $(document).ready(function(){ 
+        $('input, textarea').placeholder();
+      });
+    </script>
+
+    <!-- Le styles -->
+    <script src="./js/jquery.js" type="text/javascript"></script>
+    <script src="./js/bootstrap-modal.js" type="text/javascript"></script>
+    
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+    
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    
+  </head>
+  <body class="complete">
+  
+    <!-- Facebook like code -->
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <!-- Facebook like code -->
+    
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner main-nav">
+        <div class="container">
+          <a class="brand" href="#"><img src="img/logo.png" alt="logo" /></a>
+          <form class="navbar-form span2">
+            <input type="text" placeholder="Location" />
+          </form>
+          <ul class="nav pull-right">
+            <li><a href="#inbox">Inbox</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="icon-user icon-white"></i> John
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu pull-right">
+                <li class="border"><a href="#">Public Profile</a></li>
+                <li class="border"><a href="#">Account Settings</a></li>
+                <li class="border"><a href="#">The Help Center</a></li>
+                <li class="no-border"><a href="#">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container main-content">
+    
+    	<div class="progressbar">
+				<img src="img/ProgressBar-step4.png" alt="progress">
+			</div>
+
+			<div class="span12 main-box">
+				<form>
+			  	<h1>Review and Complete</h1>
+			  	<div class="main_reference"><strong>*</strong> Fields are required</div>
+			  	
+			  	<p>Service Details</p>
+			  	<fieldset class="details">
+			  		<div class="span5">
+			  			<select name="ctl00$MainContent$ServiceCategory1" id="MainContent_ServiceCategory1">
+			  				<option value="0">Service Category*</option>
+								<option value="1">Web Design</option>
+								<option value="4">Cool Stuff</option>
+							</select>
+			  		</div>
+			  		
+			  		<div class="span5">
+			  			<input name="ctl00$MainContent$NameOfService1" type="text" placeholder="Name Of Service*" id="MainContent_NameOfService1">
+			  		</div>
+			  		
+			  		<div class="span5">
+			  			<textarea name="ctl00$MainContent$ServiceDescription1" id="MainContent_ServiceDescription1" rows="3" placeholder="Service Description"></textarea>
+			  		</div>
+
+						<div class="span5 type">			  		
+			  			<select name="ctl00$MainContent$ServiceType1" id="MainContent_ServiceType1">
+								<option value="Service Type">Service Type</option>
+								<option value="Buy Now">Buy Now</option>
+								<option value="Request Estimate">Request Estimate</option>
+							</select>
+							<div class="reference select">Can users buy your service from the website right away 							or they will need to request for an estimate
+							</div>
+						</div>
+						
+						<div class="span5">
+							<input name="ctl00$MainContent$ServiceUnit1" type="text" placeholder="Service Unit*" id="MainContent_ServiceUnit1">
+							<div class="reference">e.g. if you provide window cleaning your Service Unit 
+			       	will be “Window” if you mow lawn it could be Acre or 0.5 Acre
+			       	</div>
+						</div>
+						
+						<div class="span5 special">
+							<input name="ctl00$MainContent$ServicePricePerUnit1" type="text" placeholder="Service Price/Unit*" id="MainContent_ServicePricePerUnit1">
+							<span id="MainContent_CheckFormat1" style="display:none;">Illegal format for currency</span>
+						</div>
+						
+						<div class="span5">
+							<input name="ctl00$MainContent$ServiceGuarantee1" type="text" placeholder="Service Guarantee*" id="MainContent_ServiceGuarantee1">
+							<div class="reference">What guarantee do you provide on your service. e.g. 
+			        “Report unsatisfactory service within 7 days”
+							</div>
+						</div>
+						
+						<div class="span5">
+							<input name="ctl00$MainContent$MaxOrders1" type="text" placeholder="Maximum number of orders you can take" id="MainContent_MaxOrders1">
+							<div class="reference">If you can take limited no. of orders specify here. If 
+			        there is no limitation leave blank
+							</div>
+							<span id="MainContent_CompareValidator3" style="visibility:hidden;">Value must be a whole number</span>
+						</div>
+
+						<div class="span5 last">
+							<span id="MainContent_Label11">Can you provide emergency services: </span>
+				      <select class="last" name="ctl00$MainContent$EmergencyServices1" id="MainContent_EmergencyServices1">
+								<option value="1">Yes</option>
+								<option value="0">No</option>
+							</select>
+						</div>
+						<div class="span10"> 
+							<a href="#"><img class="add" src="img/add-icon.png" alt="add" />Add options for this Service</a>
+						</div>
+						<div class="span10">
+							<a href="#"><img class="add" src="img/add-icon.png" alt="add" />Add another Service</a>
+						</div>
+			  	</fieldset>
+			  	
+			  	<p class="pictures">Upload Pictures Of the Services you have recently completed<small><em> (please add up to 5)</em></small></p>
+			  	<fieldset>
+			  		<div class="span5">
+            	<label>Scanned copy of license</label>
+        			<input type="file" name="ctl00$MainContent$FileUpload1" id="MainContent_FileUpload1" />
+            </div>
+            
+            <div class="span5">
+            	<input name="ctl00$MainContent$ServicePhotoDescription11" type="text" placeholder="Photo Description" id="MainContent_ServicePhotoDescription11">
+            </div>
+            <a href="#"><img class="delete" src="img/delete-icon.png" alt="delete" /></a>
+						
+						<div class="span10">
+							<a href="#"><img class="add" src="img/add-icon.png" alt="add" />Add more Pictures</a>
+						</div>
+			  	</fieldset>
+			  	
+			  	<div class="span9">
+            <a href="back" class="back pull-right"><img class="back" src="img/arrow-back.png" alt="back"> Back</a>
+					</div>	
+					<button class="btn pull-right">Continue</button>
+					
+<!-- 			  	
+			        <div id="MainContent_Panel3" style="display: none">
+					
+			        <table width="100%">
+			        <tbody><tr>
+			            <td width="500px"><span id="MainContent_Label15">Photo: </span></td>
+			            <td><input type="file" name="ctl00$MainContent$ServicePhoto12" id="MainContent_ServicePhoto12">
+			            <br>
+			            </td>
+			        </tr>
+			        <tr>
+			            <td><span id="MainContent_Label16">Photo Description: </span></td>
+			            <td><input name="ctl00$MainContent$ServicePhotoDescription12" type="text" id="MainContent_ServicePhotoDescription12"></td>
+			        </tr>
+			        </tbody></table>
+			        
+				</div>
+			        <div id="MainContent_Panel4" style="display: none">
+					
+			        <table width="100%">
+			        <tbody><tr>
+			            <td width="500px"><span id="MainContent_Label17">Photo: </span></td>
+			            <td><input type="file" name="ctl00$MainContent$ServicePhoto13" id="MainContent_ServicePhoto13">
+			            <br>
+			            </td>
+			        </tr>
+			        <tr>
+			            <td><span id="MainContent_Label18">Photo Description: </span></td>
+			            <td><input name="ctl00$MainContent$ServicePhotoDescription13" type="text" id="MainContent_ServicePhotoDescription13"></td>
+			        </tr>
+			        </tbody></table>
+			        
+				</div>
+			        <div id="MainContent_Panel5" style="display: none">
+					
+			        <table width="100%">
+			        <tbody><tr>
+			            <td width="500px"><span id="MainContent_Label19">Photo: </span></td>
+			            <td><input type="file" name="ctl00$MainContent$ServicePhoto14" id="MainContent_ServicePhoto14">
+			            <br>
+			            </td>
+			        </tr>
+			        <tr>
+			            <td><span id="MainContent_Label20">Photo Description: </span></td>
+			            <td><input name="ctl00$MainContent$ServicePhotoDescription14" type="text" id="MainContent_ServicePhotoDescription14"></td>
+			        </tr>
+			        </tbody></table>
+			        
+				</div>
+			        <div id="MainContent_Panel6" style="display: none">
+					
+			        <table width="100%">
+			        <tbody><tr>
+			            <td width="500px"><span id="MainContent_Label21">Photo: </span></td>
+			            <td><input type="file" name="ctl00$MainContent$ServicePhoto15" id="MainContent_ServicePhoto15">
+			            <br>
+			            </td>
+			        </tr>
+			        <tr>
+			            <td><span id="MainContent_Label22">Photo Description: </span></td>
+			            <td><input name="ctl00$MainContent$ServicePhotoDescription15" type="text" id="MainContent_ServicePhotoDescription15"></td>
+			        </tr>
+			        </tbody></table>
+			        
+				</div>
+			        <input type="submit" name="ctl00$MainContent$Button5" value="Add More" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$Button5&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_Button5" class="btn">  
+			            <input type="submit" name="ctl00$MainContent$Button6" value="Remove One" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$Button6&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_Button6" class="btn">
+			        
+			</div>
+			        <input type="submit" name="ctl00$MainContent$Button4" value="Go Back" id="MainContent_Button4" class="btn">&nbsp;&nbsp;
+			        <input type="submit" name="ctl00$MainContent$Button2" value="Add Another Service" id="MainContent_Button2" class="btn">
+			        <input type="submit" name="ctl00$MainContent$Button3" value="Add Options For This Service" id="MainContent_Button3" class="btn">
+			        <input type="submit" name="ctl00$MainContent$Button1" value="Continue" id="MainContent_Button1" class="btn">
+			        
+			        <br>
+			        <div id="MainContent_listServices">
+			        </div>
+			        <br>
+ -->			        
+			        </div> <!-- inner -->
+      </div> <!-- /main-box -->
+    </div> <!-- /container -->
+
+      
+
+  </body>
+
+</html>

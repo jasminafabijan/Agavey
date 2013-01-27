@@ -2254,6 +2254,29 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 	color: #707070;
 }
 
+.main-box a.btn-success {
+	padding: 5px 10px;
+	margin: 30px 0 30px 30px;
+	color: #ffffff;
+	background-color: #99cc00;
+	background-image: -webkit-linear-gradient(top, #99cc00, #7fa900);
+  background-image: -o-linear-gradient(top, #99cc00, #7fa900);
+  background-image: linear-gradient(to bottom, #99cc00, #7fa900);	
+  -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.main-box a.btn-success:hover {
+	color: #ffffff;
+	border-color: #99cc00;
+	background-position: 0px;
+}
+
+.main-box a.btn-success:active {
+	background-color: #5BB75B;
+}
+
 /* BizInformation */
 
 .bizinformation .main-box fieldset {
@@ -2359,11 +2382,12 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 }
 
 .bizcredentials .main-box button {
-	margin: 10px 30px 50px 0;
+	margin: 0 30px 50px 0;
 }
 
 .bizcredentials .main-box .span9 a.back {
-	margin: 4px 20px 0 0;
+	margin-right: 20px;
+	padding-top: 14px;
 }
 
 /* Service Information */
@@ -2429,29 +2453,6 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 	margin: 0px 0 2px 4px;
 }
 
-.PayInfo .main-box a.review {
-	padding: 5px 10px;
-	margin: 30px 0 30px 30px;
-	color: #ffffff;
-	background-color: #99cc00;
-	background-image: -webkit-linear-gradient(top, #99cc00, #7fa900);
-  background-image: -o-linear-gradient(top, #99cc00, #7fa900);
-  background-image: linear-gradient(to bottom, #99cc00, #7fa900);	
-  -webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-}
-
-.PayInfo .main-box a.review:hover {
-	color: #ffffff;
-	border-color: #99cc00;
-	background-position: 0px;
-}
-
-.PayInfo .main-box a.review:active {
-	background-color: #5BB75B;
-}
-
 .PayInfo .main-box span.terms {
 	font-size: 17px;
 	margin-left: 30px;
@@ -2477,4 +2478,88 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 
 .PayInfo .main-box img.back {
 	margin-bottom: 4px;
+}
+
+/* Review and Complete */
+
+.complete .main-box fieldset {
+	padding-bottom: 25px;
+}
+
+.complete .main-box fieldset.details {
+	padding-left: 25px;
+}
+
+.complete .main-box p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	margin: 20px 0 10px 30px;
+} 
+
+.complete .main-box select {
+	width: 350px;
+	margin: 10px 0 0 20px;
+}
+
+.complete .main-box textarea {
+	width: 336px;
+	margin: 10px 0 0 20px;
+	border: 1px solid #fff;
+	border-top: 2px solid #d7d7d7;
+} 
+
+.complete .main-box fieldset .select {
+	margin-top: 4px;
+}
+
+.complete .main-box fieldset .type {
+	height: 110px;
+}
+
+.complete .main-box fieldset .special {
+	height: 100px;
+}
+
+.complete .main-box fieldset .last {
+	margin: 0 0 20px 40px;
+}
+
+.complete .main-box fieldset .last select {
+	width: 97px;
+	margin: 0 0 0 10px;
+}
+
+.complete .main-box p.pictures {
+	margin-top: 45px;
+}
+
+.complete .main-box fieldset .span5 label {
+	margin: 8px 0 0 20px;
+	color: #555555;
+}
+
+.complete .main-box fieldset .span5 input[type="file"] {
+	margin: 0 0 10px 20px;
+	height: 34px;
+} 
+
+.complete .main-box .span10 {
+	margin: -10px 0 0 10px;
+	padding-top: 0px;
+	height: 50px;
+}
+
+.complete .main-box .span9 a.back {
+	margin: 25px 30px 0 0;
+	font-size: 22px;
+	font-weight: bold;
+	color: #707070;
+}
+
+.complete .main-box .span9 img.back {
+	margin-bottom: 4px;
+}
+
+.complete .main-box button {
+	margin: 30px 30px 50px 0;
 }
