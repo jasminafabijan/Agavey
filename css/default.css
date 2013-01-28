@@ -1874,6 +1874,42 @@ body {
 
 /* Vendor - common */
 
+.progress_bar ul {  	
+	list-style-type: none;
+	height: 44px;	  	
+	margin: -34px 0 0 -20px;	  	
+	padding-top: 14px;	  	
+}	  	
+	  	
+.progress_bar li:first-child {	  	
+	margin-left: 10px;	  	
+}
+	  	
+.progress_bar li {	  	
+	display: inline;	  	
+	font-size: 15px;	  	
+	color: #fff;	  	
+	margin-left: 23px;
+	font-weight: 400;	
+	font-family: 'Source Sans Pro', sans-serif;  	
+}
+
+.progress_bar strong {	  	
+	font-size: 16px;	  	
+	margin-right: 4px;
+	font-family: 'Source Sans Pro', sans-serif;	  	
+}
+
+.progress_bar li.done {
+	margin-left: 22px;
+}
+
+.progress_bar li.done strong {
+	margin-right: 0px;
+	font-size: 15px;
+}
+	  	
+	  	
 .main-box {
 	margin: 40px 0 50px 0;
 	background-color: #fff;
@@ -1902,6 +1938,7 @@ body {
 	background-image: -webkit-linear-gradient(top, #de6786, #d02552);
   background-image: -o-linear-gradient(top, #de6786, #d02552);
   background-image: linear-gradient(to bottom, #de6786, #d02552);	
+  background-image: -moz-linear-gradient(top, #de6786, #d02552);
   font-weight: bold;
 }
 
@@ -1963,10 +2000,10 @@ body {
 
 /* Welcome page */
 
-.main-content .progressbar {
-	margin-top: -45px;
-}
-
+.welcome .progress_bar ul {	  	
+	background: url(../img/ProgressBar-start.png) no-repeat;	  	
+}	  	
+	  	
 .welcome .main-box h1 {
 	font-size: 49px;
 	color: #99cc00;
@@ -2279,6 +2316,10 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 
 /* BizInformation */
 
+.bizinformation .progress_bar ul {	  	
+	background: url(../img/ProgressBar-step1.png) no-repeat;	  	
+}	  	
+
 .bizinformation .main-box fieldset {
 	padding-left: 25px;
 }
@@ -2349,9 +2390,11 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 	margin: 15px 20px 0 0;
 }
 
-
 /* BizCredentials */
 
+.bizcredentials .progress_bar ul {	  	
+	background: url(../img/ProgressBar-step2.png) no-repeat;	  	
+}	  	
 
 .bizcredentials fieldset i {
 	margin: -32px 0 0 60px;
@@ -2370,13 +2413,25 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 .bizcredentials .main-box label {
 	margin: -4px 0 0 0;
 	color: #555555;
+	display: block;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .bizcredentials .main-box fieldset .span3 input[type="file"] {
-	margin: 0 0 0 0;
-	height: 34px;
+	width: 220px; 
+	height: 25px; 
+	line-height: 20px;
+	margin: 0; 
+	/*border: 1px solid #777;*/
+  float: left; 
+  -webkit-box-sizing: border-box;
+  background-color: #fff;
 } 
 
+.bizcredentials .main-box fieldset .span3 input[type="file"]:-webkit-file-upload-button {
+  float: right; position: relative; top: -1px; right: -1px;}
+  
 .bizcredentials .main-box img.back {
 	margin-bottom: 4px;
 }
@@ -2391,6 +2446,10 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 }
 
 /* Service Information */
+
+.serviceinformation .progress_bar ul {	  	
+	background: url(../img/ProgressBar-step3.png) no-repeat;	  	
+}	  	
 
 .serviceinformation .main-box p {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -2425,6 +2484,10 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 }
 
 /* Payment Information */
+
+.PayInfo .progress_bar ul {	  	
+	background: url(../img/ProgressBar-step3.png) no-repeat;	  	
+}	  	
 
 .PayInfo .main-box p {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -2562,4 +2625,24 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 
 .complete .main-box button {
 	margin: 30px 30px 50px 0;
+}
+
+/* Error messages test */
+
+.main-box div.error-message input {
+	border: 1px #f00 solid;
+}
+
+.tooltip-inner {
+	color: #d11;
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+.error-message {
+	color: red;
+	display: block;
+	float: left;
+	margin-left: 20px;
+	font-size: 13px;
 }
