@@ -1899,6 +1899,7 @@ body {
 	font-size: 15px;	  	
 	color: #fff;	  	
 	margin-left: 23px;
+	-moz-margin-start: 22px;
 	font-weight: 400;	
 	font-family: 'Source Sans Pro', sans-serif;  	
 }
@@ -1917,7 +1918,10 @@ body {
 	margin-right: 0px;
 	font-size: 15px;
 }
-	  	
+
+.progress_bar li.done i {
+	margin-top: 2px;
+}
 	  	
 .main-box {
 	margin: 40px 0 50px 0;
@@ -2430,14 +2434,16 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 }
 
 .bizcredentials .main-box fieldset .span3 input[type="file"] {
-	width: 220px; 
+	width: 232px; 
 	height: 25px; 
 	line-height: 20px;
 	margin: 0; 
-	/*border: 1px solid #777;*/
   float: left; 
   -webkit-box-sizing: border-box;
   background-color: #fff;
+  -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
 } 
 
 .bizcredentials .main-box fieldset .span3 input[type="file"]:-webkit-file-upload-button {
@@ -2551,15 +2557,29 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 	margin-top: 45px;
 }
 
-.service-info .main-box fieldset .span5 label {
-	margin: 8px 0 0 20px;
+.service-info .main-box label {
 	color: #555555;
+	display: block;
+  overflow: hidden;
+  cursor: pointer;
+  margin: -4px 0 0 20px;
 }
 
 .service-info .main-box fieldset .span5 input[type="file"] {
-	margin: 0 0 10px 20px;
-	height: 34px;
+	width: 350px; 
+	height: 25px; 
+	line-height: 20px;
+  float: left; 
+  -webkit-box-sizing: border-box;
+  background-color: #fff;
+  margin: 0 0 10px 20px;
+  -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
 } 
+
+.service-info .main-box fieldset .span5 input[type="file"]:-webkit-file-upload-button {
+  float: right; position: relative; top: -1px; right: -1px;}
 
 .service-info .main-box .span10 {
 	margin: -10px 0 0 10px;
@@ -2610,6 +2630,21 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 	margin-left: 30px;
 	margin-top: 10px;
 }
+
+.PayInfo .main-box fieldset input[type="file"] {
+	width: 232px; 
+	height: 25px; 
+	line-height: 20px;
+  -webkit-box-sizing: border-box;
+  background-color: #fff;
+  margin: 0 0 10px 20px;
+  -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+} 
+
+.PayInfo .main-box fieldset input[type="file"]:-webkit-file-upload-button {
+  float: right; position: relative; top: -1px; right: -1px;}
 
 .PayInfo .main-box select {
 	height: 26px;
