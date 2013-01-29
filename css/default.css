@@ -2445,48 +2445,137 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 	padding-top: 14px;
 }
 
-/* Service Information */
+/* BizCredentials2 */
 
-.serviceinformation .progress_bar ul {	  	
-	background: url(../img/ProgressBar-step3.png) no-repeat;	  	
+.bizcredentials2 .progress_bar ul {	  	
+	background: url(../img/ProgressBar-step2.png) no-repeat;	  	
 }	  	
 
-.serviceinformation .main-box p {
+.bizcredentials2 .main-box p {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 22px;
 	margin: 20px 0 10px 30px;
 } 
 
-.serviceinformation .main-box p.bonded {
+.bizcredentials2 .main-box p.bonded {
 	font-size: 16px;
 	margin-top: 0px;
 }
 
-.serviceinformation .main-box select.bonded {
+.bizcredentials2 .main-box select.bonded {
 	width: 70px;
 	height: 26px;
 	margin: 0 0 4px 4px;
 }
 
-.serviceinformation .main-box img.back {
+.bizcredentials2 .main-box img.back {
 	margin-bottom: 4px;
 }
 
-.serviceinformation .main-box button {
+.bizcredentials2 .main-box button {
 	margin: -35px 30px 50px 0;
 }
 
-.serviceinformation .main-box .span10 a.back {
+.bizcredentials2 .main-box .span10 a.back {
 	margin: 5px 100px 0 0;
 	font-size: 22px;
 	font-weight: bold;
 	color: #707070;
 }
 
+/* Service Information */
+
+.service-info .progress_bar ul {	  	
+	background: url(../img/ProgressBar-step3.png) no-repeat;	  	
+}	  	
+
+.service-info .main-box fieldset {
+	padding-bottom: 25px;
+}
+
+.service-info .main-box fieldset.details {
+	padding-left: 25px;
+}
+
+.service-info .main-box p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	margin: 20px 0 10px 30px;
+} 
+
+.service-info .main-box select {
+	width: 350px;
+	margin: 10px 0 0 20px;
+}
+
+.service-info .main-box textarea {
+	width: 336px;
+	margin: 10px 0 0 20px;
+	border: 1px solid #fff;
+	border-top: 2px solid #d7d7d7;
+} 
+
+.service-info .main-box fieldset .select {
+	margin-top: 4px;
+}
+
+.service-info .main-box fieldset .type {
+	height: 110px;
+}
+
+.service-info .main-box fieldset .special {
+	height: 100px;
+}
+
+.service-info .main-box fieldset .last {
+	margin: 0 0 20px 40px;
+}
+
+.service-info .main-box fieldset .last select {
+	width: 97px;
+	margin: 0 0 0 10px;
+}
+
+.service-info .main-box p.pictures {
+	margin-top: 45px;
+}
+
+.service-info .main-box fieldset .span5 label {
+	margin: 8px 0 0 20px;
+	color: #555555;
+}
+
+.service-info .main-box fieldset .span5 input[type="file"] {
+	margin: 0 0 10px 20px;
+	height: 34px;
+} 
+
+.service-info .main-box .span10 {
+	margin: -10px 0 0 10px;
+	padding-top: 0px;
+	height: 50px;
+}
+
+.service-info .main-box .span9 a.back {
+	margin: 25px 30px 0 0;
+	font-size: 22px;
+	font-weight: bold;
+	color: #707070;
+}
+
+.service-info .main-box .span9 img.back {
+	margin-bottom: 4px;
+}
+
+.service-info .main-box button {
+	margin: 30px 30px 50px 0;
+}
+
+
 /* Payment Information */
 
 .PayInfo .progress_bar ul {	  	
-	background: url(../img/ProgressBar-step3.png) no-repeat;	  	
+	background: url(../img/ProgressBar-step4.png) no-repeat;	  	
 }	  	
 
 .PayInfo .main-box p {
@@ -2545,87 +2634,6 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 
 /* Review and Complete */
 
-.complete .main-box fieldset {
-	padding-bottom: 25px;
-}
-
-.complete .main-box fieldset.details {
-	padding-left: 25px;
-}
-
-.complete .main-box p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 22px;
-	margin: 20px 0 10px 30px;
-} 
-
-.complete .main-box select {
-	width: 350px;
-	margin: 10px 0 0 20px;
-}
-
-.complete .main-box textarea {
-	width: 336px;
-	margin: 10px 0 0 20px;
-	border: 1px solid #fff;
-	border-top: 2px solid #d7d7d7;
-} 
-
-.complete .main-box fieldset .select {
-	margin-top: 4px;
-}
-
-.complete .main-box fieldset .type {
-	height: 110px;
-}
-
-.complete .main-box fieldset .special {
-	height: 100px;
-}
-
-.complete .main-box fieldset .last {
-	margin: 0 0 20px 40px;
-}
-
-.complete .main-box fieldset .last select {
-	width: 97px;
-	margin: 0 0 0 10px;
-}
-
-.complete .main-box p.pictures {
-	margin-top: 45px;
-}
-
-.complete .main-box fieldset .span5 label {
-	margin: 8px 0 0 20px;
-	color: #555555;
-}
-
-.complete .main-box fieldset .span5 input[type="file"] {
-	margin: 0 0 10px 20px;
-	height: 34px;
-} 
-
-.complete .main-box .span10 {
-	margin: -10px 0 0 10px;
-	padding-top: 0px;
-	height: 50px;
-}
-
-.complete .main-box .span9 a.back {
-	margin: 25px 30px 0 0;
-	font-size: 22px;
-	font-weight: bold;
-	color: #707070;
-}
-
-.complete .main-box .span9 img.back {
-	margin-bottom: 4px;
-}
-
-.complete .main-box button {
-	margin: 30px 30px 50px 0;
-}
 
 /* Error messages test */
 

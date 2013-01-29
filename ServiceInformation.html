@@ -28,7 +28,7 @@
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
     
   </head>
-  <body class="serviceinformation">
+  <body class="service-info">
   
     <!-- Facebook like code -->
     <div id="fb-root"></div>
@@ -72,368 +72,196 @@
 	    <div class="span12 progress_bar">	  	
         <ul>
         	<li>Welcome</li>
-        	<li><strong class="done">✔</strong> Business Information</li>
-        	<li><strong class="done">✔</strong> Business Credentials</li>
+        	<li class="done"><strong><i class="icon-ok icon-white"></i></strong> Business Information</li>
+        	<li class="done"><strong><i class="icon-ok icon-white"></i></strong> Business Credentials</li>
         	<li><strong>3</strong> Service Information</li>
           <li><strong>4</strong> Payment Information</li>
          	<li><strong>5</strong> Review and Complete</li>
         </ul>
       </div>
 
-      <div class="span12 main-box">
-        <form>             
-        	<h1>Service Information:</h1>
-					<div class="main_reference"><strong>*</strong> Fields are required</div>
-					
-          <p class="company">Insurance Information</p>
-					<fieldset>	
-        		<div class="span5">
-        			<input name="ctl00$MainContent$InsuranceNumber1" type="text" placeholder="General Liability Insurance Number" onchange="javascript:setTimeout('__doPostBack(\'ctl00$MainContent$InsuranceNumber1\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="MainContent_InsuranceNumber1">
-            </div>
-        
-        		<div class="span5">
-        			<input name="ctl00$MainContent$InsuranceCarrier1" type="text" placeholder="Insurance Carrier" id="MainContent_InsuranceCarrier1">
-        		</div>
-        		<a href="#"><img class="delete" src="img/delete-icon.png" alt="delete" /></a>
-        
-        		<div class="span3">
-        			<input name="ctl00$MainContent$AmountInsured1" type="text" placeholder="Amount Insured For" id="MainContent_AmountInsured1">
-            	<span id="MainContent_CompareValidator27" style="color:Red;display:none;">Value must be numeric</span>
-            </div>
-            
-        		<div class="span3">
-        			<input name="ctl00$MainContent$InsuranceIssuedDate1" type="text" placeholder="Issued Date" id="MainContent_InsuranceIssuedDate1">
-        			<div class="reference">MM-DD-YY</div>
-              <span id="MainContent_CompareValidator18" style="color:Red;display:none;">The date must be older than today</span>
-              <span id="MainContent_CompareValidator1" style="color:Red;display:none;">Date must be in MM-DD-YY format</span>
-        		</div>
-        		
-        		<div class="span3">
-        			<input name="ctl00$MainContent$InsuranceExpirationDate1" type="text" placeholder="Expiration Date" id="MainContent_InsuranceExpirationDate1">
-        			<div class="reference">MM-DD-YY</div>
-            	<span id="MainContent_CompareValidator26" style="color:Red;display:none;">The date must be in the future</span>
-              <span id="MainContent_CompareValidator2" style="color:Red;display:none;">Date must be in MM-DD-YY format</span> 
-        		</div>
-					</fieldset>
-					<a href="#"><img class="add" src="img/add-icon.png" alt="add" />Add more Insurance</a>
-					<p class="bonded">Are You Bonded:
-            <select class="bonded" name="ctl00$MainContent$IsBonded" id="MainContent_IsBonded">
-							<option value="No">No</option>
-							<option value="Yes">Yes</option>
-						</select>
-					</p>
-					
-					<p>
-            If The Service You Provide Needs Special Licensing, Please Provide Details
-	        </p>
-	        <fieldset>
-						<div class="span5">
-          		<input name="ctl00$MainContent$LicenseName1" type="text" placeholder="License Name" onchange="javascript:setTimeout('__doPostBack(\'ctl00$MainContent$LicenseName1\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="MainContent_LicenseName1">
+			<div class="span12 main-box">
+				<form>
+			  	<h1>Service Information</h1>
+			  	<div class="main_reference"><strong>*</strong> Fields are required</div>
+			  	
+			  	<p>Service Details</p>
+			  	<fieldset class="details">
+			  		<div class="span5">
+			  			<select name="ctl00$MainContent$ServiceCategory1" id="MainContent_ServiceCategory1">
+			  				<option value="0">Service Category*</option>
+								<option value="1">Web Design</option>
+								<option value="4">Cool Stuff</option>
+							</select>
+			  		</div>
+			  		
+			  		<div class="span5">
+			  			<input name="ctl00$MainContent$NameOfService1" type="text" placeholder="Name Of Service*" id="MainContent_NameOfService1">
+			  		</div>
+			  		
+			  		<div class="span5">
+			  			<textarea name="ctl00$MainContent$ServiceDescription1" id="MainContent_ServiceDescription1" rows="3" placeholder="Service Description"></textarea>
+			  		</div>
+
+						<div class="span5 type">			  		
+			  			<select name="ctl00$MainContent$ServiceType1" id="MainContent_ServiceType1">
+								<option value="Service Type">Service Type</option>
+								<option value="Buy Now">Buy Now</option>
+								<option value="Request Estimate">Request Estimate</option>
+							</select>
+							<div class="reference select">Can users buy your service from the website right away 							or they will need to request for an estimate
+							</div>
 						</div>
 						
 						<div class="span5">
-            	<input name="ctl00$MainContent$LicenseNumber1" type="text" placeholder="License Number and Location" id="MainContent_LicenseNumber1">
+							<input name="ctl00$MainContent$ServiceUnit1" type="text" placeholder="Service Unit*" id="MainContent_ServiceUnit1">
+							<div class="reference">e.g. if you provide window cleaning your Service Unit 
+			       	will be “Window” if you mow lawn it could be Acre or 0.5 Acre
+			       	</div>
 						</div>
-						<a href="#"><img class="delete" src="img/delete-icon.png" alt="delete" /></a>
-					</fieldset>
-					<a href="#"><img class="add" src="img/add-icon.png" alt="add" />Add more details</a>
-        	
-        	<p>Customer Reviews<small><em> (Please Provide References Of Individuals We May Contact)</em></small></p> 
-          <fieldset>
-            <div class="span5">
-            	<input name="ctl00$MainContent$ReferenceName1" type="text" placeholder="Name" onchange="javascript:setTimeout('__doPostBack(\'ctl00$MainContent$ReferenceName1\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="MainContent_ReferenceName1">
+						
+						<div class="span5 special">
+							<input name="ctl00$MainContent$ServicePricePerUnit1" type="text" placeholder="Service Price/Unit*" id="MainContent_ServicePricePerUnit1">
+							<span id="MainContent_CheckFormat1" style="display:none;">Illegal format for currency</span>
+						</div>
+						
+						<div class="span5">
+							<input name="ctl00$MainContent$ServiceGuarantee1" type="text" placeholder="Service Guarantee*" id="MainContent_ServiceGuarantee1">
+							<div class="reference">What guarantee do you provide on your service. e.g. 
+			        “Report unsatisfactory service within 7 days”
+							</div>
+						</div>
+						
+						<div class="span5">
+							<input name="ctl00$MainContent$MaxOrders1" type="text" placeholder="Maximum number of orders you can take" id="MainContent_MaxOrders1">
+							<div class="reference">If you can take limited no. of orders specify here. If 
+			        there is no limitation leave blank
+							</div>
+							<span id="MainContent_CompareValidator3" style="visibility:hidden;">Value must be a whole number</span>
+						</div>
+
+						<div class="span5 last">
+							<span id="MainContent_Label11">Can you provide emergency services: </span>
+				      <select class="last" name="ctl00$MainContent$EmergencyServices1" id="MainContent_EmergencyServices1">
+								<option value="1">Yes</option>
+								<option value="0">No</option>
+							</select>
+						</div>
+						<div class="span10"> 
+							<a href="#"><img class="add" src="img/add-icon.png" alt="add" />Add options for this Service</a>
+						</div>
+						<div class="span10">
+							<a href="#"><img class="add" src="img/add-icon.png" alt="add" />Add another Service</a>
+						</div>
+			  	</fieldset>
+			  	
+			  	<p class="pictures">Upload Pictures Of the Services you have recently completed<small><em> (please add up to 5)</em></small></p>
+			  	<fieldset>
+			  		<div class="span5">
+            	<label>Scanned copy of license</label>
+        			<input type="file" name="ctl00$MainContent$FileUpload1" id="MainContent_FileUpload1" />
             </div>
             
             <div class="span5">
-            	<input name="ctl00$MainContent$ReferencePhone1" type="text" placeholder="Phone No" id="MainContent_ReferencePhone1">            
+            	<input name="ctl00$MainContent$ServicePhotoDescription11" type="text" placeholder="Photo Description" id="MainContent_ServicePhotoDescription11">
             </div>
             <a href="#"><img class="delete" src="img/delete-icon.png" alt="delete" /></a>
-            
-            <div class="span5">
-            	<input name="ctl00$MainContent$ReferenceAddress11" type="text" placeholder="Address 1" id="MainContent_ReferenceAddress11">
-            </div>
-            
-            <div class="span5">
-            	<input name="ctl00$MainContent$ReferenceAddress21" type="text" placeholder="Address 2" id="MainContent_ReferenceAddress21">
-            </div>
-            
-            <div class="span5">
-            	<input name="ctl00$MainContent$ReferenceCity1" type="text" placeholder="City" id="MainContent_ReferenceCity1">
-            </div>
-            
-            <div class="span5">
-            	<input name="ctl00$MainContent$ReferenceEmail1" type="text" placeholder="Email" id="MainContent_ReferenceEmail1">
-              <span id="MainContent_validateEmail" style="color:Red;display:none;">Invalid email address</span>
-            </div>
-					</fieldset>
-					<a href="#"><img class="add" src="img/add-icon.png" alt="add" />Add more reviews</a>
-
-      		<div class="span10">
-            <a href="back" class="back pull-right"><img class="back" src="img/arrow-back.png" alt="back"> Back</a>
+						
+						<div class="span10">
+							<a href="#"><img class="add" src="img/add-icon.png" alt="add" />Add more Pictures</a>
 						</div>
+			  	</fieldset>
+			  	
+			  	<div class="span9">
+            <a href="back" class="back pull-right"><img class="back" src="img/arrow-back.png" alt="back"> Back</a>
+					</div>	
 					<button class="btn pull-right">Continue</button>
-
-
-
-
-<!--		
-        <table width="100%">
-        <tbody><tr>
-            <td width="500px"><span id="MainContent_Label5">General Liability Insurance Number #:</span></td>
-            <td><input name="ctl00$MainContent$InsuranceNumber2" type="text" id="MainContent_InsuranceNumber2"></td>
-        </tr>
-        <tr>
-            <td><span id="MainContent_Label6">Insurance Carrier:</span></td>
-            <td><input name="ctl00$MainContent$InsuranceCarrier2" type="text" id="MainContent_InsuranceCarrier2"></td>
-        </tr>
-        <tr>
-            <td><span id="MainContent_Label7">Amount Insured For:</span></td>
-            <td><input name="ctl00$MainContent$AmountInsured2" type="text" id="MainContent_AmountInsured2"><br>
-            <span id="MainContent_CompareValidator11" style="color:Red;display:none;">Value must be numeric</span></td>
-        </tr>
-        <tr>
-            <td><span id="MainContent_Label8">Issued Date:</span></td>
-            <td><input name="ctl00$MainContent$InsuranceIssuedDate2" type="text" id="MainContent_InsuranceIssuedDate2"><br>
-            <span id="MainContent_CompareValidator7" style="color:Red;display:none;">The date must be older than today</span>
-                <span id="MainContent_CompareValidator3" style="color:Red;display:none;">Date must be in MM-DD-YY format</span></td>
-        </tr>
-        <tr>
-            <td><span id="MainContent_Label50">Expiration Date:</span> </td>
-            <td><input name="ctl00$MainContent$InsuranceExpirationDate2" type="text" id="MainContent_InsuranceExpirationDate2"><br>
-            <span id="MainContent_CompareValidator9" style="color:Red;display:none;">The date must be in the future</span>
-                <span id="MainContent_CompareValidator4" style="color:Red;display:none;">Date must be in MM-DD-YY format</span></td>
-        </tr>
-        </tbody></table><br>
-        
-</div>
-        <div id="MainContent_Panel3" style="display: none">
-	
-        <table width="100%">
-        <tbody><tr>
-            <td width="500px"><span id="MainContent_Label9">General Liability Insurance Number #:</span></td>
-            <td><input name="ctl00$MainContent$InsuranceNumber3" type="text" id="MainContent_InsuranceNumber3"></td>
-        </tr>
-        <tr>
-            <td><span id="MainContent_Label10">Insurance Carrier:</span></td>
-            <td><input name="ctl00$MainContent$InsuranceCarrier3" type="text" id="MainContent_InsuranceCarrier3"></td>
-        </tr>
-        <tr>
-            <td><span id="MainContent_Label11">Amount Insured For:</span></td>
-            <td><input name="ctl00$MainContent$AmountInsured3" type="text" id="MainContent_AmountInsured3"><br>
-            <span id="MainContent_CompareValidator12" style="color:Red;display:none;">Value must be numeric</span></td>
-        </tr>
-        <tr>
-            <td><span id="MainContent_Label12">Issued Date:</span></td>
-            <td><input name="ctl00$MainContent$InsuranceIssuedDate3" type="text" id="MainContent_InsuranceIssuedDate3"><br>
-            <span id="MainContent_CompareValidator8" style="color:Red;display:none;">The date must be older than today</span>
-                <span id="MainContent_CompareValidator5" style="color:Red;display:none;">Date must be in MM-DD-YY format</span></td>
-        </tr>
-        <tr>
-            <td><span id="MainContent_Label51">Expiration Date:</span></td>
-            <td><input name="ctl00$MainContent$InsuranceExpirationDate3" type="text" id="MainContent_InsuranceExpirationDate3"><br>
-            <span id="MainContent_CompareValidator10" style="color:Red;display:none;">The date must be in the future</span>
-                <span id="MainContent_CompareValidator6" style="color:Red;display:none;">Date must be in MM-DD-YY format</span></td>
-        </tr>
-        </tbody></table>
-        
-</div>
-        <input type="submit" name="ctl00$MainContent$Button3" value="Add More" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$Button3&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_Button3" class="btn">  
-        
-	
-            <div id="MainContent_Panel5" style="display: none">
-	
-            <table width="100%">
-            <tbody><tr>
-                <td width="500px"><span id="MainContent_Label15">License Name</span></td>
-                <td><input name="ctl00$MainContent$LicenseName2" type="text" id="MainContent_LicenseName2"></td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label16">License Number and Location</span></td>
-                <td><input name="ctl00$MainContent$LicenseNumber2" type="text" id="MainContent_LicenseNumber2"></td>
-            </tr>
-            </tbody></table><br>
-            
-</div>
-            <div id="MainContent_Panel6" style="display: none">
-	
-            <table width="100%">
-            <tbody><tr>
-                <td width="500px"><span id="MainContent_Label17">License Name</span></td>
-                <td><input name="ctl00$MainContent$LicenseName3" type="text" id="MainContent_LicenseName3"></td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label18">License Number and Location</span></td>
-                <td><input name="ctl00$MainContent$LicenseNumber3" type="text" id="MainContent_LicenseNumber3"></td>
-            </tr>
-            </tbody></table><br>
-            
-</div>
-            <input type="submit" name="ctl00$MainContent$Button5" value="Add More" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$Button5&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_Button5" class="btn">  
-            
-            <div id="MainContent_Panel8" style="display: none">
-	
-            <table width="100%">
-            <tbody><tr>
-                <td width="500px"><span id="MainContent_Label25">Name: </span></td>
-                <td><input name="ctl00$MainContent$ReferenceName2" type="text" id="MainContent_ReferenceName2"></td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label26">Phone No: </span></td>
-                <td><input name="ctl00$MainContent$ReferencePhone2" type="text" id="MainContent_ReferencePhone2">     </td>       
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label27">Address 1: </span></td>
-                <td><input name="ctl00$MainContent$ReferenceAddress12" type="text" id="MainContent_ReferenceAddress12"></td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label28">Address 2: </span></td>
-                <td><input name="ctl00$MainContent$ReferenceAddress22" type="text" id="MainContent_ReferenceAddress22"></td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label29">City</span></td>
-                <td><input name="ctl00$MainContent$ReferenceCity2" type="text" id="MainContent_ReferenceCity2"></td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label30">Email</span></td>
-                <td><input name="ctl00$MainContent$ReferenceEmail2" type="text" id="MainContent_ReferenceEmail2"><br>
-                <span id="MainContent_RegularExpressionValidator1" style="color:Red;display:none;">Invalid email address</span></td>
-            </tr>
-            </tbody></table><br><br>
-            
-</div>
-            <div id="MainContent_Panel9" style="display: none">
-	
-            <table width="100%">
-            <tbody><tr>
-                <td width="500px"><span id="MainContent_Label31">Name: </span></td>
-                <td><input name="ctl00$MainContent$ReferenceName3" type="text" id="MainContent_ReferenceName3"></td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label32">Phone No: </span></td>
-                <td><input name="ctl00$MainContent$ReferencePhone3" type="text" id="MainContent_ReferencePhone3">     </td>       
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label33">Address 1: </span></td>
-                <td><input name="ctl00$MainContent$ReferenceAddress13" type="text" id="MainContent_ReferenceAddress13"></td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label34">Address 2: </span></td>
-                <td><input name="ctl00$MainContent$ReferenceAddress23" type="text" id="MainContent_ReferenceAddress23"></td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label35">City</span></td>
-                <td><input name="ctl00$MainContent$ReferenceCity3" type="text" id="MainContent_ReferenceCity3"></td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label36">Email</span></td>
-                <td><input name="ctl00$MainContent$ReferenceEmail3" type="text" id="MainContent_ReferenceEmail3"><br>
-                <span id="MainContent_RegularExpressionValidator2" style="color:Red;display:none;">Invalid email address</span></td>
-            </tr>
-            </tbody></table><br><br>
-            
-</div>
-            <div id="MainContent_Panel10" style="display: none">
-	
-            <table width="100%">
-            <tbody><tr>
-                <td width="500px"><span id="MainContent_Label37">Name: </span></td>
-                <td><input name="ctl00$MainContent$ReferenceName4" type="text" id="MainContent_ReferenceName4"></td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label38">Phone No: </span></td>
-                <td><input name="ctl00$MainContent$ReferencePhone4" type="text" id="MainContent_ReferencePhone4">      </td>      
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label39">Address 1: </span></td>
-                <td><input name="ctl00$MainContent$ReferenceAddress14" type="text" id="MainContent_ReferenceAddress14"></td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label40">Address 2: </span></td>
-                <td><input name="ctl00$MainContent$ReferenceAddress24" type="text" id="MainContent_ReferenceAddress24"></td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label41">City</span></td>
-                <td><input name="ctl00$MainContent$ReferenceCity4" type="text" id="MainContent_ReferenceCity4"></td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label42">Email</span></td>
-                <td><input name="ctl00$MainContent$ReferenceEmail4" type="text" id="MainContent_ReferenceEmail4"><br>
-                <span id="MainContent_RegularExpressionValidator3" style="color:Red;display:none;">Invalid email address</span></td>
-            </tr>
-            </tbody></table><br>
-            
-</div>
-            <div id="MainContent_Panel11" style="display: none">
-	
-            <table width="100%">
-            <tbody><tr>
-                <td width="500px"><span id="MainContent_Label43">Name: </span></td>
-                <td><input name="ctl00$MainContent$ReferenceName5" type="text" id="MainContent_ReferenceName5"></td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label44">Phone No: </span></td>
-                <td><input name="ctl00$MainContent$ReferencePhone5" type="text" id="MainContent_ReferencePhone5">            </td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label45">Address 1: </span></td>
-                <td><input name="ctl00$MainContent$ReferenceAddress15" type="text" id="MainContent_ReferenceAddress15"></td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label46">Address 2: </span></td>
-                <td><input name="ctl00$MainContent$ReferenceAddress25" type="text" id="MainContent_ReferenceAddress25"></td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label47">City</span></td>
-                <td><input name="ctl00$MainContent$ReferenceCity5" type="text" id="MainContent_ReferenceCity5"></td>
-            </tr>
-            <tr>
-                <td><span id="MainContent_Label48">Email</span></td>
-                <td><input name="ctl00$MainContent$ReferenceEmail5" type="text" id="MainContent_ReferenceEmail5"><br>
-                <span id="MainContent_RegularExpressionValidator4" style="color:Red;display:none;">Invalid email address</span></td>
-            </tr>
-            </tbody></table><br>
-            
-</div>
-            <input type="submit" name="ctl00$MainContent$Button8" value="Add More" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$Button8&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_Button8" class="btn">  
-            
-            <br>
-            <p align="right">
-                <input type="submit" name="ctl00$MainContent$Button2" value="Back" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$Button2&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_Button2" class="btn">
-
-                <input type="submit" name="ctl00$MainContent$Button1" value="Continue" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$Button1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_Button1" class="btn">
-                <br>
-                
-            </p>
-        </div>
-
-
-  -->			        
-        </form>     
+					
+<!-- 			  	
+			        <div id="MainContent_Panel3" style="display: none">
+					
+			        <table width="100%">
+			        <tbody><tr>
+			            <td width="500px"><span id="MainContent_Label15">Photo: </span></td>
+			            <td><input type="file" name="ctl00$MainContent$ServicePhoto12" id="MainContent_ServicePhoto12">
+			            <br>
+			            </td>
+			        </tr>
+			        <tr>
+			            <td><span id="MainContent_Label16">Photo Description: </span></td>
+			            <td><input name="ctl00$MainContent$ServicePhotoDescription12" type="text" id="MainContent_ServicePhotoDescription12"></td>
+			        </tr>
+			        </tbody></table>
+			        
+				</div>
+			        <div id="MainContent_Panel4" style="display: none">
+					
+			        <table width="100%">
+			        <tbody><tr>
+			            <td width="500px"><span id="MainContent_Label17">Photo: </span></td>
+			            <td><input type="file" name="ctl00$MainContent$ServicePhoto13" id="MainContent_ServicePhoto13">
+			            <br>
+			            </td>
+			        </tr>
+			        <tr>
+			            <td><span id="MainContent_Label18">Photo Description: </span></td>
+			            <td><input name="ctl00$MainContent$ServicePhotoDescription13" type="text" id="MainContent_ServicePhotoDescription13"></td>
+			        </tr>
+			        </tbody></table>
+			        
+				</div>
+			        <div id="MainContent_Panel5" style="display: none">
+					
+			        <table width="100%">
+			        <tbody><tr>
+			            <td width="500px"><span id="MainContent_Label19">Photo: </span></td>
+			            <td><input type="file" name="ctl00$MainContent$ServicePhoto14" id="MainContent_ServicePhoto14">
+			            <br>
+			            </td>
+			        </tr>
+			        <tr>
+			            <td><span id="MainContent_Label20">Photo Description: </span></td>
+			            <td><input name="ctl00$MainContent$ServicePhotoDescription14" type="text" id="MainContent_ServicePhotoDescription14"></td>
+			        </tr>
+			        </tbody></table>
+			        
+				</div>
+			        <div id="MainContent_Panel6" style="display: none">
+					
+			        <table width="100%">
+			        <tbody><tr>
+			            <td width="500px"><span id="MainContent_Label21">Photo: </span></td>
+			            <td><input type="file" name="ctl00$MainContent$ServicePhoto15" id="MainContent_ServicePhoto15">
+			            <br>
+			            </td>
+			        </tr>
+			        <tr>
+			            <td><span id="MainContent_Label22">Photo Description: </span></td>
+			            <td><input name="ctl00$MainContent$ServicePhotoDescription15" type="text" id="MainContent_ServicePhotoDescription15"></td>
+			        </tr>
+			        </tbody></table>
+			        
+				</div>
+			        <input type="submit" name="ctl00$MainContent$Button5" value="Add More" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$Button5&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_Button5" class="btn">  
+			            <input type="submit" name="ctl00$MainContent$Button6" value="Remove One" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$Button6&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_Button6" class="btn">
+			        
+			</div>
+			        <input type="submit" name="ctl00$MainContent$Button4" value="Go Back" id="MainContent_Button4" class="btn">&nbsp;&nbsp;
+			        <input type="submit" name="ctl00$MainContent$Button2" value="Add Another Service" id="MainContent_Button2" class="btn">
+			        <input type="submit" name="ctl00$MainContent$Button3" value="Add Options For This Service" id="MainContent_Button3" class="btn">
+			        <input type="submit" name="ctl00$MainContent$Button1" value="Continue" id="MainContent_Button1" class="btn">
+			        
+			        <br>
+			        <div id="MainContent_listServices">
+			        </div>
+			        <br>
+ -->			        
+			        </div> <!-- inner -->
       </div> <!-- /main-box -->
     </div> <!-- /container -->
-    
-    <!-- modal popup -->
-    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="myModalLabel">Welcome Back!</h3>
-      </div>
-      <div class="modal-body">
-        <input type="text" class="input-small" placeholder="Email" />
-        <input type="password" class="input-small" placeholder="Password" />
-        <p><a href="#">Forgot Password?</a></p>
-      </div>
-      <div class="modal-footer">
-        <button class="btn">Login</button>
-        <a href="#"><img src="img/fb-login-button.png" alt="facebook" /></a>
-        <p>Not a member yet?<a href="#">Sign Up Now!</a></p>
-      </div>
-    </div>
-    <!-- modal popup -->
-    
-    
-    <!-- pinterest button -->
-    <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
-    <!-- pinterest button -->
+
+      
+
   </body>
+
 </html>
