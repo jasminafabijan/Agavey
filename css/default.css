@@ -2257,7 +2257,7 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 	font-size: 12px;
 	font-style: italic;
 	color: #7d7d7d;
-	margin: -14px 0 10px 20px;
+	margin: 0 0 0 20px;
 }
 
 .main-box fieldset input[type="text"],
@@ -2268,7 +2268,7 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 }
 
 .main-box fieldset .span5 input {
-	margin: 10px 0 20px 20px;
+	margin: 10px 0 5px 20px;
 	width: 336px;
 }
 
@@ -2276,7 +2276,7 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 .main-box fieldset .span3 input[type="password"], 
 .main-box fieldset .span3 input[type="file"] {
 	width: 204px;
-	margin: 10px 0 20px 20px;
+	margin: 10px 0 5px 20px;
 }
 
 .main-box fieldset .span3 {
@@ -2329,6 +2329,24 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 	background-color: #5BB75B;
 }
 
+.error-message {
+	margin-left: 20px;
+	font-size: 13px;
+	display: block;
+}
+
+fieldset .controls {
+	content: "";
+  clear: both;
+  display: table;
+  margin-bottom: 15px;
+}
+
+br {
+	display: block;
+	content: " ";
+}
+
 /* BizInformation */
 
 .bizinformation .progress_bar ul {	  	
@@ -2365,7 +2383,7 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 }
 
 .bizinformation fieldset .span2 {
-	margin: 6px 44px 0 0;	
+	margin-left: 40px;	
 	float: right;
 }
 
@@ -2536,10 +2554,6 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 	margin-top: 4px;
 }
 
-.service-info .main-box fieldset .type {
-	height: 110px;
-}
-
 .service-info .main-box fieldset .special {
 	height: 100px;
 }
@@ -2681,22 +2695,3 @@ background-image: -ms-linear-gradient(top, rgb(230,141,165) 3%, rgb(212,68,107) 
 /* Review and Complete */
 
 
-/* Error messages test */
-
-.main-box div.error-message input {
-	border: 1px #f00 solid;
-}
-
-.tooltip-inner {
-	color: #d11;
-	font-size: 14px;
-	font-weight: bolder;
-}
-
-.error-message {
-	color: red;
-	display: block;
-	float: left;
-	margin-left: 20px;
-	font-size: 13px;
-}

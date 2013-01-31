@@ -87,57 +87,65 @@
 			  	
 			  	<p>Service Details</p>
 			  	<fieldset class="details">
-			  		<div class="span5">
-			  			<select name="ctl00$MainContent$ServiceCategory1" id="MainContent_ServiceCategory1">
-			  				<option value="0">Service Category*</option>
-								<option value="1">Web Design</option>
-								<option value="4">Cool Stuff</option>
-							</select>
+			  		<div class="controls">
+				  		<div class="span5">
+				  			<select name="ctl00$MainContent$ServiceCategory1" id="MainContent_ServiceCategory1">
+				  				<option value="0">Service Category*</option>
+									<option value="1">Web Design</option>
+									<option value="4">Cool Stuff</option>
+								</select>
+				  		</div>
+				  		
+				  		<div class="span5">
+				  			<input name="ctl00$MainContent$NameOfService1" type="text" placeholder="Name Of Service*" id="MainContent_NameOfService1">
+				  		</div>
 			  		</div>
 			  		
-			  		<div class="span5">
-			  			<input name="ctl00$MainContent$NameOfService1" type="text" placeholder="Name Of Service*" id="MainContent_NameOfService1">
-			  		</div>
-			  		
-			  		<div class="span5">
-			  			<textarea name="ctl00$MainContent$ServiceDescription1" id="MainContent_ServiceDescription1" rows="3" placeholder="Service Description"></textarea>
-			  		</div>
-
-						<div class="span5 type">			  		
-			  			<select name="ctl00$MainContent$ServiceType1" id="MainContent_ServiceType1">
-								<option value="Service Type">Service Type</option>
-								<option value="Buy Now">Buy Now</option>
-								<option value="Request Estimate">Request Estimate</option>
-							</select>
-							<div class="reference select">Can users buy your service from the website right away 							or they will need to request for an estimate
+			  		<div class="controls">
+				  		<div class="span5">
+				  			<textarea name="ctl00$MainContent$ServiceDescription1" id="MainContent_ServiceDescription1" rows="3" placeholder="Service Description"></textarea>
+				  		</div>
+	
+							<div class="span5 type">			  		
+				  			<select name="ctl00$MainContent$ServiceType1" id="MainContent_ServiceType1">
+									<option value="Service Type">Service Type</option>
+									<option value="Buy Now">Buy Now</option>
+									<option value="Request Estimate">Request Estimate</option>
+								</select>
+								<div class="reference select">Can users buy your service from the website right away or they will need to request for an estimate
+								</div>
 							</div>
 						</div>
 						
-						<div class="span5">
-							<input name="ctl00$MainContent$ServiceUnit1" type="text" placeholder="Service Unit*" id="MainContent_ServiceUnit1">
-							<div class="reference">e.g. if you provide window cleaning your Service Unit 
-			       	will be “Window” if you mow lawn it could be Acre or 0.5 Acre
-			       	</div>
-						</div>
-						
-						<div class="span5 special">
-							<input name="ctl00$MainContent$ServicePricePerUnit1" type="text" placeholder="Service Price/Unit*" id="MainContent_ServicePricePerUnit1">
-							<span id="MainContent_CheckFormat1" style="display:none;">Illegal format for currency</span>
-						</div>
-						
-						<div class="span5">
-							<input name="ctl00$MainContent$ServiceGuarantee1" type="text" placeholder="Service Guarantee*" id="MainContent_ServiceGuarantee1">
-							<div class="reference">What guarantee do you provide on your service. e.g. 
-			        “Report unsatisfactory service within 7 days”
+						<div class="controls">
+							<div class="span5">
+								<input name="ctl00$MainContent$ServiceUnit1" type="text" placeholder="Service Unit*" id="MainContent_ServiceUnit1">
+								<div class="reference">e.g. if you provide window cleaning your Service Unit 
+				       	will be “Window” if you mow lawn it could be Acre or 0.5 Acre
+				       	</div>
+							</div>
+							
+							<div class="span5 special">
+								<input name="ctl00$MainContent$ServicePricePerUnit1" type="text" placeholder="Service Price/Unit*" id="MainContent_ServicePricePerUnit1">
+								<span id="MainContent_CheckFormat1" class="error-message" style="color:Red;display:none;">Illegal format for currency</span>
 							</div>
 						</div>
 						
-						<div class="span5">
-							<input name="ctl00$MainContent$MaxOrders1" type="text" placeholder="Maximum number of orders you can take" id="MainContent_MaxOrders1">
-							<div class="reference">If you can take limited no. of orders specify here. If 
-			        there is no limitation leave blank
+						<div class="controls">
+							<div class="span5">
+								<input name="ctl00$MainContent$ServiceGuarantee1" type="text" placeholder="Service Guarantee*" id="MainContent_ServiceGuarantee1">
+								<div class="reference">What guarantee do you provide on your service. e.g. 
+				        “Report unsatisfactory service within 7 days”
+								</div>
 							</div>
-							<span id="MainContent_CompareValidator3" style="visibility:hidden;">Value must be a whole number</span>
+							
+							<div class="span5">
+								<input name="ctl00$MainContent$MaxOrders1" type="text" placeholder="Maximum number of orders you can take" id="MainContent_MaxOrders1">
+								<div class="reference">If you can take limited no. of orders specify here. If 
+				        there is no limitation leave blank
+								</div>
+								<span id="MainContent_CompareValidator3" class="error-message" style="color:Red;visibility:hidden;">Value must be a whole number</span>
+							</div>
 						</div>
 
 						<div class="span5 last">
@@ -157,15 +165,17 @@
 			  	
 			  	<p class="pictures">Upload Pictures Of the Services you have recently completed<small><em> (please add up to 5)</em></small></p>
 			  	<fieldset>
-			  		<div class="span5">
-            	<label>Scanned copy of license</label>
-        			<input type="file" name="ctl00$MainContent$FileUpload1" id="MainContent_FileUpload1" />
+			  		<div class="controls">
+				  		<div class="span5">
+	            	<label>Scanned copy of license</label>
+	        			<input type="file" name="ctl00$MainContent$FileUpload1" id="MainContent_FileUpload1" />
+	            </div>
+	            
+	            <div class="span5">
+	            	<input name="ctl00$MainContent$ServicePhotoDescription11" type="text" placeholder="Photo Description" id="MainContent_ServicePhotoDescription11">
+	            </div>
+	            <a href="#"><img class="delete" src="img/delete-icon.png" alt="delete" /></a>
             </div>
-            
-            <div class="span5">
-            	<input name="ctl00$MainContent$ServicePhotoDescription11" type="text" placeholder="Photo Description" id="MainContent_ServicePhotoDescription11">
-            </div>
-            <a href="#"><img class="delete" src="img/delete-icon.png" alt="delete" /></a>
 						
 						<div class="span10">
 							<a href="#"><img class="add" src="img/add-icon.png" alt="add" />Add more Pictures</a>
