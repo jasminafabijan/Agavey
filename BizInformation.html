@@ -19,9 +19,6 @@
     </script>
 
     <!-- Le styles -->
-    <script src="./js/jquery.js" type="text/javascript"></script>
-    <script src="./js/bootstrap-modal.js" type="text/javascript"></script>
-    
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/default.css" rel="stylesheet" />
     
@@ -94,7 +91,7 @@
 		          </div>
 		        
 		          <div class="span5">  
-		            <input name="ctl00$MainContent$LocsServed" type="text" placeholder="Locations Served*" id="MainContent_LocsServed" onblur="getZips()">
+		            <input name="ctl00$MainContent$LocsServed" type="text" placeholder="Locations Served*" id="MainContent_LocsServed">
 		            <div class="reference">5 digit zip code(s), comma separated no spaces</div>
 		            <span id="MainContent_myRegExpValidator" class="error-message" style="color:Red;display:none;">Must enter 5 digit zipcode.</span>
 		            <span id="MainContent_RequiredFieldValidator3" class="error-message" style="color:Red;display:none;">This field is required</span>
@@ -280,183 +277,6 @@
         <input type="submit" name="ctl00$MainContent$Button1" value="Continue" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$Button1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_Button1" class="btn btn-success join" style="color:White;background-color:#8DBC00;">
       </p>   -->
     
-
-        
-<script type="text/javascript">
-//<![CDATA[
-var Page_Validators =  new Array(document.getElementById("MainContent_RequiredFieldValidator2"), document.getElementById("MainContent_RequiredFieldValidator1"), document.getElementById("MainContent_myRegExpValidator"), document.getElementById("MainContent_RequiredFieldValidator3"), document.getElementById("MainContent_RequiredFieldValidator4"), document.getElementById("MainContent_RegularExpressionValidator5"), document.getElementById("MainContent_CompareValidator1"), document.getElementById("MainContent_RequiredFieldValidator14"), document.getElementById("MainContent_CompareValidator2"), document.getElementById("MainContent_RequiredFieldValidator5"), document.getElementById("MainContent_RequiredFieldValidator6"), document.getElementById("MainContent_RegularExpressionValidator1"), document.getElementById("MainContent_RequiredFieldValidator13"), document.getElementById("MainContent_RegularExpressionValidator2"), document.getElementById("MainContent_RequiredFieldValidator7"), document.getElementById("MainContent_CompareValidator225"), document.getElementById("MainContent_RegularExpressionValidator3"), document.getElementById("MainContent_RequiredFieldValidator8"), document.getElementById("MainContent_RegularExpressionValidator4"), document.getElementById("MainContent_RequiredFieldValidator9"), document.getElementById("MainContent_validateEmail"), document.getElementById("MainContent_RequiredFieldValidator10"), document.getElementById("MainContent_RequiredFieldValidator11"), document.getElementById("MainContent_CompareValidator3"), document.getElementById("MainContent_RequiredFieldValidator12"));
-//]]>
-</script>
-
-<script type="text/javascript">
-//<![CDATA[
-var MainContent_RequiredFieldValidator2 = document.all ? document.all["MainContent_RequiredFieldValidator2"] : document.getElementById("MainContent_RequiredFieldValidator2");
-MainContent_RequiredFieldValidator2.controltovalidate = "MainContent_BizName";
-MainContent_RequiredFieldValidator2.display = "Dynamic";
-MainContent_RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-MainContent_RequiredFieldValidator2.initialvalue = "";
-var MainContent_RequiredFieldValidator1 = document.all ? document.all["MainContent_RequiredFieldValidator1"] : document.getElementById("MainContent_RequiredFieldValidator1");
-MainContent_RequiredFieldValidator1.controltovalidate = "MainContent_BizDescr";
-MainContent_RequiredFieldValidator1.display = "Dynamic";
-MainContent_RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-MainContent_RequiredFieldValidator1.initialvalue = "";
-var MainContent_myRegExpValidator = document.all ? document.all["MainContent_myRegExpValidator"] : document.getElementById("MainContent_myRegExpValidator");
-MainContent_myRegExpValidator.controltovalidate = "MainContent_LocsServed";
-MainContent_myRegExpValidator.display = "Dynamic";
-MainContent_myRegExpValidator.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
-MainContent_myRegExpValidator.validationexpression = "^\\d{5}$";
-var MainContent_RequiredFieldValidator3 = document.all ? document.all["MainContent_RequiredFieldValidator3"] : document.getElementById("MainContent_RequiredFieldValidator3");
-MainContent_RequiredFieldValidator3.controltovalidate = "MainContent_LocsServed";
-MainContent_RequiredFieldValidator3.display = "Dynamic";
-MainContent_RequiredFieldValidator3.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-MainContent_RequiredFieldValidator3.initialvalue = "";
-var MainContent_RequiredFieldValidator4 = document.all ? document.all["MainContent_RequiredFieldValidator4"] : document.getElementById("MainContent_RequiredFieldValidator4");
-MainContent_RequiredFieldValidator4.controltovalidate = "MainContent_BizType";
-MainContent_RequiredFieldValidator4.display = "Dynamic";
-MainContent_RequiredFieldValidator4.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-MainContent_RequiredFieldValidator4.initialvalue = "";
-var MainContent_RegularExpressionValidator5 = document.all ? document.all["MainContent_RegularExpressionValidator5"] : document.getElementById("MainContent_RegularExpressionValidator5");
-MainContent_RegularExpressionValidator5.controltovalidate = "MainContent_URL";
-MainContent_RegularExpressionValidator5.errormessage = "Invalid URL Format (must be www.xyz.com format or http://www.xyz.com)";
-MainContent_RegularExpressionValidator5.display = "Dynamic";
-MainContent_RegularExpressionValidator5.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
-MainContent_RegularExpressionValidator5.validationexpression = "(http://|https://)?([\\w-]+\\.)+[\\w-]+(/[\\w- ./?%&=]*)?";
-var MainContent_CompareValidator1 = document.all ? document.all["MainContent_CompareValidator1"] : document.getElementById("MainContent_CompareValidator1");
-MainContent_CompareValidator1.controltovalidate = "MainContent_BizYears";
-MainContent_CompareValidator1.errormessage = "Value must be a whole number";
-MainContent_CompareValidator1.display = "Dynamic";
-MainContent_CompareValidator1.type = "Integer";
-MainContent_CompareValidator1.evaluationfunction = "CompareValidatorEvaluateIsValid";
-MainContent_CompareValidator1.operator = "DataTypeCheck";
-var MainContent_RequiredFieldValidator14 = document.all ? document.all["MainContent_RequiredFieldValidator14"] : document.getElementById("MainContent_RequiredFieldValidator14");
-MainContent_RequiredFieldValidator14.controltovalidate = "MainContent_BizYears";
-MainContent_RequiredFieldValidator14.display = "Dynamic";
-MainContent_RequiredFieldValidator14.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-MainContent_RequiredFieldValidator14.initialvalue = "";
-var MainContent_CompareValidator2 = document.all ? document.all["MainContent_CompareValidator2"] : document.getElementById("MainContent_CompareValidator2");
-MainContent_CompareValidator2.controltovalidate = "MainContent_NoEmps";
-MainContent_CompareValidator2.errormessage = "Value must be a whole number";
-MainContent_CompareValidator2.display = "Dynamic";
-MainContent_CompareValidator2.type = "Integer";
-MainContent_CompareValidator2.evaluationfunction = "CompareValidatorEvaluateIsValid";
-MainContent_CompareValidator2.operator = "DataTypeCheck";
-var MainContent_RequiredFieldValidator5 = document.all ? document.all["MainContent_RequiredFieldValidator5"] : document.getElementById("MainContent_RequiredFieldValidator5");
-MainContent_RequiredFieldValidator5.controltovalidate = "MainContent_BizAddress";
-MainContent_RequiredFieldValidator5.display = "Dynamic";
-MainContent_RequiredFieldValidator5.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-MainContent_RequiredFieldValidator5.initialvalue = "";
-var MainContent_RequiredFieldValidator6 = document.all ? document.all["MainContent_RequiredFieldValidator6"] : document.getElementById("MainContent_RequiredFieldValidator6");
-MainContent_RequiredFieldValidator6.controltovalidate = "MainContent_BizCity";
-MainContent_RequiredFieldValidator6.display = "Dynamic";
-MainContent_RequiredFieldValidator6.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-MainContent_RequiredFieldValidator6.initialvalue = "";
-var MainContent_RegularExpressionValidator1 = document.all ? document.all["MainContent_RegularExpressionValidator1"] : document.getElementById("MainContent_RegularExpressionValidator1");
-MainContent_RegularExpressionValidator1.controltovalidate = "MainContent_BizZip";
-MainContent_RegularExpressionValidator1.errormessage = "Input valid U.S. Zip Code!";
-MainContent_RegularExpressionValidator1.display = "Dynamic";
-MainContent_RegularExpressionValidator1.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
-MainContent_RegularExpressionValidator1.validationexpression = "\\d{5}(-\\d{4})?";
-var MainContent_RequiredFieldValidator13 = document.all ? document.all["MainContent_RequiredFieldValidator13"] : document.getElementById("MainContent_RequiredFieldValidator13");
-MainContent_RequiredFieldValidator13.controltovalidate = "MainContent_BizZip";
-MainContent_RequiredFieldValidator13.display = "Dynamic";
-MainContent_RequiredFieldValidator13.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-MainContent_RequiredFieldValidator13.initialvalue = "";
-var MainContent_RegularExpressionValidator2 = document.all ? document.all["MainContent_RegularExpressionValidator2"] : document.getElementById("MainContent_RegularExpressionValidator2");
-MainContent_RegularExpressionValidator2.controltovalidate = "MainContent_BizPhoneNum";
-MainContent_RegularExpressionValidator2.errormessage = "Invalid Phone Format";
-MainContent_RegularExpressionValidator2.display = "Dynamic";
-MainContent_RegularExpressionValidator2.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
-MainContent_RegularExpressionValidator2.validationexpression = "^\\(?(\\d{3})\\)?[/ - .]?(\\d{3})[- .]?(\\d{4})$";
-var MainContent_RequiredFieldValidator7 = document.all ? document.all["MainContent_RequiredFieldValidator7"] : document.getElementById("MainContent_RequiredFieldValidator7");
-MainContent_RequiredFieldValidator7.controltovalidate = "MainContent_BizPhoneNum";
-MainContent_RequiredFieldValidator7.display = "Dynamic";
-MainContent_RequiredFieldValidator7.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-MainContent_RequiredFieldValidator7.initialvalue = "";
-var MainContent_CompareValidator225 = document.all ? document.all["MainContent_CompareValidator225"] : document.getElementById("MainContent_CompareValidator225");
-MainContent_CompareValidator225.controltovalidate = "MainContent_BizExt";
-MainContent_CompareValidator225.errormessage = "Value must be numeric";
-MainContent_CompareValidator225.display = "Dynamic";
-MainContent_CompareValidator225.type = "Integer";
-MainContent_CompareValidator225.evaluationfunction = "CompareValidatorEvaluateIsValid";
-MainContent_CompareValidator225.operator = "DataTypeCheck";
-var MainContent_RegularExpressionValidator3 = document.all ? document.all["MainContent_RegularExpressionValidator3"] : document.getElementById("MainContent_RegularExpressionValidator3");
-MainContent_RegularExpressionValidator3.controltovalidate = "MainContent_BizCellNum";
-MainContent_RegularExpressionValidator3.errormessage = "Invalid Phone Format";
-MainContent_RegularExpressionValidator3.display = "Dynamic";
-MainContent_RegularExpressionValidator3.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
-MainContent_RegularExpressionValidator3.validationexpression = "^\\(?(\\d{3})\\)?[/ - .]?(\\d{3})[- .]?(\\d{4})$";
-var MainContent_RequiredFieldValidator8 = document.all ? document.all["MainContent_RequiredFieldValidator8"] : document.getElementById("MainContent_RequiredFieldValidator8");
-MainContent_RequiredFieldValidator8.controltovalidate = "MainContent_BizCellNum";
-MainContent_RequiredFieldValidator8.display = "Dynamic";
-MainContent_RequiredFieldValidator8.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-MainContent_RequiredFieldValidator8.initialvalue = "";
-var MainContent_RegularExpressionValidator4 = document.all ? document.all["MainContent_RegularExpressionValidator4"] : document.getElementById("MainContent_RegularExpressionValidator4");
-MainContent_RegularExpressionValidator4.controltovalidate = "MainContent_BizFax";
-MainContent_RegularExpressionValidator4.errormessage = "Invalid Phone Format";
-MainContent_RegularExpressionValidator4.display = "Dynamic";
-MainContent_RegularExpressionValidator4.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
-MainContent_RegularExpressionValidator4.validationexpression = "^\\(?(\\d{3})\\)?[/ - .]?(\\d{3})[- .]?(\\d{4})$";
-var MainContent_RequiredFieldValidator9 = document.all ? document.all["MainContent_RequiredFieldValidator9"] : document.getElementById("MainContent_RequiredFieldValidator9");
-MainContent_RequiredFieldValidator9.controltovalidate = "MainContent_BizFax";
-MainContent_RequiredFieldValidator9.display = "Dynamic";
-MainContent_RequiredFieldValidator9.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-MainContent_RequiredFieldValidator9.initialvalue = "";
-var MainContent_validateEmail = document.all ? document.all["MainContent_validateEmail"] : document.getElementById("MainContent_validateEmail");
-MainContent_validateEmail.controltovalidate = "MainContent_BizEmail";
-MainContent_validateEmail.errormessage = "Invalid email.";
-MainContent_validateEmail.display = "Dynamic";
-MainContent_validateEmail.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
-MainContent_validateEmail.validationexpression = "^([\\w\\.\\-]+)@([\\w\\-]+)((\\.(\\w){2,3})+)$";
-var MainContent_RequiredFieldValidator10 = document.all ? document.all["MainContent_RequiredFieldValidator10"] : document.getElementById("MainContent_RequiredFieldValidator10");
-MainContent_RequiredFieldValidator10.controltovalidate = "MainContent_BizEmail";
-MainContent_RequiredFieldValidator10.display = "Dynamic";
-MainContent_RequiredFieldValidator10.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-MainContent_RequiredFieldValidator10.initialvalue = "";
-var MainContent_RequiredFieldValidator11 = document.all ? document.all["MainContent_RequiredFieldValidator11"] : document.getElementById("MainContent_RequiredFieldValidator11");
-MainContent_RequiredFieldValidator11.controltovalidate = "MainContent_BizOwnerName";
-MainContent_RequiredFieldValidator11.display = "Dynamic";
-MainContent_RequiredFieldValidator11.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-MainContent_RequiredFieldValidator11.initialvalue = "";
-var MainContent_CompareValidator3 = document.all ? document.all["MainContent_CompareValidator3"] : document.getElementById("MainContent_CompareValidator3");
-MainContent_CompareValidator3.controltovalidate = "MainContent_HoursToContact";
-MainContent_CompareValidator3.errormessage = "Value must be a whole number";
-MainContent_CompareValidator3.display = "Dynamic";
-MainContent_CompareValidator3.type = "Integer";
-MainContent_CompareValidator3.evaluationfunction = "CompareValidatorEvaluateIsValid";
-MainContent_CompareValidator3.operator = "DataTypeCheck";
-var MainContent_RequiredFieldValidator12 = document.all ? document.all["MainContent_RequiredFieldValidator12"] : document.getElementById("MainContent_RequiredFieldValidator12");
-MainContent_RequiredFieldValidator12.controltovalidate = "MainContent_HoursToContact";
-MainContent_RequiredFieldValidator12.display = "Dynamic";
-MainContent_RequiredFieldValidator12.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
-MainContent_RequiredFieldValidator12.initialvalue = "";
-//]]>
-</script>
-
-
-<script type="text/javascript">
-//<![CDATA[
-
-var Page_ValidationActive = false;
-if (typeof(ValidatorOnLoad) == "function") {
-    ValidatorOnLoad();
-}
-
-function ValidatorOnSubmit() {
-    if (Page_ValidationActive) {
-        return ValidatorCommonOnSubmit();
-    }
-    else {
-        return true;
-    }
-}
-        
-theForm.oldSubmit = theForm.submit;
-theForm.submit = WebForm_SaveScrollPositionSubmit;
-
-theForm.oldOnSubmit = theForm.onsubmit;
-theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
-//]]>
-</script>
         </form>     
       </div> <!-- /main-box -->
     </div> <!-- /container -->

@@ -2342,11 +2342,6 @@ fieldset .controls {
   margin-bottom: 15px;
 }
 
-br {
-	display: block;
-	content: " ";
-}
-
 /* BizInformation */
 
 .bizinformation .progress_bar ul {	  	
