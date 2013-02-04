@@ -1881,6 +1881,122 @@ body {
 	font-size: 20px;
 }
 
+/* Error */
+
+.error .white-box {
+	padding-bottom: 30px;
+}
+
+.error .white-box .content {
+	margin: 30px 30px 0px 30px;
+}
+
+.error .white-box .content p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 17px;
+	color: #363636;
+}
+
+/* Voucher */
+
+.voucher .white-box {
+	padding-bottom: 30px;
+}
+
+.voucher .white-box .content {
+	margin: 30px 30px 0px 30px;
+}
+
+.voucher .white-box .content p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 17px;
+	color: #363636;
+}
+
+.voucher .print {
+	background-color: #fff;
+	margin-top: 30px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border: 1px solid #e1e1e1;
+	padding-bottom: 20px;
+}
+
+.voucher .print .header {
+	width: 600px;
+	background-color: #363636;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	margin: 10px 0 20px 10px;
+}
+
+.voucher .print .header img {
+	margin: -6px 0 0 2px;
+}
+
+.voucher .print .header span.number {
+	color: #fff;
+	font-size: 20px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+.voucher .print .header p {
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -10px 0 0 20px;
+	padding-bottom: 14px;
+}
+
+.voucher .print .header p em {
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 6px;
+}
+
+.voucher .print ul {
+	margin-top: 50px;
+}
+
+.voucher .print li {
+	margin: 6px 0 0 20px;
+}
+
+.voucher .print .signature {
+	width: 600px;
+	background-color: #e1e1e1;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	margin: 40px 0 10px 10px;
+	padding: 10px 0 10px 0;
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.voucher .print .signature p {
+	margin-left: 20px;
+}
+
+.voucher .print .signature p.strong {
+	margin-bottom: 2px;
+	font-size: 16px;
+}
+
+.voucher .print .bottom {
+	margin-left: 10px;
+}
+
+.voucher .print .bottom span {
+	display: block;
+}
+
+
 /* Vendor - common */
 
 .progress_bar ul {  	
