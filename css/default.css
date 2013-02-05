@@ -328,6 +328,11 @@ body {
 	margin-top: 40px;
 }
 
+.listing-page .service .image {
+	width: 300px;
+	height: 350px;
+}
+
 .service .like-button {
 	margin-top: 10px;
 }
@@ -422,6 +427,12 @@ body {
 
 .detail {
 	padding-top: 47px;
+}
+
+.detail-page img.service {
+	width: 370px;
+	height: 370px;
+	margin-top: 0px;
 }
 
 .detail-page .share-buttons {
@@ -1116,10 +1127,6 @@ body {
 	margin-top: -200px;
 }
 
-.homepage .featured .service {
-	margin-top: 20px;
-}
-
 .homepage .featured .first {
 	margin-left: 4px;
 }
@@ -1127,6 +1134,11 @@ body {
 .homepage .featured .service {
 	width: 270px;
 	height: 335px;
+	margin-top: 20px;
+}
+
+.homepage .featured .service .image {
+	height: 315px;
 }
 
 .homepage .featured .text-box {
