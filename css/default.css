@@ -1916,13 +1916,13 @@ body {
 }
 
 .voucher .white-box .content {
-	margin: 30px 30px 0px 30px;
+	margin: 10px 30px 0px 30px;
 }
 
 .voucher .white-box .content p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 17px;
-	color: #363636;
+	font-size: 14px;
+	color: #555555;
+	font-weight: 400;
 }
 
 .voucher .print {
@@ -1941,11 +1941,11 @@ body {
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
-	margin: 10px 0 20px 10px;
+	margin: 10px 0 0 10px;
 }
 
 .voucher .print .header img {
-	margin: -6px 0 0 2px;
+	margin: -6px 0 -4px 2px;
 }
 
 .voucher .print .header span.number {
@@ -1956,26 +1956,23 @@ body {
 	margin-top: 30px;
 }
 
-.voucher .print .header p {
-	color: #fff;
-	font-size: 16px;
-	font-weight: bold;
-	margin: -10px 0 0 20px;
-	padding-bottom: 14px;
-}
-
-.voucher .print .header p em {
-	font-size: 12px;
-	font-weight: normal;
-	margin-left: 6px;
-}
-
 .voucher .print ul {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .voucher .print li {
 	margin: 6px 0 0 20px;
+}
+
+.voucher .print p.instruction {
+	margin: 20px 0 -10px 30px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.voucher .print ul.instruction {
+	list-style-type: none;
+	margin: 20px 0 0 10px;
 }
 
 .voucher .print .signature {
