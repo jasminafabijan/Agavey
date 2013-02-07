@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Agavey - ReviewAndEdit</title>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <script src="./js/jquery.js" type="text/javascript"></script>
+    <script src="./js/jquery.placeholder.js" type="text/javascript"></script>
+    <script src="./js/bootstrap.dropdown.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+      $(document).ready(function(){ 
+        $('input, textarea').placeholder();
+      });
+    </script>
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+    
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    
+  </head>
+  <body class="review">
+  
+    <!-- Facebook like code -->
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <!-- Facebook like code -->
+    
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner main-nav">
+        <div class="container">
+          <a class="brand" href="#"><img src="img/logo.png" alt="logo" /></a>
+          <form class="navbar-form span2">
+            <input type="text" placeholder="Location" />
+          </form>
+          <ul class="nav pull-right">
+            <li><a href="#inbox">Inbox</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="icon-user icon-white"></i> John
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu pull-right">
+                <li class="border"><a href="#">Public Profile</a></li>
+                <li class="border"><a href="#">Account Settings</a></li>
+                <li class="border"><a href="#">The Help Center</a></li>
+                <li class="no-border"><a href="#">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container main-content">
+    
+	    <div class="span12 progress_bar">	  	
+        <ul>
+        	<li>Welcome</li>
+        	<li class="done"><strong><i class="icon-ok icon-white"></i></strong> Business Information</li>
+        	<li class="done"><strong><i class="icon-ok icon-white"></i></strong> Business Credentials</li>
+        	<li class="done"><strong><i class="icon-ok icon-white"></i></strong> Service Information</li>
+          <li class="done"><strong><i class="icon-ok icon-white"></i></strong> Payment Information</li>
+         	<li><strong>5</strong> Review and Complete</li>
+        </ul>
+      </div>
+      
+      <div class="span12 main-box">
+        <form>    
+          <h1>Review and Edit</h1>
+          <div class="main_reference"><strong>*</strong> Fields are required</div>
+          
+          <p>Company Information</p>
+          <fieldset>
+          	<div class="span5">
+          		<label>Business Name*</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>Business Description*</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>Locations Served*</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>Type of Business*</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span3">
+          		<label>Website URL</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span3">
+          		<label>No. of years in business</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span3">
+          		<label>No. of employees</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>Address*</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>City*</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>State*</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>Zip*</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span3">
+          		<label>Primary Business Home</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span3">
+          		<label>Extension</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span3">
+          		<label>Cell Phone Number</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span3">
+          		<label>Business Fax*</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span3">
+          		<label>Business Email*</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span3">
+          		<label>Business Owner Name</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span8">
+          		<label>Within how many hours will you return a call from an Agavey Customer (default 48)</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+         	</fieldset>
+         	<a href="#review" class="btn btn-success">Edit</a>
+         	
+         	<p>Business License</p>
+          <fieldset>
+          	<div class="span5">
+          		<label>Location/State/Country where License was Issued</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>Date Issued</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>Expiration Date</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>Identification Number</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+					</fieldset>
+         	<a href="#review" class="btn btn-success">Edit</a>
+         	
+         	<p>External reviews for your business: Are you in BBB, Angie's List, Yelp, etc</p>
+          <fieldset>
+          	<div class="span5">
+          		<label>Review Site/Organization</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>URL/Link For Review</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          </fieldset>
+          <a href="#review" class="btn btn-success">Edit</a>
+          
+          <p>What accreditation, license, charter is needed to run your business</p>
+          <fieldset>
+          	<div class="span5">
+          		<label>Name of Accreditation</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>Date Issued</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>Expiration Date</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>Identification Number (if applicable)</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          </fieldset>
+          <a href="#review" class="btn btn-success">Edit</a>
+          
+          <p>Insurance Information</p>
+          <fieldset>
+          	<div class="span5">
+          		<label>General Liability Insurance Number #</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>Insurance Carrier</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span3">
+          		<label>Amount Insured For</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span3">
+          		<label>Issued Date</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span3">
+          		<label>Expiration Date</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          </fieldset>
+          <a href="#review" class="btn btn-success">Edit</a>
+          
+          <p class="bonded">Are You Bonded:
+            <select class="bonded">
+							<option value="No">No</option>
+							<option value="Yes">Yes</option>
+						</select>
+					</p>
+					
+					<p>If The Service You Provide Needs Special Licensing, Please Provide Details</p>
+          <fieldset>
+          	<div class="span5">
+          		<label>License Name</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>License Number and Location</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+					</fieldset>
+					<a href="#review" class="btn btn-success">Edit</a>
+					
+					<p>Customer Reviews: (Please Provide References Of Individuals We May Contact)</p>
+          <fieldset>
+          	<div class="span5">
+          		<label>Name</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>Phone Number</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>Address 1</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>Address 2</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>City</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+          	<div class="span5">
+          		<label>Email</label>
+          		<input type="text" value="test" readonly="readonly">
+          	</div>
+					</fieldset>
+					
+					<div class="span10">
+						<a href="#review" class="btn btn-success">Edit</a>
+          </div>  
+          
+					<div class="span9">
+            <a href="back" class="back pull-right"><img class="back" src="img/arrow-back.png" alt="back"> Back</a>
+					</div>
+					<button class="btn pull-right">Proceed</button>   
+
+        
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+
+        </form>     
+      </div> <!-- /main-box -->
+    </div> <!-- /container -->
+
+      
+
+  </body>
+
+</html>

@@ -2467,6 +2467,13 @@ fieldset .controls {
   margin-bottom: 15px;
 }
 
+.main-box select.bonded {
+	width: 70px;
+	height: 26px;
+	margin: 0 0 4px 4px;
+}
+
+
 /* BizInformation */
 
 .bizinformation .progress_bar ul {	  	
@@ -2615,12 +2622,6 @@ fieldset .controls {
 .bizcredentials2 .main-box p.bonded {
 	font-size: 16px;
 	margin-top: 0px;
-}
-
-.bizcredentials2 .main-box select.bonded {
-	width: 70px;
-	height: 26px;
-	margin: 0 0 4px 4px;
 }
 
 .bizcredentials2 .main-box img.back {
@@ -2812,6 +2813,64 @@ fieldset .controls {
 	margin-bottom: 4px;
 }
 
-/* Review and Complete */
+/* Review and Edit */
 
+.review .progress_bar ul {	  	
+	background: url(../img/ProgressBar-step5.png) no-repeat;	  	
+}	  	
+
+.review .main-box p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	margin: 20px 0 10px 30px;
+} 
+
+.review .main-box fieldset {
+	padding-left: 25px;
+}
+
+.review .main-box label {
+	margin: 0 0 -5px 20px;
+}
+
+.review .main-box fieldset .span5 input,
+.review .main-box fieldset .span3 input {
+	margin-bottom: 20px;
+}
+
+.review .main-box fieldset .span8 input {
+	margin: 10px 0 20px 20px;
+}
+
+.review .main-box fieldset .span5 input[readonly],
+.review .main-box fieldset .span3 input[readonly],
+.review .main-box fieldset .span8 input[readonly] {
+	background-color: #f1f1f1;
+}
+
+.review .main-box a.btn-success {
+	margin-bottom: 15px;
+	padding: 5px 20px;
+}
+
+.review .main-box p.bonded {
+	font-size: 16px;
+	margin-top: 0px;
+}
+
+.review .main-box .span10 {
+	margin-left: 0px;
+}
+
+.review .main-box button {
+	margin: 16px 30px 50px 0;
+}
+
+.review .main-box a.back {
+	margin: 10px 20px 0 0;
+}
+
+.review .main-box img.back {
+	margin-bottom: 4px;
+}
 
