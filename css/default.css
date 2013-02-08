@@ -1936,7 +1936,7 @@ body {
 }
 
 .voucher .print .header {
-	width: 600px;
+	width: 760px;
 	background-color: #363636;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -1976,7 +1976,7 @@ body {
 }
 
 .voucher .print .signature {
-	width: 600px;
+	width: 760px;
 	background-color: #e1e1e1;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
