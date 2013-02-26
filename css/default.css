@@ -2897,15 +2897,13 @@ fieldset .controls {
 
 .vendor-homepage .main-image .title {
 	margin-top: 140px;
-	padding: 35px 40px 100px 75px;
+	padding: 15px 30px 100px 75px;
 	background-color: rgba(54, 54, 54, 0.8);
 	width: auto;
 }
 
-.vendor-homepage .title span {
-	font-family: "Bradley Hand ITC TT", cursive;
-	color: #72c9ed;
-	margin: 0 0 0 50px;
+.vendor-homepage .title img {
+	margin-left: 40px;
 }
 
 .vendor-homepage .main-image a.big-join {
@@ -3046,7 +3044,8 @@ fieldset .controls {
 .vendor-homepage .span12 .comment-left span.name {
 	display: block;
 	color: #0072bc;
-	font-family: Merienda;
+	font-family: 'Merienda One', cursive;
+	font-size: 15px;
 	padding-top: 20px;
 }
 
