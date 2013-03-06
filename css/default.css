@@ -3083,3 +3083,60 @@ fieldset .controls {
 	background-position: 0px;
 }
 
+/* Location not found */
+
+.location-not-found .white-box {
+	padding-bottom: 50px;
+}
+
+.location-not-found .white-box .span3 {
+	margin-left: 0px;
+}
+
+.location-not-found .white-box .note {
+	margin: -25px 0 0 -32px;
+}
+
+.location-not-found .white-box p {
+	margin-top: -120px;
+	margin-left: 20px;
+	width: 100px;
+	text-align: center;
+	font-size: 22px;
+	font-family: Bradley Hand ITC TT;
+	color: #d02552;
+	-webkit-transform: rotate(-9deg); 
+	-moz-transform: rotate(-9deg);	
+} 
+
+.location-not-found .white-box h1 {
+	font-size: 26px;
+	font-weight: bold;
+	color: #636363;
+	margin-top: 75px;
+	margin-left: -80px;
+	text-align: center;
+	line-height: 32px;
+}
+
+.location-not-found .white-box h2 {
+	font-size: 26px;
+	font-weight: normal;
+	color: #898989;
+	margin-left: -78px;
+	text-align: center;
+}
+
+.location-not-found .white-box .span5 {
+	margin-left: 300px;
+}
+
+.location-not-found .white-box .icon {
+	margin-left: 20px;
+}
+
+.location-not-found .white-box a.sign-up {
+	background: url(../img/sign-up-icon.png);
+	width: 85px;
+	height: 101px;
+}
