@@ -3097,13 +3097,13 @@ fieldset .controls {
 	margin: -25px 0 0 -32px;
 }
 
-.location-not-found .white-box p {
+.location-not-found .white-box p.note {
 	margin-top: -120px;
-	margin-left: 20px;
+	margin-left: 15px;
 	width: 100px;
 	text-align: center;
 	font-size: 22px;
-	font-family: Bradley Hand ITC TT;
+	font-family: "Bradley Hand ITC TT",cursive;
 	color: #d02552;
 	-webkit-transform: rotate(-9deg); 
 	-moz-transform: rotate(-9deg);	
@@ -3128,15 +3128,103 @@ fieldset .controls {
 }
 
 .location-not-found .white-box .span5 {
-	margin-left: 300px;
+	margin-left: 295px;
 }
 
 .location-not-found .white-box .icon {
-	margin-left: 20px;
+	margin-left: 27px;
+	margin-top: -63px;
 }
 
-.location-not-found .white-box a.sign-up {
-	background: url(../img/sign-up-icon.png);
-	width: 85px;
-	height: 101px;
+.location-not-found .white-box .fb {
+	margin-left: 33px;
+}
+
+.location-not-found .white-box a span {
+	display: inline-block;
+	margin-left: -70px;
+	padding-top: 70px;
+	color: #fff;
+	font-size: 15px;
+}
+
+.location-not-found .white-box a span.follow {
+	margin-left: -74px;
+}
+
+.location-not-found .white-box .span5 h2 {
+	margin-left: -30px;
+}
+
+.location-not-found .white-box .advices {
+	margin: 25px 0 0 70px;
+}
+
+.location-not-found .white-box .advices h3 {
+	font-size: 22px;
+	color: #707070;
+	font-weight: normal;
+	line-height: normal;
+}
+
+.location-not-found .white-box .advices .span2 {
+	margin: 14px 20px 0 0;
+}
+
+.location-not-found .white-box .advices .recommend {
+	width: 142px;
+}
+
+.location-not-found .white-box .advices .recommend img {
+	margin: 0 0 10px 42px;
+}
+
+.location-not-found .white-box .advices .span2 p.to-do {
+	color: #d02552;
+	font-size: 13px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+}
+
+.location-not-found .white-box .advices .span2 p {
+	color: #636363;
+	font-size: 14px;
+	text-align: center;
+}
+
+.location-not-found .white-box .advices .tell-us {
+	width: 125px;
+}
+
+.location-not-found .white-box .advices .tell-us img {
+	margin: 0 0 10px 35px;
+}
+
+.location-not-found .white-box .advices .invite {
+	width: 130px;
+}
+
+.location-not-found .white-box .advices .invite img {
+	margin: 0 0 10px 37px;
+}
+
+.location-not-found .white-box .advices .l-rock {
+	width: 126px;
+}
+
+.location-not-found .white-box .advices .l-rock img {
+	margin: 0 0 10px 44px;
+}
+
+.location-not-found .white-box .fb-like-box {
+	margin: 40px 0 0 -8px;
+}
+
+.location-not-found .white-box h4 {
+	color: #636363;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	margin: 30px 0 0 0;
 }

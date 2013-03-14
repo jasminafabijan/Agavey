@@ -16,6 +16,15 @@
     	});
     </script>
 
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
   <!-- Le styles -->
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
   <link href="css/default.css" rel="stylesheet" type="text/css" />
@@ -48,21 +57,48 @@
     <div class="row">
       <div class="span12 white-box">
         <div class="span3">
-        <img class="note" src="img/paper-note.png" alt="note">
-        <p>Coming to<br> Boston soon</p>
+          <img class="note" src="img/paper-note.png" alt="note">
+          <p class="note">Coming to<br> Boston soon</p>
         </div>
         <div class="span7">
           <h1 class="">We are not serving your city right now but will be there soon</h1>
           <h2>Want to be posted when we open doors in your city?</h2>
         </div>
         <div class="span5">
-          <a href="#"><img class="icon" src="img/sign-up-icon.png" alt="icon"></a>
-          <a href="#"><img class="icon" src="img/follow-fb-icon.png" alt="icon"></a>
-          <a href="#"><img class="icon" src="img/twitter-follow-icon.png" alt="icon"></a>
+          <a href="#"><img class="icon" src="img/sign-up-icon.png" alt="icon"><span>Sign Up</span></a>
+          <a href="#"><img class="icon fb" src="img/follow-fb-icon.png" alt="icon"><span class="follow">Follow us</span></a>
+          <a href="#"><img class="icon" src="img/twitter-follow-icon.png" alt="icon"><span class="follow">Follow Us</span></a>
+          <h2>... and we will let you know</h2> 
         </div>
+        <div class="span8 advices">
+          <h3>Really want us in your city soon - here's how you can make that happen</h3>
+          <div class="span2 recommend">
+            <img src="img/recommend-icon.png" alt="icon">
+            <p class="to-do">Recommend a Home service provider</p>
+            <p>We count on that -<br> big time!</p>
+          </div>
+          <div class="span2 tell-us">
+            <img src="img/tell-us-icon.png" alt="icon">
+            <p class="to-do">Tell us what you need</p>
+            <p>& we will work to get that first</p>
+          </div>
+          <div class="span2 invite">
+            <img src="img/invite-icon.png" alt="icon">
+            <p class="to-do">Invite your friends to join</p>
+            <p>& earn $$$ & we will work to get that first</p>
+          </div>
+          <div class="span2 l-rock">
+            <img src="img/launchrock-icon.png" alt="icon">
+            <p class="to-do">Join us on Launchrock</p>
+            <p>The more from your city the merrier</p>
+          </div>
+        </div>
+        <div class="span3 fb-like-box" data-href="http://www.facebook.com/platform" data-width="190" data-height="232" data-show-faces="true" data-stream="false" data-header="false">
+        </div>
+        <h4 class="span12">Hang in there - we are working hard to get to your city</h4>
       </div>
-      
-      
+        
+           
   	</div> <!-- /row -->
   
     <footer class="navbar footer">
