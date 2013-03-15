@@ -1673,6 +1673,22 @@ body {
 	margin-right: 5px;
 }
 
+.payment-page .white-box .gender {
+	font-size: 19px;
+  font-family: Gill Sans;
+  font-weight: 300;
+	color: #111;
+	margin: 6px 84px 0 0;
+ }
+
+ .payment-page .white-box .gender label {
+	font-size: 19px;
+  font-family: Gill Sans;
+  font-weight: 300;
+	color: #111;
+	margin: -7px 0 0 10px;
+ }
+
 .payment-page .white-box .controls .checkbox {
 	margin-left: 20px;
 	margin-top: 30px;
