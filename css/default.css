@@ -221,6 +221,7 @@ body {
 
 .categories {
 	margin-top: 50px;
+	z-index: -1;
 }
 
 .categories .navbar-inner {
@@ -257,6 +258,7 @@ body {
 
 .search {
 	margin-top: 91px;
+	z-index: -1;
 }
 
 .search form {
