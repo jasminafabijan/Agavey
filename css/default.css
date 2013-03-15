@@ -490,6 +490,10 @@ body {
 	margin-right: 2px;
 }
 
+.information .price a:hover {
+	text-decoration: none;
+}
+
 .information .detail {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
@@ -767,6 +771,80 @@ body {
 	margin-bottom: 20px; 
 }
 
+/* Modal - Service option */
+
+.detail-page .modal {
+	width: 430px;
+	height: 500px;
+	overflow-y: scroll;
+	overflow-x: hidden; 
+}
+
+.detail-page .modal.fade.in {
+  top: 36%;
+}
+
+.detail-page .modal-header h3 {
+	font-size: 22px;
+	color: #898989;
+	font-weight: bold;
+	margin: 0 0 20px 0;
+}
+
+.detail-page .modal-header a {
+	font-size: 14px;
+	color: #959595;
+}
+
+.detail-page .modal-header strong {
+	font-size: 18px;
+	color: #99cc00;
+}
+
+.detail-page .modal-body {
+	overflow: hidden;
+}
+
+.detail-page .modal-body .option-gray {
+	background-color: #ececec;
+	padding: 10px 15px;
+}
+
+.detail-page .modal-body p {
+	font-size: 18px;
+	color: #99cc00;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+.detail-page .modal-body span {
+	font-size: 14px;
+	color: #898989;
+	display: block;
+}
+
+.detail-page .modal-body a.price {
+	float: right;
+	font-size: 18px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	color: #fff;
+	background-color: #d02553;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 5px 0 6px;
+	width: 78px;
+	text-align: center;
+	box-shadow: 2px 2px 3px #a1a1a1;
+	margin-top: -36px;
+	text-decoration: none;
+}
+
+.detail-page .modal-body .option-white {
+	background-color: #fff;
+	padding: 10px 15px;
+}
 
 /* Sign up page */
 
@@ -3102,8 +3180,9 @@ fieldset .controls {
 	margin-left: 15px;
 	width: 100px;
 	text-align: center;
-	font-size: 22px;
-	font-family: "Bradley Hand ITC TT",cursive;
+	font-size: 19px;
+	font-family: 'Paprika', cursive;
+	line-height: 22px;
 	color: #d02552;
 	-webkit-transform: rotate(-9deg); 
 	-moz-transform: rotate(-9deg);	
