@@ -3325,3 +3325,135 @@ fieldset .controls {
 	text-align: center;
 	margin: 30px 0 0 0;
 }
+
+/* Customer - My Account - My profile */
+
+.customer-profile .main-menu {
+	margin-top: 50px;
+	z-index: -1;
+}
+
+.customer-profile .main-menu .navbar-inner {
+	background: #e6e6e6;
+	height: 50px;
+	background-image: -webkit-linear-gradient(top, #e6e6e6, #d3d3d3);
+  background-image: -o-linear-gradient(top, #e6e6e6, #d3d3d3);
+  background-image: linear-gradient(to bottom, #e6e6e6, #d3d3d3);
+  background-image: -moz-linear-gradient(top, #e6e6e6, #d3d3d3);
+  font-size: 15px;
+}
+
+.customer-profile .navbar ul.active {
+	background-color: #7d7d7d;
+	margin-top: 17px;
+	-webkit-border-top-left-radius: 6px;
+	-moz-border-top-left-radius: 6px;
+	border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-top-right-radius: 6px;
+	border-top-right-radius: 6px;
+	
+	height: 35px;
+}
+
+.customer-profile .navbar .nav a.account {
+	background: url(../img/my-account-icon.png) no-repeat;
+	background-position: 0px;
+	margin-left: 8px;
+	width: 12px;
+	height: 22px;
+}
+
+.customer-profile .navbar .active > li > a {
+	padding: 8px 10px 2px 4px;
+}
+
+.customer-profile .navbar .active > li > a:focus, 
+.customer-profile .navbar .active > li > a:hover {
+	color: #fff;
+	text-decoration: none;
+	background-position: 0px;
+}
+
+.customer-profile .navbar .nav a.orders {
+	text-indent: -10000px;
+	background: url(../img/my-orders-icon.png) no-repeat;
+	background-position: 0px;
+	margin-top: 14px;
+	margin-left: 10px;
+	width: 16px;
+	height: 22px;
+}
+
+.customer-profile .navbar .nav a.message {
+	text-indent: -10000px;
+	background: url(../img/my-messages-icon.png) no-repeat;
+	background-position: 0px;
+	margin-top: 13px;
+	margin-left: 14px;
+	width: 16px;
+	height: 22px;
+}
+
+.customer-profile .navbar .passive > li > a {
+	padding: 10px 6px;
+	margin-top: 15px;
+	color: #707070;
+}
+
+.customer-profile .navbar .passive > li > a:focus, 
+.customer-profile .navbar .passive > li > a:hover {
+	color: #99cc00;
+	text-decoration: none;
+	background-position: 0px;
+}
+
+.customer-profile .navbar .connect p {
+	font-size: 14px;
+	color: #363636;
+	margin-top: 16px;
+	margin-right: 15px;
+} 
+
+.customer-profile .navbar .connect li {
+	margin-left: -15px;
+	margin-top: 2px;
+}
+
+.customer-profile .sub-menu {
+	background-color: #7d7d7d;
+	margin-top: 100px;
+}
+
+.customer-profile .sub-menu li.img {
+	width: 30px;
+	padding-left: 0px;
+}
+
+.customer-profile .sub-menu img {
+	margin-left: -10px;
+}
+
+.customer-profile .sub-menu img.special {
+	margin-left: -13px;
+}
+
+.customer-profile .sub-menu li {
+	font-size: 14px;
+}
+
+.customer-profile .sub-menu .nav > li > a.word {
+	padding-left: 5px;
+}
+
+.customer-profile .sub-menu .nav > li > a.active:focus, 
+.customer-profile .sub-menu .nav > li > a.active:hover {
+	color: #fff;
+	text-decoration: none;
+	background-position: 0px;
+}
+
+.customer-profile .white-box {
+	margin-top: 200px;
+}
+
