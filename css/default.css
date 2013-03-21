@@ -2156,6 +2156,7 @@ body {
 	border: 2px solid #99cc00;
 }
 
+.customer-profile .white-box button,
 .main-box button {
 	margin: 30px 0 30px 220px;
 	font-size: 25px;
@@ -2176,11 +2177,13 @@ body {
   font-weight: bold;
 }
 
+.customer-profile .white-box button,
 .main-box button:hover {
 	color: #fff;
 	background-position: 0px;
 }
 
+.customer-profile .white-box button,
 .main-box button:hover {
 	background-color: #de6786;
 }
@@ -3326,7 +3329,7 @@ fieldset .controls {
 	margin: 30px 0 0 0;
 }
 
-/* Customer - My Account - My profile */
+/* Customer - My Account  */
 
 .customer-profile .main-menu {
 	margin-top: 50px;
@@ -3428,6 +3431,11 @@ fieldset .controls {
 .customer-profile .sub-menu li.img {
 	width: 30px;
 	padding-left: 0px;
+	margin-left: 14px;
+}
+
+.customer-profile .sub-menu li.img:first-child {
+	margin-left: 6px;
 }
 
 .customer-profile .sub-menu img {
@@ -3442,8 +3450,9 @@ fieldset .controls {
 	font-size: 14px;
 }
 
-.customer-profile .sub-menu .nav > li > a.word {
+.customer-profile .sub-menu .nav  a.word {
 	padding-left: 5px;
+	padding-right: 0px;
 }
 
 .customer-profile .sub-menu .nav > li > a.active:focus, 
@@ -3454,6 +3463,60 @@ fieldset .controls {
 }
 
 .customer-profile .white-box {
-	margin-top: 200px;
+	margin-top: 50px;
+	width: 750px;
 }
+
+.customer-profile .white-box h1 {
+	font-size: 24px;
+	margin-left: 90px;
+}
+
+/* Customer - Recommend */
+
+.recommend .white-box p {
+	margin: 25px 90px;
+	font-size: 18px;
+	color: #898989;
+}
+
+.recommend .white-box fieldset {
+	background: #ebebeb;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 10px 90px 0 90px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.recommend .white-box fieldset .span3 {
+	width: 240px;
+	margin-left: 30px;
+}
+
+.recommend .white-box fieldset input {
+	border: 1px solid #fff;
+	border-top: 2px solid #d7d7d7;
+	width: 225px;
+}
+
+.recommend .white-box img.add {
+	margin: 20px 10px 0 90px;
+	padding-bottom: 24px;
+}
+
+.recommend .white-box a {
+	padding-top: 20px;
+	font-size: 16px;
+	color: #898989;
+}
+
+.recommend .white-box button {
+	margin: 60px 90px 30px 0;
+	font-size: 18px;
+	padding: 6px 0;
+	width: 130px;
+}
+
 
