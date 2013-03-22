@@ -2156,7 +2156,7 @@ body {
 	border: 2px solid #99cc00;
 }
 
-.customer-profile .white-box button,
+.customer-additional .white-box button,
 .main-box button {
 	margin: 30px 0 30px 220px;
 	font-size: 25px;
@@ -2177,13 +2177,13 @@ body {
   font-weight: bold;
 }
 
-.customer-profile .white-box button,
+.customer-additional .white-box button,
 .main-box button:hover {
 	color: #fff;
 	background-position: 0px;
 }
 
-.customer-profile .white-box button,
+.customer-additional .white-box button,
 .main-box button:hover {
 	background-color: #de6786;
 }
@@ -3329,14 +3329,14 @@ fieldset .controls {
 	margin: 30px 0 0 0;
 }
 
-/* Customer - My Account  */
+/* Customer - additional - My Account */
 
-.customer-profile .main-menu {
+.customer-additional .main-menu {
 	margin-top: 50px;
 	z-index: -1;
 }
 
-.customer-profile .main-menu .navbar-inner {
+.customer-additional .main-menu .navbar-inner {
 	background: #e6e6e6;
 	height: 50px;
 	background-image: -webkit-linear-gradient(top, #e6e6e6, #d3d3d3);
@@ -3346,7 +3346,7 @@ fieldset .controls {
   font-size: 15px;
 }
 
-.customer-profile .navbar ul.active {
+.customer-additional .navbar ul.active {
 	background-color: #7d7d7d;
 	margin-top: 17px;
 	-webkit-border-top-left-radius: 6px;
@@ -3355,11 +3355,10 @@ fieldset .controls {
 	-webkit-border-top-right-radius: 6px;
 	-moz-border-top-right-radius: 6px;
 	border-top-right-radius: 6px;
-	
 	height: 35px;
 }
 
-.customer-profile .navbar .nav a.account {
+.customer-additional .navbar .nav a.account {
 	background: url(../img/my-account-icon.png) no-repeat;
 	background-position: 0px;
 	margin-left: 8px;
@@ -3367,18 +3366,18 @@ fieldset .controls {
 	height: 22px;
 }
 
-.customer-profile .navbar .active > li > a {
+.customer-additional .navbar .active > li > a {
 	padding: 8px 10px 2px 4px;
 }
 
-.customer-profile .navbar .active > li > a:focus, 
-.customer-profile .navbar .active > li > a:hover {
+.customer-additional .navbar .active > li > a:focus, 
+.customer-additional .navbar .active > li > a:hover {
 	color: #fff;
 	text-decoration: none;
 	background-position: 0px;
 }
 
-.customer-profile .navbar .nav a.orders {
+.customer-additional .navbar .nav a.orders {
 	text-indent: -10000px;
 	background: url(../img/my-orders-icon.png) no-repeat;
 	background-position: 0px;
@@ -3388,7 +3387,7 @@ fieldset .controls {
 	height: 22px;
 }
 
-.customer-profile .navbar .nav a.message {
+.customer-additional .navbar .nav a.message {
 	text-indent: -10000px;
 	background: url(../img/my-messages-icon.png) no-repeat;
 	background-position: 0px;
@@ -3398,78 +3397,85 @@ fieldset .controls {
 	height: 22px;
 }
 
-.customer-profile .navbar .passive > li > a {
+.customer-additional .navbar .passive > li > a {
 	padding: 10px 6px;
 	margin-top: 15px;
 	color: #707070;
 }
 
-.customer-profile .navbar .passive > li > a:focus, 
-.customer-profile .navbar .passive > li > a:hover {
+.customer-additional .navbar .passive > li > a:focus, 
+.customer-additional .navbar .passive > li > a:hover {
 	color: #99cc00;
 	text-decoration: none;
 	background-position: 0px;
 }
 
-.customer-profile .navbar .connect p {
+.customer-additional .navbar .connect p {
 	font-size: 14px;
 	color: #363636;
 	margin-top: 16px;
 	margin-right: 15px;
 } 
 
-.customer-profile .navbar .connect li {
+.customer-additional .navbar .connect li {
 	margin-left: -15px;
 	margin-top: 2px;
 }
 
-.customer-profile .sub-menu {
+.customer-additional .sub-menu {
 	background-color: #7d7d7d;
 	margin-top: 100px;
 }
 
-.customer-profile .sub-menu li.img {
+.customer-additional .sub-menu li.img {
 	width: 30px;
 	padding-left: 0px;
 	margin-left: 14px;
 }
 
-.customer-profile .sub-menu li.img:first-child {
+.customer-additional .sub-menu li.img:first-child {
 	margin-left: 6px;
 }
 
-.customer-profile .sub-menu img {
+.customer-additional .sub-menu img {
 	margin-left: -10px;
 }
 
-.customer-profile .sub-menu img.special {
+.customer-additional .sub-menu img.special {
 	margin-left: -13px;
 }
 
-.customer-profile .sub-menu li {
+.customer-additional .sub-menu li {
 	font-size: 14px;
 }
 
-.customer-profile .sub-menu .nav  a.word {
+.customer-additional .sub-menu .nav  a.word {
 	padding-left: 5px;
 	padding-right: 0px;
 }
 
-.customer-profile .sub-menu .nav > li > a.active:focus, 
-.customer-profile .sub-menu .nav > li > a.active:hover {
+.customer-additional .sub-menu .nav > li > a.active:focus, 
+.customer-additional .sub-menu .nav > li > a.active:hover {
 	color: #fff;
 	text-decoration: none;
 	background-position: 0px;
 }
 
-.customer-profile .white-box {
+.customer-additional .white-box {
 	margin-top: 50px;
 	width: 750px;
 }
 
-.customer-profile .white-box h1 {
+.customer-additional .white-box h1 {
 	font-size: 24px;
 	margin-left: 90px;
+}
+
+.customer-additional .white-box button {
+	margin: 60px 90px 40px 0;
+	font-size: 18px;
+	padding: 6px 0;
+	width: 130px;
 }
 
 /* Customer - Recommend */
@@ -3512,11 +3518,48 @@ fieldset .controls {
 	color: #898989;
 }
 
-.recommend .white-box button {
-	margin: 60px 90px 30px 0;
-	font-size: 18px;
-	padding: 6px 0;
-	width: 130px;
+/* Customer - My Profile */
+
+.my-profile .white-box fieldset {
+	margin: 20px 0 0 60px;
 }
 
+.my-profile .white-box label {
+	font-size: 16px;
+	color: #636363;
+}
+
+.my-profile .white-box .span3 {
+	width: 270px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.my-profile .white-box input {
+	width: 255px;
+	background-color: #f7f7f7;
+}
+
+.my-profile .white-box fieldset a.edit {
+	background: url(../img/edit-icon.png) no-repeat;
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: right;
+	margin: -34px 6px 0 0;
+	position: relative;
+}
+
+.my-profile .white-box .span4 {
+	margin-top: 50px;
+}
+
+.my-profile .white-box a.cancel {
+	font-size: 18px;
+	color: #898989;
+}
+
+.my-profile .white-box button {
+	margin-top: -10px;
+}
 
