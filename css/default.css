@@ -3333,7 +3333,7 @@ fieldset .controls {
 
 .customer-additional .main-menu {
 	margin-top: 50px;
-	z-index: -1;
+	z-index: 1;
 }
 
 .customer-additional .main-menu .navbar-inner {
@@ -3361,9 +3361,8 @@ fieldset .controls {
 .customer-additional .navbar .nav a.account {
 	background: url(../img/my-account-icon.png) no-repeat;
 	background-position: 0px;
-	margin-left: 8px;
-	width: 12px;
-	height: 22px;
+	padding-left: 28px;
+	margin-left: 6px;
 }
 
 .customer-additional .navbar .active > li > a {
@@ -3378,23 +3377,17 @@ fieldset .controls {
 }
 
 .customer-additional .navbar .nav a.orders {
-	text-indent: -10000px;
 	background: url(../img/my-orders-icon.png) no-repeat;
 	background-position: 0px;
-	margin-top: 14px;
-	margin-left: 10px;
-	width: 16px;
-	height: 22px;
+	padding-left: 32px;
+	margin-left: 8px;
 }
 
 .customer-additional .navbar .nav a.message {
-	text-indent: -10000px;
 	background: url(../img/my-messages-icon.png) no-repeat;
 	background-position: 0px;
-	margin-top: 13px;
-	margin-left: 14px;
-	width: 16px;
-	height: 22px;
+	padding-left: 32px;
+	margin-left: 12px;
 }
 
 .customer-additional .navbar .passive > li > a {
@@ -3427,42 +3420,59 @@ fieldset .controls {
 	margin-top: 100px;
 }
 
-.customer-additional .sub-menu li.img {
-	width: 30px;
-	padding-left: 0px;
-	margin-left: 14px;
+.customer-additional .sub-menu a.profile {
+	padding-left: 26px;
+	background: url(../img/profile-icon.png) no-repeat;
+	background-position: 0px;
+	margin-left: 4px;
 }
 
-.customer-additional .sub-menu li.img:first-child {
-	margin-left: 6px;
+.customer-additional .sub-menu a.comm {
+	padding-left: 28px;
+	background: url(../img/communication-icon.png) no-repeat;
+	background-position: 0px;
+	margin-left: 4px;
 }
 
-.customer-additional .sub-menu img {
-	margin-left: -10px;
+.customer-additional .sub-menu a.pay-m {
+	padding-left: 31px;
+	background: url(../img/payment-method-icon.png) no-repeat;
+	background-position: 0px;
+	margin-left: 4px;
 }
 
-.customer-additional .sub-menu img.special {
-	margin-left: -13px;
+.customer-additional .sub-menu a.wishlist {
+	padding-left: 28px;
+	background: url(../img/wishlist-icon.png) no-repeat;
+	background-position: 0px;
+	margin-left: 4px;
+}
+
+.customer-additional .sub-menu a.recommended {
+	padding-left: 26px;
+	background: url(../img/recommended-icon.png) no-repeat;
+	background-position: 0px;
+	margin-left: 4px;
+}
+
+.customer-additional .sub-menu a.invite {
+	padding-left: 30px;
+	background: url(../img/invite-icon-s.png) no-repeat;
+	background-position: 0px;
+	margin-left: 4px;
 }
 
 .customer-additional .sub-menu li {
 	font-size: 14px;
 }
 
-.customer-additional .sub-menu .nav  a.word {
-	padding-left: 5px;
-	padding-right: 0px;
-}
-
-.customer-additional .sub-menu .nav > li > a.active:focus, 
-.customer-additional .sub-menu .nav > li > a.active:hover {
-	color: #fff;
-	text-decoration: none;
-	background-position: 0px;
+.customer-additional .navbar .nav > li > a.active:focus, 
+.customer-additional .navbar .nav > li > a.active:hover {
+  color: #fff;
 }
 
 .customer-additional .white-box {
-	margin-top: 50px;
+	margin-top: 200px;
 	width: 750px;
 }
 
@@ -3562,4 +3572,9 @@ fieldset .controls {
 .my-profile .white-box button {
 	margin-top: -10px;
 }
+
+
+
+
+
 
