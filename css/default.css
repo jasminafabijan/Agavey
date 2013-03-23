@@ -848,11 +848,12 @@ body {
 	padding: 10px 15px;
 }
 
-/* Sign up page */
+/* Common elements */
 
 .white-box {
 	background-color: #fff;
 	margin-top: 100px;
+	margin-bottom: 50px;
 	-moz-box-shadow:  2px 2px 3px #a1a1a1;
 	-webkit-box-shadow:  2px 2px 3px #a1a1a1;
 	box-shadow: 2px 2px 3px #a1a1a1;
@@ -869,18 +870,20 @@ body {
 	font-weight: 400;
 }
 
-.create-or-facebook {
+/* Sign up page */
+
+.sign-up .create-or-facebook {
 	margin: 50px 0 50px 20px;
 }
 
-.create {
+.sign-up .create {
 	padding: 0px 0px 0px 10px;
 	font-size: 28px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 }
 
-.create-or-facebook .or {
+.sign-up .create-or-facebook .or {
 	padding: 33px 0px 25px 35px;
 	font-size: 28px;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -888,21 +891,21 @@ body {
 	color: #acacac;
 }
 
-.or a {
+.sign-up .or a {
 	float: right;
 	margin: -8px 24px 0 0;
 }
 
-.white-box form {
+.sign-up .white-box form {
 	margin-left: 10px;
 }
 
-.white-box form .controls {
+.sign-up .white-box form .controls {
 	margin-top: 20px;
 }
 
-.white-box form input[type="text"],
-.white-box form input[type="password"] {
+.sign-up .white-box form input[type="text"],
+.sign-up .white-box form input[type="password"] {
 	width: 256px;
 	height: 25px;
 	margin-left: 21px;
@@ -916,19 +919,19 @@ body {
 	box-shadow: -2px -2px #e1e1e1;
 }
 
-.white-box form .address {
+.sign-up .white-box form .address {
 	margin-top: 40px;
 }
 
-.white-box form .address input {
+.sign-up .white-box form .address input {
 	width: 186px;
 }
 
-.white-box form select {
+.sign-up .white-box form select {
 	margin-left: 20px;
 }
 
-.white-box form .own-home {
+.sign-up .white-box form .own-home {
 	margin-top: 30px;
 	font-size: 19px;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -937,13 +940,13 @@ body {
 	text-align: center;
 }
 
-.white-box form .own-home label {
+.sign-up .white-box form .own-home label {
 	font-size: 19px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 }
 
-.white-box form button {
+.sign-up .white-box form button {
 	margin: 30px 0 30px 220px;
 	font-size: 25px;
 	padding: 10px 0;
@@ -963,22 +966,22 @@ body {
   font-weight: bold;
 }
 
-.white-box form button:hover {
+.sign-up .white-box form button:hover {
 	color: #fff;
 	background-position: 0px;
 }
 
-.white-box form button:hover {
+.sign-up .white-box form button:hover {
 	background-color: #de6786;
 }
 
-.white-box form select {
+.sign-up .white-box form select {
 	width: 270px;
 	height: 35px;
 	border: 1px solid #e1e1e1;
 }
 
-.white-box form select, option {
+.sign-up .white-box form select, option {
 	font-size: 19px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 100;
@@ -1005,11 +1008,15 @@ body {
 	float: left;
 }
 
-.main-image .container .nav .login {
+.main-image .container .nav a.login {
 	font-size: 17px;
 	color: #fff;
 	margin-right: 15px;
 	margin-top: 6px;
+}
+
+.main-image .container .nav > li > a.login:hover {
+  background-color: transparent;
 }
 
 .main-image .container .nav .join {
