@@ -192,7 +192,6 @@ body {
 	margin-left: 10px;
 }
 
-
 /* Listing page */
 
 .listing-page .service .share-buttons {
@@ -225,7 +224,7 @@ body {
 
 .categories {
 	margin-top: 50px;
-	z-index: -1;
+	z-index: 1;
 }
 
 .categories .navbar-inner {
@@ -262,7 +261,7 @@ body {
 
 .search {
 	margin-top: 91px;
-	z-index: -1;
+	z-index: 1;
 }
 
 .search form {
