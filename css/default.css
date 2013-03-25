@@ -105,6 +105,10 @@ body {
 	margin-top: 15px;
 }
 
+.modal-body .error-message {
+	margin-left: 15px;
+}
+
 .modal-body input[type="text"],
 .modal-body input[type="password"] {
 	width: 280px;
