@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Agavey-my-account-recommend-service-provider</title>
+    <title>Agavey-my-account-my-communication-preference</title>
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
         <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -25,16 +25,14 @@
     
   </head>
 
-  <body class="customer-additional recommend">
+  <body class="customer-additional communication">
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner main-nav">
         <div class="container">
           <a class="brand" href="#"><img src="img/logo.png" alt="logo" /></a>
-
           <form class="navbar-form span2">
             <input type="text" placeholder="Location" />
           </form>
-
           <ul class="nav pull-right">
             <li><a class="home" href="#">Home</a></li>
             <li><a href="#about">How it works</a></li>
@@ -81,10 +79,10 @@
       <div class="container">
         <ul class="nav">
           <li><a href="#" class="profile">My Profile</a></li>
-          <li><a href="#" class="comm">Communication</a></li>
+          <li><a href="#" class="comm active">Communication</a></li>
           <li><a href="#" class="pay-m">My Payment Method</a></li>
           <li><a href="#" class="wishlist">Wish List</a></li>
-          <li><a href="#" class="recommended active">Recommend a Service Provider</a></li>
+          <li><a href="#" class="recommended">Recommend a Service Provider</a></li>
           <li><a href="#" class="invite">Invite Friends</a></li>
         </ul>
       </div>
@@ -93,36 +91,36 @@
     <div class="container">
       <div class="row">
         <div class="span9 white-box">
-          <h1>Recommend a Service Provider</h1>
-          <p>You and I both know how hard it is to find a service provider for your home. Who is Qualified, Responsive, Reliable, does quality work and stands behind his/her work. If you know someone like that why not recommend them to Agavey so that we can bring their services for more home owners. The service provider will be so thankful for more business that your referral will get them.</p>
+          <h1>My Communication Preference</h1>
+          <p>Please tell us how you would like to hear from us</p>
+          <div class="options">
+            <label class="checkbox inline">
+              <input type="checkbox" value="option1"> Email
+            </label>
+            <label class="checkbox inline">
+              <input type="checkbox" value="option2"> Phone
+            </label>
+            <label class="checkbox inline">
+              <input type="checkbox" value="option3"> Text
+            </label>
+          </div>
 
-          <fieldset>
+          <span>Can we follow you on Pinterest?</span>
+          <label class="radio inline">
+            <input type="radio" name="optionsRadios" value="option1" checked>
+            Yes
+          </label>
+          <label class="radio inline">
+            <input type="radio" name="optionsRadios" value="option1" checked>
+            No
+          </label>
+          
             <div class="controls">
               <div class="span3">
                 <input type="text" placeholder="Name of Business"/>
               </div>
-              <div class="span3">
-                <input type="text" placeholder="Name of Contact"/>
-              </div>
             </div>
-            <div class="controls">
-              <div class="span3">
-                <input type="text" placeholder="Phone"/>
-              </div>
-              <div class="span3">
-                <input type="text" placeholder="Email"/>
-              </div>
-            </div>
-            <div class="controls">
-              <div class="span3">
-                <input type="text" placeholder="City"/>
-              </div>
-              <div class="span3">
-                <input type="text" placeholder="State"/>
-              </div>
-            </div>
-          </fieldset>
-          <a href="#"><img class="add" src="img/add-icon.png" alt="add" />Add more Service Providers</a>
+            
           <div class="span4 pull-right">
             <a href="#" class="cancel">Cancel</a>
             <button class="btn pull-right">Submit</button>
