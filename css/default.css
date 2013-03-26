@@ -107,6 +107,7 @@ body {
 
 .modal-body .error-message {
 	margin-left: 15px;
+	color: red;
 }
 
 .modal-body input[type="text"],
