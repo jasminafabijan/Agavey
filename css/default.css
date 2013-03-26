@@ -3504,6 +3504,11 @@ fieldset .controls {
 	margin-left: 90px;
 }
 
+.customer-additional .white-box a.cancel {
+	font-size: 16px;
+	color: #898989;
+}
+
 .customer-additional .white-box button {
 	margin: 60px 90px 40px 0;
 	font-size: 18px;
@@ -3549,8 +3554,6 @@ fieldset .controls {
 
 .recommend .white-box a {
 	padding-top: 20px;
-	font-size: 16px;
-	color: #898989;
 }
 
 .recommend .white-box .span4 {
@@ -3589,17 +3592,14 @@ fieldset .controls {
 	position: relative;
 }
 
-.my-profile .white-box .span4 {
+.my-profile .white-box .span4,
+.communication .white-box .span4 {
 	margin-top: 50px;
 }
 
-.my-profile .white-box a.cancel {
-	font-size: 16px;
-	color: #898989;
-}
-
 .my-profile .white-box button,
-.recommend .white-box button {
+.recommend .white-box button,
+.communication .white-box button {
 	margin-top: -10px;
 }
 
@@ -3619,9 +3619,33 @@ fieldset .controls {
 	margin-right: 30px;
 }
 
+.communication .white-box p.pin {
+	margin-top: 15px;
+}
+
 .communication .white-box label.radio {
 	margin: -12px 10px 0 -55px;
 }
 
+.communication .white-box input[type="text"] {
+	margin-left: 90px;
+}
+
+.communication .white-box .twitter {
+	margin: 25px 0 15px 0;
+}
+
+.communication .white-box .unsubscribe {
+	margin: 40px 0 0 0;
+}
+
+.communication .white-box .unsubscribe label {
+	margin-left: 90px;
+}
+
+.communication .white-box .unsubscribe p {
+	font-size: 14px;
+	margin-top: 10px;
+}
 
 
