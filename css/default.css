@@ -301,9 +301,10 @@ body {
 	display: inline-block;
 	width: 20px;
 	height: 20px;
-	margin-top: 0px;
+	margin-top: 1px;
 	line-height: 20px;
 	vertical-align: text-top;
+	margin-right: 4px;
 }
 
 .search form .btn {
@@ -3493,6 +3494,7 @@ fieldset .controls {
 
 .customer-additional .white-box {
 	margin-top: 200px;
+	margin-bottom: 0px;
 	width: 750px;
 }
 
@@ -3510,7 +3512,9 @@ fieldset .controls {
 
 /* Customer - Recommend */
 
-.recommend .white-box p {
+.recommend .white-box p,
+.communication .white-box p,
+.communication .white-box span {
 	margin: 25px 90px;
 	font-size: 18px;
 	color: #898989;
@@ -3546,6 +3550,10 @@ fieldset .controls {
 	padding-top: 20px;
 	font-size: 16px;
 	color: #898989;
+}
+
+.recommend .white-box .span4 {
+	margin-top: 80px;
 }
 
 /* Customer - My Profile */
@@ -3585,16 +3593,34 @@ fieldset .controls {
 }
 
 .my-profile .white-box a.cancel {
-	font-size: 18px;
+	font-size: 16px;
 	color: #898989;
 }
 
-.my-profile .white-box button {
+.my-profile .white-box button,
+.recommend .white-box button {
 	margin-top: -10px;
 }
 
+/* Customer - Communication Preference */
 
+.communication .white-box p {
+	margin-bottom: 10px;
+}
 
+.communication .white-box .options {
+	margin: 0 0 30px 90px;
+}
+
+.communication .white-box label {
+	font-size: 16px;
+	color: #636363;
+	margin-right: 30px;
+}
+
+.communication .white-box label.radio {
+	margin: -12px 10px 0 -55px;
+}
 
 
 
