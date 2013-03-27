@@ -875,6 +875,98 @@ body {
 	font-weight: 400;
 }
 
+.white-box form {
+	margin-left: 10px;
+}
+
+.white-box form .controls {
+	margin-top: 20px;
+}
+
+.white-box form input[type="text"],
+.white-box form input[type="password"] {
+	width: 256px;
+	height: 25px;
+	margin-left: 21px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 19px;
+	font-weight: 300;
+	color: #363636;
+	border: 1px solid #e1e1e1;
+	-moz-box-shadow: -2px -2px #e1e1e1;
+	-webkit-box-shadow: -2px -2px #e1e1e1;
+	box-shadow: -2px -2px #e1e1e1;
+}
+
+.white-box form .address {
+	margin-top: 40px;
+}
+
+.white-box form .address input {
+	width: 186px;
+}
+
+.white-box form select {
+	margin-left: 20px;
+}
+
+.white-box form .own-home {
+	margin-top: 30px;
+	font-size: 19px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	color: #000;
+	text-align: center;
+}
+
+.white-box form .own-home label {
+	font-size: 19px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+
+.white-box form button {
+	margin: 30px 0 30px 220px;
+	font-size: 25px;
+	padding: 10px 0;
+	width: 170px;
+	-moz-box-shadow:  2px 2px 3px #a1a1a1;
+	-webkit-box-shadow:  2px 2px 3px #a1a1a1;
+	box-shadow: 2px 2px 3px #a1a1a1;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	color: #fff;
+	background-color: #de6786;
+	background-image: -webkit-linear-gradient(top, #de6786, #d02552);
+  background-image: -o-linear-gradient(top, #de6786, #d02552);
+  background-image: linear-gradient(to bottom, #de6786, #d02552);
+  background-image: -moz-linear-gradient(top, #de6786, #d02552);	
+  font-weight: bold;
+}
+
+.white-box form button:hover {
+	color: #fff;
+	background-position: 0px;
+}
+
+.white-box form button:hover {
+	background-color: #de6786;
+}
+
+.white-box form select {
+	width: 270px;
+	height: 35px;
+	border: 1px solid #e1e1e1;
+}
+
+.white-box form select, option {
+	font-size: 19px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 100;
+	color: #363636;
+}
+
 /* Sign up page */
 
 .sign-up .create-or-facebook {
@@ -899,98 +991,6 @@ body {
 .sign-up .or a {
 	float: right;
 	margin: -8px 24px 0 0;
-}
-
-.sign-up .white-box form {
-	margin-left: 10px;
-}
-
-.sign-up .white-box form .controls {
-	margin-top: 20px;
-}
-
-.sign-up .white-box form input[type="text"],
-.sign-up .white-box form input[type="password"] {
-	width: 256px;
-	height: 25px;
-	margin-left: 21px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 19px;
-	font-weight: 300;
-	color: #363636;
-	border: 1px solid #e1e1e1;
-	-moz-box-shadow: -2px -2px #e1e1e1;
-	-webkit-box-shadow: -2px -2px #e1e1e1;
-	box-shadow: -2px -2px #e1e1e1;
-}
-
-.sign-up .white-box form .address {
-	margin-top: 40px;
-}
-
-.sign-up .white-box form .address input {
-	width: 186px;
-}
-
-.sign-up .white-box form select {
-	margin-left: 20px;
-}
-
-.sign-up .white-box form .own-home {
-	margin-top: 30px;
-	font-size: 19px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-	color: #000;
-	text-align: center;
-}
-
-.sign-up .white-box form .own-home label {
-	font-size: 19px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-}
-
-.sign-up .white-box form button {
-	margin: 30px 0 30px 220px;
-	font-size: 25px;
-	padding: 10px 0;
-	width: 170px;
-	-moz-box-shadow:  2px 2px 3px #a1a1a1;
-	-webkit-box-shadow:  2px 2px 3px #a1a1a1;
-	box-shadow: 2px 2px 3px #a1a1a1;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
-	color: #fff;
-	background-color: #de6786;
-	background-image: -webkit-linear-gradient(top, #de6786, #d02552);
-  background-image: -o-linear-gradient(top, #de6786, #d02552);
-  background-image: linear-gradient(to bottom, #de6786, #d02552);
-  background-image: -moz-linear-gradient(top, #de6786, #d02552);	
-  font-weight: bold;
-}
-
-.sign-up .white-box form button:hover {
-	color: #fff;
-	background-position: 0px;
-}
-
-.sign-up .white-box form button:hover {
-	background-color: #de6786;
-}
-
-.sign-up .white-box form select {
-	width: 270px;
-	height: 35px;
-	border: 1px solid #e1e1e1;
-}
-
-.sign-up .white-box form select, option {
-	font-size: 19px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 100;
-	color: #363636;
 }
 
 /* homepage */
