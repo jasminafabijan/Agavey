@@ -3462,7 +3462,8 @@ fieldset .controls {
 
 .recommend .white-box p,
 .communication .white-box p,
-.communication .white-box span {
+.communication .white-box span,
+.my-reviews .white-box .question span {
 	margin: 25px 90px;
 	font-size: 18px;
 	color: #898989;
@@ -3555,7 +3556,8 @@ fieldset .controls {
 	margin: 0 0 30px 90px;
 }
 
-.communication .white-box label {
+.communication .white-box label,
+.my-reviews .white-box label {
 	font-size: 16px;
 	color: #636363;
 	margin-right: 30px;
@@ -3602,4 +3604,32 @@ fieldset .controls {
 	font-size: 18px;
 	color: #898989;
 }
+
+.my-reviews .white-box .span8 {
+	margin: 25px 0 5px 190px;
+}
+
+.my-reviews .white-box .span8 span {
+	color: #636363;
+}
+
+.my-reviews .white-box .span8 .satisfied {
+	float: right;
+	margin: -16px 15px 0 0;
+}
+
+.my-reviews .rating .one {
+	margin-left: 296px;
+}
+
+.my-reviews .rating span {
+	margin-right: 82px;
+}
+
+.my-reviews .question {
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+
 

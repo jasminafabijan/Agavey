@@ -93,8 +93,10 @@
 .ui-slider .ui-slider-handle {
 	position: absolute;
 	z-index: 2;
-	width: 1.2em;
-	height: 1.2em;
+	width: 14px;
+	height: 24px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
 	cursor: default;
 }
 .ui-slider .ui-slider-range {
@@ -113,10 +115,13 @@
 }
 
 .ui-slider-horizontal {
-	height: .8em;
+	height: 10px;
+	width: 375px;
+	margin-left: 110px;
+	margin-top: -17px;
 }
 .ui-slider-horizontal .ui-slider-handle {
-	top: -.3em;
+	top: -8px;
 	margin-left: -.6em;
 }
 .ui-slider-horizontal .ui-slider-range {
@@ -168,7 +173,15 @@
 }
 .ui-widget-content {
 	border: 1px solid #dddddd;
-	background: #eeeeee url(images/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x;
+	/*background: #eeeeee url(images/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x;*/
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(left, #1e5799 0%, #7db9e8 0%, #e8eae2 0%, #c1d97b 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(0%,#7db9e8), color-stop(0%,#e8eae2), color-stop(99%,#c1d97b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #1e5799 0%,#7db9e8 0%,#e8eae2 0%,#c1d97b 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #1e5799 0%,#7db9e8 0%,#e8eae2 0%,#c1d97b 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #1e5799 0%,#7db9e8 0%,#e8eae2 0%,#c1d97b 99%); /* IE10+ */
+	background: linear-gradient(to right, #1e5799 0%,#7db9e8 0%,#e8eae2 0%,#c1d97b 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#c1d97b',GradientType=1 ); /* IE6-9 */
 	color: #333333;
 }
 .ui-widget-content a {
@@ -190,7 +203,7 @@
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
 	border: 1px solid #cccccc;
-	background: #f00 url(images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;
+	background: #99cc00;
 	font-weight: bold;
 	color: #1c94c4;
 }
@@ -206,10 +219,10 @@
 .ui-state-focus,
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
-	border: 1px solid #fbcb09;
+	/*border: 1px solid #fbcb09;
 	background: #fdf5ce url(images/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x;
 	font-weight: bold;
-	color: #c77405;
+	color: #c77405;*/
 }
 .ui-state-hover a,
 .ui-state-hover a:hover,
@@ -221,7 +234,7 @@
 .ui-state-active,
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
-	border: 1px solid #fbd850;
+	border: 1px solid #99cc00;
 	background: #ffffff url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #eb8f00;
