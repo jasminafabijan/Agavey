@@ -116,9 +116,8 @@ body {
 	height: 25px;
 	margin-left: 15px;
 	margin-top: 10px;
-	font-family: 'Average Sans', sans-serif;
-	font-size: 19px;
-	font-weight: 100;
+	font-size: 18px;
+	font-weight: 200;
 	color: #363636;
 	border: 1px solid #e1e1e1;
 	-moz-box-shadow: -2px -2px #e1e1e1;
@@ -131,8 +130,8 @@ body {
 }
 
 .modal-body a {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 14px;
+	font-size: 13px;
+	font-weight: 400;
 	color: #7d7d7d;
 	text-decoration: underline;
 	margin-left: 15px;	
@@ -176,9 +175,9 @@ body {
 	margin-right: 20px;
 }
 
-.modal-footer p {
-	font-family: 'Source Sans Pro', sans-serif;	
+.modal-footer p {	
 	font-size: 15px;
+	font-weight: 400;
 	color: #acacac;
 	float: left;
 	margin-left: 15px;
@@ -186,8 +185,8 @@ body {
 }
 
 .modal-footer a {
-	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
+	font-weight: 400;
 	color: #636363;
 	text-decoration: underline;
 	margin-left: 10px;
@@ -502,10 +501,12 @@ body {
 }
 
 .information .detail {
-	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
+	font-weight: 400;
+	line-height: 22px;
 	color: #363636;	
 	margin-top: -15px;
+	margin-bottom: 0px;
 }
 
 .information .lic {
@@ -518,8 +519,7 @@ body {
 }
 
 .information li {
-	font-size: 19px;
-	font-family: 'Source Sans Pro', sans-serif;	
+	font-size: 19px;	
 	font-weight: 400;
 }
 
@@ -581,17 +581,19 @@ body {
 	border: 1px solid #e1e1e1;
 }
 
-.provider-box h3 {
+.provider-box h3,
+.review-box h3,
+.service-box h3,
+.service-box h3.faq {
 	font-size: 26px;
-	font-family: 'Source Sans Pro', sans-serif;
 	color: #363636;
 	margin-left: 15px;
-	font-weight: 900;
+	font-weight: bold;
 }
 
 .provider-box p {
 	font-size: 15px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
 	color: #555;
 	margin-left: 15px;
 	margin-right: 10px;
@@ -599,28 +601,26 @@ body {
 
 .provider-box li {
 	font-size: 15px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
 	color: #555;
 	margin-left: 15px;
 }
 
 .provider-box strong {
 	font-size: 17px;
-	font-family: 'Source Sans Pro', sans-serif;
 	color: #363636;
 }
 
 .provider-box address {
 	font-size: 15px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
 	color: #555;
 	margin-left: 15px;
 	margin-top: 20px;
 }
 
 .provider-box a {
-	font-size: 17px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
 	color: #363636;
 	background-color: #d7d7d7;
 	-webkit-border-radius: 12px;
@@ -649,22 +649,14 @@ body {
 	border: 1px solid #e1e1e1;
 }
 
-.review-box h3 {
-	font-size: 26px;
-	font-family: 'Source Sans Pro', sans-serif;
-	color: #363636;
-	margin-left: 15px;
-	font-weight: 900;
-}
-
 .review-box blockquote.clearfix {
 	border-left: none;
 	background-color: #f3f3f3;
 }
 
 .review-box blockquote.clearfix p {
-	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
+	font-weight: 400;
 	color: #555;
 	font-weight: normal;
 	padding-top: 5px;
@@ -694,8 +686,7 @@ body {
 } 
 
 .review-box blockquote.white cite {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 16px;
+	font-size: 15px;
 	font-style: italic;
 	color: #555;
 	float: right;
@@ -707,8 +698,8 @@ body {
 }
 
 .rated a {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 19px;
+	font-size: 18px;
+	font-weight: 400;
 	color: #959595;
 	display: block;
 	line-height: 4px;
@@ -726,26 +717,13 @@ body {
 	border: 1px solid #e1e1e1;
 }
 
-.service-box h3 {
-	font-size: 26px;
-	font-family: 'Source Sans Pro', sans-serif;
-	color: #363636;
-	margin-left: 15px;
-	font-weight: 900;
-}
-
 .service-box h3.faq {
-	font-size: 26px;
-	font-family: 'Source Sans Pro', sans-serif;
-	color: #363636;
-	margin-left: 15px;
 	margin-top: 30px;
-	font-weight: 900;
 }
 
 .service-box p {
 	font-size: 15px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
 	color: #555;
 	margin-left: 15px;
 	margin-right: 10px;
@@ -753,14 +731,13 @@ body {
 
 .service-box li {
 	font-size: 15px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
 	color: #555;
 	margin-left: 15px;
 }
 
 .service-box h4 {
 	font-size: 17px;
-	font-family: 'Source Sans Pro', sans-serif;
 	color: #363636;
 	margin-left: 15px;
 	margin-top: 15px;
@@ -768,10 +745,8 @@ body {
 
 .service-box strong {
 	font-size: 15px;
-	font-family: 'Source Sans Pro', sans-serif;
 	color: #363636;
 	margin-left: 15px;
-	font-weight: 700;
 }
 
 .service-box  > p:last-child {
@@ -858,7 +833,6 @@ body {
 .white-box {
 	background-color: #fff;
 	margin-top: 100px;
-	margin-bottom: 50px;
 	-moz-box-shadow:  2px 2px 3px #a1a1a1;
 	-webkit-box-shadow:  2px 2px 3px #a1a1a1;
 	box-shadow: 2px 2px 3px #a1a1a1;
@@ -888,9 +862,8 @@ body {
 	width: 256px;
 	height: 25px;
 	margin-left: 21px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 19px;
-	font-weight: 300;
+	font-size: 16px;
+	font-weight: 400;
 	color: #363636;
 	border: 1px solid #e1e1e1;
 	-moz-box-shadow: -2px -2px #e1e1e1;
@@ -912,18 +885,13 @@ body {
 
 .white-box form .own-home {
 	margin-top: 30px;
-	font-size: 19px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-	color: #000;
+	font-size: 18px;
+	font-weight: 400;
+	color: #555;
 	text-align: center;
 }
 
-.white-box form .own-home label {
-	font-size: 19px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-}
+
 
 .white-box form button {
 	margin: 30px 0 30px 220px;
@@ -961,10 +929,9 @@ body {
 }
 
 .white-box form select, option {
-	font-size: 19px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 100;
-	color: #363636;
+	font-size: 16px;
+	font-weight: 400;
+	color: #555555;
 }
 
 /* Sign up page */
@@ -1104,9 +1071,8 @@ body {
 }
 
 .main-image .video a {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 17px;
-	font-weight: 300;
+	font-size: 15px;
+	font-weight: 400;
 	color: #fff;
 	margin-left: 85px;
 }
@@ -1285,7 +1251,7 @@ body {
 
 .homepage .arrow-right-testimonials {
 	float: right;
-	margin-top: -112px;
+	margin-top: -115px;
 }
 
 .homepage .testimonial {
@@ -1299,9 +1265,9 @@ body {
 }
 
 .homepage .testimonials cite {
-	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
 	font-style: italic;
+	font-weight: 400;
 	color: #363636;
 	float: right;
 	background: url(../img/quote-down.png) no-repeat right top;
@@ -1310,10 +1276,9 @@ body {
 }
 
 .homepage .testimonials p {
-	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
+	font-weight: 400;
 	color: #363636;
-	font-weight: normal;
 	line-height: 20px;
 }
 
@@ -1325,8 +1290,6 @@ body {
 .homepage .testimonials a {
 	color: #898989;
 }
-
-
 
 /* Shared CSS */
 
@@ -1350,10 +1313,9 @@ body {
 }
 
 .invite-page .white-box .call span {
-	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
-	color: #000;
-	font-weight: 300;
+	color: #555;
+	font-weight: 400;
 }
 
 .invite-page .white-box .instructions {
@@ -1361,18 +1323,16 @@ body {
 }
 
 .invite-page .white-box .instructions p.special {
-	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 22px;
 	color: #d02552;
-	font-weight: normal;
-	margin-bottom: -5px;
+	font-weight: 400;
+	margin-bottom: -10px;
 }
 
 .invite-page .white-box .instructions p {
-	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
-	color: #000;
-	font-weight: 300;
+	color: #555;
+	font-weight: 400;
 }
 
 .invite-page .white-box form .social input[type="text"] {
@@ -1380,10 +1340,9 @@ body {
 	height: 20px;
 	margin-left: 20px;
 	margin-top: -5px;
-	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
-	font-weight: 300;
-	color: #000;
+	font-weight: 400;
+	color: #555;
 	border: 1px solid #e1e1e1;
 	-moz-box-shadow: -2px -2px #e1e1e1;
 	-webkit-box-shadow: -2px -2px #e1e1e1;
@@ -1410,8 +1369,7 @@ body {
 
 .invite-page .white-box .fb-invite p.or {
 	font-size: 28px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
+	font-weight: 200;
 	color: #acacac;
 	display: inline;
 	margin-left: 30px;
@@ -1422,10 +1380,9 @@ body {
 	height: 20px;
 	margin-left: 20px;
 	margin-top: 10px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 19px;
-	font-weight: 300;
-	color: #000;
+	font-size: 16px;
+	font-weight: 400;
+	color: #363636;
 	border: 1px solid #e1e1e1;
 	-moz-box-shadow: -2px -2px #e1e1e1;
 	-webkit-box-shadow: -2px -2px #e1e1e1;
@@ -1452,15 +1409,15 @@ body {
 }
 
 .how_it_works .white-box .steps span {
-	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
+	font-weight: 400;
 	color: #d02552;
 }
 
 .how_it_works .white-box .steps p {
-	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
-	color: #111;
+	font-weight: 400;
+	color: #363636;
 	margin-bottom: 25px;
 }
 
@@ -1501,10 +1458,9 @@ body {
 }
 
 .payment-page .white-box table td {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 17px;
-	color: #000;
-	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+	font-weight: 400;
 	padding: 15px 8px;
 }
 
@@ -1514,10 +1470,9 @@ body {
 
 .payment-page .white-box input[type="text"] {
 	width: 256px;
-	font-size: 19px;
-	font-weight: 300;
-	font-family: 'Source Sans Pro', sans-serif;
-	color: #000;
+	font-size: 16px;
+	font-weight: 400;
+	color: #363636;
 	border: 1px solid #e1e1e1;
 	-moz-box-shadow: -2px -2px #e1e1e1;
 	-webkit-box-shadow: -2px -2px #e1e1e1;
@@ -1590,16 +1545,16 @@ body {
 }
 
 .payment-page .white-box .total span {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 19px;
-	color: #111;
+	font-size: 18px;
+	font-weight: 400;
+	color: #252525;
 	padding-left: 285px;
 }
 
 .payment-page .white-box .total .summ {
-	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 22px;
-	color: #111;
+	font-weight: 400;
+	color: #252525;
 }
 
 .payment-page .white-box .total a {
@@ -1624,10 +1579,9 @@ body {
 }
 
 .payment-page .white-box .credit-card span {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 19px;
-	font-weight: 300;
-	color: #000;
+	font-size: 18px;
+	font-weight: 400;
+	color: #555;
 }
 
 .payment-page .white-box .credit-card .mm {
@@ -1670,10 +1624,9 @@ body {
 }
 
 .payment-page .white-box .controls span {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 19px;
-	font-weight: 300;
-	color: #000;
+	font-size: 18px;
+	font-weight: 400;
+	color: #555;
 	margin-left: 20px;
 }
 
@@ -1686,10 +1639,9 @@ body {
 }
 
 .payment-page .white-box .gender {
-	font-size: 19px;
-  font-family: Gill Sans;
-  font-weight: 300;
-	color: #111;
+	font-size: 18px;
+  font-weight: 400;
+	color: #555;
 	margin: 6px 84px 0 0;
  }
 
@@ -1704,23 +1656,21 @@ body {
 .payment-page .white-box .controls .checkbox {
 	margin-left: 20px;
 	margin-top: 30px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 19px;
-	font-weight: 300;
-	color: #000;
+	font-size: 18px;
+	font-weight: 400;
+	color: #555;
 }
 
 .payment-page .white-box .controls p {
 	margin-left: 20px;
 	margin-top: 30px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: 300;
-	color: #000;
+	color: #252525;
 }
 
 .payment-page .white-box .controls p a {
-	color: #898989;
+	color: #7d7d7d;
 }
 
 .payment-page .white-box .purchase {
@@ -1737,16 +1687,15 @@ body {
 
 .payment-page .white-box .faq h5 {
 	margin: 17px 30px 0px;
-	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 18px;
 	color: #555;
-	font-weight: 700;
+	font-weight: bold;
 }
 
 .payment-page .white-box .faq p {
 	margin: 10px 30px 0px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 17px;
+	font-size: 16px;
+	font-weight: 400;
 	color: #555;
 }
 
@@ -1761,9 +1710,9 @@ body {
 }
 
 .about_us .white-box .content p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 17px;
-	color: #363636;
+	font-size: 16px;
+	color: #555555;
+	font-weight: 400;
 	margin-bottom: 25px;
 }
 
@@ -1772,9 +1721,8 @@ body {
 }
 
 .about_us .white-box .content span {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 17px;
-	color: #111;
+	font-size: 16px;
+	color: #252525;
 }
 
 .about_us .white-box .content li {
@@ -1793,9 +1741,9 @@ body {
 }
 
 .privacy_policies .white-box .content p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 17px;
-	color: #363636;
+	font-size: 16px;
+	color: #555;
+	font-weight: 400;
 	margin-bottom: 15px;
 }
 
@@ -1827,7 +1775,8 @@ body {
 }
 
 .survey-page .white-box .steps p {
-	font-size: 19px;
+	font-size: 18px;
+	font-weight: 400;
 	color: #252525;
 }	
 
@@ -1851,10 +1800,9 @@ body {
 }
 
 .survey-page .white-box .steps small {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 14px;
-	color: #363636;
-	font-weight: 200;
+	font-size: 12px;
+	color: #898989;
+	font-weight: 400;
 }
 
 .survey-page .white-box .steps .own-home {
@@ -1863,8 +1811,10 @@ body {
 	text-align: left;
 }
 
-.survey-page .white-box .steps .own-home p {
-	font-size: 17px;
+.survey-page .white-box .steps .own-home p,
+.survey-page .white-box .steps .services-spend p {
+	font-size: 16px;
+	color: #555;
 }
 
 .survey-page .steps .own-home label {
@@ -1876,13 +1826,6 @@ body {
 .survey-page .white-box .steps .services-spend {
 	margin-top: 20px;
 	margin-left: -10px;
-}
-
-.survey-page .white-box .steps .services-spend p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 17px;
-	color: #000;
-	font-weight: 300;
 }
 
 .survey-page .white-box .steps .services-spend .column1 {
@@ -1897,10 +1840,9 @@ body {
 }
 
 .survey-page .white-box .steps .services-spend .checkbox {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: 300;
-	color: #000;
+	color: #252525;
 	margin-left: 0px;
 }
 
@@ -2012,8 +1954,8 @@ body {
 }
 
 .error .white-box .content p {
-	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 17px;
+	font-weight: 400;
 	color: #363636;
 }
 

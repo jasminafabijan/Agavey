@@ -1,182 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Agavey - payment_page</title>
-  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <head>
+    <title>Agavey - payment_page</title>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+      
+      <script src="./js/jquery.js" type="text/javascript"></script>
+      <script src="./js/jquery.placeholder.js" type="text/javascript"></script>
+      
+      <script type="text/javascript">
+      	$(document).ready(function(){ 
+  	    	$('input, textarea').placeholder();
+      	});
+      </script>
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/default.css" rel="stylesheet" type="text/css" />
     
-    <script src="./js/jquery.js" type="text/javascript"></script>
-    <script src="./js/jquery.placeholder.js" type="text/javascript"></script>
-    
-    <script type="text/javascript">
-    	$(document).ready(function(){ 
-	    	$('input, textarea').placeholder();
-    	});
-    </script>
+  </head>
 
-  <!-- Le styles -->
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-  <link href="css/default.css" rel="stylesheet" type="text/css" />
-  
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
-  
-</head>
+  <body class="payment-page" >
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner main-nav">
+        <div class="container">
+          <a class="brand" href="#"><img src="img/logo.png" alt="logo" /></a>
 
-<body class="payment-page" >
-  <div class="navbar navbar-fixed-top">
-    <div class="navbar-inner main-nav">
-      <div class="container">
-        <a class="brand" href="#"><img src="img/logo.png" alt="logo" /></a>
+          <form class="navbar-form span2">
+            <input type="text" placeholder="Location" />
+          </form>
 
-        <form class="navbar-form span2">
-          <input type="text" placeholder="Location" />
-        </form>
-
-        <ul class="nav pull-right">
-          <li><a class="home" href="#">Home</a></li>
-          <li><a href="#about">How it works</a></li>
-					<li><a class="cart" href="#">Cart</a></li>
-          <li><a href="#cart">View Cart</a></li>
-          <li><a href="#contact">My Account</a></li>
-          <li><a href="#contact">Log Out</a></li>        
-        </ul>
+          <ul class="nav pull-right">
+            <li><a class="home" href="#">Home</a></li>
+            <li><a href="#about">How it works</a></li>
+  					<li><a class="cart" href="#">Cart</a></li>
+            <li><a href="#cart">View Cart</a></li>
+            <li><a href="#contact">My Account</a></li>
+            <li><a href="#contact">Log Out</a></li>        
+          </ul>
+        </div>
       </div>
-    </div>
-  </div> <!-- navbar -->
+    </div> <!-- navbar -->
 
-  <div class="container">
-    <div class="row">
-      <div class="span8 offset2 white-box">
-        <h1>Your Purchase</h1>
-        
-        <form class="form-inline">
-	        <table class="table table-hover">
-	        	<thead>
-	          	<tr>
-	            	<th class="desc">Description</th>
-	              <th class="quantity">Quantity</th>
-	              <th class="price">Price</th>
-	              <th>Amount</th>
-	            </tr>
-	          </thead>
-	          <tbody>
-	          	<tr>
-	            	<td>Leaf Removal - Germantown and Collierville, TN</td>
-	            	<td><input type="text" style="width: 30px; height: 15px; font-size: 17px"></td>
-	            	<td>$40.00</td>
-	            	<td class="amount">$120.00</td>
-	            </tr>
-	          </tbody>
-	        </table>
-	        
-	        <div class="code">    
-	        	<input type="text" class="input-small promo-code" placeholder="Promotion Code">
-	          <a href="#contact" class="btn btn-success apply">Apply</a>
-					</div>
-					
-					<div class="total">
-						<span class="payment"> Total Payment</span>
-						<div class="summ pull-right">$120.00</div><br/>
-					</div>
-	
-	        <div class="credit-card">
-	        	<div class="borders">
-	          	<h4>Please provide your Credit Card Information</h4>
-	          	<a href="#fwd"><img src="img/verified-image.png" class="pull-right" alt="Verified" /></a>
-	        		<input type="text" class="input-small cc-number" placeholder="Credit Card Number" /><br/>
-	        		<div class="data">
-	        			<span>Expiration Date</span>
-	        			<input type="text" class="input-mini mm" />
-	        			<span>MM</span>
-	        			<input type="text" class="input-mini yy" />
-	        			<span>YY</span>
-	        			<span class="security">Security Code</span>
-	        			<input type="text" class="input-mini security-code" />
-	        		</div>
-	        	</div>
-	        </div>
-	        
-					<div class="billing-address">
-					
-						<div class="borders">
-						
-							<h4>Please provide your billing address</h4>
-	          	<div class="controls">
-	            	<input type="text" class="input-small" placeholder="First Name" />
-	            	<input type="text" class="input-small" placeholder="Last Name" />
-	          	</div>
-	
-	          	<div class="controls">
-	            	<input type="text" class="input-small" placeholder="Address Line 1" />
-	            	<input type="text" class="input-small" placeholder="Address Line 2" />
-	          	</div>
-	
-	          	<div class="controls">
-	            	<input type="text" class="input-small" placeholder="City" /> 
-	            	<span>State</span>
-	            	<select>
-	              	<option>CA</option>
-	              	<option>2</option>
-	              	<option>3</option>
-	              	<option>4</option>
-	            	</select>
-	            	<input type="text" class="input-mini" style="width: 115px" placeholder="Zip Code" />
-	          	</div>
-	
-	          	<div class="controls">
-	          		<input type="text" class="input-small" placeholder="Phone Number" />
-	            	<div class="gender pull-right">
-	              	Gender : <label class="radio inline"><input type="radio" name="gender"
-	              	value="option1" checked="checked" /> Female</label> <label class=
-	              	"radio inline male"><input type="radio" name="gender" value="option2" />
-	              	Male</label>
-	            	</div>
-	            	<label class="checkbox">
-	  							<input type="checkbox" value="">Service Address is different than the Billing Address
-	  						</label>
-	  						<p>By clicking on this button you agree to the service details and to Agavey <a href="#">Terms and Conditions.</a></p>
-	          	</div>
-	          	<button class="btn purchase">Complete Purchase</button>
-	          	
-	          </div> <!-- borders -->
-	          
-	        </div> <!-- billing-address -->
-	        
-        </form>
-        
-        <div class="faq">
-        	<div class="border"></div>
-        	<h1>FAQ</h1>
-        	<h5>What will happen after I purchase the service?</h5>
-        	<p>You will receive a voucher on the email that you have provided in your Agavey.com login . This voucher will confirm your purchase. You will then get a phone call from the service provider to schedule a date for delivery of service. Please present the voucher to the technician when s(he) arrives for service. Upon completion of the service, please sign the voucher to indicate that the job was completed in a satisfactory manner.</p>
-        	<h5>Is my credit card information safe?</h5>
-        	<p>Yes, it is extremely.Your credit card information is kept secure in the following ways 128-bit Secure Sockets Layer (SSL) technology for secure Internet Protocol (IP) transactions.Industry leading encryption hardware and software methods and security protocols to protect customer information.Compliance with the Payment Card Industry Data Security Standard (PCI DSS). </p>
-        	<h5>How will I get my voucher?</h5>
-        	<p>You will receive your voucher on your email.</p>
-        	<h5>What is the expiration date of the voucher?</h5>
-        	<p>Your voucher is valid until the date printed on the Service detail and on the voucher.The service provider will honor the promotional price on this service until the expiration date. </p>
-        </div> <!-- faq -->
-        
-      </div> <!-- white-box -->
-    </div> <!-- row -->
+    <div class="container">
+      <div class="row">
+        <div class="span8 offset2 white-box">
+          <h1>Your Purchase</h1>
+          
+          <form class="form-inline">
+  	        <table class="table table-hover">
+  	        	<thead>
+  	          	<tr>
+  	            	<th class="desc">Description</th>
+  	              <th class="quantity">Quantity</th>
+  	              <th class="price">Price</th>
+  	              <th>Amount</th>
+  	            </tr>
+  	          </thead>
+  	          <tbody>
+  	          	<tr>
+  	            	<td>Leaf Removal - Germantown and Collierville, TN</td>
+  	            	<td><input type="text" style="width: 30px; height: 15px; font-size: 17px"></td>
+  	            	<td>$40.00</td>
+  	            	<td class="amount">$120.00</td>
+  	            </tr>
+  	          </tbody>
+  	        </table>
+  	        
+  	        <div class="code">    
+  	        	<input type="text" class="input-small promo-code" placeholder="Promotion Code">
+  	          <a href="#contact" class="btn btn-success apply">Apply</a>
+  					</div>
+  					
+  					<div class="total">
+  						<span class="payment"> Total Payment</span>
+  						<div class="summ pull-right">$120.00</div><br/>
+  					</div>
+  	
+  	        <div class="credit-card">
+  	        	<div class="borders">
+  	          	<h4>Please provide your Credit Card Information</h4>
+  	          	<a href="#fwd"><img src="img/verified-image.png" class="pull-right" alt="Verified" /></a>
+  	        		<input type="text" class="input-small cc-number" placeholder="Credit Card Number" /><br/>
+  	        		<div class="data">
+  	        			<span>Expiration Date</span>
+  	        			<input type="text" class="input-mini mm" />
+  	        			<span>MM</span>
+  	        			<input type="text" class="input-mini yy" />
+  	        			<span>YY</span>
+  	        			<span class="security">Security Code</span>
+  	        			<input type="text" class="input-mini security-code" />
+  	        		</div>
+  	        	</div>
+  	        </div>
+  	        
+  					<div class="billing-address">
+  					
+  						<div class="borders">
+  						
+  							<h4>Please provide your billing address</h4>
+  	          	<div class="controls">
+  	            	<input type="text" class="input-small" placeholder="First Name" />
+  	            	<input type="text" class="input-small" placeholder="Last Name" />
+  	          	</div>
+  	
+  	          	<div class="controls">
+  	            	<input type="text" class="input-small" placeholder="Address Line 1" />
+  	            	<input type="text" class="input-small" placeholder="Address Line 2" />
+  	          	</div>
+  	
+  	          	<div class="controls">
+  	            	<input type="text" class="input-small" placeholder="City" /> 
+  	            	<span>State</span>
+  	            	<select>
+  	              	<option>CA</option>
+  	              	<option>2</option>
+  	              	<option>3</option>
+  	              	<option>4</option>
+  	            	</select>
+  	            	<input type="text" class="input-mini" style="width: 115px" placeholder="Zip Code" />
+  	          	</div>
+  	
+  	          	<div class="controls">
+  	          		<input type="text" class="input-small" placeholder="Phone Number" />
+  	            	<div class="gender pull-right">
+  	              	Gender : <label class="radio inline"><input type="radio" name="gender"
+  	              	value="option1" checked="checked" /> Female</label> <label class=
+  	              	"radio inline male"><input type="radio" name="gender" value="option2" />
+  	              	Male</label>
+  	            	</div>
+  	            	<label class="checkbox">
+  	  							<input type="checkbox" value="">Service Address is different than the Billing Address
+  	  						</label>
+  	  						<p>By clicking on this button you agree to the service details and to Agavey <a href="#">Terms and Conditions.</a></p>
+  	          	</div>
+  	          	<button class="btn purchase">Complete Purchase</button>
+  	          	
+  	          </div> <!-- borders -->
+  	          
+  	        </div> <!-- billing-address -->
+  	        
+          </form>
+          
+          <div class="faq">
+          	<div class="border"></div>
+          	<h1>FAQ</h1>
+          	<h5>What will happen after I purchase the service?</h5>
+          	<p>You will receive a voucher on the email that you have provided in your Agavey.com login . This voucher will confirm your purchase. You will then get a phone call from the service provider to schedule a date for delivery of service. Please present the voucher to the technician when s(he) arrives for service. Upon completion of the service, please sign the voucher to indicate that the job was completed in a satisfactory manner.</p>
+          	<h5>Is my credit card information safe?</h5>
+          	<p>Yes, it is extremely.Your credit card information is kept secure in the following ways 128-bit Secure Sockets Layer (SSL) technology for secure Internet Protocol (IP) transactions.Industry leading encryption hardware and software methods and security protocols to protect customer information.Compliance with the Payment Card Industry Data Security Standard (PCI DSS). </p>
+          	<h5>How will I get my voucher?</h5>
+          	<p>You will receive your voucher on your email.</p>
+          	<h5>What is the expiration date of the voucher?</h5>
+          	<p>Your voucher is valid until the date printed on the Service detail and on the voucher.The service provider will honor the promotional price on this service until the expiration date. </p>
+          </div> <!-- faq -->
+          
+        </div> <!-- white-box -->
+      </div> <!-- row -->
+      
+      <footer class="navbar footer">
+        <ul class="nav footer-links">
+          <li><a href="#i">About Us</a></li>
+          <li class="space">|</li>
+          <li><a href="#h">Policies</a></li>
+          <li class="space">|</li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li class="space">|</li>
+          <li><a href="#contact">Merchants</a></li>
+          <li class="space">|</li>
+          <li><a href="#i">Tell Us what you need</a></li>
+        </ul>
+      </footer>
+
+    </div> <!-- /container -->
     
-    <footer class="navbar footer">
-      <ul class="nav footer-links">
-        <li><a href="#i">About Us</a></li>
-        <li class="space">|</li>
-        <li><a href="#h">Policies</a></li>
-        <li class="space">|</li>
-        <li><a href="#contact">Contact Us</a></li>
-        <li class="space">|</li>
-        <li><a href="#contact">Merchants</a></li>
-        <li class="space">|</li>
-        <li><a href="#i">Tell Us what you need</a></li>
-      </ul>
-    </footer>
-
-  </div> <!-- /container -->
-  
-</body>
+  </body>
 </html>

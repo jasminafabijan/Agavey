@@ -1,110 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Agavey - Survey_page</title>
-  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    
-    <script src="./js/jquery.js" type="text/javascript"></script>
-    <script src="./js/jquery.placeholder.js" type="text/javascript"></script>
-    
-    <script type="text/javascript">
-    	$(document).ready(function(){ 
-	    	$('input, textarea').placeholder();
-    	});
-    </script>
+  <head>
+    <title>Agavey - Survey_page</title>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+      
+      <script src="./js/jquery.js" type="text/javascript"></script>
+      <script src="./js/jquery.placeholder.js" type="text/javascript"></script>
+      
+      <script type="text/javascript">
+      	$(document).ready(function(){ 
+  	    	$('input, textarea').placeholder();
+      	});
+      </script>
 
-  <!-- Le styles -->
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-  <link href="css/default.css" rel="stylesheet" type="text/css" />
-  
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
-  
-</head>
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/default.css" rel="stylesheet" type="text/css" />
+    
+  </head>
 
-<body class="survey-page">
-  <div class="navbar navbar-fixed-top">
-    <div class="navbar-inner main-nav">
-      <div class="container">
-        <a class="brand" href="#"><img src="img/logo.png" alt="logo" /></a>
-        
-        <form class="navbar-form span2">
-          <input type="text" placeholder="Location" />
-        </form>
-        
-        <ul class="nav pull-right">
-          <li><a class="home" href="#">Home</a></li>
-          <li><a href="#about">How it works</a></li>
-          <li><a class="cart" href="#">Cart</a></li>
-          <li><a href="#cart">View Cart</a></li>
-          <li><a href="#contact">My Account</a></li>
-          <li><a href="#contact">Log Out</a></li>
-        </ul>
+  <body class="survey-page">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner main-nav">
+        <div class="container">
+          <a class="brand" href="#"><img src="img/logo.png" alt="logo" /></a>
+          
+          <form class="navbar-form span2">
+            <input type="text" placeholder="Location" />
+          </form>
+          
+          <ul class="nav pull-right">
+            <li><a class="home" href="#">Home</a></li>
+            <li><a href="#about">How it works</a></li>
+            <li><a class="cart" href="#">Cart</a></li>
+            <li><a href="#cart">View Cart</a></li>
+            <li><a href="#contact">My Account</a></li>
+            <li><a href="#contact">Log Out</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="span8 offset2 white-box">
-        <h1>Tell us what you need</h1>
-        
-        <form class="form-inline">
-		      <div class="steps">
-		      	<div class="form">
-							<p><span>STEP 1 :</span> Enter your Emial address</p>
-							<input type="text" class="input-small" />
-							<p><small>* We will keep your email safe with us</small></p>
-						</div>
-						<div class="form">
-							<p><span>STEP 2 :</span> Enter your Zip</p>
-							<input type="text" class="input-small" />
-						</div>
-						<div class="form">
-							<p><span>STEP 3 :</span> Tell us about your home improvement & maintenance 
-		needs. Let Agavey help you find a qualified service provider at a 
-		reasonable price for you and your neighbors </p>
-						</div>
-						<div class="own-home">
-		          <p>1. Do you own a home now or will own one soon?</p><label class=
-		          "radio inline"><input type="radio" name="home" value="option1" checked=
-		          "checked" /> Yes</label> <label class="radio inline"><input type="radio"
-		          name="home" value="option2" /> No</label>
-		        </div>
-		        
-		        <div class="services-spend">
-		        	<p>2. Which of the following services do you plan to spend on in the next 6 months?</p>
-		        	<label class="checkbox inline column1">
-								<input type="checkbox" id="inlineCheckbox1" value="option1"> Air Conditioning
-							</label>
-							<label class="checkbox inline column2">
-								<input type="checkbox" id="inlineCheckbox2" value="option2"> Appliances
-							</label>
-							<label class="checkbox inline column3">
-								<input type="checkbox" id="inlineCheckbox3" value="option3"> Appraiser
-							</label>
-							<label class="checkbox inline column1">
-								<input type="checkbox" id="inlineCheckbox4" value="option1"> Carpet & Upholstery Cleaning
-							</label>
-							<label class="checkbox inline column2">
-								<input type="checkbox" id="inlineCheckbox5" value="option2"> Outdoor Playgrounds
-							</label>
-							<label class="checkbox inline column3">
-								<input type="checkbox" id="inlineCheckbox6" value="option3"> Home Security Services
-							</label>
-							<p class="others">Others (Please Specify):</p>
-							<input type="text"/>
-							<p>3. Pls. provide detailed requirements for the services selected above. That way we will be able to bring the most relevant deals to you:</p>
-							<textarea rows="3"></textarea>
-						</div>
-		      </div>	
-		      <button class="btn pull-right">Submit</button>
-        </form>
+    <div class="container">
+      <div class="row">
+        <div class="span8 offset2 white-box">
+          <h1>Tell us what you need</h1>
+          
+          <form class="form-inline">
+  		      <div class="steps">
+  		      	<div class="form">
+  							<p><span>STEP 1 :</span> Enter your Email address</p>
+  							<input type="text" class="input-small" />
+  							<p><small>* We will keep your email safe with us</small></p>
+  						</div>
+  						<div class="form">
+  							<p><span>STEP 2 :</span> Enter your Zip</p>
+  							<input type="text" class="input-small" />
+  						</div>
+  						<div class="form">
+  							<p><span>STEP 3 :</span> Tell us about your home improvement & maintenance 
+  		needs. Let Agavey help you find a qualified service provider at a 
+  		reasonable price for you and your neighbors </p>
+  						</div>
+  						<div class="own-home">
+  		          <p>1. Do you own a home now or will own one soon?</p><label class=
+  		          "radio inline"><input type="radio" name="home" value="option1" checked=
+  		          "checked" /> Yes</label> <label class="radio inline"><input type="radio"
+  		          name="home" value="option2" /> No</label>
+  		        </div>
+  		        
+  		        <div class="services-spend">
+  		        	<p>2. Which of the following services do you plan to spend on in the next 6 months?</p>
+  		        	<label class="checkbox inline column1">
+  								<input type="checkbox" id="inlineCheckbox1" value="option1"> Air Conditioning
+  							</label>
+  							<label class="checkbox inline column2">
+  								<input type="checkbox" id="inlineCheckbox2" value="option2"> Appliances
+  							</label>
+  							<label class="checkbox inline column3">
+  								<input type="checkbox" id="inlineCheckbox3" value="option3"> Appraiser
+  							</label>
+  							<label class="checkbox inline column1">
+  								<input type="checkbox" id="inlineCheckbox4" value="option1"> Carpet & Upholstery Cleaning
+  							</label>
+  							<label class="checkbox inline column2">
+  								<input type="checkbox" id="inlineCheckbox5" value="option2"> Outdoor Playgrounds
+  							</label>
+  							<label class="checkbox inline column3">
+  								<input type="checkbox" id="inlineCheckbox6" value="option3"> Home Security Services
+  							</label>
+  							<p class="others">Others (Please Specify):</p>
+  							<input type="text"/>
+  							<p>3. Pls. provide detailed requirements for the services selected above. That way we will be able to bring the most relevant deals to you:</p>
+  							<textarea rows="3"></textarea>
+  						</div>
+  		      </div>	
+  		      <button class="btn pull-right">Submit</button>
+          </form>
+        </div>
       </div>
-    </div>
-  </div><!-- /container -->
-  
-</body>
+    </div><!-- /container -->
+    
+  </body>
 </html>
