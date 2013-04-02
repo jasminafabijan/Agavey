@@ -1402,6 +1402,13 @@ body {
 	width: 155px;
 }
 
+.invite-page .white-box table {
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	width: 580px;
+}
+
 /* How it Works */
 
 .how_it_works .white-box .steps {
@@ -3497,6 +3504,8 @@ fieldset .controls {
 
 .recommend .white-box a {
 	padding-top: 20px;
+	font-size: 16px;
+  color: #898989;
 }
 
 .recommend .white-box .span4 {
