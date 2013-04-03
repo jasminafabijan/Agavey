@@ -1,119 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Agavey - My-Reviews</title>
-  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    
-    <script src="./js/jquery.js" type="text/javascript"></script>
-    <script src="./js/jquery.placeholder.js" type="text/javascript"></script>
-    <script src="./js/jquery-ui.custom.js" type="text/javascript"></script>
-    <script src="./js/bootstrap.dropdown.js" type="text/javascript"></script>
-    
-    <script type="text/javascript">
-    	$(document).ready(function(){ 
-	    	$('input, textarea').placeholder();
-    	});
-    </script>
+  <head>
+    <title>Agavey - My-Reviews</title>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+      
+      <script src="./js/jquery.js" type="text/javascript"></script>
+      <script src="./js/jquery.placeholder.js" type="text/javascript"></script>
+      <script src="./js/jquery-ui.custom.js" type="text/javascript"></script>
+      <script src="./js/bootstrap.dropdown.js" type="text/javascript"></script>
+      
+      <script type="text/javascript">
+      	$(document).ready(function(){ 
+  	    	$('input, textarea').placeholder();
+      	});
+      </script>
 
-    <script>
-    $(function() {
-      $( "#slider" ).slider({
-        value:3,
-        min: 1,
-        max: 5,
-        step: 1
+      <script>
+      $(function() {
+        $( ".slider" ).slider({
+          value:3,
+          min: 1,
+          max: 5,
+          step: 1
+        });
       });
-    });
-    </script>
+      </script>
 
-  <!-- Le styles -->
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-  <link href="css/default.css" rel="stylesheet" type="text/css" />
-  <link href="css/jquery-ui.custom.css" rel="stylesheet" type="text/css" />
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/default.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery-ui.custom.css" rel="stylesheet" type="text/css" />
 
-</head>
+  </head>
 
-<body class="my-reviews">
-  <div class="navbar navbar-fixed-top">
-    <div class="navbar-inner main-nav">
-      <div class="container">
-        <a class="brand" href="#"><img src="img/logo.png" alt="logo" /></a>
+  <body class="my-reviews">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner main-nav">
+        <div class="container">
+          <a class="brand" href="#"><img src="img/logo.png" alt="logo" /></a>
 
-        <form class="navbar-form span2">
-          <input type="text" placeholder="Location" />
-        </form>
+          <form class="navbar-form span2">
+            <input type="text" placeholder="Location" />
+          </form>
 
-        <ul class="nav pull-right">
-            <li><a class="home" href="#">Home</a></li>
-            <li><a href="#about">How it works</a></li>
-            <li><a class="cart" href="#">Cart</a></li>
-            <li><a href="#cart">View Cart</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <i class="icon-user icon-white"></i> John
-                <b class="caret"></b>
-              </a>
-              <ul class="dropdown-menu pull-right">
-                <li class="border"><a href="#">My Account</a></li>
-                <li class="border"><a href="#">My Email</a></li>
-                <li class="border"><a href="#">Invite Friends</a></li>
-                <li class="no-border"><a href="#">Logout</a></li>
-              </ul>
-            </li>       
-          </ul>
+          <ul class="nav pull-right">
+              <li><a class="home" href="#">Home</a></li>
+              <li><a href="#about">How it works</a></li>
+              <li><a class="cart" href="#">Cart</a></li>
+              <li><a href="#cart">View Cart</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="icon-user icon-white"></i> John
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu pull-right">
+                  <li class="border"><a href="#">My Account</a></li>
+                  <li class="border"><a href="#">My Email</a></li>
+                  <li class="border"><a href="#">Invite Friends</a></li>
+                  <li class="no-border"><a href="#">Logout</a></li>
+                </ul>
+              </li>       
+            </ul>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="span12 white-box">
-        <h1>Please rate the service and service provider for this service that was just completed</h1>
-        <p>Overall rating:</p>
-        <div class="span8">
-          <span>Not Satisfied</span>
-          <div id="slider"></div>
-          <span class="satisfied">Very Satisfied</span>
-        </div>
-        <div class="rating">
-          <span class="one">1</span>
-          <span>2</span>
-          <span>3</span>
-          <span>4</span>
-          <span>5</span>
-        </div>
-        <div class="question">
-        <span>Would you buy this service again?</span>
-        <label class="radio inline">
-          <input type="radio" name="optionsRadios" value="option1" checked>
-          Yes
-        </label>
-        <label class="radio inline">
-          <input type="radio" name="optionsRadios" value="option2" checked>
-          No
-        </label>
-        </div>
-      </div> <!-- white-box -->       
-  	</div> <!-- /row -->
-  
-    <footer class="navbar footer">
-    	<ul class="nav footer-links">
-      	<li><a href="#i">About Us</a></li>
-      	<li class="space">|</li>
-      	<li><a href="#h">Policies</a></li>
-      	<li class="space">|</li>
-      	<li><a href="#contact">Contact Us</a></li>
-      	<li class="space">|</li>
-      	<li><a href="#contact">Merchants</a></li>
-      	<li class="space">|</li>
-      	<li><a href="#i">Tell Us what you need</a></li>
-      </ul>
-    </footer>
+    <div class="container">
+      <div class="row">
+        <div class="span12 white-box">
+          <h1>Please rate the service and service provider for this service that was just completed</h1>
+          <p>Overall rating</p>
+          <div class="span8">
+            <span>Not Satisfied</span>
+            <div class="slider"></div>
+            <span class="satisfied">Very Satisfied</span>
+          </div>
+          <div class="rating">
+            <span class="one">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+          </div>
+          <div class="question">
+            <span>Would you buy this service again?</span>
+            <label class="radio inline">
+              <input type="radio" name="optionsBuy" value="option1" checked>
+              Yes
+            </label>
+            <label class="radio inline">
+              <input type="radio" name="optionsBuy" value="option2" checked>
+              No
+            </label>
+          </div>
+          <div class="question next">
+            <span>Would you recommend this service to your friends?</span>
+            <label class="radio inline">
+              <input type="radio" name="optionsRecommend" value="option1" checked>
+              Yes
+            </label>
+            <label class="radio inline">
+              <input type="radio" name="optionsRecommend" value="option2" checked>
+              No
+            </label>
+          </div>
+          <p class="mark">Quality of Service</p>
+          <div class="span8">
+            <span>Not Satisfied</span>
+            <div class="slider"></div>
+            <span class="satisfied">Very Satisfied</span>
+          </div>
+          <div class="rating">
+            <span class="one">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+          </div>
+          <p class="mark">Price of Service</p>
+          <div class="span8">
+            <span>Not Satisfied</span>
+            <div class="slider"></div>
+            <span class="satisfied">Very Satisfied</span>
+          </div>
+          <div class="rating">
+            <span class="one">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+          </div>
+          <p class="mark">Service Provider Quality</p>
+          <div class="span8">
+            <span>Not Satisfied</span>
+            <div class="slider"></div>
+            <span class="satisfied">Very Satisfied</span>
+          </div>
+          <div class="rating">
+            <span class="one">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+          </div>
+          <p class="mark">Service Provider Responsiveness</p>
+          <div class="span8">
+            <span>Not Satisfied</span>
+            <div class="slider"></div>
+            <span class="satisfied">Very Satisfied</span>
+          </div>
+          <div class="rating">
+            <span class="one">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+          </div>
+          <p class="mark">Service Provider Professionalism</p>
+          <div class="span8">
+            <span>Not Satisfied</span>
+            <div class="slider"></div>
+            <span class="satisfied">Very Satisfied</span>
+          </div>
+          <div class="rating">
+            <span class="one">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+          </div>
+          <p>Comments</p>
+          <textarea class="span7" rows="5"></textarea>
+          <div class="question next">
+            <span>Is it OK to publish your name with this review?</span>
+            <label class="radio inline">
+              <input type="radio" name="optionsPublish" value="option1" checked>
+              Yes
+            </label>
+            <label class="radio inline">
+              <input type="radio" name="optionsPublish" value="option2" checked>
+              No
+            </label>
+          </div>
+          <div class="span4 pull-right">
+            <a href="#" class="cancel">Cancel</a>
+            <button class="btn pull-right">Save</button>
+          </div> 
+        </div> <!-- white-box -->       
+    	</div> <!-- /row -->
+    
+      <footer class="navbar footer">
+      	<ul class="nav footer-links">
+        	<li><a href="#i">About Us</a></li>
+        	<li class="space">|</li>
+        	<li><a href="#h">Policies</a></li>
+        	<li class="space">|</li>
+        	<li><a href="#contact">Contact Us</a></li>
+        	<li class="space">|</li>
+        	<li><a href="#contact">Merchants</a></li>
+        	<li class="space">|</li>
+        	<li><a href="#i">Tell Us what you need</a></li>
+        </ul>
+      </footer>
 
-  </div><!-- /container -->
-  
-</body>
+    </div><!-- /container -->
+    
+  </body>
 </html>

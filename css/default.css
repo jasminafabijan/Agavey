@@ -891,8 +891,6 @@ body {
 	text-align: center;
 }
 
-
-
 .white-box form button {
 	margin: 30px 0 30px 220px;
 	font-size: 25px;
@@ -936,21 +934,24 @@ body {
 
 /* Sign up page */
 
+.sign-up .white-box {
+	margin-bottom: 100px;
+}
+
 .sign-up .create-or-facebook {
 	margin: 50px 0 50px 20px;
 }
 
 .sign-up .create {
 	padding: 0px 0px 0px 10px;
-	font-size: 28px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
+	font-size: 26px;
+	font-weight: 400;
+	color: #555;
 }
 
 .sign-up .create-or-facebook .or {
 	padding: 33px 0px 25px 35px;
 	font-size: 28px;
-	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	color: #acacac;
 }
@@ -2118,7 +2119,8 @@ body {
 }
 
 .customer-additional .white-box button,
-.main-box button {
+.main-box button,
+.my-reviews .white-box button {
 	margin: 30px 0 30px 220px;
 	font-size: 25px;
 	padding: 10px 0;
@@ -2139,13 +2141,15 @@ body {
 }
 
 .customer-additional .white-box button,
-.main-box button:hover {
+.main-box button:hover,
+.my-reviews .white-box button:hover {
 	color: #fff;
 	background-position: 0px;
 }
 
 .customer-additional .white-box button,
-.main-box button:hover {
+.main-box button:hover,
+.my-reviews .white-box button:hover {
 	background-color: #de6786;
 }
 
@@ -3453,12 +3457,14 @@ fieldset .controls {
 	margin-left: 90px;
 }
 
-.customer-additional .white-box a.cancel {
+.customer-additional .white-box a.cancel,
+.my-reviews .white-box a.cancel {
 	font-size: 16px;
 	color: #898989;
 }
 
-.customer-additional .white-box button {
+.customer-additional .white-box button,
+.my-reviews .white-box button {
 	margin: 60px 90px 40px 0;
 	font-size: 18px;
 	padding: 6px 0;
@@ -3545,13 +3551,15 @@ fieldset .controls {
 }
 
 .my-profile .white-box .span4,
-.communication .white-box .span4 {
+.communication .white-box .span4,
+.my-reviews .white-box .span4 {
 	margin-top: 50px;
 }
 
 .my-profile .white-box button,
 .recommend .white-box button,
-.communication .white-box button {
+.communication .white-box button,
+.my-reviews .white-box button {
 	margin-top: -10px;
 }
 
@@ -3604,12 +3612,12 @@ fieldset .controls {
 /* My Reviews */
 
 .my-reviews .white-box h1 {
-	margin-left: 100px;
+	margin-left: 95px;
 	font-size: 20px;
 }
 
 .my-reviews .white-box p {
-	margin: 30px 0 0 100px;
+	margin: 34px 0 0 95px;
 	font-size: 18px;
 	color: #898989;
 }
@@ -3636,9 +3644,32 @@ fieldset .controls {
 }
 
 .my-reviews .question {
-	margin-top: 40px;
-	margin-left: 10px;
+	margin: 50px 0 0 10px;
 }
 
+.my-reviews .white-box .question span {
+	margin-right: 35px;
+	margin-left: 85px;
+}
+
+.my-reviews .question label {
+	margin: -11px 10px 0 0;
+}
+
+.my-reviews .white-box .next {
+	margin-top: 15px;
+}
+
+.my-reviews .white-box p.mark {
+	margin-top: 42px;
+}
+
+.my-reviews .white-box textarea {
+	margin: 16px 0 10px 95px;
+}
+
+.my-reviews .white-box button {
+	margin-right: 95px;
+}
 
 
