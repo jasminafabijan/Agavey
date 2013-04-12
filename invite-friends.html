@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Agavey-my-account-invite-your-friends</title>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+      
+      <script src="./js/jquery.js" type="text/javascript"></script>
+      <script src="./js/jquery.placeholder.js" type="text/javascript"></script>
+      <script src="./js/bootstrap.dropdown.js" type="text/javascript"></script>
+      
+      <script type="text/javascript">
+      	$(document).ready(function(){ 
+  	    	$('input, textarea').placeholder();
+      	});
+      </script>
+
+    <!-- Le styles -->
+    <script src="./js/bootstrap-modal.js" type="text/javascript"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/default.css" rel="stylesheet" type="text/css" />
+    
+  </head>
+
+  <body class="customer-additional invite">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner main-nav">
+        <div class="container">
+          <a class="brand" href="#"><img src="img/logo.png" alt="logo" /></a>
+          <form class="navbar-form span2">
+            <input type="text" placeholder="Location" />
+          </form>
+          <ul class="nav pull-right">
+            <li><a class="home" href="#">Home</a></li>
+            <li><a href="#about">How it works</a></li>
+  					<li><a class="cart" href="#">Cart</a></li>
+            <li><a href="#cart">View Cart</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="icon-user icon-white"></i> John
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu pull-right">
+                <li class="border"><a href="#">My Account</a></li>
+                <li class="border"><a href="#">My Email</a></li>
+                <li class="border"><a href="#">Invite Friends</a></li>
+                <li class="no-border"><a href="#">Logout</a></li>
+              </ul>
+            </li>       
+          </ul>
+        </div>
+      </div>
+    </div> <!-- navbar -->
+
+    <div class="navbar navbar-fixed-top main-menu">
+      <div class="navbar-inner">
+        <div class="container">
+          <ul class="nav active">
+            <li><a href="#account" class="account">My Account</a></li>
+          </ul>
+          <ul class="nav passive">
+            <li><a href="#" class="orders">My Orders</a></li>
+            <li><a href="#message" class="message">My Messages</a></li>
+          </ul>
+          <ul class="nav pull-right connect">
+            <li><p>Connect with Us</p></li>
+            <li><a href="#"><img src="img/connect-fb-icon.png" alt="icon"></a></li>
+            <li><a href="#"><img src="img/connect-t-icon.png" alt="icon"></a></li>
+            <li><a href="#"><img src="img/connect-p-icon.png" alt="icon"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar navbar-fixed-top sub-menu">
+      <div class="container">
+        <ul class="nav">
+          <li><a href="#" class="profile">My Profile</a></li>
+          <li><a href="#" class="comm">Communication</a></li>
+          <li><a href="#" class="pay-m">My Payment Method</a></li>
+          <li><a href="#" class="wishlist">Wish List</a></li>
+          <li><a href="#" class="recommended">Recommend a Service Provider</a></li>
+          <li><a href="#" class="invite active">Invite Friends</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="span9 white-box">
+          <h1>Invite Your Friends to Agavey</h1>
+          <p>We will send a <strong>$10 gift card to every friend</strong>  that you invite.<br> Every time a friend uses your gift card on Agavey.com, a $10 gift card will be 
+delivered right to your inbox.</p>
+          <fieldset>
+            <p>Invite friends from Facebook, Twitter or Pinterest</p>
+            <textarea rows="3" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"></textarea>
+            <div class="share pull-right">
+              <span>Share on</span>
+              <a href="#"><img src="img/facebook.png" alt="facebook"></a>
+              <a href="#"><img src="img/twitter.png" alt="twitter"></a>
+              <a href="#"><img src="img/pinterest.png" alt="pinterest"></a>
+            </div>
+          </fieldset>
+          <p class="middle">OR</p>  
+          <fieldset>
+            <p>Invite by email</p>
+            <a href="#myModal" role="button" data-toggle="modal" class="btn btn-success email">Invite your email contacts</a>
+            <p class="middle">or</p>
+            <input type="text" placeholder="Enter emails separated by commas"/>
+            <button class="btn pull-right">Send Invitation</button>
+          </fieldset> 
+          <p class="middle">OR</p> 
+          <fieldset>
+            <p>Your special invite link</p>
+            <input class="link" type="text" value="https:/Agavey.com/Invite.."/>
+            <a href="#" class="btn btn-success copy">Copy link</a>
+          </fieldset>  
+          <hr class="bs-docs-separator">
+          <table class="table">
+              <thead>
+                <tr>
+                  <th class="desc">Email Addresses</th>
+                  <th class="quantity">Last Invited</th>
+                  <th class="price">Status</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="email">contact@gmail.com</td>
+                  <td>03/31/13</td>
+                  <td>Invitation Sent Updated</td>
+                  <td><a href="#" class="btn">Remind</a></td>
+                </tr>
+                <tr>
+                  <td class="email">verylongcontact@gmail.com</td>
+                  <td>03/31/13</td>
+                  <td>Invitation Sent</td>
+                  <td><a href="#" class="btn">Remind</a></td>
+                </tr>
+              </tbody>
+            </table>
+          
+        </div> <!-- white-box -->
+      </div> <!-- row -->
+      
+      <footer class="navbar footer">
+        <ul class="nav footer-links">
+          <li><a href="#i">About Us</a></li>
+          <li class="space">|</li>
+          <li><a href="#h">Policies</a></li>
+          <li class="space">|</li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li class="space">|</li>
+          <li><a href="#contact">Merchants</a></li>
+          <li class="space">|</li>
+          <li><a href="#i">Tell Us what you need</a></li>
+        </ul>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- modal popup -->
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+      </div>
+      <div class="modal-body">
+       <p>Which contacts would you like to invite?</p>
+       <a href="#"><img src="img/gmail.png" class="gmail" alt="gmail"></a>
+       <a href="#"><img src="img/yahoo.png" class="yahoo" alt="yahoo"></a> 
+      </div>
+      
+    </div>
+    <!-- modal popup -->
+    
+  </body>
+</html>

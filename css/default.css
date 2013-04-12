@@ -2505,7 +2505,8 @@ body {
 	color: #707070;
 }
 
-.main-box a.btn-success {
+.main-box a.btn-success,
+.invite .white-box fieldset a.btn-success {
 	padding: 5px 10px;
 	margin: 30px 0 30px 30px;
 	color: #ffffff;
@@ -2519,7 +2520,8 @@ body {
 	border-radius: 6px;
 }
 
-.main-box a.btn-success:hover {
+.main-box a.btn-success:hover,
+.invite .white-box fieldset a.btn-success:hover {
 	color: #ffffff;
 	border-color: #99cc00;
 	background-position: 0px;
@@ -3482,14 +3484,15 @@ fieldset .controls {
 	color: #898989;
 }
 
-.recommend .white-box fieldset {
+.recommend .white-box fieldset,
+.invite .white-box fieldset {
 	background: #ebebeb;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	margin: 10px 90px 0 90px;
-	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-top: 30px;
+	padding-bottom: 6px;
 }
 
 .recommend .white-box fieldset .span3 {
@@ -3497,7 +3500,8 @@ fieldset .controls {
 	margin-left: 30px;
 }
 
-.recommend .white-box fieldset input {
+.recommend .white-box fieldset input,
+.invite .white-box fieldset input {
 	border: 1px solid #fff;
 	border-top: 2px solid #d7d7d7;
 	width: 225px;
@@ -3616,7 +3620,8 @@ fieldset .controls {
 	font-size: 20px;
 }
 
-.my-reviews .white-box p {
+.my-reviews .white-box p,
+.invite .white-box p {
 	margin: 34px 0 0 95px;
 	font-size: 18px;
 	color: #898989;
@@ -3670,6 +3675,138 @@ fieldset .controls {
 
 .my-reviews .white-box button {
 	margin-right: 95px;
+}
+
+/* Invite friends */
+
+.invite .white-box p {
+	margin: 30px 100px 24px 90px;
+}
+
+.invite .white-box strong {
+	color: #d02552;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.invite .white-box fieldset {
+	padding: 20px 0;
+}
+
+.invite .white-box fieldset p {
+	margin: 0 0 20px 50px;
+	color: #363636;
+}
+
+.invite .white-box fieldset textarea,
+.invite .white-box fieldset input {
+	margin-left: 50px;
+	margin-bottom: 6px;
+	width: 456px;
+}
+
+.invite .white-box fieldset span {
+	font-size: 18px;
+	color: #898989;
+	margin-left: 50px;
+}
+
+.invite .white-box fieldset .share {
+	margin: 10px 50px 0 0;
+}
+
+.invite .white-box fieldset .share img {
+	margin-left: 10px;
+	margin-top: -10px;
+}
+
+.invite .white-box p.middle {
+	color: #acacac;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.invite .white-box fieldset a.btn-success {
+	margin: 0 0 0 190px;
+	font-size: 15px;
+}
+
+.invite .white-box fieldset p.middle {
+	margin: 10px 0;
+}
+
+.invite .white-box fieldset button {
+	width: auto;
+	padding: 5px 12px;
+	margin: 10px 50px 0 0;
+	font-weight: normal;
+	font-size: 16px;
+	text-shadow: none;
+}
+
+.invite .white-box fieldset input.link {
+	width: 358px;
+}
+
+.invite .white-box fieldset a.copy {
+	margin-left: 10px;
+	margin-top: -4px;
+	padding: 4px 10px;
+}
+
+.invite .white-box hr {
+	margin: 50px 50px 30px;
+}
+
+.invite .white-box table {
+	margin: 0 55px 50px;
+	width: 650px;
+}
+
+.invite .white-box table td {
+	border-top: none;
+}
+
+.invite .white-box table th {
+	color: #363636;
+}
+
+.invite .white-box table td.email {
+	width: 240px;
+}
+
+.invite .white-box table td {
+	color: #555;
+	padding-bottom: 0px;
+}
+
+.invite .white-box table a.btn {
+	margin-top: -4px;
+	color: #363636;
+	padding: 2px 10px;
+}
+
+.invite .modal {
+	width: 450px;
+	height: 280px;
+}
+
+.invite .modal-body {
+	overflow-y: hidden; 
+}
+
+.invite .modal-body p {
+	font-size: 18px;
+	color: #898989;
+	margin: 30px 0 20px 35px;
+}
+
+.invite .modal-body img.gmail {
+	margin-left: 104px;
+}
+
+.invite .modal-body img.yahoo {
+	margin-left: 65px;
 }
 
 /* Buttons and text - default */
