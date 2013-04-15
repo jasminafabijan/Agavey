@@ -264,7 +264,7 @@ body {
 	z-index: 1;
 }
 
-.search form {
+.search .form {
 	background-color: #d0d0d0;
 	padding: 6px 6px;
 	border-bottom: 1px solid #c5c5c5;
@@ -274,7 +274,7 @@ body {
 	border-bottom-right-radius: 6px;
 }
 
-.search form input {
+.search .form input {
 	font-size: 16px;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -283,9 +283,9 @@ body {
 	margin-bottom: 0px;
 }
 
-.search form a.btn {
+.search .form input[type="submit"] {
 	width: 75px;
-	height: 22px;
+	height: 28px;
 	background-color: #99cc00;
 	background-image: -webkit-linear-gradient(top, #99cc00, #7fa900);
   background-image: -o-linear-gradient(top, #99cc00, #7fa900);
@@ -294,8 +294,12 @@ body {
   -webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;	
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	text-shadow: none;
 }
-
+/*
 .search form a.btn i {
 	background: url(../img/loup.png) no-repeat;
 	display: inline-block;
@@ -305,16 +309,9 @@ body {
 	line-height: 20px;
 	vertical-align: text-top;
 	margin-right: 4px;
-}
+}*/
 
-.search form .btn {
-	border: none;
-	color: #fff;
-	font-size: 16px;
-	text-shadow: none;
-}
-
-.search form .btn:hover {
+.search .form input[type="submit"]:hover {
 	color: #fff;
 	background-position: 0px;
 }
@@ -849,16 +846,16 @@ body {
 	font-weight: 400;
 }
 
-.white-box form {
+.white-box .form-inline {
 	margin-left: 10px;
 }
 
-.white-box form .controls {
+.white-box .form-inline .controls {
 	margin-top: 20px;
 }
 
-.white-box form input[type="text"],
-.white-box form input[type="password"] {
+.white-box .form-inline input[type="text"],
+.white-box .form-inline input[type="password"] {
 	width: 256px;
 	height: 25px;
 	margin-left: 21px;
@@ -871,19 +868,19 @@ body {
 	box-shadow: -2px -2px #e1e1e1;
 }
 
-.white-box form .address {
+.white-box .form-inline .address {
 	margin-top: 40px;
 }
 
-.white-box form .address input {
+.white-box .form-inline .address input {
 	width: 186px;
 }
 
-.white-box form select {
+.white-box .form-inline select {
 	margin-left: 20px;
 }
 
-.white-box form .own-home {
+.white-box .form-inline .own-home {
 	margin-top: 30px;
 	font-size: 18px;
 	font-weight: 400;
@@ -891,11 +888,11 @@ body {
 	text-align: center;
 }
 
-.white-box form button {
-	margin: 30px 0 30px 220px;
+.white-box input[type="submit"] {
+	margin: 30px 0 50px 220px;
 	font-size: 25px;
-	padding: 10px 0;
 	width: 170px;
+	height: 42px;
 	-moz-box-shadow:  2px 2px 3px #a1a1a1;
 	-webkit-box-shadow:  2px 2px 3px #a1a1a1;
 	box-shadow: 2px 2px 3px #a1a1a1;
@@ -911,22 +908,20 @@ body {
   font-weight: bold;
 }
 
-.white-box form button:hover {
+.white-box input[type="submit"]:hover {
 	color: #fff;
 	background-position: 0px;
-}
-
-.white-box form button:hover {
 	background-color: #de6786;
 }
 
-.white-box form select {
+
+.white-box .form-inline select {
 	width: 270px;
 	height: 35px;
 	border: 1px solid #e1e1e1;
 }
 
-.white-box form select, option {
+.white-box .form-inline select, option {
 	font-size: 16px;
 	font-weight: 400;
 	color: #555555;
@@ -1109,58 +1104,9 @@ body {
 	background-position: 0px;
 }
 
-.search-home form {
-	background-color: #d0d0d0;
-	padding: 6px 6px;
-	border-bottom: 1px solid #c5c5c5;
-	border-left: 1px solid #c5c5c5;
-	border-right: 1px solid #c5c5c5;
-	border-bottom-left-radius: 6px;
-	border-bottom-right-radius: 6px;
-}
-
-.search-home form input {
-	font-size: 16px;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	width: 140px;
-	margin-bottom: 0px;
-}
-
-.search-home form a.btn {
-	width: 75px;
-	height: 22px;
-	background-color: #99cc00;
-	background-image: -webkit-linear-gradient(top, #99cc00, #7fa900);
-  background-image: -o-linear-gradient(top, #99cc00, #7fa900);
-  background-image: linear-gradient(to bottom, #99cc00, #7fa900);	
-  background-image: -moz-linear-gradient(top, #99cc00, #7fa900);
-  -webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;	
-}
-
-.search-home form a.btn i {
-	background: url(../img/loup.png) no-repeat;
-	display: inline-block;
-	width: 18px;
-	height: 18px;
+.index {
 	margin-top: 0px;
-	line-height: 20px;
-	vertical-align: text-top;
-}
-
-.search-home form .btn {
-	border: none;
-	color: #fff;
-	font-size: 16px;
-	text-shadow: none;
-}
-
-.search-home form .btn:hover {
-	color: #fff;
-	background-position: 0px;
+	margin-bottom: 20px;
 }
 
 .homepage h1.categories {
@@ -1869,7 +1815,7 @@ body {
 	width: 550px;
 }
 
-.white-box form button {
+.white-box .form-inline input[type="submit"] {
 	margin-right: 30px;
 }
 
@@ -1920,7 +1866,7 @@ body {
 	margin-left: 20px;
 }
 
-.custom_service .btn {
+.custom_service input[type="submit"] {
 	margin-top: 50px;
 }
 
@@ -1943,7 +1889,7 @@ body {
 	color: #acacac;
 }
 
-.change_password .white-box .btn {
+.change_password .white-box input[type="submit"] {
 	margin-top: 50px;
 	width: auto;
 	padding: 10px 20px;
@@ -2118,13 +2064,13 @@ body {
 	border: 2px solid #99cc00;
 }
 
-.customer-additional .white-box button,
-.main-box button,
-.my-reviews .white-box button {
+.customer-additional .white-box input[type="submit"],
+.main-box input[type="submit"],
+.my-reviews .white-box input[type="submit"] {
 	margin: 30px 0 30px 220px;
 	font-size: 25px;
-	padding: 10px 0;
 	width: 170px;
+	height: 42px;
 	-moz-box-shadow:  2px 2px 3px #a1a1a1;
 	-webkit-box-shadow:  2px 2px 3px #a1a1a1;
 	box-shadow: 2px 2px 3px #a1a1a1;
@@ -2140,18 +2086,18 @@ body {
   font-weight: bold;
 }
 
-.customer-additional .white-box button,
-.main-box button:hover,
-.my-reviews .white-box button:hover {
+.customer-additional .white-box input[type="submit"]:hover,
+.main-box input[type="submit"]:hover,
+.my-reviews .white-box input[type="submit"]:hover {
 	color: #fff;
 	background-position: 0px;
 }
 
-.customer-additional .white-box button,
+/*.customer-additional .white-box button,
 .main-box button:hover,
 .my-reviews .white-box button:hover {
 	background-color: #de6786;
-}
+}*/
 
 .navbar .nav a.user {
 	text-indent: -10000px;
@@ -2283,7 +2229,7 @@ body {
 	margin-bottom: 20px;
 }
 
-.welcome .main-box button {
+.welcome .main-box input[type="submit"] {
 	float: right;
 	margin-right: 86px;
 }
@@ -2308,16 +2254,16 @@ body {
 	padding: 10px 0 10px 40px;
 	color: #fff;
 	font-weight: bold;
-	font-size: 30px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 28px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .vendor-sign-up .form-horizontal .header p {
 	margin: 0 0 0 0;
 	padding: 0 40px 10px 40px;
 	color: #fff;
-	font-size: 19px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 17px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 	
 .vendor-sign-up .form-horizontal .header {
@@ -2356,11 +2302,12 @@ body {
 
 .vendor-sign-up .form-horizontal .control-label {
 	text-align: left;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
 
-.vendor-sign-up .form-horizontal input {
+.vendor-sign-up .form-horizontal input[type="text"],
+.vendor-sign-up .form-horizontal input[type="password"] {
 	width: 366px;
 	height: 24px;
 	border: 1px solid #fff;
@@ -2372,8 +2319,8 @@ body {
 }
 
 .vendor-sign-up .main-content p.or {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
 	color: #acacac;
 	margin: 20px 0 0 200px;
 }
@@ -2411,7 +2358,7 @@ body {
 	padding: 20 40px 10px 40px;
 	color: #464646;
 	font-size: 17px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
@@ -2562,7 +2509,7 @@ fieldset .controls {
 }
 
 .bizinformation .main-box p {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 22px;
 	margin: 20px 0 10px 30px;
 } 
@@ -2614,7 +2561,7 @@ fieldset .controls {
 	width: 350px;
 }
 
-.bizinformation .main-box button {
+.bizinformation .main-box input[type="submit"] {
 	float: right;
 	margin: 20px 30px 50px 0;
 }
@@ -2675,7 +2622,7 @@ fieldset .controls {
 	margin-bottom: 4px;
 }
 
-.bizcredentials .main-box button {
+.bizcredentials .main-box input[type="submit"] {
 	margin: 0 30px 50px 0;
 }
 
@@ -2705,8 +2652,8 @@ fieldset .controls {
 	margin-bottom: 4px;
 }
 
-.bizcredentials2 .main-box button {
-	margin: -35px 30px 50px 0;
+.bizcredentials2 .main-box input[type="submit"] {
+	margin: -37px 30px 50px 0;
 }
 
 .bizcredentials2 .main-box .span10 a.back {
@@ -2810,7 +2757,7 @@ fieldset .controls {
 	margin-bottom: 4px;
 }
 
-.service-info .main-box button {
+.service-info .main-box input[type="submit"] {
 	margin: 30px 30px 50px 0;
 }
 
@@ -2878,7 +2825,7 @@ fieldset .controls {
 	margin: 20px 0 0 30px;
 }
 
-.PayInfo .main-box button {
+.PayInfo .main-box input[type="submit"] {
 	margin: 26px 30px 50px 0;
 }
 
@@ -2939,7 +2886,7 @@ fieldset .controls {
 	margin-left: 0px;
 }
 
-.review .main-box button {
+.review .main-box input[type="submit"] {
 	margin: 16px 30px 50px 0;
 }
 
@@ -3465,12 +3412,13 @@ fieldset .controls {
 	color: #898989;
 }
 
-.customer-additional .white-box button,
-.my-reviews .white-box button {
+.customer-additional .white-box input[type="submit"],
+.my-reviews .white-box input[type="submit"] {
 	margin: 60px 90px 40px 0;
 	font-size: 18px;
-	padding: 6px 0;
 	width: 130px;
+	height: 34px;
+	padding: 0px 0px;
 }
 
 /* Customer - Recommend */
@@ -3560,10 +3508,10 @@ fieldset .controls {
 	margin-top: 50px;
 }
 
-.my-profile .white-box button,
-.recommend .white-box button,
-.communication .white-box button,
-.my-reviews .white-box button {
+.my-profile .white-box input[type="submit"],
+.recommend .white-box input[type="submit"],
+.communication .white-box input[type="submit"],
+.my-reviews .white-box input[type="submit"] {
 	margin-top: -10px;
 }
 
@@ -3815,7 +3763,12 @@ fieldset .controls {
 	margin: 40px 30px;
 }
 
-a.green {
+h4 {
+	margin-left: 30px;
+}
+
+a.green,
+input.green[type="submit"] {
 	margin: 0 0 30px 30px;
 	background-color: #99cc00;
 	background-image: -webkit-linear-gradient(top, #99cc00, #7fa900);
@@ -3829,17 +3782,20 @@ a.green {
 	text-shadow: none;
 }
 
-a.green:hover {
+a.green:hover,
+input.green[type="submit"]:hover {
 	color: #ffffff;
 	border-color: #99cc00;
 	background-position: 0px;
 }
 
-a.green:active {
+a.green:active,
+input.green[type="submit"]:active {
 	background-color: #5BB75B;
 }
 
-a.pink {
+a.pink,
+input.pink[type="submit"] {
 	margin: 0 0 30px 30px;
 	-moz-box-shadow:  2px 2px 3px #a1a1a1;
 	-webkit-box-shadow:  2px 2px 3px #a1a1a1;
@@ -3855,13 +3811,15 @@ a.pink {
   background-image: -moz-linear-gradient(top, #de6786, #d02552);
 }
 
-a.pink:hover {
+a.pink:hover,
+input.pink[type="submit"]:hover {
 	color: #fff;
 	background-color: #de6786;
 	background-position: 0px;
 }
 
-a.btn-large {
+a.btn-large,
+input.btn-large[type="submit"] {
 	padding-top: 9px;
 	padding-bottom: 9px;
 	font-weight: bold;

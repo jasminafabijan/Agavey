@@ -1,164 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Agavey-my-profile</title>
-  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <head>
+    <title>Agavey-my-profile</title>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+      
+      <script src="./js/jquery.js" type="text/javascript"></script>
+      <script src="./js/jquery.placeholder.js" type="text/javascript"></script>
+      <script src="./js/bootstrap.dropdown.js" type="text/javascript"></script>
+      
+      <script type="text/javascript">
+      	$(document).ready(function(){ 
+  	    	$('input, textarea').placeholder();
+      	});
+      </script>
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/default.css" rel="stylesheet" type="text/css" />
     
-    <script src="./js/jquery.js" type="text/javascript"></script>
-    <script src="./js/jquery.placeholder.js" type="text/javascript"></script>
-    <script src="./js/bootstrap.dropdown.js" type="text/javascript"></script>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
     
-    <script type="text/javascript">
-    	$(document).ready(function(){ 
-	    	$('input, textarea').placeholder();
-    	});
-    </script>
+  </head>
 
-  <!-- Le styles -->
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-  <link href="css/default.css" rel="stylesheet" type="text/css" />
-  
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
-  
-</head>
+  <body class="customer-additional my-profile">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner main-nav">
+        <div class="container">
+          <a class="brand" href="#"><img src="img/logo.png" alt="logo" /></a>
 
-<body class="customer-additional my-profile">
-  <div class="navbar navbar-fixed-top">
-    <div class="navbar-inner main-nav">
-      <div class="container">
-        <a class="brand" href="#"><img src="img/logo.png" alt="logo" /></a>
+          <div class="navbar-form span2">
+            <input type="text" placeholder="Location" />
+          </div>
 
-        <form class="navbar-form span2">
-          <input type="text" placeholder="Location" />
-        </form>
-
-        <ul class="nav pull-right">
-          <li><a class="home" href="#">Home</a></li>
-          <li><a href="#about">How it works</a></li>
-					<li><a class="cart" href="#">Cart</a></li>
-          <li><a href="#cart">View Cart</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="icon-user icon-white"></i> John
-              <b class="caret"></b>
-            </a>
-            <ul class="dropdown-menu pull-right">
-              <li class="border"><a href="#">My Account</a></li>
-              <li class="border"><a href="#">My Email</a></li>
-              <li class="border"><a href="#">Invite Friends</a></li>
-              <li class="no-border"><a href="#">Logout</a></li>
-            </ul>
-          </li>       
-        </ul>
-      </div>
-    </div>
-  </div> <!-- navbar -->
-
-  <div class="navbar navbar-fixed-top main-menu">
-    <div class="navbar-inner">
-      <div class="container">
-        <ul class="nav active">
-          <li><a href="#account" class="account">My Account</a></li>
-        </ul>
-        <ul class="nav passive">
-          <li><a href="#" class="orders">My Orders</a></li>
-          <li><a href="#message" class="message">My Messages</a></li>
-        </ul>
-        <ul class="nav pull-right connect">
-          <li><p>Connect with Us</p></li>
-          <li><a href="#"><img src="img/connect-fb-icon.png" alt="icon"></a></li>
-          <li><a href="#"><img src="img/connect-t-icon.png" alt="icon"></a></li>
-          <li><a href="#"><img src="img/connect-p-icon.png" alt="icon"></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="navbar navbar-fixed-top sub-menu">
-    <div class="container">
-      <ul class="nav">
-        <li><a href="#" class="profile active">My Profile</a></li>
-        <li><a href="#" class="comm">Communication</a></li>
-        <li><a href="#" class="pay-m">My Payment Method</a></li>
-        <li><a href="#" class="wishlist">Wish List</a></li>
-        <li><a href="#" class="recommended">Recommend a Service Provider</a></li>
-        <li><a href="#" class="invite">Invite Friends</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="row">
-      <div class="span9 white-box">
-        <h1>My Profile</h1>
-        <fieldset>
-          <div class="span3">
-            <label>First Name</label>
-            <input type="text" value="test" readonly="readonly">
-            <a href="#" class="edit"></a>
-          </div>
-          <div class="span3">
-            <label>Last Name</label>
-            <input type="text" value="test" readonly="readonly">
-            <a href="#" class="edit"></a>
-          </div>
-          <div class="span3">
-            <label>Email</label>
-            <input type="text" value="test" readonly="readonly">
-            <a href="#" class="edit"></a>
-          </div>
-          <div class="span3">
-            <label>Password</label>
-            <input type="password" value="test" readonly="readonly">
-            <a href="#" class="edit"></a>
-          </div>
-          <div class="span3">
-            <label>Home Address</label>
-            <input type="text" value="test" readonly="readonly">
-            <a href="#" class="edit"></a>
-          </div>
-          <div class="span3">
-            <label>City</label>
-            <input type="text" value="test" readonly="readonly">
-            <a href="#" class="edit"></a>
-          </div>
-          <div class="span3">
-            <label>Phone Number / Home</label>
-            <input type="text" value="test" readonly="readonly">
-            <a href="#" class="edit"></a>
-          </div>
-          <div class="span3">
-            <label>Home Number / Mobile</label>
-            <input type="text" value="test" readonly="readonly">
-            <a href="#" class="edit"></a>
-          </div>
-        </fieldset>
-        <div class="span4 pull-right">
-        <a href="#" class="cancel">Cancel</a>
-        <button class="btn pull-right">Save</button>
+          <ul class="nav pull-right">
+            <li><a class="home" href="#">Home</a></li>
+            <li><a href="#about">How it works</a></li>
+  					<li><a class="cart" href="#">Cart</a></li>
+            <li><a href="#cart">View Cart</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="icon-user icon-white"></i> John
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu pull-right">
+                <li class="border"><a href="#">My Account</a></li>
+                <li class="border"><a href="#">My Email</a></li>
+                <li class="border"><a href="#">Invite Friends</a></li>
+                <li class="no-border"><a href="#">Logout</a></li>
+              </ul>
+            </li>       
+          </ul>
         </div>
+      </div>
+    </div> <!-- navbar -->
 
-      </div> <!-- white-box -->
-    </div> <!-- row -->
+    <div class="navbar navbar-fixed-top main-menu">
+      <div class="navbar-inner">
+        <div class="container">
+          <ul class="nav active">
+            <li><a href="#account" class="account">My Account</a></li>
+          </ul>
+          <ul class="nav passive">
+            <li><a href="#" class="orders">My Orders</a></li>
+            <li><a href="#message" class="message">My Messages</a></li>
+          </ul>
+          <ul class="nav pull-right connect">
+            <li><p>Connect with Us</p></li>
+            <li><a href="#"><img src="img/connect-fb-icon.png" alt="icon"></a></li>
+            <li><a href="#"><img src="img/connect-t-icon.png" alt="icon"></a></li>
+            <li><a href="#"><img src="img/connect-p-icon.png" alt="icon"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar navbar-fixed-top sub-menu">
+      <div class="container">
+        <ul class="nav">
+          <li><a href="#" class="profile active">My Profile</a></li>
+          <li><a href="#" class="comm">Communication</a></li>
+          <li><a href="#" class="pay-m">My Payment Method</a></li>
+          <li><a href="#" class="wishlist">Wish List</a></li>
+          <li><a href="#" class="recommended">Recommend a Service Provider</a></li>
+          <li><a href="#" class="invite">Invite Friends</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="span9 white-box">
+          <h1>My Profile</h1>
+          <fieldset>
+            <div class="span3">
+              <label>First Name</label>
+              <input type="text" value="test" readonly="readonly">
+              <a href="#" class="edit"></a>
+            </div>
+            <div class="span3">
+              <label>Last Name</label>
+              <input type="text" value="test" readonly="readonly">
+              <a href="#" class="edit"></a>
+            </div>
+            <div class="span3">
+              <label>Email</label>
+              <input type="text" value="test" readonly="readonly">
+              <a href="#" class="edit"></a>
+            </div>
+            <div class="span3">
+              <label>Password</label>
+              <input type="password" value="test" readonly="readonly">
+              <a href="#" class="edit"></a>
+            </div>
+            <div class="span3">
+              <label>Home Address</label>
+              <input type="text" value="test" readonly="readonly">
+              <a href="#" class="edit"></a>
+            </div>
+            <div class="span3">
+              <label>City</label>
+              <input type="text" value="test" readonly="readonly">
+              <a href="#" class="edit"></a>
+            </div>
+            <div class="span3">
+              <label>Phone Number / Home</label>
+              <input type="text" value="test" readonly="readonly">
+              <a href="#" class="edit"></a>
+            </div>
+            <div class="span3">
+              <label>Home Number / Mobile</label>
+              <input type="text" value="test" readonly="readonly">
+              <a href="#" class="edit"></a>
+            </div>
+          </fieldset>
+          <div class="span4 pull-right">
+          <a href="#" class="cancel">Cancel</a>
+          <input type="submit" class="btn pull-right" value="Save">
+          </div>
+
+        </div> <!-- white-box -->
+      </div> <!-- row -->
+      
+      <footer class="navbar footer">
+        <ul class="nav footer-links">
+          <li><a href="#i">About Us</a></li>
+          <li class="space">|</li>
+          <li><a href="#h">Policies</a></li>
+          <li class="space">|</li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li class="space">|</li>
+          <li><a href="#contact">Merchants</a></li>
+          <li class="space">|</li>
+          <li><a href="#i">Tell Us what you need</a></li>
+        </ul>
+      </footer>
+
+    </div> <!-- /container -->
     
-    <footer class="navbar footer">
-      <ul class="nav footer-links">
-        <li><a href="#i">About Us</a></li>
-        <li class="space">|</li>
-        <li><a href="#h">Policies</a></li>
-        <li class="space">|</li>
-        <li><a href="#contact">Contact Us</a></li>
-        <li class="space">|</li>
-        <li><a href="#contact">Merchants</a></li>
-        <li class="space">|</li>
-        <li><a href="#i">Tell Us what you need</a></li>
-      </ul>
-    </footer>
-
-  </div> <!-- /container -->
-  
-</body>
+  </body>
 </html>
