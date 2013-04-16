@@ -484,10 +484,10 @@ body {
 	color: #fff;
 	font-weight: bold;
 	background-color: #d02553;
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
-	border-radius: 12px;
-	padding: 5px 8px 8px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 5px 10px 8px;
 	box-shadow: 2px 2px 3px #a1a1a1;
 	margin-top: -7px;
 	margin-right: 2px;
