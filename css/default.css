@@ -506,7 +506,8 @@ body {
 	margin-bottom: 0px;
 }
 
-.information .lic {
+.information .lic,
+.store .sidebar .lic {
 	background: url(../img/icon-licensed.png) no-repeat;
 	display: inline-block;
 	width: 30px;
@@ -520,7 +521,8 @@ body {
 	font-weight: 400;
 }
 
-.information .bonded {
+.information .bonded,
+.store .sidebar .bonded {
 	background: url(../img/icon-bonded.png) no-repeat;
 	display: inline-block;
 	width: 30px;
@@ -529,7 +531,8 @@ body {
 	margin-left: -30px;
 }
 
-.information .insured {
+.information .insured,
+.store .sidebar .insured {
 	background: url(../img/icon-insured.png) no-repeat;
 	display: inline-block;
 	width: 30px;
@@ -547,7 +550,8 @@ body {
 	margin-left: -260px;
 }
 
-.information .years {
+.information .years,
+.store .sidebar .years {
 	background: url(../img/icon-years.png) no-repeat;
 	display: inline-block;
 	width: 30px;
@@ -565,7 +569,8 @@ body {
 	margin-left: -260px;
 }
 
-.provider-box {
+.provider-box,
+.sidebar {
 	background-color: #fff;
 	margin-top: 30px;
 	width: 370px;
@@ -620,9 +625,9 @@ body {
 	font-size: 16px;
 	color: #363636;
 	background-color: #d7d7d7;
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
-	border-radius: 12px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
 	box-shadow: 2px 2px 3px #a1a1a1;
 	margin-left: 100px;
 	margin-bottom: 20px;
@@ -660,8 +665,8 @@ body {
 } 
 
 .review-box blockquote.clearfix cite {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 16px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
 	font-style: italic;
 	color: #555;
 	float: right;
@@ -675,7 +680,7 @@ body {
 }
 
 .review-box blockquote.white p {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	color: #555;
 	font-weight: normal;
@@ -2453,7 +2458,8 @@ body {
 }
 
 .main-box a.btn-success,
-.invite .white-box fieldset a.btn-success {
+.invite .white-box fieldset a.btn-success,
+.store .sidebar a.btn-success {
 	padding: 5px 10px;
 	margin: 30px 0 30px 30px;
 	color: #ffffff;
@@ -2468,13 +2474,16 @@ body {
 }
 
 .main-box a.btn-success:hover,
-.invite .white-box fieldset a.btn-success:hover {
+.invite .white-box fieldset a.btn-success:hover,
+.store .sidebar a.btn-success {
 	color: #ffffff;
 	border-color: #99cc00;
 	background-position: 0px;
 }
 
-.main-box a.btn-success:active {
+.main-box a.btn-success:active,
+.invite .white-box fieldset a.btn-success:active,
+.store .sidebar a.btn-success:active {
 	background-color: #5BB75B;
 }
 
@@ -3755,6 +3764,135 @@ fieldset .controls {
 
 .invite .modal-body img.yahoo {
 	margin-left: 65px;
+}
+
+/* Vendor store */
+
+.store .main-content {
+	margin-top: 90px;
+}
+
+.store .breadcrumb {
+	background-color: transparent;
+	margin-left: 5px;
+}
+
+.store .breadcrumb li,
+.store .breadcrumb a {
+	font-size: 18px;
+	color: #7d7d7d;
+}
+
+.store .breadcrumb a {
+	text-decoration: underline;
+}
+
+.store .breadcrumb a:hover,
+.store .sidebar a:hover {
+	color: #99cc00;
+} 
+
+.store .sidebar {
+	width: 220px;
+	margin-top: 0px;
+	padding: 0 25px 25px;
+}
+
+.store .sidebar h4 {
+	font-size: 18px;
+	color: #555;
+	margin: 25px 0 15px;
+}
+
+.store .sidebar ul {
+	list-style-type: none;
+	margin-left: 0px;
+}
+
+.store .sidebar li a {
+	color: #555;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+.store .sidebar p,
+.store .sidebar li {
+	color: #555;
+	font-size: 15px;
+}
+
+.store .sidebar ul.benefits {
+	margin-left: 30px;
+}
+
+.store .sidebar .lic {
+	margin-top: 20px;
+}
+
+.store .sidebar .years {
+	margin-left: -30px;
+}
+
+.store .sidebar .heart {
+	background: url(../img/icon-heart.png) no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 22px;
+	margin-top: 12px;
+	margin-left: -30px;
+}
+
+.store .sidebar a.ask {
+	font-size: 16px;
+	color: #363636;
+	background-color: #d7d7d7;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	box-shadow: 2px 2px 3px #a1a1a1;
+	margin-bottom: 20px;
+	margin-top: 25px;
+	display: block;
+	width: 150px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.store .sidebar address {
+	margin-top: 30px;
+}
+
+.store .sidebar address strong {
+	font-size: 18px;
+}
+
+.store .sidebar address {
+	font-size: 15px;
+	color: #555;
+}
+
+.store .sidebar blockquote {
+	border-left: none;
+	padding-left: 0px;
+}
+
+.store .sidebar blockquote p {
+	font-weight: normal;
+	line-height: 20px;
+	font-size: 14px;
+	color: #464646;
+}
+
+.store .sidebar blockquote cite {
+	float: right;
+	font-style: italic;
+	font-size: 14px;
+	color: #7d7d7d;
+}
+
+.store .sidebar a.btn-success:hover {
+	color: #fff;
 }
 
 /* Buttons and text - default */
