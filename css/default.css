@@ -3897,6 +3897,11 @@ fieldset .controls {
 
 /* Buttons and text - default */
 
+.buttons .box {
+	background-color: #fff;
+	margin-top: 100px;
+} 
+
 .alert {
 	margin: 40px 30px;
 }
