@@ -3750,6 +3750,10 @@ fieldset .controls {
 
 /* Vendor store */
 
+.store .navbar .nav > li > a {
+	padding-right: 0px;
+}
+
 .store .main-content {
 	margin-top: 90px;
 }
@@ -3868,7 +3872,7 @@ fieldset .controls {
 }
 
 .store .provider-box {
-	width: 650px;
+	width: 656px;
 	margin: 0 0 0 30px;
 	padding-top: 30px;
 }
@@ -3891,12 +3895,12 @@ fieldset .controls {
 	content: "";
 	clear: both;
 	display: table;
-	margin: 10px 0 0 20px;
+	margin: 10px 0 0 17px;
 }
 
 .store .provider-box .service {
 	width: 190px;
-	margin: 20px 0 0 10px; 
+	margin: 20px 0 0 13px; 
 }
 
 .store .service .image {
@@ -3956,7 +3960,7 @@ fieldset .controls {
 }
 
 .store .provider-box a.btn-success {
-	margin: -135px 0 0 268px;
+	margin: -135px 0 0 270px;
 }
 
 /* Buttons and text - default */
