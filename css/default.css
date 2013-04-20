@@ -553,7 +553,8 @@ body {
 }
 
 .provider-box,
-.sidebar {
+.sidebar,
+.cart .shopping-box {
 	background-color: #fff;
 	margin-top: 30px;
 	width: 370px;
@@ -826,7 +827,8 @@ body {
 }
 
 .white-box h1,
-.store .provider-box span.title {
+.store .provider-box span.title,
+.cart .shopping-box span {
 	margin: 30px 0 0 30px;
 	font-size: 33px;
 	color: #99cc00;
@@ -1376,18 +1378,9 @@ body {
 	margin-left: 0px;
 }
 
-.payment-page .white-box table {
-	margin-top: 30px;
-	margin-left: 15px;
-	margin-bottom: 0px;
-	width: 586px;
-}
 
-.payment-page .white-box table th {
-	font-size: 19px;
-	color: #363636;
-	font-weight: 400;
-}
+
+
 
 .payment-page .white-box table th.desc {
 	width: 285px;
@@ -1398,12 +1391,7 @@ body {
 	width: 85px;
 }
 
-.payment-page .white-box table td {
-	font-size: 16px;
-	color: #555;
-	font-weight: 400;
-	padding: 15px 8px;
-}
+
 
 .payment-page .white-box table td.amount {
 	text-align: right;
@@ -3748,6 +3736,19 @@ fieldset .controls {
 	margin-left: 65px;
 }
 
+/* shared */
+
+.sidebar {
+	width: 210px;
+	margin-top: 0px;
+	padding: 0 20px 20px;
+}
+
+.sidebar h4 {
+	color: #464646;
+	margin: 25px 0 15px;
+}
+
 /* Vendor store */
 
 .store .navbar .nav > li > a {
@@ -3778,23 +3779,12 @@ fieldset .controls {
 	color: #99cc00;
 } 
 
-.store .sidebar {
-	width: 210px;
-	margin-top: 0px;
-	padding: 0 20px 20px;
-}
-
-.store .sidebar h4 {
-	color: #464646;
-	margin: 25px 0 15px;
-}
-
 .store .sidebar ul {
 	list-style-type: none;
 	margin-left: 0px;
 }
 
-.store .sidebar p,
+.sidebar p,
 .store .sidebar li,
 .store .sidebar li a {
 	color: #555;
@@ -3871,7 +3861,8 @@ fieldset .controls {
 	color: #fff;
 }
 
-.store .provider-box {
+.store .provider-box,
+.cart .shopping-box {
 	width: 656px;
 	margin: 0 0 0 30px;
 	padding-top: 30px;
@@ -3961,6 +3952,81 @@ fieldset .controls {
 
 .store .provider-box a.btn-success {
 	margin: -135px 0 0 270px;
+}
+
+/* Shopping Cart */
+
+.cart .sidebar h4 {
+	text-align: center;
+}
+
+.cart .sidebar p.text16 {
+	font-size: 16px;
+	text-align: center;
+}
+
+.cart .sidebar img.icon {
+	margin: 10px 0 10px 88px;
+}
+
+.cart .shopping-box table th {
+	font-size: 18px;
+	color: #363636;
+	font-weight: 400;
+}
+
+.cart .shopping-box table {
+	margin: 30px 0 0 20px;
+	width: 614px;
+}
+
+.cart .shopping-box table td {
+	font-size: 14px;
+	color: #555;
+	font-weight: 400;
+	padding: 15px 8px;
+}
+
+.cart .shopping-box th.desc {
+	width: 270px;
+}
+
+.cart .shopping-box td a {
+	display: block;
+	color: #7d7d7d;
+	font-size: 12px;
+	margin-top: 8px;
+}
+
+.cart .shopping-box td div {
+	margin: 8px 0;
+}
+
+.cart .shopping-box td label {
+	display: block;
+}
+
+.cart .shopping-box td .radio.inline + .radio.inline {
+	margin-left: 0px;
+}
+
+.cart .shopping-box td input[type="radio"] {
+	margin-right: 6px;
+}
+
+.cart .shopping-box td input[type="text"] {
+	width: 30px;
+	height: 15px;
+}
+
+.cart .shopping-box td.price,
+.cart .shopping-box td.total {
+	font-size: 16px;
+}
+
+.cart .shopping-box th.total,
+.cart .shopping-box td.total {
+	text-align: right;
 }
 
 /* Buttons and text - default */
