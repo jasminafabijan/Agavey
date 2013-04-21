@@ -3797,15 +3797,23 @@ fieldset .controls {
 }
 
 .store .sidebar ul.benefits {
-	margin-left: 30px;
+	list-style: none;
+	margin-left: 0;
 }
 
-.store .sidebar .lic {
-	margin-top: 20px;
+.store .sidebar ul.benefits li  {
+	position: relative;
+	padding: 10px 0px 10px 35px;
 }
 
-.store .sidebar .years {
-	margin-left: -30px;
+.store .sidebar ul.benefits li i {
+	position: absolute;
+	margin: 0px;
+	left: 5px;
+}
+
+.store .sidebar ul.benefits li i.years {
+	top: 7px;
 }
 
 .store .sidebar .heart {
