@@ -46,7 +46,7 @@
           <ul class="nav pull-right">
             <li><a class="home" href="#">Home</a></li>
             <li><a href="#about">How it works</a></li>
-            <li><a class="cart" href="#">Cart</a></li>
+            <li><a class="cart" href="#">Cart</a><span>2</span></li>
             <li><a href="#cart">View Cart</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -134,14 +134,116 @@
                     </div>
                     <a href="#">Remove</a>
                   </td>
-                  <td><input type="text"></td>
+                  <td>
+                    <input type="text">
+                    <span>Pay Today</span>
+                  </td>
                   <td class="price">$0.00</td>
-                  <td class="total">$0.00</td>
+                  <td class="total">$0.00<span class="pay-today">$167.00</span></td>
                 </tr>
               </tbody>
             </table>
-            
+            <div class="code">
+              <input type="text" placeholder="Your Promotion Code">
+              <input type="submit" class="btn green" value="Apply">
+            </div>
           </div> 
+          <div class="subtotal">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td class="subt">Subtotal</td>
+                  <td class="value">$287.00</td>
+                </tr>
+                <tr>
+                  <td>Your Saving</td>
+                  <td class="save">-$50.00</td>
+                </tr>
+                <tr>
+                  <td>Total Amount</td>
+                  <td class="total">$237.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="span8">Payment of $167.00 will be applied to your Credit Card every month on the 1st day</p>
+          <div class="span8">
+            <input type="submit" class="btn btn-large btn-primary pink" value="Continue Shopping">
+          </div>
+
+          <fieldset>
+            <div class="credit-card">
+              <span class="subtitle">Please provide your Credit Card Information</span>
+              <a href="#fwd"><img src="img/verified-image.png" class="pull-right" alt="Verified" /></a>
+              <input type="text" placeholder="Credit Card Number" />
+              <div class="date">
+                <span>Expiration Date</span>
+                <input type="text" class="input-mini mm" />
+                <span>MM</span>
+                <input type="text" class="input-mini yy" />
+                <span>YY</span>
+                <span class="security">Security Code</span>
+                <input type="text" class="input-mini security-code" />
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <span class="subtitle">Please provide your billing address</span>
+            <div class="controls">
+              <input type="text" placeholder="First Name" />
+              <input type="text" class="right" placeholder="Last Name" />
+            </div>
+
+            <div class="controls">
+              <input type="text" placeholder="Address Line 1" />
+              <input type="text" class="right" placeholder="Address Line 2" />
+            </div>
+
+            <div class="controls">
+              <input type="text" placeholder="City" /> 
+              <select>
+                <option>State</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+              <input type="text" class="zip" placeholder="Zip Code" />
+            </div>
+
+            <div class="controls">
+              <input type="text" class="input-small" placeholder="Phone Number" /> 
+              <label class="checkbox">
+                <input type="checkbox" value="">Service Address is different than the Billing Address
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <div class="span5">
+              <span class="subtitle">Note for Service Provider</span>
+              <textarea rows="4"></textarea>
+            </div>
+            <div class="span3">
+              <span class="subtitle">Best time to contact</span>
+              <select>
+                <option>Every Day</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+              <select>
+                <option>Any Time</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+            </div>
+          </fieldset>
+          <p class="text13">By clicking on this button you agree to the service details and to Agavey <a href="#">Terms and Conditions.</a></p>
+          <div class="span8">
+            <input type="submit" class="btn btn-large btn-primary pink" value="Complete Purchase">
+          </div>
         </div> <!-- shopping-box -->
       </div> <!-- row --> 
       

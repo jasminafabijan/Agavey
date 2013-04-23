@@ -1241,6 +1241,13 @@ body {
 	background-position: 0px 0px;
 }
 
+.navbar .nav span {
+	color: #fff;
+	margin: -44px 0 0 18px;
+	position: absolute;
+	font-size: 14px;
+}
+
 /* Invite page */
 
 .invite-page .white-box .call {
@@ -1365,270 +1372,6 @@ body {
 }
 
 .how_it_works .white-box .steps p:last-child {
-	margin-bottom: 40px;
-}
-
-/* Payment-page */
-
-.payment-page h1 {
-	margin-left: 25px;
-}
-
-.payment-page .white-box form {
-	margin-left: 0px;
-}
-
-
-
-
-
-.payment-page .white-box table th.desc {
-	width: 285px;
-}
-
-.payment-page .white-box table th.quantity,
-.payment-page .white-box table th.price {
-	width: 85px;
-}
-
-
-
-.payment-page .white-box table td.amount {
-	text-align: right;
-}
-
-.payment-page .white-box input[type="text"] {
-	width: 256px;
-	font-size: 16px;
-	font-weight: 400;
-	color: #363636;
-	border: 1px solid #e1e1e1;
-	-moz-box-shadow: -2px -2px #e1e1e1;
-	-webkit-box-shadow: -2px -2px #e1e1e1;
-	box-shadow: -2px -2px #e1e1e1;
-}
-
-.payment-page .white-box input:-moz-placeholder {
-	color: #acacac;
-}
-
-.payment-page .white-box input.promo-code {
-	margin-left: 0px;
-}
-
-.payment-page .white-box input.promo-code {
-	margin-top: -4px;
-	margin-bottom: 6px;
-}
-
-.payment-page .white-box input.cc-number {
-	margin-bottom: 14px;
-	margin-left: 0px;
-}
-
-.payment-page .white-box .code {
-	margin-left: 24px;
-	margin-right: 30px;
-	padding-top: 15px;
-	padding-bottom: 5px;
-	border-top: 1px solid #dddddd; 
-	width: 570px;
-}
-
-.payment-page .white-box a.btn {
-	padding: 4px 7px 5px;
-	font-size: 17px;
-	font-weight: bold;
-	background-color: #99cc00;
-	background-image: -webkit-linear-gradient(top, #99cc00, #7fa900);
-  background-image: -o-linear-gradient(top, #99cc00, #7fa900);
-  background-image: linear-gradient(to bottom, #99cc00, #7fa900);
-  background-image: -moz-linear-gradient(top, #99cc00, #7fa900);	
-  -webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-}
-
-.payment-page .white-box .code a {
-	margin-top: -12px;
-	margin-left: 9px;
-}
-
-.payment-page .white-box a.btn:hover {
-	color: #ffffff;
-	border-color: #99cc00;
-	background-position: 0px;
-}
-
-.payment-page .white-box a.btn:active {
-	background-color: #5BB75B;
-}
-
-.payment-page .white-box .total {
-	margin-left: 26px;
-	margin-right: 30px;
-	padding-top: 15px;
-	border-top: 1px solid #dddddd; 
-	height: 50px;
-	width: 570px;
-}
-
-.payment-page .white-box .total span {
-	font-size: 18px;
-	font-weight: 400;
-	color: #252525;
-	padding-left: 285px;
-}
-
-.payment-page .white-box .total .summ {
-	font-size: 22px;
-	font-weight: 400;
-	color: #252525;
-}
-
-.payment-page .white-box .total a {
-	margin-top: 20px;
-}
-
-.payment-page .white-box .credit-card h4 {
-	font-size: 19px;
-	font-weight: normal;
-	margin: 32px 0px 28px 0px;
-}
-
-.payment-page .white-box .credit-card .borders {
-	border-top: 1px solid #dddddd;
-	border-bottom: 1px solid #dddddd;
-	margin: -7px 15px 0px;
-	padding-left: 10px;
-}	
-
-.payment-page .white-box .credit-card img {
-	margin: -59px 10px 0px 0px;
-}
-
-.payment-page .white-box .credit-card span {
-	font-size: 18px;
-	font-weight: 400;
-	color: #555;
-}
-
-.payment-page .white-box .credit-card .mm {
-	margin-top: -5px;
-	margin-left: 35px;
-	width: 30px; 
-	height: 15px
-}
-
-.payment-page .white-box .credit-card .yy {
-	margin-top: -5px;
-	margin-left: 15px;
-	width: 30px; 
-	height: 15px
-}
-
-.payment-page .white-box .credit-card .security-code {
-	margin-top: -5px;
-	margin-left: 15px;
-	width: 50px; 
-	height: 15px
-}
-
-.payment-page .white-box .credit-card .security {
-	margin-left: 38px;
-}
-
-.data {
-	margin-bottom: 20px;
-}
-
-.payment-page .white-box .billing-address h4 {
-	font-size: 19px;
-	font-weight: normal;
-	margin: 26px 15px 25px;
-}
-
-.payment-page .white-box .billing-address .borders {
-	margin-left: 8px;
-}
-
-.payment-page .white-box .controls span {
-	font-size: 18px;
-	font-weight: 400;
-	color: #555;
-	margin-left: 20px;
-}
-
-.payment-page .white-box .controls select {
-	width: 60px;
-	height: 30px;
-	font-size: 15px;
-	margin-left: 8px;
-	margin-right: 5px;
-}
-
-.payment-page .white-box .gender {
-	font-size: 18px;
-  font-weight: 400;
-	color: #555;
-	margin: 6px 84px 0 0;
- }
-
- .payment-page .white-box .gender label {
-	font-size: 19px;
-  font-family: Gill Sans;
-  font-weight: 300;
-	color: #111;
-	margin: -7px 0 0 10px;
- }
-
-.payment-page .white-box .controls .checkbox {
-	margin-left: 20px;
-	margin-top: 30px;
-	font-size: 18px;
-	font-weight: 400;
-	color: #555;
-}
-
-.payment-page .white-box .controls p {
-	margin-left: 20px;
-	margin-top: 30px;
-	font-size: 14px;
-	font-weight: 300;
-	color: #252525;
-}
-
-.payment-page .white-box .controls p a {
-	color: #7d7d7d;
-}
-
-.payment-page .white-box .purchase {
-	width: 225px;
-	font-size: 22px;
-	margin-top: 10px;
-	margin-left: 190px;
-}
-
-.payment-page .white-box .faq .border {
-	border-top: 1px solid #dddddd;
-	margin: -20px 15px -10px;
-}
-
-.payment-page .white-box .faq h5 {
-	margin: 17px 30px 0px;
-	font-size: 18px;
-	color: #555;
-	font-weight: bold;
-}
-
-.payment-page .white-box .faq p {
-	margin: 10px 30px 0px;
-	font-size: 16px;
-	font-weight: 400;
-	color: #555;
-}
-
-.payment-page .white-box .faq p:last-child {
 	margin-bottom: 40px;
 }
 
@@ -3427,8 +3170,9 @@ fieldset .controls {
 	margin-left: 30px;
 }
 
-.recommend .white-box fieldset input,
-.invite .white-box fieldset input {
+.recommend .white-box fieldset input[type="text"],
+.invite .white-box fieldset input[type="text"],
+.cart .shopping-box fieldset input[type="text"] {
 	border: 1px solid #fff;
 	border-top: 2px solid #d7d7d7;
 	width: 225px;
@@ -3991,7 +3735,12 @@ fieldset .controls {
 	margin: 10px 0 10px 88px;
 }
 
-.cart .shopping-box table th {
+.cart .shopping-box {
+	padding-bottom: 20px;
+}
+
+.cart .shopping-box table th,
+.cart .shopping-box fieldset span.subtitle {
 	font-size: 18px;
 	color: #363636;
 	font-weight: 400;
@@ -4002,7 +3751,8 @@ fieldset .controls {
 	width: 614px;
 }
 
-.cart .shopping-box table td {
+.cart .shopping-box table td,
+.cart .shopping-box fieldset span {
 	font-size: 14px;
 	color: #555;
 	font-weight: 400;
@@ -4034,6 +3784,7 @@ fieldset .controls {
 
 .cart .shopping-box td input[type="radio"] {
 	margin-right: 6px;
+	margin-top: 3px;
 }
 
 .cart .shopping-box td input[type="text"] {
@@ -4049,6 +3800,171 @@ fieldset .controls {
 .cart .shopping-box th.total,
 .cart .shopping-box td.total {
 	text-align: right;
+}
+
+.cart .shopping-box table td span {
+	margin: 0 0;
+	display: block;
+	position: absolute;
+	margin-top: 52px;
+	font-size: 16px;
+	color: #555;
+}
+
+.cart .shopping-box table td span.pay-today {
+	position: relative;
+	margin-top: 57px;
+}
+
+.cart .shopping-box .code {
+	margin: 0 20px;
+	border-top: 1px solid #ddd;
+}
+
+.cart .shopping-box .code input[type="text"] {
+	margin-left: 10px;
+	margin-top: -5px;
+}
+
+.cart .shopping-box .code input[type="submit"] {
+	margin-top: 25px;
+}
+
+.cart .shopping-box .subtotal table,
+.cart .shopping-box fieldset {
+	background-color: #ececec;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	margin: 0 30px;
+}
+
+.cart .shopping-box .subtotal table {
+	width: 285px;
+	float: right;
+}
+
+.cart .shopping-box .subtotal table td {
+	border-top: none;
+	font-size: 18px;
+	padding: 5px 20px;
+}
+
+.cart .shopping-box .subtotal td.subt {
+	padding-top: 20px;
+}
+
+.cart .shopping-box .subtotal td.value {
+	color: #363636;
+	text-align: right;
+	padding-top: 20px;
+}
+
+.cart .shopping-box .subtotal td.save {
+	color: #d02552;
+	text-align: right;
+}
+
+.cart .shopping-box .subtotal td.total {
+	color: #363636;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.cart .shopping-box p {
+	width: 600px;
+	color: #555;
+	margin: 30px;
+}
+
+.cart .shopping-box .span8 input.pink {
+	float: right;
+	margin-right: 16px;
+}
+
+.cart .shopping-box fieldset {
+	width: 576px;
+	padding: 20px 20px 8px 0;
+	margin-bottom: 30px;
+}
+
+.cart .shopping-box fieldset span.subtitle {
+	margin: 0 0 20px 20px;
+}
+
+.cart .shopping-box fieldset img {
+	margin: -8px -4px 0 0;
+}
+
+.cart .shopping-box fieldset input[type="text"] {
+	width: 250px;
+	margin: 20px 0 6px 20px;
+}
+
+.cart .shopping-box fieldset .date {
+	margin-left: 20px;
+}
+
+.cart .shopping-box fieldset input.input-mini {
+	width: 32px;
+	height: 16px;
+	margin: 10px 0 14px 0;
+}
+
+.cart .shopping-box fieldset span {
+	padding: 0;
+	margin: 0 20px 0 0;
+}
+
+.cart .shopping-box fieldset .controls {
+	margin-bottom: 0px;
+}
+
+.cart .shopping-box fieldset input.right {
+	margin-left: 27px;
+	-moz-margin-start: 24px;
+}
+
+.cart .shopping-box fieldset select {
+	width: 110px;
+	margin: 15px 0 0 27px;
+}
+
+.cart .shopping-box fieldset input[type="text"].zip {
+	width: 120px;
+	-moz-margin-start: 12px;
+}
+
+.cart .shopping-box fieldset label.checkbox {
+	margin: 20px 20px 10px;
+	color: #555;
+}
+
+.cart .shopping-box fieldset .span5 {
+	margin-left: 0px;
+}
+
+.cart .shopping-box fieldset textarea {
+	margin: 20px 0 15px 20px;
+	width: 340px;
+}
+
+.cart .shopping-box fieldset .span3 {
+	width: 190px;
+	margin-left: 0px;
+}
+
+.cart .shopping-box fieldset .span3 select {
+	width: 176px;
+	margin: 20px 0 0 20px;
+}
+
+.cart .shopping-box p.text13 {
+	font-size: 13px;
+}
+
+.cart .shopping-box p.text13 a {
+	color: #7d7d7d;
 }
 
 /* Buttons and text - default */
@@ -4083,7 +3999,7 @@ input.green[type="submit"] {
 
 a.green:hover,
 input.green[type="submit"]:hover {
-	color: #ffffff;
+	color: #fff;
 	border-color: #99cc00;
 	background-position: 0px;
 }
@@ -4115,6 +4031,7 @@ input.pink[type="submit"]:hover {
 	color: #fff;
 	background-color: #de6786;
 	background-position: 0px;
+	text-decoration: underline;
 }
 
 a.btn-large,
