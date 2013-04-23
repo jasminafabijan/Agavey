@@ -3518,8 +3518,8 @@ fieldset .controls {
 	text-decoration: underline;
 }
 
-.store .breadcrumb a:hover,
-.store .sidebar a:hover {
+.store .breadcrumb a.divider:hover,
+.store .sidebar a.category:hover {
 	color: #99cc00;
 } 
 
@@ -3609,12 +3609,8 @@ fieldset .controls {
 	color: #7d7d7d;
 }
 
-.store .sidebar a.btn-success {
-	margin-left: 64px;
-}
-
-.store .sidebar a.btn-success:hover {
-	color: #fff;
+.store .sidebar a.green {
+	margin: 20px 0 10px 58px;
 }
 
 .store .provider-box,
@@ -3716,7 +3712,7 @@ fieldset .controls {
 	width: 22px;
 }
 
-.store .provider-box a.btn-success {
+.store .provider-box a.green {
 	margin: 30px 0 0 270px;
 }
 
