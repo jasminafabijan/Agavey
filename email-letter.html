@@ -168,7 +168,7 @@
 	@section preheader link
 	@tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
 	*/
-		.preheaderContent a:link,.preheaderContent a:visited,.preheaderContent a .yshortcuts {
+		.preheaderContent a:link,.preheaderContent a:visited,.preheaderContent a .yshortcuts{
 			/*@editable*/color:#FFFFFF;
 			/*@editable*/font-weight:normal;
 			/*@editable*/text-decoration:underline;
@@ -207,7 +207,7 @@
 	@section header link
 	@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
 	*/
-		.headerContent a:link,.headerContent a:visited,.headerContent a .yshortcuts {
+		.headerContent a:link,.headerContent a:visited,.headerContent a .yshortcuts{
 			/*@editable*/color:#000000;
 			/*@editable*/font-weight:normal;
 			/*@editable*/text-decoration:underline;
@@ -216,8 +216,13 @@
 			height:auto;
 			max-width:600px;
 		}
-		.headerContent .logo2 {
-			float: right;
+		.agaveyLogoHolder{
+			text-align:right;
+			padding-right:20px;
+			padding-top:20px;
+		}
+		.agaveyLogoHolder .logoAgavey{
+			float:right;
 		}
 	/*
 	@tab Body
@@ -248,7 +253,7 @@
 	@section body title link
 	@tip Set the styling for your email's body title content links. Choose a color that helps them stand out from your text.
 	*/
-		.bodyTitleContent a:link,.bodyTitleContent a:visited,.bodyTitleContent a .yshortcuts {
+		.bodyTitleContent a:link,.bodyTitleContent a:visited,.bodyTitleContent a .yshortcuts{
 			/*@editable*/color:#202020;
 			/*@editable*/font-weight:normal;
 			/*@editable*/text-decoration:underline;
@@ -275,7 +280,7 @@
 	@section body link
 	@tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
 	*/
-		.bodyContent a:link,.bodyContent a:visited,.bodyContent a .yshortcuts {
+		.bodyContent a:link,.bodyContent a:visited,.bodyContent a .yshortcuts{
 			/*@editable*/color:#C52E26;
 			/*@editable*/font-weight:normal;
 			/*@editable*/text-decoration:none;
@@ -315,7 +320,7 @@
 	@section footer link
 	@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
 	*/
-		.footerContent a:link,.footerContent a:visited,.footerContent a .yshortcuts,.footerContent a span {
+		.footerContent a:link,.footerContent a:visited,.footerContent a .yshortcuts,.footerContent a span{
 			/*@editable*/color:#555555;
 			/*@editable*/font-weight:normal;
 			/*@editable*/text-decoration:underline;
@@ -491,9 +496,10 @@
                                 	<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
                                     	<tr>
                                             <td class="headerContent">
-                                            	<img src="http://gallery.mailchimp.com/75f96eed47bf8a86ede79d407/images/renshaw_logo_small.1.png" style="max-width:600px;" id="headerImage" mc:edit="renshaw_image">
-                                            	<
-                                            	<img src="img/logo-email.png" class="logo2" style="max-width:300px;" id="headerImage2" mc:edit="agavey_image">
+                                            	<img src="http://gallery.mailchimp.com/75f96eed47bf8a86ede79d407/images/renshaw_logo_small.1.png" style="max-width:300px;" id="headerImage" mc:edit="renshaw_image">
+                                            </td>
+                                            <td class="agaveyLogoHolder">
+                                            	<img src="http://gallery.mailchimp.com/75f96eed47bf8a86ede79d407/images/logo_email.png" class="logoAgavey" style="max-width:300px;" id="headerImage2" mc:edit="agavey_image">
                                             </td>
                                         </tr>
                                     </table>                                	
@@ -571,7 +577,7 @@
                                 	<!-- BEGIN FOOTER -->
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
                                     	<tr>
-                                        	<td valign="top" class="footerContent" mc:edit="footer_content00"><span style="color:#555555;"><span style="font-size: 14px; "><span style="font-family: 'helvetica neue', helvetica, arial, sans-serif; "><span style="margin-right: 20px; ">Connect with Us</span></span></span></span><a href="*|FACEBOOK:PROFILEURL|*"><img src="img/connect-fb-icon-email.png" class="fb"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="*|TWITTER:PROFILEURL|*"><img src="img/connect-t-icon.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="*|PINTEREST|*"><img src="img/connect-p-icon-email.png"></a>&nbsp; </td>
+                                        	<td valign="top" class="footerContent" mc:edit="footer_content00"><span style="color:#555555;"><span style="font-size: 14px; "><span style="font-family: 'helvetica neue', helvetica, arial, sans-serif; "><span style="margin-right: 20px; ">Connect with Us</span></span></span></span><a href="*|FACEBOOK:PROFILEURL|*"><img align="none" class="fb" height="20" src="http://gallery.mailchimp.com/75f96eed47bf8a86ede79d407/images/connect_fb_icon_email.png" style="width: 23px; height: 20px; " width="23"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="*|TWITTER:PROFILEURL|*"><img align="none" height="20" src="http://gallery.mailchimp.com/75f96eed47bf8a86ede79d407/images/connect_t_icon.png" style="width: 23px; height: 20px; " width="23"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="*|PINTEREST|*"><img align="none" height="20" src="http://gallery.mailchimp.com/75f96eed47bf8a86ede79d407/images/connect_p_icon_email.png" style="width: 23px; height: 20px; " width="23"></a>&nbsp; </td>
                                         </tr>
                                     	<tr>
                                         	<td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content01"><span style="color:#555555;"><span style="font-size: 14px; "><span style="font-family: 'helvetica neue', helvetica, arial, sans-serif; ">Agavey Inc.,2094 N.Bridge Drive, Germantown, TN-38139</span></span><br>
