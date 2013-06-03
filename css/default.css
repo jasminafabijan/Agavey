@@ -3064,6 +3064,8 @@ fieldset .controls {
 .customer-additional .sub-menu {
 	background-color: #7d7d7d;
 	margin-top: 100px;
+	position: fixed;
+	z-index: 500;
 }
 
 .customer-additional .sub-menu a.profile {
