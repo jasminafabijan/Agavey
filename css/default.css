@@ -1836,7 +1836,14 @@ body {
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret, 
 .navbar .nav li.dropdown.active > .dropdown-toggle .caret, 
 .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret,
-.navbar .nav li.dropdown > .dropdown-toggle .caret {
+.navbar .nav li.dropdown > .dropdown-toggle .caret,
+.my-orders .nav li.dropdown.open > .dropdown-toggle,
+.my-orders .nav li.dropdown.open.active { background-color: #ebebeb; color: #99cc00; }
+
+.my-orders .nav li.dropdown.open > .dropdown-toggle .caret, 
+.my-orders .nav li.dropdown.active > .dropdown-toggle .caret, 
+.my-orders .nav li.dropdown.open.active > .dropdown-toggle .caret,
+.my-orders .nav li.dropdown > .dropdown-toggle .caret {
 	border-top-color: #99cc00;
 	border-bottom-color: #99cc00;
 }
@@ -3157,7 +3164,8 @@ fieldset .controls {
 }
 
 .recommend .white-box fieldset,
-.invite .white-box fieldset {
+.invite .white-box fieldset,
+.my-orders .white-box fieldset {
 	background: #ebebeb;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -3201,7 +3209,9 @@ fieldset .controls {
 	margin: 20px 0 0 60px;
 }
 
-.my-profile .white-box label {
+.my-profile .white-box label,
+.communication .white-box label,
+.my-reviews .white-box label {
 	font-size: 16px;
 	color: #636363;
 }
@@ -3252,8 +3262,6 @@ fieldset .controls {
 
 .communication .white-box label,
 .my-reviews .white-box label {
-	font-size: 16px;
-	color: #636363;
 	margin-right: 30px;
 }
 
@@ -3495,6 +3503,68 @@ fieldset .controls {
 	margin: 25px 0 15px;
 }
 
+/* Orders - shared */
+
+.my-orders .white-box {
+	padding-bottom: 50px;
+}
+
+.my-orders .white-box fieldset {
+	padding-top: 20px;
+	padding-bottom: 2px;
+	margin-top: 30px;
+}
+
+.my-orders fieldset .span2 {
+	width: 90px;
+}
+
+.my-orders fieldset .span4 {
+	width: 340px;
+}
+
+.my-orders fieldset img {
+	width: 80px;
+	height: 93px;
+}
+
+.my-orders span {
+	color: #555;
+}
+
+.my-orders fieldset span.date {
+	float: right;
+	margin-right: 20px;
+}
+
+.my-orders fieldset ul.nav {
+	font-size: 14px;
+	color: #555;
+}
+
+.my-orders fieldset li.space {
+	color: #ccc;
+	padding: 0 12px;
+}
+
+.my-orders fieldset ul em {
+	font-size: 12px;
+}
+
+.my-orders fieldset a.btn {
+	margin: 0px 30px 0 0;
+	float: left;
+}
+
+.my-orders fieldset ul.actions {
+	float: left;
+	margin-top: 5px;
+}
+
+.my-orders fieldset ul a.dropdown-toggle {
+	color: #555;
+}
+
 /* Vendor store */
 
 .store .navbar .nav > li > a.dropdown-toggle {
@@ -3629,7 +3699,6 @@ fieldset .controls {
 
 .store .provider-box p.text16 {
 	margin: 20px 30px;
-	font-size: 16px;
 }
 
 .store .provider-box h4 {
@@ -3720,6 +3789,15 @@ fieldset .controls {
 	margin: 30px 0 0 270px;
 }
 
+/* Image style */
+#scrollUp {
+	bottom: 20px;
+	right: 20px;
+	height: 38px;  /* Height of image */
+	width: 38px; /* Width of image */
+	background: url(../img/top.png) no-repeat;
+}
+
 /* Shopping Cart */
 
 .cart .sidebar h4 {
@@ -3727,7 +3805,6 @@ fieldset .controls {
 }
 
 .cart .sidebar p.text16 {
-	font-size: 16px;
 	text-align: center;
 }
 
@@ -4044,12 +4121,9 @@ input.btn-large[type="submit"] {
 	font-weight: bold;
 }
 
-/* Image style */
-#scrollUp {
-	bottom: 20px;
-	right: 20px;
-	height: 38px;  /* Height of image */
-	width: 38px; /* Width of image */
-	background: url(../img/top.png) no-repeat;
+/* text - shared */
+
+p.text16 {
+	font-size: 16px;
 }
 
