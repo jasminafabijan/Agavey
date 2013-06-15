@@ -2977,12 +2977,14 @@ fieldset .controls {
 
 /* Customer - additional - My Account */
 
-.customer-additional .main-menu {
+.customer-additional .main-menu,
+.vendor-additional .main-menu {
 	margin-top: 50px;
 	z-index: 1;
 }
 
-.customer-additional .main-menu .navbar-inner {
+.customer-additional .main-menu .navbar-inner,
+.vendor-additional .main-menu .navbar-inner {
 	background: #e6e6e6;
 	height: 50px;
 	background-image: -webkit-linear-gradient(top, #e6e6e6, #d3d3d3);
@@ -2992,7 +2994,8 @@ fieldset .controls {
   font-size: 15px;
 }
 
-.customer-additional .navbar ul.active {
+.customer-additional .navbar ul.active,
+.vendor-additional .navbar ul.active {
 	background-color: #7d7d7d;
 	margin-top: 17px;
 	-webkit-border-top-left-radius: 6px;
@@ -3004,14 +3007,16 @@ fieldset .controls {
 	height: 35px;
 }
 
-.customer-additional .navbar .nav a.account {
+.customer-additional .navbar .nav a.account,
+.vendor-additional .navbar .nav a.account {
 	background: url(../img/my-account-icon.png) no-repeat;
 	background-position: 0px;
 	padding-left: 28px;
 	margin-left: 6px;
 }
 
-.customer-additional .navbar .active > li > a {
+.customer-additional .navbar .active > li > a,
+.vendor-additional .navbar .active > li > a {
 	padding: 8px 10px 2px 4px;
 }
 
@@ -3049,7 +3054,8 @@ fieldset .controls {
 	background-position: 0px;
 }
 
-.customer-additional .navbar .connect p {
+.customer-additional .navbar .connect p,
+.vendor-additional .navbar .connect p {
 	font-size: 14px;
 	color: #363636;
 	margin-top: 16px;
@@ -3061,7 +3067,8 @@ fieldset .controls {
 	margin-top: 2px;
 }
 
-.customer-additional .sub-menu {
+.customer-additional .sub-menu,
+.vendor-additional .sub-menu {
 	background-color: #7d7d7d;
 	margin-top: 100px;
 	position: fixed;
