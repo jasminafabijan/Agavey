@@ -1836,14 +1836,7 @@ body {
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret, 
 .navbar .nav li.dropdown.active > .dropdown-toggle .caret, 
 .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret,
-.navbar .nav li.dropdown > .dropdown-toggle .caret,
-.my-orders .nav li.dropdown.open > .dropdown-toggle,
-.my-orders .nav li.dropdown.open.active { background-color: #ebebeb; color: #99cc00; }
-
-.my-orders .nav li.dropdown.open > .dropdown-toggle .caret, 
-.my-orders .nav li.dropdown.active > .dropdown-toggle .caret, 
-.my-orders .nav li.dropdown.open.active > .dropdown-toggle .caret,
-.my-orders .nav li.dropdown > .dropdown-toggle .caret {
+.navbar .nav li.dropdown > .dropdown-toggle .caret {
 	border-top-color: #99cc00;
 	border-bottom-color: #99cc00;
 }
@@ -3503,6 +3496,30 @@ fieldset .controls {
 	margin: 25px 0 15px;
 }
 
+/* Datepicker */
+
+.date input.span2 {
+	width: 90px;
+	margin-top: 10px;
+	padding: 2px 4px;
+}
+
+.input-append input {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.navbar .nav > li.range {
+	text-shadow: none;
+	color: #fff;	
+	padding: 14px 8px 10px 15px;
+}
+
+.my-orders input.green[type="submit"] {
+	margin: 10px 0 0 8px;
+}
+
 /* Orders - shared */
 
 .my-orders .white-box {
@@ -3564,6 +3581,18 @@ fieldset .controls {
 .my-orders fieldset ul a.dropdown-toggle {
 	color: #555;
 }
+
+.my-orders fieldset .nav li.dropdown.open > .dropdown-toggle,
+.my-orders fieldset .nav li.dropdown.open.active { background-color: #ebebeb; color: #99cc00; }
+
+.my-orders fieldset .nav li.dropdown.open > .dropdown-toggle .caret, 
+.my-orders fieldset .nav li.dropdown.active > .dropdown-toggle .caret, 
+.my-orders fieldset .nav li.dropdown.open.active > .dropdown-toggle .caret,
+.my-orders fieldset .nav li.dropdown > .dropdown-toggle .caret {
+	border-top-color: #99cc00;
+	border-bottom-color: #99cc00;
+}
+
 
 /* Vendor store */
 
