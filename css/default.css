@@ -3021,13 +3021,16 @@ fieldset .controls {
 }
 
 .customer-additional .navbar .active > li > a:focus, 
-.customer-additional .navbar .active > li > a:hover {
+.customer-additional .navbar .active > li > a:hover,
+.vendor-additional .navbar .active > li > a:focus, 
+.vendor-additional .navbar .active > li > a:hover {
 	color: #fff;
 	text-decoration: none;
 	background-position: 0px;
 }
 
-.customer-additional .navbar .nav a.orders {
+.customer-additional .navbar .nav a.orders,
+.vendor-additional .navbar .nav a.orders {
 	background: url(../img/my-orders-icon.png) no-repeat;
 	background-position: 0px;
 	padding-left: 32px;
@@ -3041,14 +3044,17 @@ fieldset .controls {
 	margin-left: 12px;
 }
 
-.customer-additional .navbar .passive > li > a {
+.customer-additional .navbar .passive > li > a,
+.vendor-additional .navbar .passive > li > a {
 	padding: 10px 6px;
 	margin-top: 15px;
 	color: #707070;
 }
 
 .customer-additional .navbar .passive > li > a:focus, 
-.customer-additional .navbar .passive > li > a:hover {
+.customer-additional .navbar .passive > li > a:hover,
+.vendor-additional .navbar .passive > li > a:focus, 
+.vendor-additional .navbar .passive > li > a:hover {
 	color: #99cc00;
 	text-decoration: none;
 	background-position: 0px;
@@ -3062,7 +3068,8 @@ fieldset .controls {
 	margin-right: 15px;
 } 
 
-.customer-additional .navbar .connect li {
+.customer-additional .navbar .connect li,
+.vendor-additional .navbar .connect li {
 	margin-left: -15px;
 	margin-top: 2px;
 }
@@ -3117,7 +3124,8 @@ fieldset .controls {
 	margin-left: 4px;
 }
 
-.customer-additional .sub-menu li {
+.customer-additional .sub-menu li,
+.vendor-additional .sub-menu li {
 	font-size: 14px;
 }
 
@@ -3126,13 +3134,15 @@ fieldset .controls {
   color: #fff;
 }
 
-.customer-additional .white-box {
+.customer-additional .white-box,
+.vendor-additional .white-box {
 	margin-top: 200px;
 	margin-bottom: 0px;
 	width: 750px;
 }
 
-.customer-additional .white-box h1 {
+.customer-additional .white-box h1,
+.vendor-additional .white-box h1 {
 	font-size: 24px;
 	margin-left: 90px;
 }
@@ -3600,6 +3610,28 @@ fieldset .controls {
 	border-bottom-color: #99cc00;
 }
 
+/* Vendor - additional */
+
+.vendor-additional .navbar .nav a.services {
+	background: url(../img/my-services-icon.png) no-repeat;
+	background-position: 0px;
+	padding-left: 32px;
+	margin-left: 6px;
+}
+
+.vendor-additional .navbar .nav a.payments {
+	background: url(../img/my-payment-icon.png) no-repeat;
+	background-position: 0px;
+	padding-left: 22px;
+	margin-left: 6px;
+}
+
+.vendor-additional .navbar .nav a.cCenter {
+	background: url(../img/c.center-icon.png) no-repeat;
+	background-position: 0px;
+	padding-left: 32px;
+	margin-left: -2px;
+}
 
 /* Vendor store */
 
@@ -4155,6 +4187,10 @@ input.btn-large[type="submit"] {
 	padding-top: 9px;
 	padding-bottom: 9px;
 	font-weight: bold;
+}
+
+input.btn-small[type="submit"] {
+	height: 26px;
 }
 
 /* text - shared */
