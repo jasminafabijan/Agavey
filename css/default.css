@@ -3557,6 +3557,10 @@ fieldset .controls {
 	width: 340px;
 }
 
+.my-orders fieldset .span5 {
+	width: 420px;
+}
+
 .my-orders fieldset img {
 	width: 80px;
 	height: 93px;
@@ -3583,6 +3587,10 @@ fieldset .controls {
 
 .my-orders fieldset ul em {
 	font-size: 12px;
+}
+
+.my-orders fieldset .navbar {
+	margin-bottom: 15px;
 }
 
 .my-orders fieldset a.btn {
@@ -3632,6 +3640,16 @@ fieldset .controls {
 	padding-left: 32px;
 	margin-left: -2px;
 }
+
+/* Vendor - My Orders */
+
+.my-orders fieldset li.status {
+	padding-top: 10px;
+}
+
+.my-orders fieldset .vendor-action {
+	margin-left: 130px;
+} 
 
 /* Vendor store */
 
