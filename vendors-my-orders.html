@@ -85,11 +85,23 @@
     <div class="navbar navbar-fixed-top sub-menu">
       <div class="container">
         <ul class="nav">
-          <li><a href="#" class="active">All Orders</a></li>
-          <li><a href="#">Estimate Orders</a></li>
-          <li><a href="#">Buy Orders</a></li>
-          <li><a href="#">Newer Orders</a></li>
-          <li><a href="#">Oldest Orders</a></li>
+          <li>
+            <div class="btn-group">
+              <img src="img/filter-icon.png" class="btn">
+              <button class="btn">Newest</button>
+              <button class="btn">Estimate</button>
+              <button class="btn">Buy</button>
+              <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">More
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu pull-right">
+                <li class="border"><a href="#">Filter 1</a></li>
+                <li class="border"><a href="#">Filter 2</a></li>
+                <li class="border"><a href="#">Filter 3</a></li>
+                <li class="no-border"><a href="#">Filter 4</a></li>
+              </ul>
+            </div>
+          </li>
           <li class="range">From</li>
           <li>
             <div class="input-append date" data-date="12-02-2012">

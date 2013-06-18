@@ -3539,6 +3539,29 @@ fieldset .controls {
 
 /* Orders - shared */
 
+.my-orders .sub-menu .btn-group {
+	margin-top: 8px;
+	margin-right: 10px;
+}
+
+.my-orders .sub-menu .btn-group img.btn {
+	cursor: inherit;
+}
+
+.my-orders .sub-menu .btn-group img.btn:hover {
+	background-color: #f5f5f5;
+	background-position: 0px;
+}
+
+.my-orders .sub-menu .btn-group .btn {
+	color: #555;
+}
+
+.my-orders .sub-menu .btn-group .caret {
+	border-top-color: #99cc00;
+	border-bottom-color: #99cc00;
+}
+
 .my-orders .white-box {
 	padding-bottom: 50px;
 }
