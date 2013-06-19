@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Agavey-schedule</title>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+      
+      <script src="./js/jquery.js" type="text/javascript"></script>
+      <script src="./js/jquery.placeholder.js" type="text/javascript"></script>
+      <script src="./js/bootstrap.dropdown.js" type="text/javascript"></script>
+      <script src="./js/bootstrap.datepicker.js" type="text/javascript"></script>
+      
+      <script type="text/javascript">
+      	$(document).ready(function(){           
+          $('#regularDate').datepicker();
+          $('#startDate').datepicker();
+          $('#endDate').datepicker();        
+
+  	    	$('input, textarea').placeholder();
+      	});
+      </script>
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/datepicker.css" rel="stylesheet" type="text/css" />
+    <link href="css/default.css" rel="stylesheet" type="text/css" />
+    
+  </head>
+
+  <body class="vendor-additional schedule">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner main-nav">
+        <div class="container">
+          <a class="brand" href="#"><img src="img/logo.png" alt="logo" /></a>
+
+          <ul class="nav pull-right">
+            <li><a class="home" href="#">Home</a></li>
+            <li><a href="#">Inbox</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="icon-user icon-white"></i> John
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu pull-right">
+                <li class="border"><a href="#">My Account</a></li>
+                <li class="border"><a href="#">My Email</a></li>
+                <li class="border"><a href="#">Invite Friends</a></li>
+                <li class="no-border"><a href="#">Logout</a></li>
+              </ul>
+            </li>       
+          </ul>
+        </div>
+      </div>
+    </div> <!-- navbar -->
+
+    <div class="container">
+      <div class="row">
+        <div class="span3 sidebar">
+          <ul>
+            <li><a href="#">Action 1</a></li>
+            <li><a href="#">Action 2</a></li>
+            <li><a href="#">Action 3</a></li>
+            <li><a href="#">Action 4</a></li>
+            <li><a href="#">Action 5</a></li>
+          </ul>
+        </div>
+        <div class="span9 provider-box">
+          <span class="title">Schedule Service</span>
+          <div class="date-time"> 
+            <span>Date</span>
+            <div class="input-append date span2" data-date="12-02-2012">
+              <input class="span2" size="14" type="text" value="12/01/2012" id="regularDate">
+            </div>
+            <select>
+              <option>Time or Time of Day</option>
+              <option>Morning</option>
+              <option>Afternoon</option>
+              <option>Evening</option>
+            </select>
+          </div>
+          <div class="recuring">
+            <span>Is this a recurring service?</span>
+            <label class="radio inline">
+              <input type="radio" name="optionsPinterest" value="option1">
+              Yes
+            </label>
+            <label class="radio inline">
+              <input type="radio" name="optionsPinterest" value="option2">
+              No
+            </label>
+          </div>
+          <div class="recuring">
+            <span>Recurrence pattern:</span>
+            <label class="radio inline">
+              <input type="radio" name="optionsPinterest" value="option1">
+              Weekly
+            </label>
+            <label class="radio inline">
+              <input type="radio" name="optionsPinterest" value="option2">
+              Monthly
+            </label>
+            <label class="radio inline">
+              <input type="radio" name="optionsPinterest" value="option3">
+              Yearly
+            </label>
+          </div>
+          <div class="return">
+            <span>Recur every</span>
+            <input type="text">  
+            <span>week(s)</span>
+            <div class="options">
+              <label class="checkbox inline">
+                <input type="checkbox" value="option1"> Monday
+              </label>
+              <label class="checkbox inline">
+                <input type="checkbox" value="option2"> Tuesday
+              </label>
+              <label class="checkbox inline">
+                <input type="checkbox" value="option3"> Wednesday
+              </label>
+              <label class="checkbox inline">
+                <input type="checkbox" value="option3"> Thursday
+              </label>
+              <label class="checkbox inline">
+                <input type="checkbox" value="option3"> Friday
+              </label>
+              <label class="checkbox inline">
+                <input type="checkbox" value="option3"> Saturday
+              </label>
+              <label class="checkbox inline">
+                <input type="checkbox" value="option3"> Sunday
+              </label>
+            </div>
+          </div>
+          <div class="recuring">
+            <span>Range of recurrence</span>
+          </div>
+          <div class="date-time span3"> 
+            <span>Date</span>
+            <div class="input-append date span2" data-date="12-02-2012">
+              <input class="span2" size="14" type="text" value="12/01/2012" id="startDate">
+            </div>
+          </div>
+          <div class="end-time span4">
+            <label class="radio inline">
+              <input type="radio" name="optionsPinterest" value="option1">
+              No end date
+            </label><br>
+            <label class="radio inline">
+              <input type="radio" name="optionsPinterest" value="option2">
+              End after
+            </label>
+            <input type="text" class="number">
+            <p>occurrences</p>
+            <div class="date-time span3"> 
+              <span>End by</span>
+              <div class="input-append date span2" data-date="12-02-2012">
+                <input class="span2" size="14" type="text" value="12/01/2012" id="endDate">
+              </div>
+            </div>
+          </div>
+          <div class="span4 pull-right">
+            <a href="#" class="cancel">Cancel</a>
+            <input type="submit" class="btn btn-large btn-primary pink" value="Submit">
+          </div> 
+        </div> <!-- white-box -->
+      </div> <!-- row -->
+      
+      <footer class="navbar footer">
+        <ul class="nav footer-links">
+          <li><a href="#i">About Us</a></li>
+          <li class="space">|</li>
+          <li><a href="#h">Policies</a></li>
+          <li class="space">|</li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li class="space">|</li>
+          <li><a href="#contact">Merchants</a></li>
+          <li class="space">|</li>
+          <li><a href="#i">Tell Us what you need</a></li>
+        </ul>
+      </footer>
+
+    </div> <!-- /container -->
+    
+  </body>
+</html>
