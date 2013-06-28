@@ -1485,7 +1485,9 @@ body {
 }
 
 .survey-page .white-box .steps .own-home p,
-.survey-page .white-box .steps .services-spend p {
+.survey-page .white-box .steps .services-spend p,
+.schedule .provider-box .recuring span,
+.schedule .provider-box .recuring-range span {
 	font-size: 16px;
 	color: #555;
 }
@@ -1644,7 +1646,8 @@ body {
 
 .voucher .white-box .content p,
 .schedule .provider-box .return span,
-.schedule .provider-box .return .checkbox {
+.schedule .provider-box .return .checkbox,
+.schedule .provider-box label {
 	font-size: 14px;
 	color: #555555;
 	font-weight: 400;
@@ -3225,8 +3228,7 @@ fieldset .controls {
 
 .my-profile .white-box label,
 .communication .white-box label,
-.my-reviews .white-box label,
-.schedule .provider-box label {
+.my-reviews .white-box label {
 	font-size: 16px;
 	color: #636363;
 }
@@ -3719,7 +3721,8 @@ fieldset .controls {
 .sidebar p,
 .store .sidebar li,
 .store .sidebar li a,
-.schedule .sidebar li a {
+.schedule .sidebar li a,
+.schedule .provider-box .date-time-range span {
 	color: #555;
 	font-size: 14px;
 	font-weight: 400;
@@ -4177,7 +4180,6 @@ fieldset .controls {
 
 .schedule span.title {
 	font-size: 24px;
-	margin-bottom: 20px;
 }
 
 .schedule .sidebar ul {
@@ -4185,7 +4187,7 @@ fieldset .controls {
 }
 
 .schedule .provider-box .date-time {
-	margin: 20px 0 0 30px;
+	margin: 40px 0 0 30px;
 }
 
 .schedule .provider-box .date-time span {
@@ -4207,19 +4209,24 @@ fieldset .controls {
 	margin: 20px 30px 0 30px;
 }
 
-.schedule .provider-box .recuring span {
+.schedule .provider-box .recuring .subtitle {
+	padding-top: 20px;
+}
+
+.schedule .provider-box .recuring p {
 	font-size: 18px;
 	color: #898989;
-	margin-right: 20px;
+	margin: -25px 0 30px 40px;
 }
 
 .schedule .provider-box .recuring label {
 	margin: -12px 10px 0 20px;
 }
 
-.schedule .provider-box .return {
+.schedule .provider-box .recuring-range {
+	margin: 25px 30px 0 30px;
 	border-top: 1px solid #ddd;
-	padding-top: 20px;
+	padding-top: 25px;
 }
 
 .schedule .provider-box .return input[type="text"] {
@@ -4233,6 +4240,23 @@ fieldset .controls {
 .schedule .provider-box .return .checkbox {
 	margin-right: 30px;
 	margin-left: 0px;
+}
+
+.schedule .provider-box .return .radio {
+	margin-bottom: 10px;
+}
+
+.schedule .provider-box .select {
+	margin-top: 10px;
+}
+
+.schedule .provider-box .return select {
+	width: 100px;
+	margin: 0 10px 0 10px;
+}
+
+.schedule .provider-box .date-time-range {
+	margin: 20px 0 0 30px;
 }
 
 .schedule .provider-box .end-time {
@@ -4251,8 +4275,16 @@ fieldset .controls {
 	margin-left: 0px;
 }
 
+.schedule .provider-box .date-time-range span {
+	float: left;
+}
+
 .schedule .provider-box .end-time .date-time span {
 	font-size: 14px;
+}
+
+.schedule .provider-box .end-by {
+	margin-top: 20px;
 }
 
 .schedule .provider-box .pull-right {

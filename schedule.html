@@ -83,29 +83,31 @@
           <div class="recuring">
             <span>Is this a recurring service?</span>
             <label class="radio inline">
-              <input type="radio" name="optionsPinterest" value="option1">
+              <input type="radio" name="optionsRecurring" value="option1">
               Yes
             </label>
             <label class="radio inline">
-              <input type="radio" name="optionsPinterest" value="option2">
+              <input type="radio" name="optionsRecurring" value="option2">
               No
             </label>
           </div>
+          
           <div class="recuring">
+            <div class="subtitle">
+              <img src="img/recurrence-icon.png" alt="icon">
+              <p>Appointment Recurrence</p>
+            </div>
             <span>Recurrence pattern:</span>
             <label class="radio inline">
-              <input type="radio" name="optionsPinterest" value="option1">
+              <input type="radio" name="optionsPeriod" value="option1">
               Weekly
             </label>
             <label class="radio inline">
-              <input type="radio" name="optionsPinterest" value="option2">
+              <input type="radio" name="optionsPeriod" value="option2">
               Monthly
             </label>
-            <label class="radio inline">
-              <input type="radio" name="optionsPinterest" value="option3">
-              Yearly
-            </label>
           </div>
+          <!-- weekly -->
           <div class="return">
             <span>Recur every</span>
             <input type="text">  
@@ -134,33 +136,69 @@
               </label>
             </div>
           </div>
-          <div class="recuring">
+          <!-- monthly -->
+          <div class="return">
+            <label class="radio inline">
+              <input type="radio" name="optionsDay" value="option1">
+              Day
+            </label> 
+            <input type="text">  
+            <span>of every</span>
+            <input type="text">  
+            <span>month(s)</span>
+          </div>
+          <div class="return select">
+            <label class="radio inline">
+              <input type="radio" name="optionsDay" value="option1">
+              The
+            </label> 
+            <select>
+              <option>First</option>
+              <option>Second</option>
+              <option>Third</option>
+              <option>Fourth</option>
+            </select>
+            <select>
+              <option>Monday</option>
+              <option>Tuesday</option>
+              <option>Wednesday</option>
+              <option>Thursday</option>
+              <option>Friday</option>
+              <option>Saturday</option>
+              <option>Sunday</option>
+            </select> 
+            <span>of every</span>
+            <input type="text">  
+            <span>month(s)</span>
+          </div>
+
+          <div class="recuring-range">
             <span>Range of recurrence</span>
           </div>
-          <div class="date-time span3"> 
-            <span>Date</span>
+          <div class="date-time-range span3"> 
+            <span>Start</span>
             <div class="input-append date span2" data-date="12-02-2012">
               <input class="span2" size="14" type="text" value="12/01/2012" id="startDate">
             </div>
           </div>
           <div class="end-time span4">
             <label class="radio inline">
-              <input type="radio" name="optionsPinterest" value="option1">
+              <input type="radio" name="optionsDate" value="option1">
               No end date
             </label><br>
             <label class="radio inline">
-              <input type="radio" name="optionsPinterest" value="option2">
+              <input type="radio" name="optionsDate" value="option2">
               End after
             </label>
             <input type="text" class="number">
             <p>occurrences</p>
-            <div class="date-time span3"> 
+            <div class="date-time end-by span3"> 
               <span>End by</span>
               <div class="input-append date span2" data-date="12-02-2012">
                 <input class="span2" size="14" type="text" value="12/01/2012" id="endDate">
               </div>
             </div>
-          </div>
+          </div> 
           <div class="span4 pull-right">
             <a href="#" class="cancel">Cancel</a>
             <input type="submit" class="btn btn-large btn-primary pink" value="Submit">
