@@ -577,19 +577,17 @@ body {
 	font-weight: bold;
 }
 
-.provider-box p {
+.provider-box p,
+.provider-box li,
+.provider-box address {
 	font-size: 15px;
 	font-weight: 400;
 	color: #555;
 	margin-left: 15px;
-	margin-right: 10px;
 }
 
-.provider-box li {
-	font-size: 15px;
-	font-weight: 400;
-	color: #555;
-	margin-left: 15px;
+.provider-box p {
+	margin-right: 10px;
 }
 
 .provider-box strong {
@@ -598,10 +596,6 @@ body {
 }
 
 .provider-box address {
-	font-size: 15px;
-	font-weight: 400;
-	color: #555;
-	margin-left: 15px;
 	margin-top: 20px;
 }
 
@@ -647,12 +641,6 @@ body {
 } 
 
 .review-box blockquote.clearfix cite {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 15px;
-	font-style: italic;
-	color: #555;
-	float: right;
-	margin-right: 10px;
 	margin-bottom: 5px;
 }
 
@@ -669,7 +657,8 @@ body {
 	margin-top: -15px;
 } 
 
-.review-box blockquote.white cite {
+.review-box blockquote.white cite,
+.review-box blockquote.clearfix cite {
 	font-size: 15px;
 	font-style: italic;
 	color: #555;
@@ -705,19 +694,16 @@ body {
 	margin-top: 30px;
 }
 
+.service-box li,
 .service-box p {
 	font-size: 15px;
 	font-weight: 400;
 	color: #555;
 	margin-left: 15px;
-	margin-right: 10px;
 }
 
-.service-box li {
-	font-size: 15px;
-	font-weight: 400;
-	color: #555;
-	margin-left: 15px;
+.service-box p {
+	margin-right: 10px;
 }
 
 .service-box h4 {
