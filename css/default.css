@@ -477,7 +477,7 @@ body {
 }
 
 .information .price a:hover,
-.blog .sidebar a:hover {
+.blog a:hover {
 	text-decoration: none;
 }
 
@@ -556,7 +556,7 @@ body {
 .provider-box,
 .sidebar,
 .cart .shopping-box,
-.blog-box {
+.blog .main-box {
 	background-color: #fff;
 	margin-top: 30px;
 	width: 370px;
@@ -3697,7 +3697,8 @@ fieldset .controls {
 .store .breadcrumb a.divider:hover,
 .store .sidebar a.category:hover,
 .schedule .sidebar a:hover,
-.blog .sidebar a:hover {
+.blog .sidebar a:hover,
+.blog .main-box a:hover {
 	color: #99cc00;
 } 
 
@@ -3713,8 +3714,10 @@ fieldset .controls {
 .store .sidebar li a,
 .schedule .sidebar li a,
 .schedule .provider-box .date-time-range span,
-.blog .sidebar li,
-.blog .sidebar li a {
+.blog li,
+.blog li a,
+.blog .main-box span,
+.blog .main-box a {
 	color: #555;
 	font-size: 14px;
 	font-weight: 400;
@@ -3801,7 +3804,7 @@ fieldset .controls {
 .store .provider-box,
 .cart .shopping-box,
 .schedule .provider-box,
-.blog-box {
+.blog .main-box {
 	width: 656px;
 	margin: 0 0 0 30px;
 	padding-top: 30px;
@@ -4345,12 +4348,49 @@ fieldset .controls {
 	border-bottom: none;
 }
 
-.blog .blog-box .span1 {
+.blog .main-box .span1 {
 	text-align: center;
+}
+
+.blog .main-box a.date {
 	font-size: 16px;
 	color: #d02552;
 }
 
+.blog .main-box a.date:hover {
+	color: #555;
+}
+
+.blog .main-box .span7 {
+	width: 510px;
+	padding: 0 20px 0 25px;
+	border-left: 1px solid #ebebeb;
+}
+
+.blog .main-box .span7 h4 {
+	margin: 0px 0 15px 0;
+}
+
+.blog .main-box span.location {
+	border-right: 1px solid #ebebeb;
+	padding-right: 12px;
+}
+
+.blog .main-box span.comments {
+	padding-left: 8px;
+}
+
+.blog .main-box span.share {
+	float: right;
+}
+
+.blog .main-box img.icon {
+	margin: -9px 10px 0 0;
+}
+
+.blog .main-box img.mail-icon {
+	margin-top: -6px;
+}
 
 /* Buttons and text - default */
 
