@@ -476,7 +476,8 @@ body {
 	margin-right: 2px;
 }
 
-.information .price a:hover {
+.information .price a:hover,
+.blog .sidebar a:hover {
 	text-decoration: none;
 }
 
@@ -554,7 +555,8 @@ body {
 
 .provider-box,
 .sidebar,
-.cart .shopping-box {
+.cart .shopping-box,
+.blog-box {
 	background-color: #fff;
 	margin-top: 30px;
 	width: 370px;
@@ -3694,12 +3696,14 @@ fieldset .controls {
 
 .store .breadcrumb a.divider:hover,
 .store .sidebar a.category:hover,
-.schedule .sidebar a:hover {
+.schedule .sidebar a:hover,
+.blog .sidebar a:hover {
 	color: #99cc00;
 } 
 
 .store .sidebar ul,
-.schedule .sidebar ul {
+.schedule .sidebar ul,
+.blog .sidebar ul {
 	list-style-type: none;
 	margin-left: 0px;
 }
@@ -3708,7 +3712,9 @@ fieldset .controls {
 .store .sidebar li,
 .store .sidebar li a,
 .schedule .sidebar li a,
-.schedule .provider-box .date-time-range span {
+.schedule .provider-box .date-time-range span,
+.blog .sidebar li,
+.blog .sidebar li a {
 	color: #555;
 	font-size: 14px;
 	font-weight: 400;
@@ -3794,7 +3800,8 @@ fieldset .controls {
 
 .store .provider-box,
 .cart .shopping-box,
-.schedule .provider-box {
+.schedule .provider-box,
+.blog-box {
 	width: 656px;
 	margin: 0 0 0 30px;
 	padding-top: 30px;
@@ -4285,6 +4292,65 @@ fieldset .controls {
 	float: right;
 	margin: -8px 30px 0 0;
 }
+
+/* Blog */
+
+.blog .navbar-form input {
+	background: url(../img/loupe-blog.png) no-repeat;
+	background-color: #555;
+}
+
+.blog h1 {
+	font-size: 36px;
+	color: #99cc00;
+	font-weight: bold;
+	margin: -40px 0 0 0;
+}
+
+.blog h2 {
+	font-size: 20px;
+	color: #555;
+	font-weight: normal;
+	margin-top: 0px;
+}
+
+.blog .draft {
+	margin: -65px 0 20px 20px;
+}
+
+.blog .sidebar input[type="text"] {
+	width: 115px;
+	margin-top: 4px;
+}
+
+.blog .sidebar input[type="submit"] {
+	margin: -6px 0 0 5px;
+}
+
+.blog .sidebar li.post {
+	margin-bottom: 10px;
+}
+
+.blog .sidebar li.post:last-child {
+	margin-bottom: 0px;
+}
+
+.blog .sidebar li.comment {
+	padding: 8px 0;
+	border-bottom: 1px solid #ececec;
+}
+
+.blog .sidebar li.comment:last-child {
+	padding: 8px 0 0 0;
+	border-bottom: none;
+}
+
+.blog .blog-box .span1 {
+	text-align: center;
+	font-size: 16px;
+	color: #d02552;
+}
+
 
 /* Buttons and text - default */
 
