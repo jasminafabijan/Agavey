@@ -4348,6 +4348,13 @@ fieldset .controls {
 	border-bottom: none;
 }
 
+.blog .main-box .header {
+	content: "";
+  clear: both;
+  display: table;
+  border-bottom: 1px solid #ebebeb;
+}
+
 .blog .main-box .span1 {
 	text-align: center;
 }
@@ -4363,7 +4370,7 @@ fieldset .controls {
 
 .blog .main-box .span7 {
 	width: 510px;
-	padding: 0 20px 0 25px;
+	padding: 0 20px 10px 25px;
 	border-left: 1px solid #ebebeb;
 }
 
@@ -4390,6 +4397,14 @@ fieldset .controls {
 
 .blog .main-box img.mail-icon {
 	margin-top: -6px;
+}
+
+.blog .main-box .content {
+	margin: 20px;
+}
+
+.blog .main-box .content ol ol {
+	list-style: upper-alpha;
 }
 
 /* Buttons and text - default */
