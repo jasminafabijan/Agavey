@@ -3717,7 +3717,8 @@ fieldset .controls {
 .blog li,
 .blog li a,
 .blog .main-box span,
-.blog .main-box a {
+.blog .main-box a,
+.blog .main-box p {
 	color: #555;
 	font-size: 14px;
 	font-weight: 400;
@@ -4348,6 +4349,7 @@ fieldset .controls {
 	border-bottom: none;
 }
 
+.blog .main-box .header-first,
 .blog .main-box .header {
 	content: "";
   clear: both;
@@ -4355,8 +4357,16 @@ fieldset .controls {
   border-bottom: 1px solid #ebebeb;
 }
 
+.blog .main-box .header {
+	border-top: 1px solid #ebebeb;
+}
+
 .blog .main-box .span1 {
 	text-align: center;
+}
+
+.blog .main-box .header .span1 {
+	margin-top: 10px;
 }
 
 .blog .main-box a.date {
@@ -4366,6 +4376,10 @@ fieldset .controls {
 
 .blog .main-box a.date:hover {
 	color: #555;
+}
+
+.blog .main-box .header .span7 {
+	padding-top: 10px;
 }
 
 .blog .main-box .span7 {
@@ -4400,11 +4414,45 @@ fieldset .controls {
 }
 
 .blog .main-box .content {
-	margin: 20px;
+	margin: 20px 20px 30px 20px;
 }
 
 .blog .main-box .content ol ol {
 	list-style: upper-alpha;
+}
+
+.blog .main-box .tag {
+	margin: 0 0 10px 0;
+}
+
+.blog .main-box .tag img {
+	margin: -4px 4px 0 0;
+}
+
+.blog .main-box .content .span5 {
+	margin-left: 0px;
+}
+
+.blog .main-box .content .button {
+	width: 180px;
+}
+
+.blog .main-box .content .button a.pink {
+	margin: 5px 0 0 0;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.blog .main-box .content .entry-content {
+	content: "";
+  clear: both;
+  display: table;
+}
+
+.blog .main-box .content p.center {
+	text-align: center;
+	margin: 0 20px 10px;
 }
 
 /* Buttons and text - default */
