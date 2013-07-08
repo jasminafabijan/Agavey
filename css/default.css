@@ -4030,7 +4030,8 @@ fieldset .controls {
 }
 
 .cart .shopping-box .subtotal table,
-.cart .shopping-box fieldset {
+.cart .shopping-box fieldset,
+.support .white-box .span5 {
 	background-color: #ececec;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -4453,6 +4454,28 @@ fieldset .controls {
 .blog .main-box .content p.center {
 	text-align: center;
 	margin: 0 20px 10px;
+}
+
+/* Support */
+
+.support .white-box {
+	padding-bottom: 50px;
+}
+
+.support .white-box h1 {
+	margin-bottom: 10px;
+}
+
+.support .white-box .span5 {
+	margin: 30px 0 0 120px;
+	padding: 20px 20px 20px 30px;
+	width: 330px;
+}
+
+.support .white-box .span5 a {
+	font-size: 24px;
+	color: #d02552;
+	margin-left: 20px;
 }
 
 /* Buttons and text - default */
