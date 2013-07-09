@@ -4520,10 +4520,25 @@ fieldset .controls {
 
 .support-topics .main-box ul.questions li {
 	line-height: 25px;
+	padding-right: 30px;
 }
 
 .support-topics .main-box a {
 	padding-top: 0px;
+}
+
+.support-topics .main-box .answer {
+	margin-top: 10px;
+}
+
+.support-topics .main-box li p {
+	line-height: 20px;
+	margin-left: 20px;
+	color: #555;
+}
+
+.support-topics .main-box .answer a {
+	color: #99cc00;
 }
 
 /* Buttons and text - default */
