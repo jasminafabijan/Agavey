@@ -4604,6 +4604,10 @@ input.btn-small[type="submit"] {
 	height: 26px;
 }
 
+input.green[type="submit"] {
+	height: 30px;
+}
+
 /* text - shared */
 
 p.text16 {
