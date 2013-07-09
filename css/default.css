@@ -4462,9 +4462,42 @@ fieldset .controls {
   display: table;
 }
 
+.blog .main-box .content p {
+	margin-bottom: 15px;
+}
+
 .blog .main-box .content p.center {
 	text-align: center;
 	margin: 0 20px 10px;
+}
+
+.blog .main-box .reply {
+	margin: 0 20px;
+	border-top: 1px solid #ebebeb;
+	padding-top: 15px;
+}
+
+.blog .main-box .reply p.remark {
+	font-size: 12px;
+	font-style: italic;
+} 
+
+.blog .main-box .reply .inputs {
+	margin: 10px 0 0 0;
+}
+
+.blog .main-box .reply textarea {
+	width: 360px;
+	height: 100px;
+	margin: 10px 0 0 20px;
+}
+
+.blog .main-box .reply input[type="submit"] {
+	font-size: 14px;
+	height: 30px;
+	width: auto;
+	float: right;
+	margin-top: 20px;
 }
 
 /* Support */
@@ -4537,7 +4570,8 @@ fieldset .controls {
 	color: #555;
 }
 
-.support-topics .main-box .answer a {
+.support-topics .main-box .answer a,
+.blog .main-box .content a {
 	color: #99cc00;
 }
 
