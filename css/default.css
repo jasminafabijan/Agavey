@@ -556,7 +556,8 @@ body {
 .provider-box,
 .sidebar,
 .cart .shopping-box,
-.blog .main-box {
+.blog .main-box,
+.support-topics .main-box  {
 	background-color: #fff;
 	margin-top: 30px;
 	width: 370px;
@@ -1124,7 +1125,8 @@ body {
 	height: 315px;
 }
 
-.homepage .featured .text-box {
+.homepage .featured .text-box,
+.support-topics .sidebar ul {
 	margin-top: 25px;
 }
 
@@ -3675,36 +3677,42 @@ fieldset .controls {
 	padding-right: 0px;
 }
 
-.store .main-content {
+.store .main-content,
+.support-topics .main-content {
 	margin-top: 90px;
 }
 
-.store .breadcrumb {
+.breadcrumb {
 	background-color: transparent;
 	margin-left: 5px;
 }
 
-.store .breadcrumb li,
-.store .breadcrumb a {
+.breadcrumb li,
+.breadcrumb a {
 	font-size: 16px;
 	color: #555;
 }
 
-.store .breadcrumb a {
-	text-decoration: underline;
+.breadcrumb a:hover,
+.support-topics .sidebar a:hover,
+.support-topics .main-box a:hover {
+	text-decoration: none;
 }
 
-.store .breadcrumb a.divider:hover,
+.breadcrumb a:hover,
 .store .sidebar a.category:hover,
 .schedule .sidebar a:hover,
 .blog .sidebar a:hover,
-.blog .main-box a:hover {
+.blog .main-box a:hover,
+.support-topics .sidebar a:hover,
+.support-topics .main-box a:hover {
 	color: #99cc00;
 } 
 
 .store .sidebar ul,
 .schedule .sidebar ul,
-.blog .sidebar ul {
+.blog .sidebar ul,
+.support-topics .sidebar ul {
 	list-style-type: none;
 	margin-left: 0px;
 }
@@ -3718,7 +3726,9 @@ fieldset .controls {
 .blog li a,
 .blog .main-box span,
 .blog .main-box a,
-.blog .main-box p {
+.blog .main-box p,
+.support-topics .sidebar a,
+.support-topics .main-box a {
 	color: #555;
 	font-size: 14px;
 	font-weight: 400;
@@ -3805,7 +3815,8 @@ fieldset .controls {
 .store .provider-box,
 .cart .shopping-box,
 .schedule .provider-box,
-.blog .main-box {
+.blog .main-box,
+.support-topics .main-box {
 	width: 656px;
 	margin: 0 0 0 30px;
 	padding-top: 30px;
@@ -4476,6 +4487,43 @@ fieldset .controls {
 	font-size: 24px;
 	color: #d02552;
 	margin-left: 20px;
+}
+
+.support-topics .fixer {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.support-topics .span7 {
+	width: 604px;
+}
+
+.support-topics .span4 input[type="text"] {
+	margin: 4px 0 0;
+}
+
+.support-topics .span4 input[type="submit"] {
+	margin: 2px 0 0 2px;
+}
+
+.support-topics .main-box h1 {
+	font-size: 24px;
+	color: #99cc00;
+	margin-top: -10px;
+}
+
+.support-topics .main-box ul.questions {
+	list-style-type: none;
+	margin: 20px 0 0 30px;
+}
+
+.support-topics .main-box ul.questions li {
+	line-height: 25px;
+}
+
+.support-topics .main-box a {
+	padding-top: 0px;
 }
 
 /* Buttons and text - default */
