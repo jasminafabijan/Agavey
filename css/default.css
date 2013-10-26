@@ -238,7 +238,7 @@ body {
   background-image: -o-linear-gradient(top, #e6e6e6, #d3d3d3);
   background-image: linear-gradient(to bottom, #e6e6e6, #d3d3d3);
   background-image: -moz-linear-gradient(top, #e6e6e6, #d3d3d3);
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .categories .nav > li > a {
@@ -500,6 +500,18 @@ body {
 	margin-left: -30px;
 }
 
+.information .licgreen,
+.store .sidebar.licgreen
+{
+    background: url(../img/icon-licensed-green.png) no-repeat;
+       display: inline-block;
+	width: 30px;
+	height: 20px;
+	margin-top: 45px;
+	margin-left: -30px;
+ }
+
+
 .information li {
 	font-size: 19px;	
 	font-weight: 400;
@@ -508,6 +520,18 @@ body {
 .information .bonded,
 .store .sidebar .bonded {
 	background: url(../img/icon-bonded.png) no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 22px;
+	margin-top: 12px;
+	margin-left: -30px;
+}
+
+
+
+.information .bondedgreen,
+.store .sidebar .bondedgreen {
+	background: url(../img/icon-bonded-green.png) no-repeat;
 	display: inline-block;
 	width: 30px;
 	height: 22px;
@@ -534,9 +558,30 @@ body {
 	margin-left: -260px;
 }
 
+
+.information .ratinggreen {
+	background: url(../img/icon-rating-green.png) no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	margin-top: 45px;
+	margin-left: -260px;
+}
+
+
 .information .years,
 .store .sidebar .years {
 	background: url(../img/icon-years.png) no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 28px;
+	margin-top: 6px;
+	margin-left: -260px;
+}
+
+.information .yearsgreen,
+.store .sidebar .yearsgreen {
+	background: url(../img/icon-years-green.png) no-repeat;
 	display: inline-block;
 	width: 30px;
 	height: 28px;
@@ -728,6 +773,7 @@ body {
 
 /* Modal - Service option */
 
+
 .detail-page .modal {
 	width: 430px;
 	height: 500px;
@@ -739,13 +785,16 @@ body {
   top: 36%;
 }
 
-.detail-page .modal-header h3 {
-	font-size: 22px;
-	color: #898989;
-	font-weight: bold;
-	margin: 0 0 20px 0;
+.detail-page .modal-header h3 
+{
+    	color: #99cc00;
+	font-weight: normal;
+	margin-left: 15px;
+	margin-top: 15px;
+	
 }
-
+ 
+ 
 .detail-page .modal-header a {
 	font-size: 14px;
 	color: #959595;
@@ -778,6 +827,7 @@ body {
 	display: block;
 }
 
+
 .detail-page .modal-body a.price {
 	float: right;
 	font-size: 18px;
@@ -795,12 +845,12 @@ body {
 	margin-top: -36px;
 	text-decoration: none;
 }
-
 .detail-page .modal-body .option-white {
 	background-color: #fff;
 	padding: 10px 15px;
-}
 
+
+}
 /* Common elements */
 
 .white-box {
@@ -1088,6 +1138,17 @@ body {
 	margin-bottom: 20px;
 }
 
+/* Modal popup background */
+.modalBackground
+{
+    background-color: Black;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+    z-index:100;
+    position:absolute;
+    
+}
+
 .homepage h1.categories {
 	font-size: 25px;
 	margin-top: -14px;
@@ -1118,9 +1179,8 @@ body {
 .homepage .featured .service {
 	width: 270px;
 	height: 335px;
-	margin-top: 20px;
+	margin-top: 1px;  /* changed from 20px to 1px*/
 }
-
 .homepage .featured .service .image {
 	height: 315px;
 }
@@ -1234,8 +1294,8 @@ body {
 
 .navbar .nav span {
 	color: #fff;
-	margin: -44px 0 0 18px;
-	position: absolute;
+	margin: -42px 0 27px 14px;
+	position: relative;
 	font-size: 14px;
 }
 
@@ -4573,36 +4633,8 @@ fieldset .controls {
 }
 
 .support-topics .main-box .answer a,
-.blog .main-box .content a,
-.maintenance a {
+.blog .main-box .content a {
 	color: #99cc00;
-}
-
-/* Maintenance page */
-
-.maintenance .span2 {
-	margin-top: 30px;
-}
-
-.maintenance .white-box {
-	padding-bottom: 30px;
-	margin-top: 30px;
-}
-
-.maintenance .white-box .content {
-	margin: 30px 30px 0px 30px;
-}
-
-.maintenance .white-box h1 {
-	text-align: center;
-}
-
-.maintenance .white-box .content p {
-	font-size: 17px;
-	font-weight: 400;
-	color: #363636;
-	line-height: 25px;
-	text-align: center;
 }
 
 /* Buttons and text - default */
