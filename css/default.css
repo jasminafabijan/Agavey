@@ -4401,6 +4401,10 @@ fieldset .controls {
 	margin-left: 10px;
 }
 
+.blog .sidebar {
+	margin-left: 30px;
+}
+
 .blog .sidebar input[type="text"] {
 	width: 115px;
 	margin-top: 4px;
@@ -4426,6 +4430,10 @@ fieldset .controls {
 .blog .sidebar li.comment:last-child {
 	padding: 8px 0 0 0;
 	border-bottom: none;
+}
+
+.blog .main-box {
+	margin-left: 20px;
 }
 
 .blog .main-box .header-first,
