@@ -4376,22 +4376,29 @@ fieldset .controls {
 	background-color: #555;
 }
 
+.blog .main-content {
+	margin-top: 70px;
+}
+
 .blog h1 {
 	font-size: 36px;
 	color: #99cc00;
 	font-weight: bold;
-	margin: -40px 0 0 0;
 }
 
 .blog h2 {
 	font-size: 20px;
 	color: #555;
 	font-weight: normal;
-	margin-top: 0px;
+	margin: 0 0 20px 0;
 }
 
-.blog .draft {
-	margin: -65px 0 20px 20px;
+.blog .social .share {
+	float: right;
+}
+
+.blog .social .share img {
+	margin-left: 10px;
 }
 
 .blog .sidebar input[type="text"] {
@@ -4473,18 +4480,6 @@ fieldset .controls {
 
 .blog .main-box span.comments {
 	padding-left: 8px;
-}
-
-.blog .main-box span.share {
-	float: right;
-}
-
-.blog .main-box img.icon {
-	margin: -9px 10px 0 0;
-}
-
-.blog .main-box img.mail-icon {
-	margin-top: -6px;
 }
 
 .blog .main-box .content {
