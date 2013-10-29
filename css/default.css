@@ -636,7 +636,8 @@ body {
 .provider-box address,
 .blog .main-box span,
 .blog .main-box p,
-.blog .main-box li {
+.blog .main-box li,
+.blog .main-box .content a {
 	font-size: 15px;
 	font-weight: 400;
 	color: #555;
@@ -3796,7 +3797,9 @@ fieldset .controls {
 }
 
 .store .sidebar li a,
-.schedule .sidebar li a {
+.schedule .sidebar li a,
+.blog .main-box .content a:hover,
+.blog .sidebar a:hover {
 	text-decoration: underline;
 }
 
