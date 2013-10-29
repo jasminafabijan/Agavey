@@ -1670,11 +1670,10 @@ body {
 }
 
 .change_password .white-box input[type="submit"] {
-	margin-top: 50px;
+	margin: 30px 0 50px 230px;
+	font-weight: normal;
+	font-size: 14px;
 	width: auto;
-	padding: 10px 20px;
-	margin-left: 192px;
-	font-size: 20px;
 }
 
 /* Error */
@@ -4760,7 +4759,7 @@ input.btn-small[type="submit"] {
 	height: 26px;
 }
 
-input.green[type="submit"] {
+input.green-default[type="submit"] {
 	height: 30px;
 }
 
