@@ -4397,8 +4397,11 @@ fieldset .controls {
 	margin: 0 0 20px 0;
 }
 
-.blog h4 {
+.blog .sidebar h4 {
+	text-transform: uppercase;
 	font-weight: normal;
+	font-size: 16px;
+	margin-bottom: 10px;
 }
 
 .blog .social .share {
@@ -4516,7 +4519,7 @@ fieldset .controls {
 }
 
 .blog .main-box .widget {
-	margin-top: 15px;
+	margin-top: 20px;
 }
 
 .blog .main-box .tag {
@@ -4524,7 +4527,7 @@ fieldset .controls {
 }
 
 .blog .main-box .tag img {
-	margin: -4px 4px 0 0;
+	margin: -4px 10px 0 0;
 }
 
 .blog .main-box .widget .share-buttons {
