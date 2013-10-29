@@ -4393,6 +4393,10 @@ fieldset .controls {
 	margin: 0 0 20px 0;
 }
 
+.blog h4 {
+	font-weight: normal;
+}
+
 .blog .social .share {
 	float: right;
 }
@@ -4434,6 +4438,11 @@ fieldset .controls {
 
 .blog .main-box {
 	margin-left: 20px;
+}
+
+.blog .main-box h4 {
+	font-size: 20px;
+	line-height: 24px;
 }
 
 .blog .main-box .header-first,
@@ -4478,7 +4487,7 @@ fieldset .controls {
 }
 
 .blog .main-box .span7 h4 {
-	margin: 0px 0 15px 0;
+	margin: 0px 0 4px 0;
 }
 
 .blog .main-box span.location {
