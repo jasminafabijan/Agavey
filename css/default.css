@@ -1061,7 +1061,7 @@ body {
 .main-image .title {
 	background-color: rgba(70, 70, 70, 0.6);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#55464646, endColorstr=#55464646);
-	margin-top: 165px;
+	margin-top: 120px;
 	padding: 45px 20px 90px 75px;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -1085,13 +1085,10 @@ body {
 	width: 270px;
 	height: 220px;
 	margin-left: 80px;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
 	margin-top: -262px;
 	z-index: 1500;
 	position: relative;
-	top: 460px;
+	top: 410px;
 }
 
 .main-image .video span {
@@ -1115,7 +1112,7 @@ body {
 	margin-left: 410px;
 	font-size: 25px;
 	font-weight: bold;
-	margin-top: 465px;
+	margin-top: 440px;
 	z-index: 6000;
 	position: absolute;
 }
@@ -1147,6 +1144,10 @@ body {
 	margin-bottom: 20px;
 }
 
+.index .row {
+	margin-left: 0px;
+}
+
 /* Modal popup background */
 .modalBackground
 {
@@ -1160,8 +1161,7 @@ body {
 
 .homepage h1.categories {
 	font-size: 25px;
-	margin-top: -14px;
-	margin-left: 16px;
+	margin-top: 0;
 }
 
 .homepage h1.others {
