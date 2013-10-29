@@ -3763,7 +3763,7 @@ fieldset .controls {
 .store .sidebar a.category:hover,
 .schedule .sidebar a:hover,
 .blog .sidebar a:hover,
-.blog .main-box a:hover,
+.blog .main-box .content .tag a:hover,
 .support-topics .sidebar a:hover,
 .support-topics .main-box a:hover {
 	color: #99cc00;
@@ -3785,7 +3785,7 @@ fieldset .controls {
 .blog li,
 .blog li a,
 .blog .main-box span,
-.blog .main-box a,
+.blog .main-box .content .tag a,
 .blog .main-box p,
 .support-topics .sidebar a,
 .support-topics .main-box a {
@@ -4473,7 +4473,7 @@ fieldset .controls {
 
 .blog .main-box .span7 {
 	width: 510px;
-	padding: 0 0 10px 25px;
+	padding: 0 0 15px 25px;
 	border-left: 1px solid #ebebeb;
 }
 
@@ -4496,6 +4496,10 @@ fieldset .controls {
 
 .blog .main-box .content ol ol {
 	list-style: upper-alpha;
+}
+
+.blog .main-box .widget {
+	margin-top: 15px;
 }
 
 .blog .main-box .tag {
