@@ -628,10 +628,18 @@ body {
 .provider-box p,
 .provider-box li,
 .provider-box address {
+	margin-left: 15px;
+}
+
+.provider-box p,
+.provider-box li,
+.provider-box address,
+.blog .main-box span,
+.blog .main-box p,
+.blog .main-box li {
 	font-size: 15px;
 	font-weight: 400;
 	color: #555;
-	margin-left: 15px;
 }
 
 .provider-box p {
@@ -3780,9 +3788,6 @@ fieldset .controls {
 .store .sidebar li a,
 .schedule .sidebar li a,
 .schedule .provider-box .date-time-range span,
-.blog li,
-.blog .main-box span,
-.blog .main-box p,
 .support-topics .sidebar a,
 .support-topics .main-box a {
 	color: #555;
