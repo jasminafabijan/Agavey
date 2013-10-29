@@ -4510,6 +4510,23 @@ fieldset .controls {
 	margin: -4px 4px 0 0;
 }
 
+.blog .main-box .widget .share-buttons {
+	margin-top: 15px;
+}
+
+.blog .main-box .widget .share-buttons .fb-share {
+	margin: -12px 6px 0 0;
+}
+
+.blog .main-box .widget .share-buttons .g-share {
+	display: inline;
+	margin-left: -26px;
+}
+
+.blog .main-box .widget .share-buttons .pin-it-button img {
+	margin: -12px 0 0 5px;
+}
+
 .blog .main-box .content .span5 {
 	margin-left: 0px;
 }
