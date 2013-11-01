@@ -4379,6 +4379,10 @@ fieldset .controls {
 	background-color: #555;
 }
 
+.blog .navbar .nav > li > a {
+	padding: 14px 0 10px 20px;
+}
+
 .blog .main-content {
 	margin-top: 70px;
 }
@@ -4403,8 +4407,8 @@ fieldset .controls {
 	margin-bottom: 10px;
 }
 
-.blog .social .share {
-	float: right;
+.blog .social .share img.fb-icon {
+	margin-left: 120px;
 }
 
 .blog .social .share img {
@@ -4494,6 +4498,10 @@ fieldset .controls {
 	width: 510px;
 	padding: 0 0 15px 25px;
 	border-left: 1px solid #ebebeb;
+}
+
+.blog .main-box .span7 a {
+	padding-top: 0;
 }
 
 .blog .main-box .span7 h4 {
