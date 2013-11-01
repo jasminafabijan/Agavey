@@ -1086,10 +1086,9 @@ body {
 	width: 270px;
 	height: 220px;
 	margin-left: 80px;
-	margin-top: -262px;
+	margin-top: 155px;
 	z-index: 1500;
 	position: relative;
-	top: 410px;
 }
 
 .main-image .video span {
@@ -1113,7 +1112,6 @@ body {
 	margin-left: 410px;
 	font-size: 25px;
 	font-weight: bold;
-	margin-top: 440px;
 	z-index: 6000;
 	position: absolute;
 }
@@ -2694,7 +2692,7 @@ fieldset .controls {
 }
 
 .vendor-homepage .main-image .video {
-	margin-top: -352px;
+	margin-top: 100px;
 	background: url(../img/video-image.png) no-repeat;
 	padding-top: 100px;
 	height: none;
@@ -2717,7 +2715,7 @@ fieldset .controls {
 }
 
 .vendor-homepage .main-image a.big-join {
-	margin-top: 266px;
+	margin-top: -150px;
 }
 
 .vendor-homepage .row h1 {
