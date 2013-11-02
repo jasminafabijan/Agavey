@@ -4695,10 +4695,10 @@ fieldset .controls {
 } 
 
 .alert {
-	top: 150px;
-	margin-left:;
+	/*top: 150px;*/
+	margin: 150px 0 0 152px;
 	position: absolute;
-	width: 888px;
+	width: 572px;
 	z-index: 1050;
 }
 
@@ -4706,16 +4706,15 @@ fieldset .controls {
 	padding: 8px 35px 8px 14px;
 }
 
-.flash-message {
-	border: 1px solid #99cc00;
-	padding: 12px 14px 2px 14px;
-	position: absolute;
-	background-color: #fff;
-	width: 600px;
+.customer-additional .alert,
+.vendor-additional .alert {
+	margin-left: 0;
+	width: 700px;
 }
 
 .buttons .alert,
 .buttons .flash-message {
+	top: 0;
 	margin: 40px 30px;
 	position: relative;
 	width: auto;
