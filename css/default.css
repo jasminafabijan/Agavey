@@ -4695,8 +4695,7 @@ fieldset .controls {
 } 
 
 .alert {
-	/*top: 150px;*/
-	margin: 150px 0 0 152px;
+	margin: 60px 0 0 152px;
 	position: absolute;
 	width: 572px;
 	z-index: 1050;
@@ -4708,16 +4707,35 @@ fieldset .controls {
 
 .customer-additional .alert,
 .vendor-additional .alert {
-	margin-left: 0;
+	margin: 150px 0 0 0;
 	width: 700px;
 }
 
-.buttons .alert,
-.buttons .flash-message {
+.alert-agavey {
+	color: #555;
+	background-color: #ebebeb;
+	border-color: #e1e1e1;
+	float: left;
+	position: relative;
+	margin: 0 0 30px 30px;
+	width: 510px;
+}
+
+.customer-additional .alert-agavey,
+.vendor-additional .alert-agavey {
+	margin: 0 0 30px 90px;
+	width: 520px;
+}
+
+.buttons .alert {
 	top: 0;
 	margin: 40px 30px;
 	position: relative;
 	width: auto;
+}
+
+.buttons .alert-agavey {
+	float: none;
 }
 
 .buttons h5 {
