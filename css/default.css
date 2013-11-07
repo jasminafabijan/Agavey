@@ -4695,36 +4695,26 @@ fieldset .controls {
 } 
 
 .alert {
-	margin: 60px 0 0 152px;
-	position: absolute;
-	width: 572px;
-	z-index: 1050;
+	margin: 0 0 30px 30px;
+	width: 510px;
 }
 
 .alert-block {
 	padding: 8px 35px 8px 14px;
 }
 
-.customer-additional .alert,
-.vendor-additional .alert {
-	margin: 150px 0 0 0;
-	width: 700px;
-}
-
 .alert-agavey {
 	color: #555;
 	background-color: #ebebeb;
 	border-color: #e1e1e1;
-	float: left;
-	position: relative;
-	margin: 0 0 30px 30px;
-	width: 510px;
 }
 
-.customer-additional .alert-agavey,
-.vendor-additional .alert-agavey {
+.customer-additional .alert,
+.vendor-additional .alert {
 	margin: 0 0 30px 90px;
 	width: 520px;
+	position: relative;
+	float: left;
 }
 
 .buttons .alert {
